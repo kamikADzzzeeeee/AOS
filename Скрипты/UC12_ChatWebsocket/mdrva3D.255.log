@@ -1,0 +1,13 @@
+Start auto log messages stack - Iteration 5.	[MsgId: MMSG-10545]
+WebSocketCB.c(12): Sec-WebSocket-Accept = [ZC5cVQ0tavGKn6O5Lyxywfugm3M=]	[MsgId: MMSG-17999]
+Action.c(119): Notify: Transaction "Entry_DataForChat" started.	[MsgId: MMSG-16999]
+Action.c(121): web_websocket_send started  	[MsgId: MMSG-26355]
+Action.c(121): Retaining websocket connection of URI="ws://54.157.232.206/catalog/websocketserverendpoint" (RelFrameId=1, Internal ID=25)  	[MsgId: MMSG-27636]
+Action.c(121): Retaining websocket connection of URI="ws://54.157.232.206/catalog/websocketserverendpoint" (RelFrameId=1, Internal ID=25)  	[MsgId: MMSG-27636]
+Action.c(121): web_websocket_send was successful  	[MsgId: MMSG-26392]
+Action.c(122): lr_think_time: 1,00 seconds.	[MsgId: MMSG-15948]
+WebSocketCB.c(47): WebSocket ID = 1100005 closed. CloseCode= 1002, CloseReason=An unrecoverable IOException occurred so the connection was closed	[MsgId: MMSG-17999]
+Action.c(124): Error: ѕодстрока не найдена в ответе от сервера	[MsgId: MERR-17999]
+End auto log messages stack.	[MsgId: MMSG-10544]
+
+

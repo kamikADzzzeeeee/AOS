@@ -1,0 +1,4 @@
+"[{\"hexColor\":\"545195\",\"productId\":5,\"quantity\":1},{\"hexColor\":\"FFFFFF\",\"productId"
+"\":22,\"quantity\":1},{\"hexColor\":\"FFFFFF\",\"productId\":19,\"quantity\":10},{\"hexColor\""
+":\"414141\",\"productId\":21,\"quantity\":2},{\"hexColor\":\"414141\",\"productId\":15,\"quant"
+"ity\":1}]"

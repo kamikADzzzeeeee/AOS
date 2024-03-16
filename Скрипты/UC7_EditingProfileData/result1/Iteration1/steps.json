@@ -1,0 +1,104 @@
+[
+    {
+        "stepId": "STEP1",
+        "stepName": "Url: ALL",
+        "infFile": "t1.inf",
+        "time": 1710507855078
+    },
+    {
+        "stepId": "STEP2",
+        "stepName": "Custom Request: GetAccountConfigurationRequest",
+        "infFile": "t2.inf",
+        "time": 1710507855381
+    },
+    {
+        "stepId": "STEP3",
+        "stepName": "Url: categories",
+        "infFile": "t3.inf",
+        "time": 1710507855738
+    },
+    {
+        "stepId": "STEP4",
+        "stepName": "Url: dealOfTheDay",
+        "infFile": "t4.inf",
+        "time": 1710507856075
+    },
+    {
+        "stepId": "STEP5",
+        "stepName": "Url: popularProducts",
+        "infFile": "t5.inf",
+        "time": 1710507856285
+    },
+    {
+        "stepId": "STEP6",
+        "stepName": "Custom Request: AccountLoginRequest",
+        "infFile": "t8.inf",
+        "time": 1710507859977
+    },
+    {
+        "stepId": "STEP7",
+        "stepName": "Url: 700309255",
+        "infFile": "t9.inf",
+        "time": 1710507860603
+    },
+    {
+        "stepId": "STEP8",
+        "stepName": "Custom Request: GetAccountByIdNewRequest",
+        "infFile": "t10.inf",
+        "time": 1710507863660
+    },
+    {
+        "stepId": "STEP9",
+        "stepName": "Custom Request: GetAddressesByAccountIdRequest",
+        "infFile": "t11.inf",
+        "time": 1710507863925
+    },
+    {
+        "stepId": "STEP10",
+        "stepName": "Custom Request: GetAccountPaymentPreferencesRequest",
+        "infFile": "t12.inf",
+        "time": 1710507864186
+    },
+    {
+        "stepId": "STEP11",
+        "stepName": "Custom Request: GetAccountByIdNewRequest_2",
+        "infFile": "t14.inf",
+        "time": 1710507867331
+    },
+    {
+        "stepId": "STEP12",
+        "stepName": "Custom Request: GetCountriesRequest",
+        "infFile": "t15.inf",
+        "time": 1710507867602
+    },
+    {
+        "stepId": "STEP13",
+        "stepName": "Custom Request: AccountUpdateRequest",
+        "infFile": "t16.inf",
+        "time": 1710507870662
+    },
+    {
+        "stepId": "STEP14",
+        "stepName": "Custom Request: GetAccountByIdNewRequest_3",
+        "infFile": "t17.inf",
+        "time": 1710507870945
+    },
+    {
+        "stepId": "STEP15",
+        "stepName": "Custom Request: GetAddressesByAccountIdRequest_2",
+        "infFile": "t18.inf",
+        "time": 1710507871197
+    },
+    {
+        "stepId": "STEP16",
+        "stepName": "Custom Request: GetAccountPaymentPreferencesRequest_2",
+        "infFile": "t19.inf",
+        "time": 1710507871455
+    },
+    {
+        "stepId": "STEP17",
+        "stepName": "Custom Request: AccountLogoutRequest",
+        "infFile": "t20.inf",
+        "time": 1710507874646
+    }
+]

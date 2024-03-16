@@ -1,0 +1,15 @@
+[t12]
+FileName1=t12_978732828.json
+URL1=http://54.157.232.206/order/api/v1/carts/978732828
+Total=3
+ContentType=application/json
+SnapshotXmlFile=snapshot_12.xml
+RequestHeaderFile=t12_RequestHeader.txt
+RequestBodyFile=NONE
+ResponseHeaderFile=t12_ResponseHeader.txt
+FileName2=t12_fetchImage.jfif
+URL2=http://54.157.232.206/catalog/fetchImage?image_id=4300
+FileName3=t12_fetchImage.jfif
+URL3=http://54.157.232.206/catalog/fetchImage?image_id=3300
+[ProtocolInfo]
+ProtocolId=QTWeb

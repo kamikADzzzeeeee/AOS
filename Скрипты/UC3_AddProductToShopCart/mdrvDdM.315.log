@@ -1,0 +1,6 @@
+Error: CCI compilation error -c:\users\user\appdata\local\temp\brr_rge.3\global_dir\221454046\pre_cci.c: ..\\library\\user_lib.h:377: warning: function getJsonForOrder uses 25052 bytes of stack memory.	[MsgId: MERR-19799]
+Error: CCI compilation error -c:\users\user\appdata\local\temp\brr_rge.3\global_dir\221454046\pre_cci.c: Action.c:9: error: undeclared identifier `inUse'.	[MsgId: MERR-19799]
+Error: CCI compilation error -c:\users\user\appdata\local\temp\brr_rge.3\global_dir\221454046\pre_cci.c: c:\\users\\user\\appdata\\local\\temp\\brr_rge.3\\global_dir\\221454046\\combined_UC3_AddProductToShopCart.c:6: error: 1 errors, not writing pre_cci.ci.	[MsgId: MERR-19799]
+Error: Vuser compilation failed. Please set CCIDebug to Off in CCI section of mdrv.dat file.	[MsgId: MERR-19797]
+Warning: Extension cciext.dll reports error -19797 on call to function ExtPerProcessInitialize	[MsgId: MWAR-10485]
+Error: Thread Context: Call to service of the driver failed, reason - thread context wasn't initialized on this thread.	[MsgId: MERR-10176]

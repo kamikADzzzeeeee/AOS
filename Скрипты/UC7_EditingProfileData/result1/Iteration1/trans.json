@@ -1,0 +1,37 @@
+[
+    {
+        "transactionName": "Goto_HomePage",
+        "rawStartTime": 1710507854144,
+        "rawEndTime": 1710507856291
+    },
+    {
+        "transactionName": "Entry_AuthenticateData",
+        "rawStartTime": 1710507859387,
+        "rawEndTime": 1710507860614
+    },
+    {
+        "transactionName": "Goto_AccountPage",
+        "rawStartTime": 1710507863104,
+        "rawEndTime": 1710507864193
+    },
+    {
+        "transactionName": "Goto_AccountDetailsPage",
+        "rawStartTime": 1710507866716,
+        "rawEndTime": 1710507867616
+    },
+    {
+        "transactionName": "Entry_AccountDetailsData",
+        "rawStartTime": 1710507870153,
+        "rawEndTime": 1710507871460
+    },
+    {
+        "transactionName": "Logout",
+        "rawStartTime": 1710507874070,
+        "rawEndTime": 1710507874652
+    },
+    {
+        "transactionName": "UC7_EditingProfileData",
+        "rawStartTime": 1710507853875,
+        "rawEndTime": 1710507875216
+    }
+]

@@ -1,0 +1,16 @@
+HTTP/1.1 200 
+Server: nginx/1.12.2
+Date: Fri, 15 Mar 2024 19:28:28 GMT
+Content-Type: application/json
+Transfer-Encoding: chunked
+Connection: keep-alive
+X-OneAgent-JS-Injection: true
+Set-Cookie: dtCookie=8174DF425230734A5A1B3D6E0309015C|1|2||1; Path=/
+Expires: 0
+Cache-control: no-store
+X-Content-Type-Options: nosniff
+X-XSS-Protection: 1; mode=block
+X-Frame-Options: DENY
+vary: accept-encoding
+Content-Encoding: gzip
+

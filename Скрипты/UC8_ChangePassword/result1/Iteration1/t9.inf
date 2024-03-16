@@ -1,0 +1,13 @@
+[t9]
+SnapshotXmlFile=snapshot_7.xml
+ContentType=application/json
+StepName=Url: 700309255
+Total=1
+FileName1=t9.json
+RequestHeaderFile=t9_RequestHeader.txt
+ResponseHeaderFile=t9_ResponseHeader.txt
+RawStepEndTime=1710508050953
+RawStepName=700309255
+RequestBodyFile=t9_RequestBody.txt
+RawStepStartTime=1710508050672
+URL1=http://54.157.232.206/order/api/v1/carts/518872448

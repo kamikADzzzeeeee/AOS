@@ -1,0 +1,17 @@
+[t19]
+FileName1=t19.htm
+URL1=http://54.157.232.206/app/views/product-page.html
+Total=4
+RequestHeaderFile=t19_RequestHeader.txt
+RequestBodyFile=NONE
+ResponseHeaderFile=t19_ResponseHeader.txt
+ContentType=text/html
+SnapshotXmlFile=snapshot_19.xml
+FileName2=t19_review_right.png
+URL2=http://54.157.232.206/css/images/review_right.png
+FileName3=t19_review_Left_disabled.png
+URL3=http://54.157.232.206/css/images/review_Left_disabled.png
+FileName4=t19_reviewUser.png
+URL4=http://54.157.232.206/css/images/reviewUser.png
+[ProtocolInfo]
+ProtocolId=QTWeb

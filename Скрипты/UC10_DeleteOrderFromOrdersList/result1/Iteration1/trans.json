@@ -1,0 +1,32 @@
+[
+    {
+        "transactionName": "Goto_HomePage",
+        "rawStartTime": 1710508365194,
+        "rawEndTime": 1710508367296
+    },
+    {
+        "transactionName": "Entry_AuthenticateData",
+        "rawStartTime": 1710508373287,
+        "rawEndTime": 1710508374332
+    },
+    {
+        "transactionName": "Goto_OrderPage",
+        "rawStartTime": 1710508379999,
+        "rawEndTime": 1710508380647
+    },
+    {
+        "transactionName": "Delete_OrderFromOrdersList",
+        "rawStartTime": 1710508386320,
+        "rawEndTime": 1710508386976
+    },
+    {
+        "transactionName": "Logout",
+        "rawStartTime": 1710508392536,
+        "rawEndTime": 1710508393386
+    },
+    {
+        "transactionName": "UC10_DeleteOrderFromOrdersList",
+        "rawStartTime": 1710508364761,
+        "rawEndTime": 1710508394028
+    }
+]

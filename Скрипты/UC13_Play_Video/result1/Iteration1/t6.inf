@@ -1,0 +1,16 @@
+[t6]
+SnapshotXmlFile=snapshot_6.xml
+ContentType=application/json
+StepName=Url: attributes
+Total=2
+FileName1=t6.json
+FileName2=t1_0_Roboto-Medium-webfont.UNK
+RequestHeaderFile=t6_RequestHeader.txt
+SaveSnapshotResources=1
+ResponseHeaderFile=t6_ResponseHeader.txt
+RawStepEndTime=1710508921801
+RawStepName=attributes
+RequestBodyFile=t6_RequestBody.txt
+RawStepStartTime=1710508921531
+URL1=http://54.157.232.206/catalog/api/v1/categories/attributes
+URL2=http://54.157.232.206/css/fonts/roboto_medium_macroman/Roboto-Medium-webfont.woff

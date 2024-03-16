@@ -1,0 +1,9 @@
+-+
+-DCCI
+-D_IDA_XL
+-DWINNT
+-IC:\Users\user\Documents\VuGen\Scripts\UC13_Play_Video
+-IC:\Program Files (x86)\HPE\LoadRunner\include
+-ec:\users\user\documents\vugen\scripts\uc13_play_video\\logfile.log
+c:\users\user\documents\vugen\scripts\uc13_play_video\\combined_UC13_Play_Video.c
+c:\users\user\documents\vugen\scripts\uc13_play_video\\pre_cci.c

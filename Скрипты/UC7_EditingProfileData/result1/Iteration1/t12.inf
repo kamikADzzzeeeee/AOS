@@ -1,0 +1,13 @@
+[t12]
+SnapshotXmlFile=snapshot_10.xml
+ContentType=application/xml
+StepName=Custom Request: GetAccountPaymentPreferencesRequest
+Total=1
+FileName1=t12.xml
+RequestHeaderFile=t12_RequestHeader.txt
+ResponseHeaderFile=t12_ResponseHeader.txt
+RawStepEndTime=1710507864180
+RawStepName=GetAccountPaymentPreferencesRequest
+RequestBodyFile=t12_RequestBody.txt
+RawStepStartTime=1710507863972
+URL1=http://54.157.232.206/accountservice/ws/GetAccountPaymentPreferencesRequest

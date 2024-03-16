@@ -1,0 +1,13 @@
+[t36]
+FileName1=t36_720899405.json
+URL1=http://54.157.232.206/order/api/v1/carts/720899405
+Total=2
+ContentType=application/json
+SnapshotXmlFile=snapshot_36.xml
+RequestHeaderFile=t36_RequestHeader.txt
+RequestBodyFile=NONE
+ResponseHeaderFile=t36_ResponseHeader.txt
+FileName2=t36_fetchImage.jfif
+URL2=http://54.157.232.206/catalog/fetchImage?image_id=2200
+[ProtocolInfo]
+ProtocolId=QTWeb

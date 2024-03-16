@@ -1,0 +1,11 @@
+[t22]
+FileName1=t22_popularProducts.json
+URL1=http://54.157.232.206/app/tempFiles/popularProducts.json
+Total=1
+ContentType=application/json
+SnapshotXmlFile=snapshot_22.xml
+RequestHeaderFile=t22_RequestHeader.txt
+RequestBodyFile=NONE
+ResponseHeaderFile=t22_ResponseHeader.txt
+[ProtocolInfo]
+ProtocolId=QTWeb

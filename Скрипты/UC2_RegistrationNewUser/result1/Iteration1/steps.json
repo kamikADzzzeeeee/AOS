@@ -1,0 +1,68 @@
+[
+    {
+        "stepId": "STEP1",
+        "stepName": "Url: ALL",
+        "infFile": "t1.inf",
+        "time": 1710530426784
+    },
+    {
+        "stepId": "STEP2",
+        "stepName": "Custom Request: GetAccountConfigurationRequest",
+        "infFile": "t2.inf",
+        "time": 1710530427116
+    },
+    {
+        "stepId": "STEP3",
+        "stepName": "Url: categories",
+        "infFile": "t3.inf",
+        "time": 1710530427483
+    },
+    {
+        "stepId": "STEP4",
+        "stepName": "Url: dealOfTheDay",
+        "infFile": "t4.inf",
+        "time": 1710530427806
+    },
+    {
+        "stepId": "STEP5",
+        "stepName": "Url: popularProducts",
+        "infFile": "t5.inf",
+        "time": 1710530428024
+    },
+    {
+        "stepId": "STEP6",
+        "stepName": "Url: register-page",
+        "infFile": "t6.inf",
+        "time": 1710530434496
+    },
+    {
+        "stepId": "STEP7",
+        "stepName": "Custom Request: GetCountriesRequest",
+        "infFile": "t9.inf",
+        "time": 1710530434827
+    },
+    {
+        "stepId": "STEP8",
+        "stepName": "Custom Request: AccountCreateRequest",
+        "infFile": "t10.inf",
+        "time": 1710530441131
+    },
+    {
+        "stepId": "STEP9",
+        "stepName": "Custom Request: AccountLoginRequest",
+        "infFile": "t14.inf",
+        "time": 1710530441576
+    },
+    {
+        "stepId": "STEP10",
+        "stepName": "Url: carts",
+        "infFile": "t15.inf",
+        "time": 1710530441974
+    },
+    {
+        "stepId": "STEP11",
+        "stepName": "Custom Request: AccountLogoutRequest",
+        "infFile": "t16.inf",
+        "time": 1710530448234
+    }
+]

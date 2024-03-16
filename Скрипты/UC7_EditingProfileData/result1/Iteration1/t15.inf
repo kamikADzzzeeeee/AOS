@@ -1,0 +1,13 @@
+[t15]
+SnapshotXmlFile=snapshot_12.xml
+ContentType=application/xml
+StepName=Custom Request: GetCountriesRequest
+Total=1
+FileName1=t15.xml
+RequestHeaderFile=t15_RequestHeader.txt
+ResponseHeaderFile=t15_ResponseHeader.txt
+RawStepEndTime=1710507867596
+RawStepName=GetCountriesRequest
+RequestBodyFile=t15_RequestBody.txt
+RawStepStartTime=1710507867424
+URL1=http://54.157.232.206/accountservice/ws/GetCountriesRequest

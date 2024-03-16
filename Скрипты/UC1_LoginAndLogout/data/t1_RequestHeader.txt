@@ -1,0 +1,10 @@
+GET / HTTP/1.1
+Host: 54.157.232.206
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:123.0) Gecko/20100101 Firefox/123.0
+Accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,*/*;q=0.8
+Accept-Language: ru-RU,ru;q=0.8,en-US;q=0.5,en;q=0.3
+Accept-Encoding: gzip, deflate
+Connection: keep-alive
+Cookie: _ga_TBPYED8WSW=GS1.1.1708797412.2.1.1708798807.0.0.0; _ga=GA1.1.1719370679.1708778155; _gid=GA1.1.2060587108.1708778156; _ga_56EMNRF2S2=GS1.1.1708797418.2.1.1708798098.21.0.0; userCart=%7B%22userId%22%3A-1%2C%22productsInCart%22%3A%5B%5D%7D
+Upgrade-Insecure-Requests: 1
+

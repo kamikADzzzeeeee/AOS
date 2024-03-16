@@ -1,0 +1,16 @@
+HTTP/1.1 200 
+Server: nginx/1.12.2
+Date: Fri, 15 Mar 2024 19:44:33 GMT
+Content-Type: text/html
+Transfer-Encoding: chunked
+Connection: keep-alive
+X-OneAgent-JS-Injection: true
+Set-Cookie: dtCookie=E62D37B8FC1D5433C4E683DDD61C13EA|1|2||1; Path=/
+Accept-Ranges: bytes
+ETag: W/"8805-1669816118000"
+Last-Modified: Wed, 30 Nov 2022 13:48:38 GMT
+Cache-Control: max-age=0
+Expires: Fri, 15 Mar 2024 19:44:33 GMT
+vary: accept-encoding
+Content-Encoding: gzip
+

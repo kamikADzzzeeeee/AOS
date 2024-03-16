@@ -1,0 +1,11 @@
+GET /app/views/product-page.html HTTP/1.1
+Referer: http://54.157.232.206/
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:123.0) Gecko/20100101 Firefox/123.0
+Accept-Encoding: gzip, deflate
+Accept-Language: ru-RU,ru;q=0.8,en-US;q=0.5,en;q=0.3
+Accept: */*
+Connection: Keep-Alive
+Host: 54.157.232.206
+Authorization: Basic RG1pdHJpeTE3NjQ4OjEyMzRvTw==
+Cookie: userCart=%7B%22userId%22%3A-1%2C%22productsInCart%22%3A%5B%5D%7D; dtCookie=6E5C122740CD63038549CE51D5ACD6B0|1|2||1; _gat=1; _ga_56EMNRF2S2=GS1.1.1708954185.6.1.1708954254.60.0.0
+

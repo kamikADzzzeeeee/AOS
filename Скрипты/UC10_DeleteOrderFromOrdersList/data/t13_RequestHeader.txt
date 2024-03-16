@@ -1,0 +1,10 @@
+GET /order/api/v1/orders/history/lines/users/700309255 HTTP/1.1
+Host: 54.157.232.206
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:123.0) Gecko/20100101 Firefox/123.0
+Accept: application/json, text/plain, */*
+Accept-Language: ru-RU,ru;q=0.8,en-US;q=0.5,en;q=0.3
+Accept-Encoding: gzip, deflate
+Connection: keep-alive
+Referer: http://54.157.232.206/
+Cookie: JSESSIONID=11D2009377AE3F205AF32361E575EC9A; _ga_TBPYED8WSW=GS1.1.1710338910.42.1.1710339698.0.0.0; _ga=GA1.1.1055678014.1708799449; _ga_56EMNRF2S2=GS1.1.1710338911.38.1.1710339681.13.0.0; _gid=GA1.1.1660421263.1710338911; dtCookie=85318B1B2A785561C4C197E7F349B6A7|1|2||1
+

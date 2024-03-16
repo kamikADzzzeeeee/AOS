@@ -1,0 +1,20 @@
+[t4]
+FileName2=t16_34_review_Left_disabled.png
+RawStepEndTime=1710531835997
+FileName4=t16_35_reviewUser.png
+RequestBodyFile=t4_RequestBody.txt
+RawStepName=dealOfTheDay
+ContentType=application/json
+URL1=http://54.157.232.206/catalog/api/v1/deals/search?dealOfTheDay=true
+URL2=http://54.157.232.206/css/images/review_Left_disabled.png
+URL3=http://54.157.232.206/css/images/review_right.png
+ResponseHeaderFile=t4_ResponseHeader.txt
+URL4=http://54.157.232.206/css/images/reviewUser.png
+SnapshotXmlFile=snapshot_4.xml
+RequestHeaderFile=t4_RequestHeader.txt
+SaveSnapshotResources=1
+RawStepStartTime=1710531835633
+Total=4
+StepName=Url: dealOfTheDay
+FileName1=t4.json
+FileName3=t16_33_review_right.png

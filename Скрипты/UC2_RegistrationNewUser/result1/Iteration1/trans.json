@@ -1,0 +1,27 @@
+[
+    {
+        "transactionName": "Goto_HomePage",
+        "rawStartTime": 1710530425953,
+        "rawEndTime": 1710530428048
+    },
+    {
+        "transactionName": "Goto_CreateAccountPage",
+        "rawStartTime": 1710530434025,
+        "rawEndTime": 1710530434829
+    },
+    {
+        "transactionName": "Entry_RegistrationData",
+        "rawStartTime": 1710530440547,
+        "rawEndTime": 1710530441976
+    },
+    {
+        "transactionName": "Logout",
+        "rawStartTime": 1710530447521,
+        "rawEndTime": 1710530448243
+    },
+    {
+        "transactionName": "UC2_RegistrationNewUser",
+        "rawStartTime": 1710530425729,
+        "rawEndTime": 1710530448892
+    }
+]

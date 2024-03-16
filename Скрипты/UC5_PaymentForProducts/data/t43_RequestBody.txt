@@ -1,0 +1,4 @@
+"{\"seaddress\":{\"addressLine1\":\"Novosibirsk_region,Kalinina,46\",\"addressLine2\":\"\",\"ci"
+"ty\":\"Moscow\",\"country\":\"br\",\"postalCode\":439619581,\"state\":\"46/88/21\"},\"secustom"
+"erName\":\"Artyom Zhuravlev\",\"secustomerPhone\":\"87484741600\",\"senumberOfProducts\":15,\""
+"setransactionType\":\"SHIPPING_COST\",\"sessionId\":\"F881A5F9138AC219B81DACCAAAB1F9F1\"}"

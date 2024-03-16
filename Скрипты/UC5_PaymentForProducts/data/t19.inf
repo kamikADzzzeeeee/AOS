@@ -1,0 +1,11 @@
+[t19]
+FileName1=t19.json
+URL1=http://54.157.232.206/order/api/v1/shippingcost/
+Total=1
+RequestHeaderFile=t19_RequestHeader.txt
+RequestBodyFile=t19_RequestBody.txt
+ResponseHeaderFile=t19_ResponseHeader.txt
+ContentType=application/json
+SnapshotXmlFile=snapshot_19.xml
+[ProtocolInfo]
+ProtocolId=QTWeb

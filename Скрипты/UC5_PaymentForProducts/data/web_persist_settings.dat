@@ -1,0 +1,17 @@
+[StartRecordingGMT]
+StartRecordingGMT_1=2024/02/28 14:24:38
+StartRecordingIsDst_1=0
+StartRecordingGMT_2=2024/02/28 14:42:38
+StartRecordingIsDst_2=0
+[User-Agent]
+User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:123.0) Gecko/20100101 Firefox/123.0
+[Security]
+UsingPersistForAuthentication=1
+UserName_1_1=Artyom48423
+Password_1_1=1234oO
+Realm_1_1=54.157.232.206:80
+EventId_1_1=769
+UserName_2_1=Artyom43062
+Password_2_1=1234oO
+Realm_2_1=54.157.232.206:80
+EventId_2_1=1752

@@ -1,0 +1,20 @@
+[t10]
+FileName2=t16_4_review_Left_disabled.png
+RawStepEndTime=1710531545087
+FileName4=t16_5_reviewUser.png
+RequestBodyFile=t10_RequestBody.txt
+RawStepName=cartsBefore
+ContentType=application/json
+URL1=http://54.157.232.206/order/api/v1/carts/385892533
+URL2=http://54.157.232.206/css/images/review_Left_disabled.png
+URL3=http://54.157.232.206/css/images/review_right.png
+ResponseHeaderFile=t10_ResponseHeader.txt
+URL4=http://54.157.232.206/css/images/reviewUser.png
+SnapshotXmlFile=snapshot_7.xml
+RequestHeaderFile=t10_RequestHeader.txt
+SaveSnapshotResources=1
+RawStepStartTime=1710531544730
+Total=4
+StepName=Url: cartsBefore
+FileName1=t10.json
+FileName3=t16_3_review_right.png

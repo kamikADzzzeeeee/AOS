@@ -1,0 +1,6 @@
+"<?xml version=\"1.0\" encoding=\"UTF-8\"?><soap:Envelope xmlns:soap=\"http://schemas.xmlsoap.o"
+"rg/soap/envelope/\" xmlns:xsi=\"http://www.w3.org/2001/XMLSchema-instance\" xmlns:xsd=\"http:/"
+"/www.w3.org/2001/XMLSchema\"><soap:Body><ChangePasswordRequest xmlns=\"com.advantage.online.st"
+"ore.accountservice\"><accountId>700309255</accountId><newPassword>1234oO</newPassword><oldPass"
+"word>1234oO</oldPassword><base64Token>Basic ZGVuaXM6MTIzNG9P</base64Token></ChangePasswordRequ"
+"est></soap:Body></soap:Envelope>"

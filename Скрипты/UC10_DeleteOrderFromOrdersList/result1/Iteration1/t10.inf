@@ -1,0 +1,13 @@
+[t10]
+SnapshotXmlFile=snapshot_8.xml
+ContentType=application/json
+StepName=Url: 700309255_3
+Total=1
+FileName1=t10.json
+RequestHeaderFile=t10_RequestHeader.txt
+ResponseHeaderFile=t10_ResponseHeader.txt
+RawStepEndTime=1710508380610
+RawStepName=700309255_3
+RequestBodyFile=t10_RequestBody.txt
+RawStepStartTime=1710508380298
+URL1=http://54.157.232.206/order/api/v1/orders/history/lines/users/846600197

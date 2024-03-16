@@ -1,0 +1,9 @@
+-+
+-DCCI
+-D_IDA_XL
+-DWINNT
+-IC:\Users\user\Documents\VuGen\Scripts\UC12_ChatWebsocket
+-IC:\Program Files (x86)\HPE\LoadRunner\include
+-ec:\users\user\documents\vugen\scripts\uc12_chatwebsocket\\logfile.log
+c:\users\user\documents\vugen\scripts\uc12_chatwebsocket\\combined_UC12_ChatWebsocket.c
+c:\users\user\documents\vugen\scripts\uc12_chatwebsocket\\pre_cci.c

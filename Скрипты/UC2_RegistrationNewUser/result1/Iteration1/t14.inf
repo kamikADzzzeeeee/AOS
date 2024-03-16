@@ -1,0 +1,13 @@
+[t14]
+SnapshotXmlFile=snapshot_9.xml
+ContentType=application/xml
+StepName=Custom Request: AccountLoginRequest
+Total=1
+FileName1=t14.xml
+RequestHeaderFile=t14_RequestHeader.txt
+ResponseHeaderFile=t14_ResponseHeader.txt
+RawStepEndTime=1710530441571
+RawStepName=AccountLoginRequest
+RequestBodyFile=t14_RequestBody.txt
+RawStepStartTime=1710530441236
+URL1=http://54.157.232.206/accountservice/ws/AccountLoginRequest

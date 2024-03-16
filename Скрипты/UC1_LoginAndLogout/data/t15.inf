@@ -1,0 +1,17 @@
+[t15]
+FileName1=t15.html
+URL1=http://ocsp.pki.goog/gts1c3
+Total=4
+RequestHeaderFile=t15_RequestHeader.txt
+RequestBodyFile=t15_RequestBody.txt
+ResponseHeaderFile=t15_ResponseHeader.txt
+ContentType=application/ocsp-response
+SnapshotXmlFile=snapshot_15.xml
+FileName2=t15_Roboto-Regular-webfont.html
+URL2=http://54.157.232.206/css/fonts/roboto_regular_macroman/Roboto-Regular-webfont.woff
+FileName3=t15_Roboto-Light-webfont.html
+URL3=http://54.157.232.206/css/fonts/roboto_light_macroman/Roboto-Light-webfont.woff
+FileName4=t15_Roboto-Medium-webfont.html
+URL4=http://54.157.232.206/css/fonts/roboto_medium_macroman/Roboto-Medium-webfont.woff
+[ProtocolInfo]
+ProtocolId=QTWeb

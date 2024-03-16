@@ -1,0 +1,17 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<HTTPSnapshot xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" id="10">
+  <HTTPTask id="11" url="http://54.157.232.206/css/videos/13543361_299823923688824_1410005144_n.mp4" ip="54.157.232.206" port="80" client_ip="192.168.0.156" client_port="27055" connectionId="2140" origin="Primary" startDateTime="2024-03-15T18:22:08.650+05:00" startTime="16519">
+    <HTTPRequest method="GET">
+      <HTTPHeaders>
+        <HTTPAllHeaders>
+          <HTTPDataSet>
+            <HTTPData dataFilePath="" dfeDataType="Raw" sectionDataType="1">
+              <ActualData>R0VUIC9jc3MvdmlkZW9zLzEzNTQzMzYxXzI5OTgyMzkyMzY4ODgyNF8xNDEwMDA1MTQ0X24ubXA0IEhUVFAvMS4xDQpDYWNoZS1Db250cm9sOiBuby1jYWNoZQ0KVXNlci1BZ2VudDogTW96aWxsYS81LjAgKGNvbXBhdGlibGU7IE1TSUUgMTAuMDsgV2luZG93cyBOVCA2LjE7IFRyaWRlbnQvNi4wKQ0KQWNjZXB0LUVuY29kaW5nOiBnemlwLCBkZWZsYXRlDQpBY2NlcHQ6ICovKg0KQ29ubmVjdGlvbjogS2VlcC1BbGl2ZQ0KSG9zdDogNTQuMTU3LjIzMi4yMDYNCkNvb2tpZTogX2dhX1RCUFlFRDhXU1c9R1MxLjEuMTcxMDM4NDYyOC40OS4xLjE3MTAzODQ5NDUuMC4wLjA7IF9nYT1HQTEuMS4xMDU1Njc4MDE0LjE3MDg3OTk0NDk7IF9nYV81NkVNTlJGMlMyPUdTMS4xLjE3MTAzODQ2MjguNDQuMS4xNzEwMzg1MDA0LjIuMC4wOyBfZ2lkPUdBMS4xLjE2NjA0MjEyNjMuMTcxMDMzODkxMTsgdXNlckNhcnQ9JTdCJTIydXNlcklkJTIyJTNBLTElMkMlMjJwcm9kdWN0c0luQ2FydCUyMiUzQSU1QiU1RCU3RDsgZHRDb29raWU9NkUxNUM3RDQ5OTUwRTMzQTEyNkI2ODg4RDIxMTVBODF8MXwyfHwxOyBfZ2F0PTENCg0K</ActualData>
+            </HTTPData>
+          </HTTPDataSet>
+          <IsExternalData>false</IsExternalData>
+        </HTTPAllHeaders>
+      </HTTPHeaders>
+    </HTTPRequest>
+  </HTTPTask>
+</HTTPSnapshot>

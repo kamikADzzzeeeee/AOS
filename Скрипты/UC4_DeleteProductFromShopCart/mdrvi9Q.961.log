@@ -1,0 +1,4 @@
+Error:  line 7 contains 3 columns instead of 1	[MsgId: MERR-13874]
+Error: Table 'C:\Users\user\Documents\VuGen\Scripts\UC4_DeleteProductFromShopCart\..\Outputfile\userdata.dat' cannot be opened. Error code is '-4'.	[MsgId: MERR-13880]
+Warning: Extension parameng.dll reports error -4 on call to function ExtPerProcessInitialize	[MsgId: MWAR-10485]
+Error: Thread Context: Call to service of the driver failed, reason - thread context wasn't initialized on this thread.	[MsgId: MERR-10176]

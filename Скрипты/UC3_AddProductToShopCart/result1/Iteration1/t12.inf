@@ -1,0 +1,13 @@
+[t12]
+SnapshotXmlFile=snapshot_9.xml
+ContentType=application/json
+StepName=Url: attributes
+Total=1
+FileName1=t12.json
+RequestHeaderFile=t12_RequestHeader.txt
+ResponseHeaderFile=t12_ResponseHeader.txt
+RawStepEndTime=1710531493987
+RawStepName=attributes
+RequestBodyFile=t12_RequestBody.txt
+RawStepStartTime=1710531493657
+URL1=http://54.157.232.206/catalog/api/v1/categories/attributes

@@ -1,0 +1,32 @@
+[
+    {
+        "transactionName": "Goto_HomePage",
+        "rawStartTime": 1710530893545,
+        "rawEndTime": 1710530895608
+    },
+    {
+        "transactionName": "Entry_AuthenticateData",
+        "rawStartTime": 1710530901176,
+        "rawEndTime": 1710530902375
+    },
+    {
+        "transactionName": "Goto_ShopCartPage",
+        "rawStartTime": 1710530908084,
+        "rawEndTime": 1710530908794
+    },
+    {
+        "transactionName": "Delete_ProductFromShopCart",
+        "rawStartTime": 1710530914328,
+        "rawEndTime": 1710530914630
+    },
+    {
+        "transactionName": "Logout",
+        "rawStartTime": 1710530920395,
+        "rawEndTime": 1710530921104
+    },
+    {
+        "transactionName": "UC4_DeleteProductFromShopCart",
+        "rawStartTime": 1710530893214,
+        "rawEndTime": 1710530921606
+    }
+]

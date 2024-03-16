@@ -1,0 +1,56 @@
+﻿[ErrorsDataSupervisor_BasicInfo]
+NumFilters=2
+
+[AdditionalFilter0]
+DimensionType=Discrete
+InternalDimName=Event Name
+Dimension=Transaction Name
+EqualFlag=1
+DimensionTableName=Event_map
+NumValues=23
+UseEscapeSequence=1
+DimCount=23
+Dim_0=Add_ProductToShopCart
+Dim_1=Close_Chat
+Dim_2=Connect_Chat
+Dim_3=Delete_OrderFromOrdersList
+Dim_4=Delete_ProductFromShopCart
+Dim_5=Entry_AccountDetailsData
+Dim_6=Entry_AuthenticateData
+Dim_7=Entry_DataForChat
+Dim_8=Entry_DataForContactUsForm
+Dim_9=Entry_NewPassword
+Dim_10=Entry_PaymentData
+Dim_11=Entry_RegistrationData
+Dim_12=Goto_AccountDetailsPage
+Dim_13=Goto_AccountPage
+Dim_14=Goto_CategoryPage
+Dim_15=Goto_CreateAccountPage
+Dim_16=Goto_HomePage
+Dim_17=Goto_OrderPage
+Dim_18=Goto_ProductPage
+Dim_19=Goto_ShippingAndPaymentDetailsPage
+Dim_20=Goto_ShopCartPage
+Dim_21=Logout
+Dim_22=Play_Video
+LikeMode=0
+
+[AdditionalFilter1]
+DimensionType=Continuous
+InternalDimName=End Time
+Dimension=Scenario Elapsed Time
+EqualFlag=1
+DimensionTableName=Event_meter
+NumValues=1
+DimCount=2
+Dim_0=1500.000000
+Dim_1=2700.000000
+
+[DimensionFunctions]
+DimeFuncCount=1
+DimeFuncType0=FuncFragment
+FunctionName_UI0=Think Time
+DimensionName_UI0=Transaction Response Time,Aminimum,Amaximum
+FunctionFragmentValues_UI0=-Include Think Time
+DimensionFragmentValues_UI0=!([Value]-[Think Time])!,!([Aminimum]-[Think Time])!,!([Amaximum]-[Think Time])!
+

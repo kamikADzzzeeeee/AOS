@@ -1,0 +1,15 @@
+Start auto log messages stack - Iteration 12.	[MsgId: MMSG-10545]
+Action.c(265): web_custom_request("GetCountriesRequest") was successful, 4184 body bytes, 719 header bytes, 19 chunking overhead bytes  	[MsgId: MMSG-26385]
+Action.c(278): Notify: Transaction "Goto_AccountDetailsPage" ended with a "Pass" status (Duration: 0,3566 Wasted Time: 0,0025).	[MsgId: MMSG-16871]
+Action.c(283): lr_think_time: 2,00 seconds.	[MsgId: MMSG-15948]
+Action.c(288): Notify: Transaction "Entry_AccountDetailsData" started.	[MsgId: MMSG-16999]
+Action.c(290): web_add_header("SOAPAction") started  	[MsgId: MMSG-26355]
+Action.c(290): web_add_header("SOAPAction") was successful  	[MsgId: MMSG-26392]
+Action.c(292): web_reg_find started  	[MsgId: MMSG-26355]
+Action.c(292): Registering web_reg_find was successful  	[MsgId: MMSG-26390]
+Action.c(294): web_custom_request("AccountUpdateRequest") started  	[MsgId: MMSG-26355]
+Action.c(294): Error -26612: HTTP Status-Code=500 (Internal Server Error) for "http://54.157.232.206/accountservice/ws/AccountUpdateRequest"  	[MsgId: MERR-26612]
+Action.c(294): Error -26366: "Text=Account updated successfully" not found for web_reg_find  	[MsgId: MERR-26366]
+End auto log messages stack.	[MsgId: MMSG-10544]
+
+

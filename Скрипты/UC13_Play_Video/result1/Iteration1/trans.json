@@ -1,0 +1,27 @@
+[
+    {
+        "transactionName": "Goto_HomePage",
+        "rawStartTime": 1710508915799,
+        "rawEndTime": 1710508918133
+    },
+    {
+        "transactionName": "Goto_CategoryPage",
+        "rawStartTime": 1710508920840,
+        "rawEndTime": 1710508921831
+    },
+    {
+        "transactionName": "Goto_ProductPage",
+        "rawStartTime": 1710508924301,
+        "rawEndTime": 1710508925810
+    },
+    {
+        "transactionName": "Play_Video",
+        "rawStartTime": 1710508928306,
+        "rawEndTime": 1710508952112
+    },
+    {
+        "transactionName": "UC13_Play_Video",
+        "rawStartTime": 1710508915511,
+        "rawEndTime": 1710508953731
+    }
+]

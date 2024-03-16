@@ -1,0 +1,176 @@
+[
+    {
+        "stepId": "STEP1393",
+        "stepName": "Url: ALL",
+        "infFile": "t1.inf",
+        "time": 1710533029796
+    },
+    {
+        "stepId": "STEP1394",
+        "stepName": "Custom Request: GetAccountConfigurationRequest",
+        "infFile": "t2.inf",
+        "time": 1710533030383
+    },
+    {
+        "stepId": "STEP1395",
+        "stepName": "Url: categories",
+        "infFile": "t3.inf",
+        "time": 1710533031157
+    },
+    {
+        "stepId": "STEP1396",
+        "stepName": "Url: dealOfTheDay",
+        "infFile": "t4.inf",
+        "time": 1710533031864
+    },
+    {
+        "stepId": "STEP1397",
+        "stepName": "Url: popularProducts",
+        "infFile": "t5.inf",
+        "time": 1710533032385
+    },
+    {
+        "stepId": "STEP1398",
+        "stepName": "Custom Request: AccountLoginRequest",
+        "infFile": "t9.inf",
+        "time": 1710533034060
+    },
+    {
+        "stepId": "STEP1399",
+        "stepName": "Url: cartsBefore",
+        "infFile": "t10.inf",
+        "time": 1710533034818
+    },
+    {
+        "stepId": "STEP1400",
+        "stepName": "Url: products",
+        "infFile": "t11.inf",
+        "time": 1710533036628
+    },
+    {
+        "stepId": "STEP1401",
+        "stepName": "Url: attributes",
+        "infFile": "t12.inf",
+        "time": 1710533037338
+    },
+    {
+        "stepId": "STEP1402",
+        "stepName": "Url: getProductOnId",
+        "infFile": "t13.inf",
+        "time": 1710533039075
+    },
+    {
+        "stepId": "STEP1403",
+        "stepName": "Url: all_data",
+        "infFile": "t14.inf",
+        "time": 1710533040091
+    },
+    {
+        "stepId": "STEP1404",
+        "stepName": "Url: products",
+        "infFile": "t15.inf",
+        "time": 1710533040815
+    },
+    {
+        "stepId": "STEP1405",
+        "stepName": "Url: product-page",
+        "infFile": "t16.inf",
+        "time": 1710533041650
+    },
+    {
+        "stepId": "STEP1406",
+        "stepName": "Submit Data: cartsAfter",
+        "infFile": "t17.inf",
+        "time": 1710533043521
+    },
+    {
+        "stepId": "STEP1407",
+        "stepName": "Url: products",
+        "infFile": "t18.inf",
+        "time": 1710533045093
+    },
+    {
+        "stepId": "STEP1408",
+        "stepName": "Url: attributes",
+        "infFile": "t19.inf",
+        "time": 1710533045850
+    },
+    {
+        "stepId": "STEP1409",
+        "stepName": "Url: getProductOnId",
+        "infFile": "t20.inf",
+        "time": 1710533047645
+    },
+    {
+        "stepId": "STEP1410",
+        "stepName": "Url: all_data",
+        "infFile": "t21.inf",
+        "time": 1710533048642
+    },
+    {
+        "stepId": "STEP1411",
+        "stepName": "Url: products",
+        "infFile": "t22.inf",
+        "time": 1710533049367
+    },
+    {
+        "stepId": "STEP1412",
+        "stepName": "Url: product-page",
+        "infFile": "t23.inf",
+        "time": 1710533049866
+    },
+    {
+        "stepId": "STEP1413",
+        "stepName": "Submit Data: cartsAfter",
+        "infFile": "t24.inf",
+        "time": 1710533051914
+    },
+    {
+        "stepId": "STEP1414",
+        "stepName": "Url: products",
+        "infFile": "t25.inf",
+        "time": 1710533053641
+    },
+    {
+        "stepId": "STEP1415",
+        "stepName": "Url: attributes",
+        "infFile": "t26.inf",
+        "time": 1710533054350
+    },
+    {
+        "stepId": "STEP1416",
+        "stepName": "Url: getProductOnId",
+        "infFile": "t27.inf",
+        "time": 1710533055951
+    },
+    {
+        "stepId": "STEP1417",
+        "stepName": "Url: all_data",
+        "infFile": "t28.inf",
+        "time": 1710533056984
+    },
+    {
+        "stepId": "STEP1418",
+        "stepName": "Url: products",
+        "infFile": "t29.inf",
+        "time": 1710533057693
+    },
+    {
+        "stepId": "STEP1419",
+        "stepName": "Url: product-page",
+        "infFile": "t30.inf",
+        "time": 1710533058184
+    },
+    {
+        "stepId": "STEP1420",
+        "stepName": "Submit Data: cartsAfter",
+        "infFile": "t31.inf",
+        "time": 1710533060171
+    },
+    {
+        "stepId": "STEP1421",
+        "stepName": "Custom Request: AccountLogoutRequest",
+        "infFile": "t32.inf",
+        "time": 1710533062017
+    }
+]

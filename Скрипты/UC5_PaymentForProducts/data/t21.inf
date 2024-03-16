@@ -1,0 +1,13 @@
+[t21]
+FileName1=t21.htm
+URL1=http://54.157.232.206/app/order/views/orderPayment-page.html
+Total=2
+RequestHeaderFile=t21_RequestHeader.txt
+RequestBodyFile=NONE
+ResponseHeaderFile=t21_ResponseHeader.txt
+ContentType=text/html
+SnapshotXmlFile=snapshot_21.xml
+FileName2=t21_Shipex.png
+URL2=http://54.157.232.206/css/images/Shipex.png
+[ProtocolInfo]
+ProtocolId=QTWeb

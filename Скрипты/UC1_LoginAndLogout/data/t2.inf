@@ -1,0 +1,17 @@
+[t2]
+FileName1=t2.html
+URL1=http://ocsp.pki.goog/gts1c3
+Total=4
+RequestHeaderFile=t2_RequestHeader.txt
+RequestBodyFile=t2_RequestBody.txt
+ResponseHeaderFile=t2_ResponseHeader.txt
+ContentType=application/ocsp-response
+SnapshotXmlFile=snapshot_2.xml
+FileName2=t2_services.html
+URL2=http://54.157.232.206/services.properties
+FileName3=t2_Roboto-Light-webfont.html
+URL3=http://54.157.232.206/css/fonts/roboto_light_macroman/Roboto-Light-webfont.woff
+FileName4=t2_Roboto-Medium-webfont.html
+URL4=http://54.157.232.206/css/fonts/roboto_medium_macroman/Roboto-Medium-webfont.woff
+[ProtocolInfo]
+ProtocolId=QTWeb

@@ -1,0 +1,9 @@
+HTTP/1.1 200 OK
+Content-Type: application/ocsp-response
+Date: Sun, 25 Feb 2024 14:39:03 GMT
+Cache-Control: public, max-age=14400
+Server: ocsp_responder
+Content-Length: 472
+X-XSS-Protection: 0
+X-Frame-Options: SAMEORIGIN
+

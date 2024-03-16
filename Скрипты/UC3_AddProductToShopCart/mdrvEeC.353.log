@@ -1,0 +1,956 @@
+Action.c(23):      G2 TABLET (product ID: 16)","attributeTools":"LoadRunner","locationInAdvantage":"Selected
+Action.c(23):      Products","locationInAdminTool":"Performance","par
+Action.c(23): t=828927ms: 9055-byte DECODED response body for "http://54.157.232.206/catalog/api/v1/DemoAppConfig/parameters/by_tool/ALL" (RelFrameId=1, Internal ID=13)
+Action.c(23):     ameterValue":"Tip"},{"parameterName":"Tips_regular_expression","datatype":"enum:[Tip]","de
+Action.c(23):     scription":"The button text always starts with Pay to allow for demonstrating regular expr
+Action.c(23):     essions in object identification.","attributeTools":"LeanFT;UFT","locationInAdvantage":"Pa
+Action.c(23):     y button in cart sum","locationInAdminTool":"Functional","parameterValue":"Tip"},{"paramet
+Action.c(23):     erName":"Tips_correlation_example","datatype":"enum:[Tip]","description":"To demonstrate c
+Action.c(23):     orrelation, make sure that you include a login step in your flow.  The correlation is impl
+Action.c(23):     emented with the session ID.","attributeTools":"LoadRunner","locationInAdvantage":"Web App
+Action.c(23):     lication Login","locationInAdminTool":"Performance","parameterValue":"Tip"},{"parameterNam
+Action.c(23):     e":"Tips_async_example","datatype":"enum:[Tip]","description":"ADM performance tools suppo
+Action.c(23):     rt asynchronous communication.  To demonstrate this feature, browse to any of the products
+Action.c(23):      in the HEADPHONES category, and record the comments (web only).","attributeTools":"LoadRu
+Action.c(23):     nner","locationInAdvantage":"Performance","locationInAdminTool":"Performance","parameterVa
+Action.c(23):     lue":"Tip"},{"parameterName":"Tips_Swagger_Interface_For_REST_APIs","datatype":"enum:[Tip]
+Action.c(23):     ","description":"To use Swagger interface for REST APIs change the URL to http://<your-ser
+Action.c(23):     ver>:<port>/<service>/api/docs.  <service> can be on of the following (case sensitive): ca
+Action.c(23):     talog, order, MasterCredit or SafePay.  For example: http://www.advantageonlineshopping.co
+Action.c(23):     m:80/catalog/api/docs.","attributeTools":"","locationInAdvantage":"catalog,MasterCredit,or
+Action.c(23):     der,SafePay services","locationInAdminTool":"General","parameterValue":"Tip"},{"parameterN
+Action.c(23):     ame":"Tips_REST_API_Params_In_Request_URL","datatype":"enum:[Tip]","description":"Send the
+Action.c(23):      REST API request and parameters in request URL. Example: http://www.advantageonlineshoppi
+Action.c(23):     ng.com/catalog/api/v1/products/1.","attributeTools":"UFT","locationInAdvantage":"catalog,M
+Action.c(23):     asterCredit,order,SafePay services","locationInAdminTool":"Functional","parameterValue":"T
+Action.c(23):     ip"},{"parameterName":"Tips_REST_API_Params_In_Request_Body","datatype":"enum:[Tip]","desc
+Action.c(23):     ription":"Send the REST API parameters in the request body. Example: http://www.advantageo
+Action.c(23):     nlineshopping.com/MasterCredit/api/v1/payments/payment, body: { \\"MCCVVNumber\\": 666, \\
+Action.c(23):     "MCCardNumber\\": 6543210987654321, \\"MCCustomerName\\": \\"King David\\", \\"MCCustomerP
+Action.c(23):     hone\\": \\"+12025551969\\", \\"MCExpirationDate\\": \\"032017\\", \\"MCRecevingAmount.Val
+Action.c(23):     ue\\": 2011.03, \\"MCRecevingCard.AccountNumber\\": 112987298763, \\"MCRecevingCard.Curren
+Action.c(23):     cy\\": \\"USD\\", \\"MCTransactionDate\\": \\"02092016\\", \\"MCTransactionType\\": \\"PAY
+Action.c(23):     MENT\\" }.","attributeTools":"UFT","locationInAdvantage":"catalog,MasterCredit,order,SafeP
+Action.c(23):     ay services","locationInAdminTool":"Functional","parameterValue":"Tip"},{"parameterName":"
+Action.c(23):     Tips_DFE","datatype":"enum:[Tip]","description":"Send login request and response in Base-6
+Action.c(23):     4 encoded, instead of in plain text, to show DFE in snapshot (display only).","attributeTo
+Action.c(23):     ols":"LoadRunner","locationInAdvantage":"Web Application Login","locationInAdminTool":"Per
+Action.c(23):     formance","parameterValue":"Tip"},{"parameterName":"Tips_validation_example","datatype":"e
+Action.c(23):     num:[Tip]","description":"To demonstrate validation: Perform a flow where you buy the cont
+Action.c(23):     ents of the cart, then go to the My Orders page and look for the order by its order number
+Action.c(23):      (shows positive\xC2\xA0validation). Delete the order, then look for the order by its numb
+Action.c(23):     er again (shows negative\xC2\xA0validation).","attributeTools":"LoadRunner","locationInAdv
+Action.c(23):     antage":"My Orders","locationInAdminTool":"Performance","parameterValue":"Tip"},{"paramete
+Action.c(23):     rName":"Mobile_crash","datatype":"enum:[Tip]","description":"To generate a crash, login wi
+Action.c(23):     th AppPulse user and change\xC2\xA0the device orientation from\xC2\xA0portrait to landscap
+Action.c(23):     e","attributeTools":"AppPulse","locationInAdvantage":"Mobile: entire app","locationInAdmin
+Action.c(23):     Tool":"Mobile;Functional;ITOM","parameterValue":"Tip"},{"parameterName":"Slow_launch_of_th
+Action.c(23):     e_native_app","datatype":"enum:[Tip]","description":"To show a slow launch, log in as the 
+Action.c(23):     AppPulse user and kill the app. From this point on, any launch will be slow until you log 
+Action.c(23):     in with a different user","attributeTools":"AppPulse","locationInAdvantage":"Android\xC2\xA0
+Action.c(23):     native app: Launch","locationInAdminTool":"Mobile;Performance","parameterValue":"Tip"},{"p
+Action.c(23):     arameterName":"Error_500","datatype":"enum:[Tip]","description":"To generate error 500, lo
+Action.c(23):     gin with AppPulse user, add items to\xC2\xA0the the cart, checkout and click on pay now","
+Action.c(23):     attributeTools":"AppPulse","locationInAdvantage":"Order Payment","locationInAdminTool":"Mo
+Action.c(23):     bile;Functional;ITOM","parameterValue":"Tip"},{"parameterName":"Error_403","datatype":"enu
+Action.c(23):     m:[Tip]","description":"To generate error 403, click on the 'Sign in with Facebook' button
+Action.c(23):     .","attributeTools":"AppPulse","locationInAdvantage":"Login page","locationInAdminTool":"M
+Action.c(23):     obile;Functional;ITOM","parameterValue":"Tip"},{"parameterName":"Use_Camera_Capability","d
+Action.c(23):     atatype":"enum:[Tip]","description":"Add an option to enable the user to take a picture wi
+Action.c(23):     th the camera . This picture will be added to the current product page. In offline mode, t
+Action.c(23):     he picture is retained for the current session only. When using MC, if \xE2\x80\x9CCamera 
+Action.c(23):     Sensor\xE2\x80\x9D is enabled, this picture will be replaced with the picture the user pre
+Action.c(23):     viously uploaded to MC.","attributeTools":"MobileCenter","locationInAdvantage":"Mobile app
+Action.c(23):     s: Product page","locationInAdminTool":"Mobile","parameterValue":"Tip"},{"parameterName":"
+Action.c(23):     Tips_SQL_injection_vulnerability","datatype":"enum:[Tip]","description":"A functional test
+Action.c(23):      finds the following defect: The user creates a user with any\xC2\xA0Username, but the\xC2
+Action.c(23):     \xA0name that is actually created is duplicated, as displayed at\xC2\xA0the top right side
+Action.c(23):      of the site.\xC2\xA0\xC2\xA0 The user opens a defect, fixes the code, and commits the cha
+Action.c(23):     nge. This triggers a Fortify scan (provided that you added the Fortify scan trigger in the
+Action.c(23):      code change) that will find an\xC2\xA0SQL injection\xC2\xA0vulnerability.  To achieve thi
+Action.c(23):     s, you must edit the\xC2\xA0accountservice\\\\src\\\\main\\\\java\\\\com\\\\advantage\\\\a
+Action.c(23):     ccountsoap\\\\dao\\\\impl\\\\DefaultAccountRepository\xC2\xA0file. In this file, first unc
+Action.c(23):     omment the\xC2\xA0code that is located\xC2\xA0between the\xC2\xA0'SQL injection vulnerabil
+Action.c(23):     ity' tags. \xC2\xA0Then, comment out the code that is located between the 'Code without\xC2
+Action.c(23):     \xA0SQL injection vulnerability' tags. Note that there are 2 locations in the code in whic
+Action.c(23):     h you need to make these changes.","attributeTools":"Fortify, LeanFT, UFT","locationInAdva
+Action.c(23):     ntage":"Create Account page","locationInAdminTool":"Security","parameterValue":"Tip"},{"pa
+Action.c(23):     rameterName":"Enable_Warranty","datatype":"enum:[Yes,No]","description":"Determines whethe
+Action.c(23):     r a warranty checkbox is added to each laptop product screen. Use this parameter to demons
+Action.c(23):     trate an integration between AOS and COBOL, during checkout AOS backend invoke a COBOL ser
+Action.c(23):     vice to activate a warranty for laptop. Default = No. Yes = Add a checkbox to the laptop p
+Action.c(23):     roduct page.","attributeTools":"AMC","locationInAdvantage":"Laptops","locationInAdminTool"
+Action.c(23):     :"General","parameterValue":"No"},{"parameterName":"Warranty_Service_URL","datatype":"stri
+Action.c(23):     ng","description":"The URL of the COBOL web service to be used for the warranty, the defau
+Action.c(23):     lt service is located on AZURE. the default URL is: https://aoswarrantyfunction.azurewebsi
+Action.c(23):     tes.net/api/Function1?code=KEK/GaiTZ0lfJdRkJGgNdsn8qfenPseDGaS3j3n8noI6AGtSIriLAg== note: 
+Action.c(23):     mouse over on the text field to view the current URL.","attributeTools":"AMC","locationInA
+Action.c(23):     dvantage":"Laptops","locationInAdminTool":"General","parameterValue":"https://aoswarrantyf
+Action.c(23):     unction.azurewebsites.net/api/Function1?code=KEK/GaiTZ0lfJdRkJGgNdsn8qfenPseDGaS3j3n8noI6A
+Action.c(23):     GtSIriLAg=="},{"parameterName":"Enable_Voltage_Encryption","datatype":"enum:[Yes,No]","des
+Action.c(23):     cription":"Use this parameter to demonstrate an integration between Voltage Data Encryptio
+Action.c(23):     n And AOS. The MasterCredit number is encrypted when the flag is set to 'Yes'","attributeT
+Action.c(23):     ools":"AMC","locationInAdvantage":"Payment page","locationInAdminTool":"General","paramete
+Action.c(23):     rValue":"No"},{"parameterName":"Voltage_Service_URL","datatype":"string","description":"Th
+Action.c(23):     e URL of the Voltage Data Encryption service to be used for the encryption, the default se
+Action.c(23):     rvice is located on AZURE. the default URL is: https://voltage-pp-0000.dataprotection.volt
+Action.c(23):     age.com note: mouse over on the text field to view the current URL.","attributeTools":"ITO
+Action.c(23):     M","locationInAdvantage":"Payment page","locationInAdminTool":"General","parameterValue":"
+Action.c(23):     https://voltage-pp-0000.dataprotection.voltage.com"},{"parameterName":"duplicate_countries
+Action.c(23):     ","datatype":"enum:[Yes,No]","description":"Duplicates the countries in adv_account DB, ca
+Action.c(23):     using error during registration. Note: Restart required.","attributeTools":"ITOM","locatio
+Action.c(23):     nInAdvantage":"Registration page","locationInAdminTool":"General","parameterValue":"No"},{
+Action.c(23):     "parameterName":"AOB_Endpoint","datatype":"string","description":"Purchases made using AOB
+Action.c(23):      user, will create a transaction on AOB system, on the current endpoint","attributeTools":
+Action.c(23):     "","locationInAdvantage":"Purchase Page","locationInAdminTool":"General","parameterValue":
+Action.c(23):     "http://advantageonlinebanking.com/api/accounts/purchase"}]}
+Action.c(23): t=828930ms: Request done "http://54.157.232.206/catalog/api/v1/DemoAppConfig/parameters/by_tool/ALL"  	[MsgId: MMSG-26000]
+Action.c(23): Registered web_reg_find successful for "Text="parameters"" (count=1)  	[MsgId: MMSG-26364]
+Action.c(23): Registered web_reg_find successful for "Text="parameterName"" (count=51)  	[MsgId: MMSG-26364]
+Action.c(23): web_url("ALL") was successful, 6541 body bytes, 430 header bytes, 18 chunking overhead bytes  	[MsgId: MMSG-26385]
+Action.c(32): >> Âñå íàñòðîéêè ñèñòåìû ïîëó÷åíû	[MsgId: MMSG-17999]
+Action.c(34): web_add_cookie started  	[MsgId: MMSG-26355]
+Action.c(34): Notify: Parameter Substitution: parameter "domain" =  "54.157.232.206"	[MsgId: MMSG-13992]
+Action.c(34): web_add_cookie was successful  	[MsgId: MMSG-26392]
+Action.c(35): web_add_header("Origin") started  	[MsgId: MMSG-26355]
+Action.c(35): Notify: Parameter Substitution: parameter "protocol" =  "http"	[MsgId: MMSG-13992]
+Action.c(35): Notify: Parameter Substitution: parameter "host" =  "54.157.232.206"	[MsgId: MMSG-13992]
+Action.c(35): An unrecognized header ("Origin") is being added  	[MsgId: MMSG-26595]
+Action.c(35): "Origin: http://54.157.232.206" header registered for adding to requests from the immediately following Action function  	[MsgId: MMSG-26506]
+Action.c(35): web_add_header("Origin") was successful  	[MsgId: MMSG-26392]
+Action.c(36): web_add_header("SOAPAction") started  	[MsgId: MMSG-26355]
+Action.c(36): "SOAPAction: com.advantage.online.store.accountserviceGetAccountConfigurationRequest" header registered for adding to requests from the immediately following Action function  	[MsgId: MMSG-26506]
+Action.c(36): web_add_header("SOAPAction") was successful  	[MsgId: MMSG-26392]
+Action.c(37): web_add_header("X-Requested-With") started  	[MsgId: MMSG-26355]
+Action.c(37): An unrecognized header ("X-Requested-With") is being added  	[MsgId: MMSG-26595]
+Action.c(37): "X-Requested-With: XMLHttpRequest" header registered for adding to requests from the immediately following Action function  	[MsgId: MMSG-26506]
+Action.c(37): web_add_header("X-Requested-With") was successful  	[MsgId: MMSG-26392]
+Action.c(39): web_reg_find started  	[MsgId: MMSG-26355]
+Action.c(39): Registering web_reg_find was successful  	[MsgId: MMSG-26390]
+Action.c(41): web_custom_request("GetAccountConfigurationRequest") started  	[MsgId: MMSG-26355]
+Action.c(41): Notify: Parameter Substitution: parameter "protocol" =  "http"	[MsgId: MMSG-13992]
+Action.c(41): Notify: Parameter Substitution: parameter "host" =  "54.157.232.206"	[MsgId: MMSG-13992]
+Action.c(41): Notify: Parameter Substitution: parameter "protocol" =  "http"	[MsgId: MMSG-13992]
+Action.c(41): Notify: Parameter Substitution: parameter "host" =  "54.157.232.206"	[MsgId: MMSG-13992]
+Action.c(41): t=828932ms: Already connected [0] to 54.157.232.206:80  	[MsgId: MMSG-26000]
+Action.c(41): t=828932ms: 677-byte request headers for "http://54.157.232.206/accountservice/ws/GetAccountConfigurationRequest" (RelFrameId=1, Internal ID=14)
+Action.c(41):     POST /accountservice/ws/GetAccountConfigurationRequest HTTP/1.1\r\n
+Action.c(41):     Content-Type: text/xml; charset=UTF-8\r\n
+Action.c(41):     Referer: http://54.157.232.206/\r\n
+Action.c(41):     Origin: http://54.157.232.206\r\n
+Action.c(41):     SOAPAction: com.advantage.online.store.accountserviceGetAccountConfigurationRequest\r\n
+Action.c(41):     X-Requested-With: XMLHttpRequest\r\n
+Action.c(41):     User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:123.0) Gecko/20100101 Firefox/123
+Action.c(41):     .0\r\n
+Action.c(41):     Accept-Encoding: gzip, deflate\r\n
+Action.c(41):     Accept-Language: ru-RU,ru;q=0.8,en-US;q=0.5,en;q=0.3\r\n
+Action.c(41):     Accept: */*\r\n
+Action.c(41):     Connection: Keep-Alive\r\n
+Action.c(41):     Host: 54.157.232.206\r\n
+Action.c(41):     Cookie: userCart=%7B%22userId%22%3A-1%2C%22productsInCart%22%3A%5B%5D%7D; dtCookie=10F98BC
+Action.c(41):     B578A28CC7C650F43F2627CEB||1; _gat=1\r\n
+Action.c(41):     Content-Length: 361\r\n
+Action.c(41):     \r\n
+Action.c(41): t=828933ms: 361-byte request body for "http://54.157.232.206/accountservice/ws/GetAccountConfigurationRequest" (RelFrameId=1, Internal ID=14)
+Action.c(41):     <?xml version="1.0" encoding="UTF-8"?><soap:Envelope xmlns:soap="http://schemas.xmlsoap.or
+Action.c(41):     g/soap/envelope/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://
+Action.c(41):     www.w3.org/2001/XMLSchema"><soap:Body><GetAccountConfigurationRequest xmlns="com.advantage
+Action.c(41):     .online.store.accountservice"></GetAccountConfigurationRequest></soap:Body></soap:Envelope
+Action.c(41):     >
+Action.c(41): t=829095ms: 665-byte response headers for "http://54.157.232.206/accountservice/ws/GetAccountConfigurationRequest" (RelFrameId=1, Internal ID=14)
+Action.c(41):     HTTP/1.1 200 \r\n
+Action.c(41):     Server: nginx/1.12.2\r\n
+Action.c(41):     Date: Fri, 01 Mar 2024 19:03:58 GMT\r\n
+Action.c(41):     Content-Type: text/xml;charset=utf-8\r\n
+Action.c(41):     Content-Length: 823\r\n
+Action.c(41):     Connection: keep-alive\r\n
+Action.c(41):     X-Content-Type-Options: nosniff\r\n
+Action.c(41):     X-XSS-Protection: 1; mode=block\r\n
+Action.c(41):     Cache-Control: no-store\r\n
+Action.c(41):     Pragma: no-cache\r\n
+Action.c(41):     Expires: 0\r\n
+Action.c(41):     X-Frame-Options: DENY\r\n
+Action.c(41):     Access-Control-Request-Method: POST, GET, OPTIONS, DELETE\r\n
+Action.c(41):     Access-Control-Allow-Methods: POST, GET, OPTIONS, DELETE\r\n
+Action.c(41):     Access-Control-Max-Age: 3600\r\n
+Action.c(41):     Access-Control-Allow-Headers: Origin, X-Requested-With, Content-Type, Accept, Key, soapact
+Action.c(41):     ion\r\n
+Action.c(41):     Access-Control-Allow-Origin: *\r\n
+Action.c(41):     Accept: text/xml, text/html, image/gif, image/jpeg, *; q=.2, */*; q=.2\r\n
+Action.c(41):     SOAPAction: ""\r\n
+Action.c(41):     \r\n
+Action.c(41): t=829096ms: 823-byte response body for "http://54.157.232.206/accountservice/ws/GetAccountConfigurationRequest" (RelFrameId=1, Internal ID=14)
+Action.c(41):     <SOAP-ENV:Envelope xmlns:SOAP-ENV="http://schemas.xmlsoap.org/soap/envelope/"><SOAP-ENV:He
+Action.c(41):     ader/><SOAP-ENV:Body><ns2:GetAccountConfigurationResponse xmlns:ns2="com.advantage.online.
+Action.c(41):     store.accountservice"><ns2:numberOfFailedLoginAttemptsBeforeBlocking>3</ns2:numberOfFailed
+Action.c(41):     LoginAttemptsBeforeBlocking><ns2:loginBlockingIntervalInSeconds>300</ns2:loginBlockingInte
+Action.c(41):     rvalInSeconds><ns2:productInStockDefaultValue>10</ns2:productInStockDefaultValue><ns2:user
+Action.c(41):     SecondWsdl>false</ns2:userSecondWsdl><ns2:userLoginTimeout>60</ns2:userLoginTimeout><ns2:a
+Action.c(41):     llowUserConfiguration>true</ns2:allowUserConfiguration><ns2:productionHostIp>http://54.175
+Action.c(41):     .138.128:8081</ns2:productionHostIp><ns2:productionHostName>http://advantageonlineshopping
+Action.c(41):     .com</ns2:productionHostName></ns2:GetAccountConfigurationResponse></SOAP-ENV:Body></SOAP-
+Action.c(41):     ENV:Envelope>
+Action.c(41): t=829096ms: Request done "http://54.157.232.206/accountservice/ws/GetAccountConfigurationRequest"  	[MsgId: MMSG-26000]
+Action.c(41): Registered web_reg_find successful for "Text=numberOfFailedLoginAttemptsBeforeBlocking" (count=2)  	[MsgId: MMSG-26364]
+Action.c(41): web_custom_request("GetAccountConfigurationRequest") was successful, 823 body bytes, 665 header bytes  	[MsgId: MMSG-26386]
+Action.c(53): >> Óñòàíîâëåííàÿ êîíôèãóðàöèÿ ñèñòåìû ïîëó÷åíà	[MsgId: MMSG-17999]
+Action.c(55): web_add_cookie started  	[MsgId: MMSG-26355]
+Action.c(55): Notify: Parameter Substitution: parameter "domain" =  "54.157.232.206"	[MsgId: MMSG-13992]
+Action.c(55): web_add_cookie was successful  	[MsgId: MMSG-26392]
+Action.c(58): web_set_max_html_param_len started  	[MsgId: MMSG-26355]
+Action.c(58): web_set_max_html_param_len was successful  	[MsgId: MMSG-26392]
+Action.c(59): web_reg_save_param started  	[MsgId: MMSG-26355]
+Action.c(59): Registering web_reg_save_param was successful  	[MsgId: MMSG-26390]
+Action.c(62): web_reg_find started  	[MsgId: MMSG-26355]
+Action.c(62): Registering web_reg_find was successful  	[MsgId: MMSG-26390]
+Action.c(63): web_reg_find started  	[MsgId: MMSG-26355]
+Action.c(63): Registering web_reg_find was successful  	[MsgId: MMSG-26390]
+Action.c(64): web_reg_find started  	[MsgId: MMSG-26355]
+Action.c(64): Registering web_reg_find was successful  	[MsgId: MMSG-26390]
+Action.c(65): web_reg_find started  	[MsgId: MMSG-26355]
+Action.c(65): Registering web_reg_find was successful  	[MsgId: MMSG-26390]
+Action.c(66): web_reg_find started  	[MsgId: MMSG-26355]
+Action.c(66): Registering web_reg_find was successful  	[MsgId: MMSG-26390]
+Action.c(68): web_url("categories") started  	[MsgId: MMSG-26355]
+Action.c(68): Notify: Parameter Substitution: parameter "protocol" =  "http"	[MsgId: MMSG-13992]
+Action.c(68): Notify: Parameter Substitution: parameter "host" =  "54.157.232.206"	[MsgId: MMSG-13992]
+Action.c(68): Notify: Parameter Substitution: parameter "protocol" =  "http"	[MsgId: MMSG-13992]
+Action.c(68): Notify: Parameter Substitution: parameter "host" =  "54.157.232.206"	[MsgId: MMSG-13992]
+Action.c(68): t=829098ms: Already connected [0] to 54.157.232.206:80  	[MsgId: MMSG-26000]
+Action.c(68): t=829098ms: 498-byte request headers for "http://54.157.232.206/catalog/api/v1/categories" (RelFrameId=1, Internal ID=15)
+Action.c(68):     GET /catalog/api/v1/categories HTTP/1.1\r\n
+Action.c(68):     Referer: http://54.157.232.206/\r\n
+Action.c(68):     User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:123.0) Gecko/20100101 Firefox/123
+Action.c(68):     .0\r\n
+Action.c(68):     Accept-Encoding: gzip, deflate\r\n
+Action.c(68):     Accept-Language: ru-RU,ru;q=0.8,en-US;q=0.5,en;q=0.3\r\n
+Action.c(68):     Accept: */*\r\n
+Action.c(68):     Connection: Keep-Alive\r\n
+Action.c(68):     Host: 54.157.232.206\r\n
+Action.c(68):     Cookie: userCart=%7B%22userId%22%3A-1%2C%22productsInCart%22%3A%5B%5D%7D; dtCookie=10F98BC
+Action.c(68):     B578A28CC7C650F43F2627CEB||1; _gat=1; _ga_56EMNRF2S2=GS1.1.1708954185.6.0.1708954185.60.0.
+Action.c(68):     0\r\n
+Action.c(68):     \r\n
+Action.c(68): t=829357ms: 434-byte response headers for "http://54.157.232.206/catalog/api/v1/categories" (RelFrameId=1, Internal ID=15)
+Action.c(68):     HTTP/1.1 200 \r\n
+Action.c(68):     Server: nginx/1.12.2\r\n
+Action.c(68):     Date: Fri, 01 Mar 2024 19:03:58 GMT\r\n
+Action.c(68):     Content-Type: application/json\r\n
+Action.c(68):     Transfer-Encoding: chunked\r\n
+Action.c(68):     Connection: keep-alive\r\n
+Action.c(68):     X-OneAgent-JS-Injection: true\r\n
+Action.c(68):     Set-Cookie: dtCookie=10F98BCB578A28CC7C650F43F2627CEB|1|2||1; Path=/\r\n
+Action.c(68):     Expires: 0\r\n
+Action.c(68):     Cache-Control: no-store\r\n
+Action.c(68):     X-Content-Type-Options: nosniff\r\n
+Action.c(68):     X-XSS-Protection: 1; mode=block\r\n
+Action.c(68):     X-Frame-Options: DENY\r\n
+Action.c(68):     vary: accept-encoding\r\n
+Action.c(68):     Content-Encoding: gzip\r\n
+Action.c(68):     \r\n
+Action.c(68): t=829358ms: 6-byte chunked response overhead for "http://54.157.232.206/catalog/api/v1/categories" (RelFrameId=1, Internal ID=15)
+Action.c(68):     1168\r\n
+Action.c(68): t=829358ms: 1020-byte ENCODED response body received for "http://54.157.232.206/catalog/api/v1/categories" (RelFrameId=1, Internal ID=15)
+Action.c(68): t=829358ms: 2407-byte DECODED response body for "http://54.157.232.206/catalog/api/v1/categories" (RelFrameId=1, Internal ID=15)
+Action.c(68):     [{"categoryId":1,"categoryName":"LAPTOPS","managedImageId":"laptops","products":[{"id":10,
+Action.c(68):     "productName":"HP Chromebook 14 G1(ES)","price":1261.99,"description":"Introducing the nex
+Action.c(68):     t generation HP EliteBook Folio 9480m Ultrabook\xE2\x84\xA2[2]. Timeless, ultra slim profi
+Action.c(68):     le in an all metal design with optional 4G Broadband wWAN, and 4th Generation Intel\xC2\xAE
+Action.c(68):      Core\xE2\x84\xA2 Processing Technology.","productStatus":"Active","managedImageId":"1250"
+Action.c(68):     },{"id":2,"productName":"HP Pavilion 15z Laptop","price":549.99,"description":"Redesigned 
+Action.c(68):     with you in mind, the HP Pavilion keeps getting better. Our best-selling notebook is now m
+Action.c(68):     ore powerful so you can watch more, play more, and store more, all in style.","productStat
+Action.c(68):     us":"Active","managedImageId":"1200"},{"id":9,"productName":"HP Chromebook 14 G1(ENERGY ST
+Action.c(68):     AR)","price":299.99,"description":"This HP notebook is all about getting the perfect combi
+Action.c(68):     nation of design, reliability, and features. Style and productivity while keeping your wal
+Action.c(68):     let in mind - now that's something to get excited about.","productStatus":"Active","manage
+Action.c(68):     dImageId":"1249"},{"id":3,"productName":"HP Pavilion 15z Touch Laptop","price":449.99,"des
+Action.c(68):     cription":"Redesigned with you in mind, the HP Pavilion keeps getting better. Our best-sel
+Action.c(68):     ling notebook is now more powerful so you can watch more, play more, and store more, all i
+Action.c(68):     n style.","productStatus":"Active","managedImageId":"1300"},{"id":11,"productName":"HP Pav
+Action.c(68):     ilion x360 - 11t Touch Laptop","price":319.99,"description":"There\xE2\x80\x99s no limit t
+Action.c(68):     o what this value-packed convertible PC can do. Easily convert from notebook to stand to t
+Action.c(68):     ent to tablet mode. It\xE2\x80\x99s an app-loving, friend-connecting, 360\xC2\xB0-bending 
+Action.c(68):     machine.","productStatus":"Active","managedImageId":"11100"},{"id":5,"productName":"HP Str
+Action.c(68):     eam - 11-d020nr Laptop","price":179.99,"description":"Work from a happy place with a styli
+Action.c(68):     sh, affordable, Windows-based PC. Store your content in the cloud for easy access from any
+Action.c(68):     where you have internet.","productStatus":"Active","managedImageId":"1245"},{"id":6,"produ
+Action.c(68):     ctName":"HP ENVY x360 - 15t Laptop","price":699.99,"description":"We took our remarkable 3
+Action.c(68):     60\xC2\xB0 convertible PC and enhanced it with premium features to give you ultimate flexi
+Action.c(68):     bility and enviable looks.","productStatus":"Active","managedImageId":"1600"},{"id":4,"pro
+Action.c(68):     ductName":"HP Spectre x360 - 13-4102dx","price":1399.99,"description":"Stunning, ultra-sli
+Action.c(68):     m convertible PC with a 360\xC2\xB0 
+Action.c(68): t=829359ms: 5-byte chunked response overhead for "http://54.157.232.206/catalog/api/v1/categories" (RelFrameId=1, Internal ID=15)
+Action.c(68):     \r\n
+Action.c(68):     a\r\n
+Action.c(68): t=829359ms: 7-byte chunked response overhead for "http://54.157.232.206/catalog/api/v1/categories" (RelFrameId=1, Internal ID=15)
+Action.c(68):     \r\n
+Action.c(68):     0\r\n
+Action.c(68):     \r\n
+Action.c(68): t=829359ms: 3446-byte ENCODED response body received for "http://54.157.232.206/catalog/api/v1/categories" (RelFrameId=1, Internal ID=15)
+Action.c(68): t=829359ms: 10547-byte DECODED response body for "http://54.157.232.206/catalog/api/v1/categories" (RelFrameId=1, Internal ID=15)
+Action.c(68):     hinge","productStatus":"Active","managedImageId":"1400"},{"id":8,"productName":"HP ZBook 1
+Action.c(68):     7 G2 Mobile Workstation","price":1799.0,"description":"On the go creativity knows no limit
+Action.c(68):     s on a vivid 17.3 inch diagonal HP ZBook 17 G2. Showcase your best work in the office or o
+Action.c(68):     n the go and take advantage of HP\xE2\x80\x99s most powerful processing, graphics, simple 
+Action.c(68):     scalability, and blazing-fast connectivity to perform and collaborate at the speed of crea
+Action.c(68):     tivity.","productStatus":"Active","managedImageId":"1800"},{"id":7,"productName":"HP ENVY 
+Action.c(68):     - 17t Touch Laptop","price":849.99,"description":"We took our remarkable 360\xC2\xB0 conve
+Action.c(68):     rtible PC and enhanced it with premium features to give you ultimate flexibility and envia
+Action.c(68):     ble looks.","productStatus":"Active","managedImageId":"1700"},{"id":1,"productName":"HP Pa
+Action.c(68):     vilion 15t Touch Laptop","price":519.99,"description":"Redesigned with you in mind, the HP
+Action.c(68):      Pavilion keeps getting better. Our best-selling notebook is now more powerful so you can 
+Action.c(68):     watch more, play more, and store more, all in style.","productStatus":"Active","managedIma
+Action.c(68):     geId":"1100"}]},{"categoryId":2,"categoryName":"HEADPHONES","managedImageId":"headphones",
+Action.c(68):     "products":[{"id":14,"productName":"Logitech USB Headset H390","price":39.99,"description"
+Action.c(68):     :"Features on this product will exceeded your expectations.","productStatus":"Active","man
+Action.c(68):     agedImageId":"2400"},{"id":12,"productName":"HP H2310 In-ear Headset","price":13.99,"descr
+Action.c(68):     iption":"Enjoy an acoustic concert in your ears with HP\xE2\x80\x99s In-Ear Headset H2310.
+Action.c(68):      Available in trend-setting design in four color options and compatible with most smartpho
+Action.c(68):     nes, MP3 players and tablets \xE2\x80\x93 including Android\xE2\x84\xA2 and Apple\xC2\xAE.
+Action.c(68):      Easily switch from jamming to tunes to connecting with friends using the inline microphon
+Action.c(68):     e. Quality craftsmanship, value priced, and awesome sound.","productStatus":"Active","mana
+Action.c(68):     gedImageId":"2100"},{"id":13,"productName":"Bose SoundLink Around-ear Wireless Headphones 
+Action.c(68):     II","price":279.95,"description":"Wireless freedom meets best-in-class sound.","productSta
+Action.c(68):     tus":"OutOfStock","managedImageId":"2300"},{"id":15,"productName":"Beats Studio 2 Over-Ear
+Action.c(68):      Matte Black Headphones","price":179.99,"description":"The world\xE2\x80\x99s most famous 
+Action.c(68):     headphone has been completely redesigned and reimagined. The new Beats Studio\xC2\xAE is l
+Action.c(68):     ighter, sexier, stronger, and more comfortable, with precision sound, Adaptive Noise Cance
+Action.c(68):     ling, a 20-hour rechargeable battery, and RemoteTalk\xE2\x84\xA2. It has all the energy an
+Action.c(68):     d excitement you expect from Beats, plus a powerful, reengineered sound.","productStatus":
+Action.c(68):     "Active","managedImageId":"2200"}]},{"categoryId":3,"categoryName":"TABLETS","managedImage
+Action.c(68):     Id":"tablets","products":[{"id":16,"productName":"HP ElitePad 1000 G2 Tablet","price":1009
+Action.c(68):     .0,"description":"More than a tablet\xE2\x80\x94a total business solution. The elegant and
+Action.c(68):      sleek HP ElitePad 1000 G2 has the performance and flexibility to transform the way you wo
+Action.c(68):     rk. Redefine productivity and stay light with the confidence of the leading manageability,
+Action.c(68):      security, and support you expect from HP.","productStatus":"Active","managedImageId":"310
+Action.c(68):     0"},{"id":17,"productName":"HP Elite x2 1011 G1 Tablet","price":1279.0,"description":"Ultr
+Action.c(68):     abook\xE2\x84\xA2[2] Power\\nPower up for ultimate power with Windows 8.1,[1] 5th Gen Inte
+Action.c(68):     l\xC2\xAE Core\xE2\x84\xA2 M processors,[4] with optional vPro\xE2\x84\xA2[5] and long bat
+Action.c(68):     tery life provided by dual tablet and keyboard base batteries.","productStatus":"Active","
+Action.c(68):     managedImageId":"3200"},{"id":18,"productName":"HP Pro Tablet 608 G1","price":479.0,"descr
+Action.c(68):     iption":"Transform your business with this small stylish business tablet equipped with a b
+Action.c(68):     rilliant, high definition display and the pervasive connectivity to mobilize nearly any bu
+Action.c(68):     siness process. Choose from an expansive choice of accessories[2] for a customized experie
+Action.c(68):     nce.","productStatus":"Active","managedImageId":"3300"}]},{"categoryId":4,"categoryName":"
+Action.c(68):     SPEAKERS","managedImageId":"speakers","products":[{"id":25,"productName":"Bose SoundLink W
+Action.c(68):     ireless Speaker","price":129.0,"description":"If music is your motivation, wait until you 
+Action.c(68):     hear the SoundLink\xC2\xAE Color Bluetooth speaker. It plays your favorite tunes from your
+Action.c(68):      favorite Bluetooth device-out loud in clear, full audio-just about anywhere you want to g
+Action.c(68):     o. It's small, durable and simple to use. And it comes in a spectrum of colors to match al
+Action.c(68):     most any style.","productStatus":"Active","managedImageId":"4700"},{"id":24,"productName":
+Action.c(68):     "HP Roar Mini Wireless Speaker","price":44.99,"description":"Attention-getting design, col
+Action.c(68):     or, and sound - the HP Roar Mini Wireless Speaker. Exceptional size-defying audio while st
+Action.c(68):     reaming music and calls from a distinctively compact speaker.","productStatus":"Active","m
+Action.c(68):     anagedImageId":"4600"},{"id":20,"productName":"Bose Soundlink Bluetooth Speaker III","pric
+Action.c(68):     e":269.99,"description":"Meet the speaker that brings your music and friends together-with
+Action.c(68):      a style that's all your own. The SoundLink\xC2\xAE Bluetooth speaker III is our best-perf
+Action.c(68):     orming mobile Bluetooth speaker. It plays louder and longer than its popular predecessor, 
+Action.c(68):     with advanced Bose\xC2\xAE technologies that reproduce the fullness, clarity and depth of 
+Action.c(68):     your music. And a colorful assortment of optional covers let you personalize your speaker.
+Action.c(68):     ","productStatus":"Active","managedImageId":"4200"},{"id":21,"productName":"HP Roar Plus W
+Action.c(68):     ireless Speaker","price":169.99,"description":"Showcase your music anywhere with the ease 
+Action.c(68):     of wireless Bluetooth\xC2\xAE connectivity.","productStatus":"Active","managedImageId":"43
+Action.c(68):     00"},{"id":22,"productName":"HP Roar Wireless Speaker","price":84.99,"description":"Showca
+Action.c(68):     se your music anywhere with the ease of wireless Bluetooth\xC2\xAE connectivity.","product
+Action.c(68):     Status":"Active","managedImageId":"4400"},{"id":23,"productName":"Logitech X100 Speaker Sy
+Action.c(68):     stem - Wireless Speaker(s)","price":49.99,"description":"Pump up the volume and enjoy crys
+Action.c(68):     tal-clear sound from this mobile speaker. This portable speaker is perfect for life on-the
+Action.c(68):     -go. Take it on the road or relax and listen at home because this mobile speaker goes ever
+Action.c(68):     ywhere. Simple, intuitive design lets you wirelessly connect and stream music from your Bl
+Action.c(68):     uetooth-enabled device from up to 30' away. Easily manage phone calls and volume control f
+Action.c(68):     rom your mobile phone. Enjoy five hours of continuous play before you need to recharge. Re
+Action.c(68):     charge the built-in, lithium-ion battery with the convenience of the included micro-USB ca
+Action.c(68):     ble.","productStatus":"Active","managedImageId":"4500"},{"id":19,"productName":"HP S9500 B
+Action.c(68):     luetooth Wireless Speaker","price":200.0,"description":"Impress \xE2\x80\xA6 everyone! Fut
+Action.c(68):     uristic design with perforated steel formed into subtle angles. Requiring only minimal spa
+Action.c(68):     ce, this speaker is the ideal complement to any setting.","productStatus":"Active","manage
+Action.c(68):     dImageId":"4100"}]},{"categoryId":5,"categoryName":"MICE","managedImageId":"mice","product
+Action.c(68):     s":[{"id":31,"productName":"Logitech G502 Proteus Core","price":79.99,"description":"MAKE 
+Action.c(68):     IT YOURS!\\nProteus Core perfectly tuned by you.\\nProteus Core allows you to change the w
+Action.c(68):     eight, balance, and enables you to adapt to wherever you choose to play. Customize it to t
+Action.c(68):     he way you game and make it yours!\\n\\nPERSONALLY-TUNED PERFORMANCE\\nAdapts to your envi
+Action.c(68):     ronment\\nFine tune the optical sensor in Proteus Core to your playing surface for better 
+Action.c(68):     accuracy, precision and responsiveness. A quick tuning process, and you are battle ready."
+Action.c(68):     ,"productStatus":"Active","managedImageId":"5600"},{"id":27,"productName":"HP Z3600 Wirele
+Action.c(68):     ss Mouse","price":15.99,"description":"The tiny HP Wireless Mouse Z3600 provides stylish c
+Action.c(68):     omfort and control for your mobile computing needs. With optical tracking, 3 button contro
+Action.c(68):     ls, and the freedom to connect up to 30ft (10m) away, this compact mouse provides oversize
+Action.c(68):     d performance.","productStatus":"Active","managedImageId":"5200"},{"id":28,"productName":"
+Action.c(68):     HP Z3200 Wireless Mouse","price":29.99,"description":"The HP Wireless Mouse Z3200 provides
+Action.c(68):      powerful Blue LED optical tracking. Its ambidextrous shape and familiar button controls a
+Action.c(68):     re easy to use. Compact contoured control.","productStatus":"Active","managedImageId":"530
+Action.c(68):     0"},{"id":29,"productName":"HP USB 3 Button Optical Mouse","price":9.99,"description":"Smo
+Action.c(68):     oth and Accurate - The HP USB 3-Button Optical Mouse is the affordable desktop optical mou
+Action.c(68):     se solution that combines functionality with style","productStatus":"Active","managedImage
+Action.c(68):     Id":"5400"},{"id":32,"productName":"Kensington Orbit 72337 Trackball with Scroll Ring","pr
+Action.c(68):     ice":39.99,"description":"All-day comfort and scrolling come together in the Kensington Or
+Action.c(68):     bit Trackball with Scroll Ring. The scroll ring allows you to fly through web pages and do
+Action.c(68):     cuments. And all while delivering comfort and space savings no mouse can match.","productS
+Action.c(68):     tatus":"Active","managedImageId":"5700"},{"id":34,"productName":"Microsoft Sculpt Touch Mo
+Action.c(68):     use","price":49.99,"description":"Looking for a portable mouse that helps you get things d
+Action.c(68):     one? Sculpt Touch Mouse saves time in long documents and works virtually anywhere, with no
+Action.c(68):      cables or transceivers to connect. And it's designed to fit comfortably in either hand.\\
+Action.c(68):     nThe four-way touch scrolling pad on the Sculpt Touch Mouse lets you breeze up and down, l
+Action.c(68):     eft and right, and through windows and documents with just the swipe of your finger. While
+Action.c(68):      you scroll, you'll feel the nice surprise of tactile feedback. Sculpt Touch Mouse is also
+Action.c(68):      a powerful complement to Windows 8, navigating fluidly and intuitively around the Start S
+Action.c(68):     creen.\\n","productStatus":"Active","managedImageId":"5900"},{"id":26,"productName":"Kensi
+Action.c(68):     ngton Orbit 72352 Trackball","price":59.99,"description":"The Kensington Orbit Wireless Mo
+Action.c(68):     bile Trackball offers a precise, compact and versatile experience with a centered-ball des
+Action.c(68):     ign. With no wires to tie you down, the 2.4 GHz wireless with storable nano receiver works
+Action.c(68):      wherever you do -- at your home or office. And the unique touch scrolling lets you glide 
+Action.c(68):     effortlessly through web pages and documents.","productStatus":"Active","managedImageId":"
+Action.c(68):     5100"},{"id":30,"productName":"HP Z4000 Wireless Mouse","price":9.99,"description":"The sl
+Action.c(68):     eek and low-profiled design make the Z4000 the must-have companion to every thin notebook 
+Action.c(68):     or tablet. Style and comfort within a dynamic ultra-mobile wireless mouse.","productStatus
+Action.c(68):     ":"Active","managedImageId":"5505"},{"id":33,"productName":"HP Z8000 Bluetooth Mouse","pri
+Action.c(68):     ce":50.99,"description":"The exquisite HP Z8000 Bluetooth Mouse is only 18mm (.7in) height
+Action.c(68):     , saves power with Bluetooth\xC2\xAE Low Energy connectivity, and provides effortless capa
+Action.c(68):     citive touch control. The future is here.","productStatus":"Active","managedImageId":"5800
+Action.c(68):     "}]}]
+Action.c(68): Notify: Saving Parameter "fullresponse = [{"categoryId":1,"categoryName":"LAPTOPS","managedImageId":"laptops","products":[{"id":10,"productName":"HP Chromebook 14 G1(ES)","price":1261.99,"description":"Introducing the next generation HP EliteBook Folio 9480m Ultrabookâ„¢[2]. Timeless, ultra slim profile in an all metal design with optional 4G Broadband wWAN, and 4th Generation IntelÂ® Coreâ„¢ Processing Technology.","productStatus":"Active","managedImageId":"1250"},{"id":2,"productName":"HP Pavilion 15z Laptop","price":549.99,"description":"Redesigned with you in mind, the HP Pavilion keeps getting better. Our best-selling notebook is now more powerful so you can watch more, play more, and store more, all in style.","productStatus":"Active","managedImageId":"1200"},{"id":9,"productName":"HP Chromebook 14 G1(ENERGY STAR)","price":299.99,"description":"This HP notebook is all about getting the perfect combination of design, reliability, and features. Style and productivity while keeping your wallet in mind - now that's something to get excited about.","productStatus":"Active","managedImageId":"1249"},{"id":3,"productName":"HP Pavilion 15z Touch Laptop","price":449.99,"description":"Redesigned with you in mind, the HP Pavilion keeps getting better. Our best-selling notebook is now more powerful so you can watch more, play more, and store more, all in style.","productStatus":"Active","managedImageId":"1300"},{"id":11,"productName":"HP Pavilion x360 - 11t Touch Laptop","price":319.99,"description":"Thereâ€\x99s no limit to what this value-packed convertible PC can do. Easily convert from notebook to stand to tent to tablet mode. Itâ€\x99s an app-loving, friend-connecting, 360Â°-bending machine.","productStatus":"Active","managedImageId":"11100"},{"id":5,"productName":"HP Stream - 11-d020nr Laptop","price":179.99,"description":"Work from a happy place with a stylish, affordable, Windows-based PC. Store your content in the cloud for easy access from anywhere you have internet.","productStatus":"Active","managedImageId":"1245"},{"id":6,"productName":"HP ENVY x360 - 15t Laptop","price":699.99,"description":"We took our remarkable 360Â° convertible PC and enhanced it with premium features to give you ultimate flexibility and enviable looks.","productStatus":"Active","managedImageId":"1600"},{"id":4,"productName":"HP Spectre x360 - 13-4102dx","price":1399.99,"description":"Stunning, ultra-slim convertible PC with a 360Â° hinge","productStatus":"Active","managedImageId":"1400"},{"id":8,"productName":"HP ZBook 17 G2 Mobile Workstation","price":1799.0,"description":"On the go creativity knows no limits on a vivid 17.3 inch diagonal HP ZBook 17 G2. Showcase your best work in the office or on the go and take advantage of HPâ€\x99s most powerful processing, graphics, simple scalability, and blazing-fast connectivity to perform and collaborate at the speed of creativity.","productStatus":"Active","managedImageId":"1800"},{"id":7,"productName":"HP ENVY - 17t Touch Laptop","price":849.99,"description":"We took our remarkable 360Â° convertible PC and enhanced it with premium features to give you ultimate flexibility and enviable looks.","productStatus":"Active","managedImageId":"1700"},{"id":1,"productName":"HP Pavilion 15t Touch Laptop","price":519.99,"description":"Redesigned with you in mind, the HP Pavilion keeps getting better. Our best-selling notebook is now more powerful so you can watch more, play more, and store more, all in style.","productStatus":"Active","managedImageId":"1100"}]},{"categoryId":2,"categoryName":"HEADPHONES","managedImageId":"headphones","products":[{"id":14,"productName":"Logitech USB Headset H390","price":39.99,"description":"Features on this product will exceeded your expectations.","productStatus":"Active","managedImageId":"2400"},{"id":12,"productName":"HP H2310 In-ear Headset","price":13.99,"description":"Enjoy an acoustic concert in your ears with HPâ€\x99s In-Ear Headset H2310. Available in trend-setting design in four color options and compatible with most smartphones, MP3 players and tablets â€“ including Androidâ„¢ and AppleÂ®. Easily switch from jamming to tunes to connecting with friends using the inline microphone. Quality craftsmanship, value priced, and awesome sound.","productStatus":"Active","managedImageId":"2100"},{"id":13,"productName":"Bose SoundLink Around-ear Wireless Headphones II","price":279.95,"description":"Wireless freedom meets best-in-class sound.","productStatus":"OutOfStock","managedImageId":"2300"},{"id":15,"productName":"Beats Studio 2 Over-Ear Matte Black Headphones","price":179.99,"description":"The worldâ€\x99s most famous headphone has been completely redesigned and reimagined. The new Beats StudioÂ® is lighter, sexier, stronger, and more comfortable, with precision sound, Adaptive Noise Canceling, a 20-hour rechargeable battery, and RemoteTalkâ„¢. It has all the energy and excitement you expect from Beats, plus a powerful, reengineered sound.","productStatus":"Active","managedImageId":"2200"}]},{"categoryId":3,"categoryName":"TABLETS","managedImageId":"tablets","products":[{"id":16,"productName":"HP ElitePad 1000 G2 Tablet","price":1009.0,"description":"More than a tabletâ€”a total business solution. The elegant and sleek HP ElitePad 1000 G2 has the performance and flexibility to transform the way you work. Redefine productivity and stay light with the confidence of the leading manageability, security, and support you expect from HP.","productStatus":"Active","managedImageId":"3100"},{"id":17,"productName":"HP Elite x2 1011 G1 Tablet","price":1279.0,"description":"Ultrabookâ„¢[2] Power\nPower up for ultimate power with Windows 8.1,[1] 5th Gen IntelÂ® Coreâ„¢ M processors,[4] with optional vProâ„¢[5] and long battery life provided by dual tablet and keyboard base batteries.","productStatus":"Active","managedImageId":"3200"},{"id":18,"productName":"HP Pro Tablet 608 G1","price":479.0,"description":"Transform your business with this small stylish business tablet equipped with a brilliant, high definition display and the pervasive connectivity to mobilize nearly any business process. Choose from an expansive choice of accessories[2] for a customized experience.","productStatus":"Active","managedImageId":"3300"}]},{"categoryId":4,"categoryName":"SPEAKERS","managedImageId":"speakers","products":[{"id":25,"productName":"Bose SoundLink Wireless Speaker","price":129.0,"description":"If music is your motivation, wait until you hear the SoundLinkÂ® Color Bluetooth speaker. It plays your favorite tunes from your favorite Bluetooth device-out loud in clear, full audio-just about anywhere you want to go. It's small, durable and simple to use. And it comes in a spectrum of colors to match almost any style.","productStatus":"Active","managedImageId":"4700"},{"id":24,"productName":"HP Roar Mini Wireless Speaker","price":44.99,"description":"Attention-getting design, color, and sound - the HP Roar Mini Wireless Speaker. Exceptional size-defying audio while streaming music and calls from a distinctively compact speaker.","productStatus":"Active","managedImageId":"4600"},{"id":20,"productName":"Bose Soundlink Bluetooth Speaker III","price":269.99,"description":"Meet the speaker that brings your music and friends together-with a style that's all your own. The SoundLinkÂ® Bluetooth speaker III is our best-performing mobile Bluetooth speaker. It plays louder and longer than its popular predecessor, with advanced BoseÂ® technologies that reproduce the fullness, clarity and depth of your music. And a colorful assortment of optional covers let you personalize your speaker.","productStatus":"Active","managedImageId":"4200"},{"id":21,"productName":"HP Roar Plus Wireless Speaker","price":169.99,"description":"Showcase your music anywhere with the ease of wireless BluetoothÂ® connectivity.","productStatus":"Active","managedImageId":"4300"},{"id":22,"productName":"HP Roar Wireless Speaker","price":84.99,"description":"Showcase your music anywhere with the ease of wireless BluetoothÂ® connectivity.","productStatus":"Active","managedImageId":"4400"},{"id":23,"productName":"Logitech X100 Speaker System - Wireless Speaker(s)","price":49.99,"description":"Pump up the volume and enjoy crystal-clear sound from this mobile speaker. This portable speaker is perfect for life on-the-go. Take it on the road or relax and listen at home because this mobile speaker goes everywhere. Simple, intuitive design lets you wirelessly connect and stream music from your Bluetooth-enabled device from up to 30' away. Easily manage phone calls and volume control from your mobile phone. Enjoy five hours of continuous play before you need to recharge. Recharge the built-in, lithium-ion battery with the convenience of the included micro-USB cable.","productStatus":"Active","managedImageId":"4500"},{"id":19,"productName":"HP S9500 Bluetooth Wireless Speaker","price":200.0,"description":"Impress â€¦ everyone! Futuristic design with perforated steel formed into subtle angles. Requiring only minimal space, this speaker is the ideal complement to any setting.","productStatus":"Active","managedImageId":"4100"}]},{"categoryId":5,"categoryName":"MICE","managedImageId":"mice","products":[{"id":31,"productName":"Logitech G502 Proteus Core","price":79.99,"description":"MAKE IT YOURS!\nProteus Core perfectly tuned by you.\nProteus Core allows you to change the weight, balance, and enables you to adapt to wherever you choose to play. Customize it to the way you game and make it yours!\n\nPERSONALLY-TUNED PERFORMANCE\nAdapts to your environment\nFine tune the optical sensor in Proteus Core to your playing surface for better accuracy, precision and responsiveness. A quick tuning process, and you are battle ready.","productStatus":"Active","managedImageId":"5600"},{"id":27,"productName":"HP Z3600 Wireless Mouse","price":15.99,"description":"The tiny HP Wireless Mouse Z3600 provides stylish comfort and control for your mobile computing needs. With optical tracking, 3 button controls, and the freedom to connect up to 30ft (10m) away, this compact mouse provides oversized performance.","productStatus":"Active","managedImageId":"5200"},{"id":28,"productName":"HP Z3200 Wireless Mouse","price":29.99,"description":"The HP Wireless Mouse Z3200 provides powerful Blue LED optical tracking. Its ambidextrous shape and familiar button controls are easy to use. Compact contoured control.","productStatus":"Active","managedImageId":"5300"},{"id":29,"productName":"HP USB 3 Button Optical Mouse","price":9.99,"description":"Smooth and Accurate - The HP USB 3-Button Optical Mouse is the affordable desktop optical mouse solution that combines functionality with style","productStatus":"Active","managedImageId":"5400"},{"id":32,"productName":"Kensington Orbit 72337 Trackball with Scroll Ring","price":39.99,"description":"All-day comfort and scrolling come together in the Kensington Orbit Trackball with Scroll Ring. The scroll ring allows you to fly through web pages and documents. And all while delivering comfort and space savings no mouse can match.","productStatus":"Active","managedImageId":"5700"},{"id":34,"productName":"Microsoft Sculpt Touch Mouse","price":49.99,"description":"Looking for a portable mouse that helps you get things done? Sculpt Touch Mouse saves time in long documents and works virtually anywhere, with no cables or transceivers to connect. And it's designed to fit comfortably in either hand.\nThe four-way touch scrolling pad on the Sculpt Touch Mouse lets you breeze up and down, left and right, and through windows and documents with just the swipe of your finger. While you scroll, you'll feel the nice surprise of tactile feedback. Sculpt Touch Mouse is also a powerful complement to Windows 8, navigating fluidly and intuitively around the Start Screen.\n","productStatus":"Active","managedImageId":"5900"},{"id":26,"productName":"Kensington Orbit 72352 Trackball","price":59.99,"description":"The Kensington Orbit Wireless Mobile Trackball offers a precise, compact and versatile experience with a centered-ball design. With no wires to tie you down, the 2.4 GHz wireless with storable nano receiver works wherever you do -- at your home or office. And the unique touch scrolling lets you glide effortlessly through web pages and documents.","productStatus":"Active","managedImageId":"5100"},{"id":30,"productName":"HP Z4000 Wireless Mouse","price":9.99,"description":"The sleek and low-profiled design make the Z4000 the must-have companion to every thin notebook or tablet. Style and comfort within a dynamic ultra-mobile wireless mouse.","productStatus":"Active","managedImageId":"5505"},{"id":33,"productName":"HP Z8000 Bluetooth Mouse","price":50.99,"description":"The exquisite HP Z8000 Bluetooth Mouse is only 18mm (.7in) height, saves power with BluetoothÂ® Low Energy connectivity, and provides effortless capacitive touch control. The future is here.","productStatus":"Active","managedImageId":"5800"}]}]".	[MsgId: MMSG-13798]
+Action.c(68): t=829367ms: Request done "http://54.157.232.206/catalog/api/v1/categories"  	[MsgId: MMSG-26000]
+Action.c(68): Registered web_reg_find successful for "Text="categoryName":"LAPTOPS"" (count=1)  	[MsgId: MMSG-26364]
+Action.c(68): Registered web_reg_find successful for "Text="categoryName":"HEADPHONES"" (count=1)  	[MsgId: MMSG-26364]
+Action.c(68): Registered web_reg_find successful for "Text="categoryName":"TABLETS"" (count=1)  	[MsgId: MMSG-26364]
+Action.c(68): Registered web_reg_find successful for "Text="categoryName":"SPEAKERS"" (count=1)  	[MsgId: MMSG-26364]
+Action.c(68): Registered web_reg_find successful for "Text="categoryName":"MICE"" (count=1)  	[MsgId: MMSG-26364]
+Action.c(68): web_url("categories") was successful, 4466 body bytes, 434 header bytes, 18 chunking overhead bytes  	[MsgId: MMSG-26385]
+Action.c(77): >> Âñå êàòåãîðèè òîâàðîâ ïîëó÷åíû èç êàòàëîãà	[MsgId: MMSG-17999]
+Action.c(80): Notify: Parameter Substitution: parameter "fullresponse" =  "[{"categoryId":1,"categoryName":"LAPTOPS","managedImageId":"laptops","products":[{"id":10,"productName":"HP Chromebook 14 G1(ES)","price":1261.99,"description":"Introducing the next generation HP EliteBook Folio 9480m Ultrabookâ„¢[2]. Timeless, ultra slim profile in an all metal design with optional 4G Broadband wWAN, and 4th Generation IntelÂ® Coreâ„¢ Processing Technology.","productStatus":"Active","managedImageId":"1250"},{"id":2,"productName":"HP Pavilion 15z Laptop","price":549.99,"description":"Redesigned with you in mind, the HP Pavilion keeps getting better. Our best-selling notebook is now more powerful so you can watch more, play more, and store more, all in style.","productStatus":"Active","managedImageId":"1200"},{"id":9,"productName":"HP Chromebook 14 G1(ENERGY STAR)","price":299.99,"description":"This HP notebook is all about getting the perfect combination of design, reliability, and features. Style and productivity while keeping your wallet in mind - now that's something to get excited about.","productStatus":"Active","managedImageId":"1249"},{"id":3,"productName":"HP Pavilion 15z Touch Laptop","price":449.99,"description":"Redesigned with you in mind, the HP Pavilion keeps getting better. Our best-selling notebook is now more powerful so you can watch more, play more, and store more, all in style.","productStatus":"Active","managedImageId":"1300"},{"id":11,"productName":"HP Pavilion x360 - 11t Touch Laptop","price":319.99,"description":"Thereâ€\x99s no limit to what this value-packed convertible PC can do. Easily convert from notebook to stand to tent to tablet mode. Itâ€\x99s an app-loving, friend-connecting, 360Â°-bending machine.","productStatus":"Active","managedImageId":"11100"},{"id":5,"productName":"HP Stream - 11-d020nr Laptop","price":179.99,"description":"Work from a happy place with a stylish, affordable, Windows-based PC. Store your content in the cloud for easy access from anywhere you have internet.","productStatus":"Active","managedImageId":"1245"},{"id":6,"productName":"HP ENVY x360 - 15t Laptop","price":699.99,"description":"We took our remarkable 360Â° convertible PC and enhanced it with premium features to give you ultimate flexibility and enviable looks.","productStatus":"Active","managedImageId":"1600"},{"id":4,"productName":"HP Spectre x360 - 13-4102dx","price":1399.99,"description":"Stunning, ultra-slim convertible PC with a 360Â° hinge","productStatus":"Active","managedImageId":"1400"},{"id":8,"productName":"HP ZBook 17 G2 Mobile Workstation","price":1799.0,"description":"On the go creativity knows no limits on a vivid 17.3 inch diagonal HP ZBook 17 G2. Showcase your best work in the office or on the go and take advantage of HPâ€\x99s most powerful processing, graphics, simple scalability, and blazing-fast connectivity to perform and collaborate at the speed of creativity.","productStatus":"Active","managedImageId":"1800"},{"id":7,"productName":"HP ENVY - 17t Touch Laptop","price":849.99,"description":"We took our remarkable 360Â° convertible PC and enhanced it with premium features to give you ultimate flexibility and enviable looks.","productStatus":"Active","managedImageId":"1700"},{"id":1,"productName":"HP Pavilion 15t Touch Laptop","price":519.99,"description":"Redesigned with you in mind, the HP Pavilion keeps getting better. Our best-selling notebook is now more powerful so you can watch more, play more, and store more, all in style.","productStatus":"Active","managedImageId":"1100"}]},{"categoryId":2,"categoryName":"HEADPHONES","managedImageId":"headphones","products":[{"id":14,"productName":"Logitech USB Headset H390","price":39.99,"description":"Features on this product will exceeded your expectations.","productStatus":"Active","managedImageId":"2400"},{"id":12,"productName":"HP H2310 In-ear Headset","price":13.99,"description":"Enjoy an acoustic concert in your ears with HPâ€\x99s In-Ear Headset H2310. Available in trend-setting design in four color options and compatible with most smartphones, MP3 players and tablets â€“ including Androidâ„¢ and AppleÂ®. Easily switch from jamming to tunes to connecting with friends using the inline microphone. Quality craftsmanship, value priced, and awesome sound.","productStatus":"Active","managedImageId":"2100"},{"id":13,"productName":"Bose SoundLink Around-ear Wireless Headphones II","price":279.95,"description":"Wireless freedom meets best-in-class sound.","productStatus":"OutOfStock","managedImageId":"2300"},{"id":15,"productName":"Beats Studio 2 Over-Ear Matte Black Headphones","price":179.99,"description":"The worldâ€\x99s most famous headphone has been completely redesigned and reimagined. The new Beats StudioÂ® is lighter, sexier, stronger, and more comfortable, with precision sound, Adaptive Noise Canceling, a 20-hour rechargeable battery, and RemoteTalkâ„¢. It has all the energy and excitement you expect from Beats, plus a powerful, reengineered sound.","productStatus":"Active","managedImageId":"2200"}]},{"categoryId":3,"categoryName":"TABLETS","managedImageId":"tablets","products":[{"id":16,"productName":"HP ElitePad 1000 G2 Tablet","price":1009.0,"description":"More than a tabletâ€”a total business solution. The elegant and sleek HP ElitePad 1000 G2 has the performance and flexibility to transform the way you work. Redefine productivity and stay light with the confidence of the leading manageability, security, and support you expect from HP.","productStatus":"Active","managedImageId":"3100"},{"id":17,"productName":"HP Elite x2 1011 G1 Tablet","price":1279.0,"description":"Ultrabookâ„¢[2] Power\nPower up for ultimate power with Windows 8.1,[1] 5th Gen IntelÂ® Coreâ„¢ M processors,[4] with optional vProâ„¢[5] and long battery life provided by dual tablet and keyboard base batteries.","productStatus":"Active","managedImageId":"3200"},{"id":18,"productName":"HP Pro Tablet 608 G1","price":479.0,"description":"Transform your business with this small stylish business tablet equipped with a brilliant, high definition display and the pervasive connectivity to mobilize nearly any business process. Choose from an expansive choice of accessories[2] for a customized experience.","productStatus":"Active","managedImageId":"3300"}]},{"categoryId":4,"categoryName":"SPEAKERS","managedImageId":"speakers","products":[{"id":25,"productName":"Bose SoundLink Wireless Speaker","price":129.0,"description":"If music is your motivation, wait until you hear the SoundLinkÂ® Color Bluetooth speaker. It plays your favorite tunes from your favorite Bluetooth device-out loud in clear, full audio-just about anywhere you want to go. It's small, durable and simple to use. And it comes in a spectrum of colors to match almost any style.","productStatus":"Active","managedImageId":"4700"},{"id":24,"productName":"HP Roar Mini Wireless Speaker","price":44.99,"description":"Attention-getting design, color, and sound - the HP Roar Mini Wireless Speaker. Exceptional size-defying audio while streaming music and calls from a distinctively compact speaker.","productStatus":"Active","managedImageId":"4600"},{"id":20,"productName":"Bose Soundlink Bluetooth Speaker III","price":269.99,"description":"Meet the speaker that brings your music and friends together-with a style that's all your own. The SoundLinkÂ® Bluetooth speaker III is our best-performing mobile Bluetooth speaker. It plays louder and longer than its popular predecessor, with advanced BoseÂ® technologies that reproduce the fullness, clarity and depth of your music. And a colorful assortment of optional covers let you personalize your speaker.","productStatus":"Active","managedImageId":"4200"},{"id":21,"productName":"HP Roar Plus Wireless Speaker","price":169.99,"description":"Showcase your music anywhere with the ease of wireless BluetoothÂ® connectivity.","productStatus":"Active","managedImageId":"4300"},{"id":22,"productName":"HP Roar Wireless Speaker","price":84.99,"description":"Showcase your music anywhere with the ease of wireless BluetoothÂ® connectivity.","productStatus":"Active","managedImageId":"4400"},{"id":23,"productName":"Logitech X100 Speaker System - Wireless Speaker(s)","price":49.99,"description":"Pump up the volume and enjoy crystal-clear sound from this mobile speaker. This portable speaker is perfect for life on-the-go. Take it on the road or relax and listen at home because this mobile speaker goes everywhere. Simple, intuitive design lets you wirelessly connect and stream music from your Bluetooth-enabled device from up to 30' away. Easily manage phone calls and volume control from your mobile phone. Enjoy five hours of continuous play before you need to recharge. Recharge the built-in, lithium-ion battery with the convenience of the included micro-USB cable.","productStatus":"Active","managedImageId":"4500"},{"id":19,"productName":"HP S9500 Bluetooth Wireless Speaker","price":200.0,"description":"Impress â€¦ everyone! Futuristic design with perforated steel formed into subtle angles. Requiring only minimal space, this speaker is the ideal complement to any setting.","productStatus":"Active","managedImageId":"4100"}]},{"categoryId":5,"categoryName":"MICE","managedImageId":"mice","products":[{"id":31,"productName":"Logitech G502 Proteus Core","price":79.99,"description":"MAKE IT YOURS!\nProteus Core perfectly tuned by you.\nProteus Core allows you to change the weight, balance, and enables you to adapt to wherever you choose to play. Customize it to the way you game and make it yours!\n\nPERSONALLY-TUNED PERFORMANCE\nAdapts to your environment\nFine tune the optical sensor in Proteus Core to your playing surface for better accuracy, precision and responsiveness. A quick tuning process, and you are battle ready.","productStatus":"Active","managedImageId":"5600"},{"id":27,"productName":"HP Z3600 Wireless Mouse","price":15.99,"description":"The tiny HP Wireless Mouse Z3600 provides stylish comfort and control for your mobile computing needs. With optical tracking, 3 button controls, and the freedom to connect up to 30ft (10m) away, this compact mouse provides oversized performance.","productStatus":"Active","managedImageId":"5200"},{"id":28,"productName":"HP Z3200 Wireless Mouse","price":29.99,"description":"The HP Wireless Mouse Z3200 provides powerful Blue LED optical tracking. Its ambidextrous shape and familiar button controls are easy to use. Compact contoured control.","productStatus":"Active","managedImageId":"5300"},{"id":29,"productName":"HP USB 3 Button Optical Mouse","price":9.99,"description":"Smooth and Accurate - The HP USB 3-Button Optical Mouse is the affordable desktop optical mouse solution that combines functionality with style","productStatus":"Active","managedImageId":"5400"},{"id":32,"productName":"Kensington Orbit 72337 Trackball with Scroll Ring","price":39.99,"description":"All-day comfort and scrolling come together in the Kensington Orbit Trackball with Scroll Ring. The scroll ring allows you to fly through web pages and documents. And all while delivering comfort and space savings no mouse can match.","productStatus":"Active","managedImageId":"5700"},{"id":34,"productName":"Microsoft Sculpt Touch Mouse","price":49.99,"description":"Looking for a portable mouse that helps you get things done? Sculpt Touch Mouse saves time in long documents and works virtually anywhere, with no cables or transceivers to connect. And it's designed to fit comfortably in either hand.\nThe four-way touch scrolling pad on the Sculpt Touch Mouse lets you breeze up and down, left and right, and through windows and documents with just the swipe of your finger. While you scroll, you'll feel the nice surprise of tactile feedback. Sculpt Touch Mouse is also a powerful complement to Windows 8, navigating fluidly and intuitively around the Start Screen.\n","productStatus":"Active","managedImageId":"5900"},{"id":26,"productName":"Kensington Orbit 72352 Trackball","price":59.99,"description":"The Kensington Orbit Wireless Mobile Trackball offers a precise, compact and versatile experience with a centered-ball design. With no wires to tie you down, the 2.4 GHz wireless with storable nano receiver works wherever you do -- at your home or office. And the unique touch scrolling lets you glide effortlessly through web pages and documents.","productStatus":"Active","managedImageId":"5100"},{"id":30,"productName":"HP Z4000 Wireless Mouse","price":9.99,"description":"The sleek and low-profiled design make the Z4000 the must-have companion to every thin notebook or tablet. Style and comfort within a dynamic ultra-mobile wireless mouse.","productStatus":"Active","managedImageId":"5505"},{"id":33,"productName":"HP Z8000 Bluetooth Mouse","price":50.99,"description":"The exquisite HP Z8000 Bluetooth Mouse is only 18mm (.7in) height, saves power with BluetoothÂ® Low Energy connectivity, and provides effortless capacitive touch control. The future is here.","productStatus":"Active","managedImageId":"5800"}]}]"	[MsgId: MMSG-13992]
+..\\library\\user_lib.h(81): Notify: Saving Parameter "json = [{"categoryId":1,"categoryName":"LAPTOPS","managedImageId":"laptops","products":[{"id":10,"productName":"HP Chromebook 14 G1(ES)","price":1261.99,"description":"Introducing the next generation HP EliteBook Folio 9480m Ultrabookâ„¢[2]. Timeless, ultra slim profile in an all metal design with optional 4G Broadband wWAN, and 4th Generation IntelÂ® Coreâ„¢ Processing Technology.","productStatus":"Active","managedImageId":"1250"},{"id":2,"productName":"HP Pavilion 15z Laptop","price":549.99,"description":"Redesigned with you in mind, the HP Pavilion keeps getting better. Our best-selling notebook is now more powerful so you can watch more, play more, and store more, all in style.","productStatus":"Active","managedImageId":"1200"},{"id":9,"productName":"HP Chromebook 14 G1(ENERGY STAR)","price":299.99,"description":"This HP notebook is all about getting the perfect combination of design, reliability, and features. Style and productivity while keeping your wallet in mind - now that's something to get excited about.","productStatus":"Active","managedImageId":"1249"},{"id":3,"productName":"HP Pavilion 15z Touch Laptop","price":449.99,"description":"Redesigned with you in mind, the HP Pavilion keeps getting better. Our best-selling notebook is now more powerful so you can watch more, play more, and store more, all in style.","productStatus":"Active","managedImageId":"1300"},{"id":11,"productName":"HP Pavilion x360 - 11t Touch Laptop","price":319.99,"description":"Thereâ€\x99s no limit to what this value-packed convertible PC can do. Easily convert from notebook to stand to tent to tablet mode. Itâ€\x99s an app-loving, friend-connecting, 360Â°-bending machine.","productStatus":"Active","managedImageId":"11100"},{"id":5,"productName":"HP Stream - 11-d020nr Laptop","price":179.99,"description":"Work from a happy place with a stylish, affordable, Windows-based PC. Store your content in the cloud for easy access from anywhere you have internet.","productStatus":"Active","managedImageId":"1245"},{"id":6,"productName":"HP ENVY x360 - 15t Laptop","price":699.99,"description":"We took our remarkable 360Â° convertible PC and enhanced it with premium features to give you ultimate flexibility and enviable looks.","productStatus":"Active","managedImageId":"1600"},{"id":4,"productName":"HP Spectre x360 - 13-4102dx","price":1399.99,"description":"Stunning, ultra-slim convertible PC with a 360Â° hinge","productStatus":"Active","managedImageId":"1400"},{"id":8,"productName":"HP ZBook 17 G2 Mobile Workstation","price":1799.0,"description":"On the go creativity knows no limits on a vivid 17.3 inch diagonal HP ZBook 17 G2. Showcase your best work in the office or on the go and take advantage of HPâ€\x99s most powerful processing, graphics, simple scalability, and blazing-fast connectivity to perform and collaborate at the speed of creativity.","productStatus":"Active","managedImageId":"1800"},{"id":7,"productName":"HP ENVY - 17t Touch Laptop","price":849.99,"description":"We took our remarkable 360Â° convertible PC and enhanced it with premium features to give you ultimate flexibility and enviable looks.","productStatus":"Active","managedImageId":"1700"},{"id":1,"productName":"HP Pavilion 15t Touch Laptop","price":519.99,"description":"Redesigned with you in mind, the HP Pavilion keeps getting better. Our best-selling notebook is now more powerful so you can watch more, play more, and store more, all in style.","productStatus":"Active","managedImageId":"1100"}]},{"categoryId":2,"categoryName":"HEADPHONES","managedImageId":"headphones","products":[{"id":14,"productName":"Logitech USB Headset H390","price":39.99,"description":"Features on this product will exceeded your expectations.","productStatus":"Active","managedImageId":"2400"},{"id":12,"productName":"HP H2310 In-ear Headset","price":13.99,"description":"Enjoy an acoustic concert in your ears with HPâ€\x99s In-Ear Headset H2310. Available in trend-setting design in four color options and compatible with most smartphones, MP3 players and tablets â€“ including Androidâ„¢ and AppleÂ®. Easily switch from jamming to tunes to connecting with friends using the inline microphone. Quality craftsmanship, value priced, and awesome sound.","productStatus":"Active","managedImageId":"2100"},{"id":13,"productName":"Bose SoundLink Around-ear Wireless Headphones II","price":279.95,"description":"Wireless freedom meets best-in-class sound.","productStatus":"OutOfStock","managedImageId":"2300"},{"id":15,"productName":"Beats Studio 2 Over-Ear Matte Black Headphones","price":179.99,"description":"The worldâ€\x99s most famous headphone has been completely redesigned and reimagined. The new Beats StudioÂ® is lighter, sexier, stronger, and more comfortable, with precision sound, Adaptive Noise Canceling, a 20-hour rechargeable battery, and RemoteTalkâ„¢. It has all the energy and excitement you expect from Beats, plus a powerful, reengineered sound.","productStatus":"Active","managedImageId":"2200"}]},{"categoryId":3,"categoryName":"TABLETS","managedImageId":"tablets","products":[{"id":16,"productName":"HP ElitePad 1000 G2 Tablet","price":1009.0,"description":"More than a tabletâ€”a total business solution. The elegant and sleek HP ElitePad 1000 G2 has the performance and flexibility to transform the way you work. Redefine productivity and stay light with the confidence of the leading manageability, security, and support you expect from HP.","productStatus":"Active","managedImageId":"3100"},{"id":17,"productName":"HP Elite x2 1011 G1 Tablet","price":1279.0,"description":"Ultrabookâ„¢[2] Power\nPower up for ultimate power with Windows 8.1,[1] 5th Gen IntelÂ® Coreâ„¢ M processors,[4] with optional vProâ„¢[5] and long battery life provided by dual tablet and keyboard base batteries.","productStatus":"Active","managedImageId":"3200"},{"id":18,"productName":"HP Pro Tablet 608 G1","price":479.0,"description":"Transform your business with this small stylish business tablet equipped with a brilliant, high definition display and the pervasive connectivity to mobilize nearly any business process. Choose from an expansive choice of accessories[2] for a customized experience.","productStatus":"Active","managedImageId":"3300"}]},{"categoryId":4,"categoryName":"SPEAKERS","managedImageId":"speakers","products":[{"id":25,"productName":"Bose SoundLink Wireless Speaker","price":129.0,"description":"If music is your motivation, wait until you hear the SoundLinkÂ® Color Bluetooth speaker. It plays your favorite tunes from your favorite Bluetooth device-out loud in clear, full audio-just about anywhere you want to go. It's small, durable and simple to use. And it comes in a spectrum of colors to match almost any style.","productStatus":"Active","managedImageId":"4700"},{"id":24,"productName":"HP Roar Mini Wireless Speaker","price":44.99,"description":"Attention-getting design, color, and sound - the HP Roar Mini Wireless Speaker. Exceptional size-defying audio while streaming music and calls from a distinctively compact speaker.","productStatus":"Active","managedImageId":"4600"},{"id":20,"productName":"Bose Soundlink Bluetooth Speaker III","price":269.99,"description":"Meet the speaker that brings your music and friends together-with a style that's all your own. The SoundLinkÂ® Bluetooth speaker III is our best-performing mobile Bluetooth speaker. It plays louder and longer than its popular predecessor, with advanced BoseÂ® technologies that reproduce the fullness, clarity and depth of your music. And a colorful assortment of optional covers let you personalize your speaker.","productStatus":"Active","managedImageId":"4200"},{"id":21,"productName":"HP Roar Plus Wireless Speaker","price":169.99,"description":"Showcase your music anywhere with the ease of wireless BluetoothÂ® connectivity.","productStatus":"Active","managedImageId":"4300"},{"id":22,"productName":"HP Roar Wireless Speaker","price":84.99,"description":"Showcase your music anywhere with the ease of wireless BluetoothÂ® connectivity.","productStatus":"Active","managedImageId":"4400"},{"id":23,"productName":"Logitech X100 Speaker System - Wireless Speaker(s)","price":49.99,"description":"Pump up the volume and enjoy crystal-clear sound from this mobile speaker. This portable speaker is perfect for life on-the-go. Take it on the road or relax and listen at home because this mobile speaker goes everywhere. Simple, intuitive design lets you wirelessly connect and stream music from your Bluetooth-enabled device from up to 30' away. Easily manage phone calls and volume control from your mobile phone. Enjoy five hours of continuous play before you need to recharge. Recharge the built-in, lithium-ion battery with the convenience of the included micro-USB cable.","productStatus":"Active","managedImageId":"4500"},{"id":19,"productName":"HP S9500 Bluetooth Wireless Speaker","price":200.0,"description":"Impress â€¦ everyone! Futuristic design with perforated steel formed into subtle angles. Requiring only minimal space, this speaker is the ideal complement to any setting.","productStatus":"Active","managedImageId":"4100"}]},{"categoryId":5,"categoryName":"MICE","managedImageId":"mice","products":[{"id":31,"productName":"Logitech G502 Proteus Core","price":79.99,"description":"MAKE IT YOURS!\nProteus Core perfectly tuned by you.\nProteus Core allows you to change the weight, balance, and enables you to adapt to wherever you choose to play. Customize it to the way you game and make it yours!\n\nPERSONALLY-TUNED PERFORMANCE\nAdapts to your environment\nFine tune the optical sensor in Proteus Core to your playing surface for better accuracy, precision and responsiveness. A quick tuning process, and you are battle ready.","productStatus":"Active","managedImageId":"5600"},{"id":27,"productName":"HP Z3600 Wireless Mouse","price":15.99,"description":"The tiny HP Wireless Mouse Z3600 provides stylish comfort and control for your mobile computing needs. With optical tracking, 3 button controls, and the freedom to connect up to 30ft (10m) away, this compact mouse provides oversized performance.","productStatus":"Active","managedImageId":"5200"},{"id":28,"productName":"HP Z3200 Wireless Mouse","price":29.99,"description":"The HP Wireless Mouse Z3200 provides powerful Blue LED optical tracking. Its ambidextrous shape and familiar button controls are easy to use. Compact contoured control.","productStatus":"Active","managedImageId":"5300"},{"id":29,"productName":"HP USB 3 Button Optical Mouse","price":9.99,"description":"Smooth and Accurate - The HP USB 3-Button Optical Mouse is the affordable desktop optical mouse solution that combines functionality with style","productStatus":"Active","managedImageId":"5400"},{"id":32,"productName":"Kensington Orbit 72337 Trackball with Scroll Ring","price":39.99,"description":"All-day comfort and scrolling come together in the Kensington Orbit Trackball with Scroll Ring. The scroll ring allows you to fly through web pages and documents. And all while delivering comfort and space savings no mouse can match.","productStatus":"Active","managedImageId":"5700"},{"id":34,"productName":"Microsoft Sculpt Touch Mouse","price":49.99,"description":"Looking for a portable mouse that helps you get things done? Sculpt Touch Mouse saves time in long documents and works virtually anywhere, with no cables or transceivers to connect. And it's designed to fit comfortably in either hand.\nThe four-way touch scrolling pad on the Sculpt Touch Mouse lets you breeze up and down, left and right, and through windows and documents with just the swipe of your finger. While you scroll, you'll feel the nice surprise of tactile feedback. Sculpt Touch Mouse is also a powerful complement to Windows 8, navigating fluidly and intuitively around the Start Screen.\n","productStatus":"Active","managedImageId":"5900"},{"id":26,"productName":"Kensington Orbit 72352 Trackball","price":59.99,"description":"The Kensington Orbit Wireless Mobile Trackball offers a precise, compact and versatile experience with a centered-ball design. With no wires to tie you down, the 2.4 GHz wireless with storable nano receiver works wherever you do -- at your home or office. And the unique touch scrolling lets you glide effortlessly through web pages and documents.","productStatus":"Active","managedImageId":"5100"},{"id":30,"productName":"HP Z4000 Wireless Mouse","price":9.99,"description":"The sleek and low-profiled design make the Z4000 the must-have companion to every thin notebook or tablet. Style and comfort within a dynamic ultra-mobile wireless mouse.","productStatus":"Active","managedImageId":"5505"},{"id":33,"productName":"HP Z8000 Bluetooth Mouse","price":50.99,"description":"The exquisite HP Z8000 Bluetooth Mouse is only 18mm (.7in) height, saves power with BluetoothÂ® Low Energy connectivity, and provides effortless capacitive touch control. The future is here.","productStatus":"Active","managedImageId":"5800"}]}]".	[MsgId: MMSG-13798]
+..\\library\\user_lib.h(84): Notify: Parameter Substitution: parameter "json" =  "[{"categoryId":1,"categoryName":"LAPTOPS","managedImageId":"laptops","products":[{"id":10,"productName":"HP Chromebook 14 G1(ES)","price":1261.99,"description":"Introducing the next generation HP EliteBook Folio 9480m Ultrabookâ„¢[2]. Timeless, ultra slim profile in an all metal design with optional 4G Broadband wWAN, and 4th Generation IntelÂ® Coreâ„¢ Processing Technology.","productStatus":"Active","managedImageId":"1250"},{"id":2,"productName":"HP Pavilion 15z Laptop","price":549.99,"description":"Redesigned with you in mind, the HP Pavilion keeps getting better. Our best-selling notebook is now more powerful so you can watch more, play more, and store more, all in style.","productStatus":"Active","managedImageId":"1200"},{"id":9,"productName":"HP Chromebook 14 G1(ENERGY STAR)","price":299.99,"description":"This HP notebook is all about getting the perfect combination of design, reliability, and features. Style and productivity while keeping your wallet in mind - now that's something to get excited about.","productStatus":"Active","managedImageId":"1249"},{"id":3,"productName":"HP Pavilion 15z Touch Laptop","price":449.99,"description":"Redesigned with you in mind, the HP Pavilion keeps getting better. Our best-selling notebook is now more powerful so you can watch more, play more, and store more, all in style.","productStatus":"Active","managedImageId":"1300"},{"id":11,"productName":"HP Pavilion x360 - 11t Touch Laptop","price":319.99,"description":"Thereâ€\x99s no limit to what this value-packed convertible PC can do. Easily convert from notebook to stand to tent to tablet mode. Itâ€\x99s an app-loving, friend-connecting, 360Â°-bending machine.","productStatus":"Active","managedImageId":"11100"},{"id":5,"productName":"HP Stream - 11-d020nr Laptop","price":179.99,"description":"Work from a happy place with a stylish, affordable, Windows-based PC. Store your content in the cloud for easy access from anywhere you have internet.","productStatus":"Active","managedImageId":"1245"},{"id":6,"productName":"HP ENVY x360 - 15t Laptop","price":699.99,"description":"We took our remarkable 360Â° convertible PC and enhanced it with premium features to give you ultimate flexibility and enviable looks.","productStatus":"Active","managedImageId":"1600"},{"id":4,"productName":"HP Spectre x360 - 13-4102dx","price":1399.99,"description":"Stunning, ultra-slim convertible PC with a 360Â° hinge","productStatus":"Active","managedImageId":"1400"},{"id":8,"productName":"HP ZBook 17 G2 Mobile Workstation","price":1799.0,"description":"On the go creativity knows no limits on a vivid 17.3 inch diagonal HP ZBook 17 G2. Showcase your best work in the office or on the go and take advantage of HPâ€\x99s most powerful processing, graphics, simple scalability, and blazing-fast connectivity to perform and collaborate at the speed of creativity.","productStatus":"Active","managedImageId":"1800"},{"id":7,"productName":"HP ENVY - 17t Touch Laptop","price":849.99,"description":"We took our remarkable 360Â° convertible PC and enhanced it with premium features to give you ultimate flexibility and enviable looks.","productStatus":"Active","managedImageId":"1700"},{"id":1,"productName":"HP Pavilion 15t Touch Laptop","price":519.99,"description":"Redesigned with you in mind, the HP Pavilion keeps getting better. Our best-selling notebook is now more powerful so you can watch more, play more, and store more, all in style.","productStatus":"Active","managedImageId":"1100"}]},{"categoryId":2,"categoryName":"HEADPHONES","managedImageId":"headphones","products":[{"id":14,"productName":"Logitech USB Headset H390","price":39.99,"description":"Features on this product will exceeded your expectations.","productStatus":"Active","managedImageId":"2400"},{"id":12,"productName":"HP H2310 In-ear Headset","price":13.99,"description":"Enjoy an acoustic concert in your ears with HPâ€\x99s In-Ear Headset H2310. Available in trend-setting design in four color options and compatible with most smartphones, MP3 players and tablets â€“ including Androidâ„¢ and AppleÂ®. Easily switch from jamming to tunes to connecting with friends using the inline microphone. Quality craftsmanship, value priced, and awesome sound.","productStatus":"Active","managedImageId":"2100"},{"id":13,"productName":"Bose SoundLink Around-ear Wireless Headphones II","price":279.95,"description":"Wireless freedom meets best-in-class sound.","productStatus":"OutOfStock","managedImageId":"2300"},{"id":15,"productName":"Beats Studio 2 Over-Ear Matte Black Headphones","price":179.99,"description":"The worldâ€\x99s most famous headphone has been completely redesigned and reimagined. The new Beats StudioÂ® is lighter, sexier, stronger, and more comfortable, with precision sound, Adaptive Noise Canceling, a 20-hour rechargeable battery, and RemoteTalkâ„¢. It has all the energy and excitement you expect from Beats, plus a powerful, reengineered sound.","productStatus":"Active","managedImageId":"2200"}]},{"categoryId":3,"categoryName":"TABLETS","managedImageId":"tablets","products":[{"id":16,"productName":"HP ElitePad 1000 G2 Tablet","price":1009.0,"description":"More than a tabletâ€”a total business solution. The elegant and sleek HP ElitePad 1000 G2 has the performance and flexibility to transform the way you work. Redefine productivity and stay light with the confidence of the leading manageability, security, and support you expect from HP.","productStatus":"Active","managedImageId":"3100"},{"id":17,"productName":"HP Elite x2 1011 G1 Tablet","price":1279.0,"description":"Ultrabookâ„¢[2] Power\nPower up for ultimate power with Windows 8.1,[1] 5th Gen IntelÂ® Coreâ„¢ M processors,[4] with optional vProâ„¢[5] and long battery life provided by dual tablet and keyboard base batteries.","productStatus":"Active","managedImageId":"3200"},{"id":18,"productName":"HP Pro Tablet 608 G1","price":479.0,"description":"Transform your business with this small stylish business tablet equipped with a brilliant, high definition display and the pervasive connectivity to mobilize nearly any business process. Choose from an expansive choice of accessories[2] for a customized experience.","productStatus":"Active","managedImageId":"3300"}]},{"categoryId":4,"categoryName":"SPEAKERS","managedImageId":"speakers","products":[{"id":25,"productName":"Bose SoundLink Wireless Speaker","price":129.0,"description":"If music is your motivation, wait until you hear the SoundLinkÂ® Color Bluetooth speaker. It plays your favorite tunes from your favorite Bluetooth device-out loud in clear, full audio-just about anywhere you want to go. It's small, durable and simple to use. And it comes in a spectrum of colors to match almost any style.","productStatus":"Active","managedImageId":"4700"},{"id":24,"productName":"HP Roar Mini Wireless Speaker","price":44.99,"description":"Attention-getting design, color, and sound - the HP Roar Mini Wireless Speaker. Exceptional size-defying audio while streaming music and calls from a distinctively compact speaker.","productStatus":"Active","managedImageId":"4600"},{"id":20,"productName":"Bose Soundlink Bluetooth Speaker III","price":269.99,"description":"Meet the speaker that brings your music and friends together-with a style that's all your own. The SoundLinkÂ® Bluetooth speaker III is our best-performing mobile Bluetooth speaker. It plays louder and longer than its popular predecessor, with advanced BoseÂ® technologies that reproduce the fullness, clarity and depth of your music. And a colorful assortment of optional covers let you personalize your speaker.","productStatus":"Active","managedImageId":"4200"},{"id":21,"productName":"HP Roar Plus Wireless Speaker","price":169.99,"description":"Showcase your music anywhere with the ease of wireless BluetoothÂ® connectivity.","productStatus":"Active","managedImageId":"4300"},{"id":22,"productName":"HP Roar Wireless Speaker","price":84.99,"description":"Showcase your music anywhere with the ease of wireless BluetoothÂ® connectivity.","productStatus":"Active","managedImageId":"4400"},{"id":23,"productName":"Logitech X100 Speaker System - Wireless Speaker(s)","price":49.99,"description":"Pump up the volume and enjoy crystal-clear sound from this mobile speaker. This portable speaker is perfect for life on-the-go. Take it on the road or relax and listen at home because this mobile speaker goes everywhere. Simple, intuitive design lets you wirelessly connect and stream music from your Bluetooth-enabled device from up to 30' away. Easily manage phone calls and volume control from your mobile phone. Enjoy five hours of continuous play before you need to recharge. Recharge the built-in, lithium-ion battery with the convenience of the included micro-USB cable.","productStatus":"Active","managedImageId":"4500"},{"id":19,"productName":"HP S9500 Bluetooth Wireless Speaker","price":200.0,"description":"Impress â€¦ everyone! Futuristic design with perforated steel formed into subtle angles. Requiring only minimal space, this speaker is the ideal complement to any setting.","productStatus":"Active","managedImageId":"4100"}]},{"categoryId":5,"categoryName":"MICE","managedImageId":"mice","products":[{"id":31,"productName":"Logitech G502 Proteus Core","price":79.99,"description":"MAKE IT YOURS!\nProteus Core perfectly tuned by you.\nProteus Core allows you to change the weight, balance, and enables you to adapt to wherever you choose to play. Customize it to the way you game and make it yours!\n\nPERSONALLY-TUNED PERFORMANCE\nAdapts to your environment\nFine tune the optical sensor in Proteus Core to your playing surface for better accuracy, precision and responsiveness. A quick tuning process, and you are battle ready.","productStatus":"Active","managedImageId":"5600"},{"id":27,"productName":"HP Z3600 Wireless Mouse","price":15.99,"description":"The tiny HP Wireless Mouse Z3600 provides stylish comfort and control for your mobile computing needs. With optical tracking, 3 button controls, and the freedom to connect up to 30ft (10m) away, this compact mouse provides oversized performance.","productStatus":"Active","managedImageId":"5200"},{"id":28,"productName":"HP Z3200 Wireless Mouse","price":29.99,"description":"The HP Wireless Mouse Z3200 provides powerful Blue LED optical tracking. Its ambidextrous shape and familiar button controls are easy to use. Compact contoured control.","productStatus":"Active","managedImageId":"5300"},{"id":29,"productName":"HP USB 3 Button Optical Mouse","price":9.99,"description":"Smooth and Accurate - The HP USB 3-Button Optical Mouse is the affordable desktop optical mouse solution that combines functionality with style","productStatus":"Active","managedImageId":"5400"},{"id":32,"productName":"Kensington Orbit 72337 Trackball with Scroll Ring","price":39.99,"description":"All-day comfort and scrolling come together in the Kensington Orbit Trackball with Scroll Ring. The scroll ring allows you to fly through web pages and documents. And all while delivering comfort and space savings no mouse can match.","productStatus":"Active","managedImageId":"5700"},{"id":34,"productName":"Microsoft Sculpt Touch Mouse","price":49.99,"description":"Looking for a portable mouse that helps you get things done? Sculpt Touch Mouse saves time in long documents and works virtually anywhere, with no cables or transceivers to connect. And it's designed to fit comfortably in either hand.\nThe four-way touch scrolling pad on the Sculpt Touch Mouse lets you breeze up and down, left and right, and through windows and documents with just the swipe of your finger. While you scroll, you'll feel the nice surprise of tactile feedback. Sculpt Touch Mouse is also a powerful complement to Windows 8, navigating fluidly and intuitively around the Start Screen.\n","productStatus":"Active","managedImageId":"5900"},{"id":26,"productName":"Kensington Orbit 72352 Trackball","price":59.99,"description":"The Kensington Orbit Wireless Mobile Trackball offers a precise, compact and versatile experience with a centered-ball design. With no wires to tie you down, the 2.4 GHz wireless with storable nano receiver works wherever you do -- at your home or office. And the unique touch scrolling lets you glide effortlessly through web pages and documents.","productStatus":"Active","managedImageId":"5100"},{"id":30,"productName":"HP Z4000 Wireless Mouse","price":9.99,"description":"The sleek and low-profiled design make the Z4000 the must-have companion to every thin notebook or tablet. Style and comfort within a dynamic ultra-mobile wireless mouse.","productStatus":"Active","managedImageId":"5505"},{"id":33,"productName":"HP Z8000 Bluetooth Mouse","price":50.99,"description":"The exquisite HP Z8000 Bluetooth Mouse is only 18mm (.7in) height, saves power with BluetoothÂ® Low Energy connectivity, and provides effortless capacitive touch control. The future is here.","productStatus":"Active","managedImageId":"5800"}]}]"	[MsgId: MMSG-13992]
+..\\library\\user_lib.h(84): lr_eval_json succeed	[MsgId: MMSG0]
+..\\library\\user_lib.h(86): lr_json_find succeed, 5 matches	[MsgId: MMSG0]
+..\\library\\user_lib.h(88): Notify: Saving Parameter "colCategories = 5".	[MsgId: MMSG-13798]
+..\\library\\user_lib.h(94): Notify: Saving Parameter "randomCategoryIdInJson = 0".	[MsgId: MMSG-13798]
+..\\library\\user_lib.h(96): Notify: Parameter Substitution: parameter "randomCategoryIdInJson" =  "0"	[MsgId: MMSG-13992]
+..\\library\\user_lib.h(96): lr_json_find succeed, 11 matches	[MsgId: MMSG0]
+..\\library\\user_lib.h(98): Notify: Saving Parameter "colProductsOfCategory = 11".	[MsgId: MMSG-13798]
+..\\library\\user_lib.h(101): Notify: Saving Parameter "randomProductIdInJson = 7".	[MsgId: MMSG-13798]
+..\\library\\user_lib.h(103): Notify: Parameter Substitution: parameter "randomCategoryIdInJson" =  "0"	[MsgId: MMSG-13992]
+..\\library\\user_lib.h(103): Notify: Saving Parameter "categoryId = 1".	[MsgId: MMSG-13798]
+..\\library\\user_lib.h(103): lr_json_get_values succeed, 1 match	[MsgId: MMSG0]
+..\\library\\user_lib.h(104): Notify: Parameter Substitution: parameter "randomCategoryIdInJson" =  "0"	[MsgId: MMSG-13992]
+..\\library\\user_lib.h(104): Notify: Saving Parameter "categoryName = LAPTOPS".	[MsgId: MMSG-13798]
+..\\library\\user_lib.h(104): lr_json_get_values succeed, 1 match	[MsgId: MMSG0]
+..\\library\\user_lib.h(105): Notify: Parameter Substitution: parameter "randomCategoryIdInJson" =  "0"	[MsgId: MMSG-13992]
+..\\library\\user_lib.h(105): Notify: Parameter Substitution: parameter "randomProductIdInJson" =  "7"	[MsgId: MMSG-13992]
+..\\library\\user_lib.h(105): Notify: Saving Parameter "productId = 4".	[MsgId: MMSG-13798]
+..\\library\\user_lib.h(105): lr_json_get_values succeed, 1 match	[MsgId: MMSG0]
+..\\library\\user_lib.h(106): Notify: Parameter Substitution: parameter "randomCategoryIdInJson" =  "0"	[MsgId: MMSG-13992]
+..\\library\\user_lib.h(106): Notify: Parameter Substitution: parameter "randomProductIdInJson" =  "7"	[MsgId: MMSG-13992]
+..\\library\\user_lib.h(106): Notify: Saving Parameter "productName = HP Spectre x360 - 13-4102dx".	[MsgId: MMSG-13798]
+..\\library\\user_lib.h(106): lr_json_get_values succeed, 1 match	[MsgId: MMSG0]
+..\\library\\user_lib.h(107): Notify: Parameter Substitution: parameter "randomCategoryIdInJson" =  "0"	[MsgId: MMSG-13992]
+..\\library\\user_lib.h(107): Notify: Parameter Substitution: parameter "randomProductIdInJson" =  "7"	[MsgId: MMSG-13992]
+..\\library\\user_lib.h(107): Notify: Saving Parameter "productPrice = 1399.99".	[MsgId: MMSG-13798]
+..\\library\\user_lib.h(107): lr_json_get_values succeed, 1 match	[MsgId: MMSG0]
+..\\library\\user_lib.h(108): Notify: Parameter Substitution: parameter "randomCategoryIdInJson" =  "0"	[MsgId: MMSG-13992]
+..\\library\\user_lib.h(108): Notify: Parameter Substitution: parameter "randomProductIdInJson" =  "7"	[MsgId: MMSG-13992]
+..\\library\\user_lib.h(108): Notify: Saving Parameter "productDescription = Stunning, ultra-slim convertible PC with a 360Â° hinge".	[MsgId: MMSG-13798]
+..\\library\\user_lib.h(108): lr_json_get_values succeed, 1 match	[MsgId: MMSG0]
+..\\library\\user_lib.h(109): Notify: Parameter Substitution: parameter "randomCategoryIdInJson" =  "0"	[MsgId: MMSG-13992]
+..\\library\\user_lib.h(109): Notify: Parameter Substitution: parameter "randomProductIdInJson" =  "7"	[MsgId: MMSG-13992]
+..\\library\\user_lib.h(109): Notify: Saving Parameter "productStatus = Active".	[MsgId: MMSG-13798]
+..\\library\\user_lib.h(109): lr_json_get_values succeed, 1 match	[MsgId: MMSG0]
+..\\library\\user_lib.h(111): Notify: Parameter Substitution: parameter "productStatus" =  "Active"	[MsgId: MMSG-13992]
+Action.c(82): >> Óñïåøíûé ïàðñèíã json'a	[MsgId: MMSG-17999]
+Action.c(85): web_reg_find started  	[MsgId: MMSG-26355]
+Action.c(85): Registering web_reg_find was successful  	[MsgId: MMSG-26390]
+Action.c(86): web_reg_find started  	[MsgId: MMSG-26355]
+Action.c(86): Registering web_reg_find was successful  	[MsgId: MMSG-26390]
+Action.c(88): web_url("dealOfTheDay") started  	[MsgId: MMSG-26355]
+Action.c(88): Notify: Parameter Substitution: parameter "protocol" =  "http"	[MsgId: MMSG-13992]
+Action.c(88): Notify: Parameter Substitution: parameter "host" =  "54.157.232.206"	[MsgId: MMSG-13992]
+Action.c(88): Notify: Parameter Substitution: parameter "protocol" =  "http"	[MsgId: MMSG-13992]
+Action.c(88): Notify: Parameter Substitution: parameter "host" =  "54.157.232.206"	[MsgId: MMSG-13992]
+Action.c(88): t=829379ms: Already connected [0] to 54.157.232.206:80  	[MsgId: MMSG-26000]
+Action.c(88): t=829379ms: 522-byte request headers for "http://54.157.232.206/catalog/api/v1/deals/search?dealOfTheDay=true" (RelFrameId=1, Internal ID=16)
+Action.c(88):     GET /catalog/api/v1/deals/search?dealOfTheDay=true HTTP/1.1\r\n
+Action.c(88):     Referer: http://54.157.232.206/\r\n
+Action.c(88):     User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:123.0) Gecko/20100101 Firefox/123
+Action.c(88):     .0\r\n
+Action.c(88):     Accept-Encoding: gzip, deflate\r\n
+Action.c(88):     Accept-Language: ru-RU,ru;q=0.8,en-US;q=0.5,en;q=0.3\r\n
+Action.c(88):     Accept: */*\r\n
+Action.c(88):     Connection: Keep-Alive\r\n
+Action.c(88):     Host: 54.157.232.206\r\n
+Action.c(88):     Cookie: userCart=%7B%22userId%22%3A-1%2C%22productsInCart%22%3A%5B%5D%7D; dtCookie=10F98BC
+Action.c(88):     B578A28CC7C650F43F2627CEB|1|2||1; _gat=1; _ga_56EMNRF2S2=GS1.1.1708954185.6.0.1708954185.6
+Action.c(88):     0.0.0\r\n
+Action.c(88):     \r\n
+Action.c(88): t=829636ms: 434-byte response headers for "http://54.157.232.206/catalog/api/v1/deals/search?dealOfTheDay=true" (RelFrameId=1, Internal ID=16)
+Action.c(88):     HTTP/1.1 200 \r\n
+Action.c(88):     Server: nginx/1.12.2\r\n
+Action.c(88):     Date: Fri, 01 Mar 2024 19:03:59 GMT\r\n
+Action.c(88):     Content-Type: application/json\r\n
+Action.c(88):     Transfer-Encoding: chunked\r\n
+Action.c(88):     Connection: keep-alive\r\n
+Action.c(88):     X-OneAgent-JS-Injection: true\r\n
+Action.c(88):     Set-Cookie: dtCookie=10F98BCB578A28CC7C650F43F2627CEB|1|2||1; Path=/\r\n
+Action.c(88):     Expires: 0\r\n
+Action.c(88):     Cache-Control: no-store\r\n
+Action.c(88):     X-Content-Type-Options: nosniff\r\n
+Action.c(88):     X-XSS-Protection: 1; mode=block\r\n
+Action.c(88):     X-Frame-Options: DENY\r\n
+Action.c(88):     vary: accept-encoding\r\n
+Action.c(88):     Content-Encoding: gzip\r\n
+Action.c(88):     \r\n
+Action.c(88): t=829637ms: 5-byte chunked response overhead for "http://54.157.232.206/catalog/api/v1/deals/search?dealOfTheDay=true" (RelFrameId=1, Internal ID=16)
+Action.c(88):     155\r\n
+Action.c(88): t=829637ms: 5-byte chunked response overhead for "http://54.157.232.206/catalog/api/v1/deals/search?dealOfTheDay=true" (RelFrameId=1, Internal ID=16)
+Action.c(88):     \r\n
+Action.c(88):     a\r\n
+Action.c(88): t=829637ms: 7-byte chunked response overhead for "http://54.157.232.206/catalog/api/v1/deals/search?dealOfTheDay=true" (RelFrameId=1, Internal ID=16)
+Action.c(88):     \r\n
+Action.c(88):     0\r\n
+Action.c(88):     \r\n
+Action.c(88): t=829637ms: 351-byte ENCODED response body received for "http://54.157.232.206/catalog/api/v1/deals/search?dealOfTheDay=true" (RelFrameId=1, Internal ID=16)
+Action.c(88): t=829637ms: 681-byte DECODED response body for "http://54.157.232.206/catalog/api/v1/deals/search?dealOfTheDay=true" (RelFrameId=1, Internal ID=16)
+Action.c(88):     [{"id":1,"dealType":10,"description":"Redesigned with you in mind, the HP Pavilion keeps g
+Action.c(88):     etting better. Our best-selling notebook is now more powerful so you can watch more, play 
+Action.c(88):     more, and store more, all in style.","promotionHeader":"EXPLORE THE NEW DESIGN","promotion
+Action.c(88):     SubHeader":"Supremely thin, yet incredibly durable","staringPrice":"650","discount":0.0,"p
+Action.c(88):     roduct":{"id":3,"productName":"HP Pavilion 15z Touch Laptop","price":449.99,"description":
+Action.c(88):     "Redesigned with you in mind, the HP Pavilion keeps getting better. Our best-selling noteb
+Action.c(88):     ook is now more powerful so you can watch more, play more, and store more, all in style.",
+Action.c(88):     "productStatus":"Active","managedImageId":"1300"}}]
+Action.c(88): t=829637ms: Request done "http://54.157.232.206/catalog/api/v1/deals/search?dealOfTheDay=true"  	[MsgId: MMSG-26000]
+Action.c(88): Registered web_reg_find successful for "Text="promotionHeader"" (count=1)  	[MsgId: MMSG-26364]
+Action.c(88): Registered web_reg_find successful for "Text="promotionSubHeader"" (count=1)  	[MsgId: MMSG-26364]
+Action.c(88): web_url("dealOfTheDay") was successful, 351 body bytes, 434 header bytes, 17 chunking overhead bytes  	[MsgId: MMSG-26385]
+Action.c(97): >> Ïîëó÷åí òîâàð ïî ñïåö. ïðåäëîæåíèþ íà ãëàâíîé ñòðàíèöå	[MsgId: MMSG-17999]
+Action.c(100): web_reg_find started  	[MsgId: MMSG-26355]
+Action.c(100): Registering web_reg_find was successful  	[MsgId: MMSG-26390]
+Action.c(101): web_reg_find started  	[MsgId: MMSG-26355]
+Action.c(101): Registering web_reg_find was successful  	[MsgId: MMSG-26390]
+Action.c(103): web_url("popularProducts") started  	[MsgId: MMSG-26355]
+Action.c(103): Notify: Parameter Substitution: parameter "protocol" =  "http"	[MsgId: MMSG-13992]
+Action.c(103): Notify: Parameter Substitution: parameter "host" =  "54.157.232.206"	[MsgId: MMSG-13992]
+Action.c(103): Notify: Parameter Substitution: parameter "protocol" =  "http"	[MsgId: MMSG-13992]
+Action.c(103): Notify: Parameter Substitution: parameter "host" =  "54.157.232.206"	[MsgId: MMSG-13992]
+Action.c(103): t=829639ms: Already connected [0] to 54.157.232.206:80  	[MsgId: MMSG-26000]
+Action.c(103): t=829639ms: 511-byte request headers for "http://54.157.232.206/app/tempFiles/popularProducts.json" (RelFrameId=1, Internal ID=17)
+Action.c(103):     GET /app/tempFiles/popularProducts.json HTTP/1.1\r\n
+Action.c(103):     Referer: http://54.157.232.206/\r\n
+Action.c(103):     User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:123.0) Gecko/20100101 Firefox/123
+Action.c(103):     .0\r\n
+Action.c(103):     Accept-Encoding: gzip, deflate\r\n
+Action.c(103):     Accept-Language: ru-RU,ru;q=0.8,en-US;q=0.5,en;q=0.3\r\n
+Action.c(103):     Accept: */*\r\n
+Action.c(103):     Connection: Keep-Alive\r\n
+Action.c(103):     Host: 54.157.232.206\r\n
+Action.c(103):     Cookie: userCart=%7B%22userId%22%3A-1%2C%22productsInCart%22%3A%5B%5D%7D; dtCookie=10F98BC
+Action.c(103):     B578A28CC7C650F43F2627CEB|1|2||1; _gat=1; _ga_56EMNRF2S2=GS1.1.1708954185.6.0.1708954185.6
+Action.c(103):     0.0.0\r\n
+Action.c(103):     \r\n
+Action.c(103): t=829794ms: 472-byte response headers for "http://54.157.232.206/app/tempFiles/popularProducts.json" (RelFrameId=1, Internal ID=17)
+Action.c(103):     HTTP/1.1 200 \r\n
+Action.c(103):     Server: nginx/1.12.2\r\n
+Action.c(103):     Date: Fri, 01 Mar 2024 19:03:59 GMT\r\n
+Action.c(103):     Content-Type: application/json\r\n
+Action.c(103):     Transfer-Encoding: chunked\r\n
+Action.c(103):     Connection: keep-alive\r\n
+Action.c(103):     X-OneAgent-JS-Injection: true\r\n
+Action.c(103):     Set-Cookie: dtCookie=10F98BCB578A28CC7C650F43F2627CEB|1|2||1; Path=/\r\n
+Action.c(103):     Accept-Ranges: bytes\r\n
+Action.c(103):     ETag: W/"2323-1669816118000"\r\n
+Action.c(103):     Last-Modified: Wed, 30 Nov 2022 13:48:38 GMT\r\n
+Action.c(103):     Cache-Control: max-age=0\r\n
+Action.c(103):     Expires: Fri, 01 Mar 2024 19:03:59 GMT\r\n
+Action.c(103):     vary: accept-encoding\r\n
+Action.c(103):     Content-Encoding: gzip\r\n
+Action.c(103):     \r\n
+Action.c(103): t=829795ms: 5-byte chunked response overhead for "http://54.157.232.206/app/tempFiles/popularProducts.json" (RelFrameId=1, Internal ID=17)
+Action.c(103):     1f4\r\n
+Action.c(103): t=829795ms: 7-byte chunked response overhead for "http://54.157.232.206/app/tempFiles/popularProducts.json" (RelFrameId=1, Internal ID=17)
+Action.c(103):     \r\n
+Action.c(103):     0\r\n
+Action.c(103):     \r\n
+Action.c(103): t=829795ms: 500-byte ENCODED response body received for "http://54.157.232.206/app/tempFiles/popularProducts.json" (RelFrameId=1, Internal ID=17)
+Action.c(103): t=829795ms: 2323-byte DECODED response body for "http://54.157.232.206/app/tempFiles/popularProducts.json" (RelFrameId=1, Internal ID=17)
+Action.c(103):     [{"id": 16,\n
+Action.c(103):       "productName": "HP ELITEPAD 1000 G2 TABLET",\n
+Action.c(103):       "price": 550,\n
+Action.c(103):       "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit",\n
+Action.c(103):       "imageUrl" : "css/images/Popular-item3.jpg",\n
+Action.c(103):       "attributes" : [\n
+Action.c(103):         {"attributeName" : "PRICE", "attributeValue" : 400},\n
+Action.c(103):         {"attributeName" : "COLOR", "attributeValue" : "FFFFFF"},\n
+Action.c(103):         {"attributeName" : "OPERATING SYSTEM", "attributeValue" : "Chrome"},\n
+Action.c(103):         {"attributeName" : "CUSTOMIZATION", "attributeValue" : "Gaming"},\n
+Action.c(103):         {"attributeName" : "PROCESSOR", "attributeValue" : "intel(R) Core(TM) i5-6300HQ"},\n
+Action.c(103):         {"attributeName" : "DISPLAY", "attributeValue" : "15.6-inch diagonal HD BrightView WLE
+Action.c(103):     D-backlit Display (1366x768)"},\n
+Action.c(103):         {"attributeName" : "MEMORY", "attributeValue" : "16GB DDR3 - 2 DIMM"}\n
+Action.c(103):       ]},{"id": 10,\n
+Action.c(103):       "productName": "HP EliteBook Folio",\n
+Action.c(103):       "price": 550,\n
+Action.c(103):       "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit",\n
+Action.c(103):       "imageUrl" : "css/images/Popular-item2.jpg",\n
+Action.c(103):       "attributes" : [\n
+Action.c(103):         {"attributeName" : "PRICE", "attributeValue" : 400},\n
+Action.c(103):         {"attributeName" : "COLOR", "attributeValue" : "FFFFFF"},\n
+Action.c(103):         {"attributeName" : "OPERATING SYSTEM", "attributeValue" : "Chrome"},\n
+Action.c(103):         {"attributeName" : "CUSTOMIZATION", "attributeValue" : "Gaming"},\n
+Action.c(103):         {"attributeName" : "PROCESSOR", "attributeValue" : "intel(R) Core(TM) i5-6300HQ"},\n
+Action.c(103):         {"attributeName" : "DISPLAY", "attributeValue" : "15.6-inch diagonal HD BrightView WLE
+Action.c(103):     D-backlit Display (1366x768)"},\n
+Action.c(103):         {"attributeName" : "MEMORY", "attributeValue" : "16GB DDR3 - 2 DIMM"}\n
+Action.c(103):       ]},\n
+Action.c(103):       {"id": 21,\n
+Action.c(103):         "productName": "HP ROAR PLUS WIRELESS SPEAKER",\n
+Action.c(103):         "price": 550,\n
+Action.c(103):         "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit",\n
+Action.c(103):         "imageUrl" : "css/images/Popular-item1.jpg",\n
+Action.c(103):         "attributes" : [\n
+Action.c(103):           {"attributeName" : "PRICE", "attributeValue" : 400},\n
+Action.c(103):           {"attributeName" : "COLOR", "attributeValue" : "FFFFFF"},\n
+Action.c(103):           {"attributeName" : "OPERATING SYSTEM", "attributeValue" : "Chrome"},\n
+Action.c(103):           {"attributeName" : "CUSTOMIZATION", "attributeValue" : "Gaming"},\n
+Action.c(103):           {"attributeName" : "PROCESSOR", "attributeValue" : "intel(R) Core(TM) i5-6300HQ"},\n
+Action.c(103):           {"attributeName" : "DISPLAY", "attributeValue" : "15.6-inch diagonal HD BrightView W
+Action.c(103):     LED-backlit Display (1366x768)"},\n
+Action.c(103):           {"attributeName" : "MEMORY", "attributeValue" : "16GB DDR3 - 2 DIMM"}\n
+Action.c(103):         ]}]
+Action.c(103): t=829797ms: Request done "http://54.157.232.206/app/tempFiles/popularProducts.json"  	[MsgId: MMSG-26000]
+Action.c(103): Registered web_reg_find successful for "Text="productName"" (count=3)  	[MsgId: MMSG-26364]
+Action.c(103): Registered web_reg_find successful for "Text="description"" (count=3)  	[MsgId: MMSG-26364]
+Action.c(103): web_url("popularProducts") was successful, 500 body bytes, 472 header bytes, 12 chunking overhead bytes  	[MsgId: MMSG-26385]
+Action.c(112): >> Ïîëó÷åíû ïîïóëÿðíûå òîâàðû íà ãëàâíîé ñòðàíèöå	[MsgId: MMSG-17999]
+Action.c(114): Notify: Transaction "Goto_HomePage" ended with a "Pass" status (Duration: 1,2128 Wasted Time: 0,0003).	[MsgId: MMSG-16871]
+Action.c(117): lr_think_time: 10,00 seconds.	[MsgId: MMSG-15948]
+Action.c(120): Notify: Transaction "Entry_AuthenticateData" started.	[MsgId: MMSG-16999]
+Action.c(122): web_add_auto_header("Origin") started  	[MsgId: MMSG-26355]
+Action.c(122): Notify: Parameter Substitution: parameter "protocol" =  "http"	[MsgId: MMSG-13992]
+Action.c(122): Notify: Parameter Substitution: parameter "host" =  "54.157.232.206"	[MsgId: MMSG-13992]
+Action.c(122): An unrecognized header ("Origin") is being added  	[MsgId: MMSG-26595]
+Action.c(122): "Origin: http://54.157.232.206" header registered for adding to requests from all following Action functions  	[MsgId: MMSG-26505]
+Action.c(122): web_add_auto_header("Origin") was successful  	[MsgId: MMSG-26392]
+Action.c(123): web_add_auto_header("SOAPAction") started  	[MsgId: MMSG-26355]
+Action.c(123): "SOAPAction: com.advantage.online.store.accountserviceAccountLoginRequest" header registered for adding to requests from all following Action functions  	[MsgId: MMSG-26505]
+Action.c(123): web_add_auto_header("SOAPAction") was successful  	[MsgId: MMSG-26392]
+Action.c(124): web_add_auto_header("X-Requested-With") started  	[MsgId: MMSG-26355]
+Action.c(124): An unrecognized header ("X-Requested-With") is being added  	[MsgId: MMSG-26595]
+Action.c(124): "X-Requested-With: XMLHttpRequest" header registered for adding to requests from all following Action functions  	[MsgId: MMSG-26505]
+Action.c(124): web_add_auto_header("X-Requested-With") was successful  	[MsgId: MMSG-26392]
+Action.c(127): web_reg_save_param_xpath started  	[MsgId: MMSG-26355]
+Action.c(127): Registering web_reg_save_param_xpath was successful  	[MsgId: MMSG-26390]
+Action.c(129): web_reg_save_param_xpath started  	[MsgId: MMSG-26355]
+Action.c(129): Registering web_reg_save_param_xpath was successful  	[MsgId: MMSG-26390]
+Action.c(131): web_reg_save_param_xpath started  	[MsgId: MMSG-26355]
+Action.c(131): Registering web_reg_save_param_xpath was successful  	[MsgId: MMSG-26390]
+Action.c(134): web_reg_find started  	[MsgId: MMSG-26355]
+Action.c(134): Registering web_reg_find was successful  	[MsgId: MMSG-26390]
+Action.c(137): web_custom_request("AccountLoginRequest") started  	[MsgId: MMSG-26355]
+Action.c(137): Notify: Parameter Substitution: parameter "protocol" =  "http"	[MsgId: MMSG-13992]
+Action.c(137): Notify: Parameter Substitution: parameter "host" =  "54.157.232.206"	[MsgId: MMSG-13992]
+Action.c(137): Notify: Parameter Substitution: parameter "protocol" =  "http"	[MsgId: MMSG-13992]
+Action.c(137): Notify: Parameter Substitution: parameter "host" =  "54.157.232.206"	[MsgId: MMSG-13992]
+Action.c(137): Notify: Parameter Substitution: parameter "password" =  ""	[MsgId: MMSG-13992]
+Action.c(137): Notify: Parameter Substitution: parameter "login" =  "{RandomRowUserdata}"	[MsgId: MMSG-13992]
+Action.c(137): t=833991ms: Already connected [0] to 54.157.232.206:80  	[MsgId: MMSG-26000]
+Action.c(137): t=833991ms: 714-byte request headers for "http://54.157.232.206/accountservice/ws/AccountLoginRequest" (RelFrameId=1, Internal ID=12)
+Action.c(137):     POST /accountservice/ws/AccountLoginRequest HTTP/1.1\r\n
+Action.c(137):     Content-Type: text/xml; charset=UTF-8\r\n
+Action.c(137):     Referer: http://54.157.232.206/\r\n
+Action.c(137):     Origin: http://54.157.232.206\r\n
+Action.c(137):     SOAPAction: com.advantage.online.store.accountserviceAccountLoginRequest\r\n
+Action.c(137):     X-Requested-With: XMLHttpRequest\r\n
+Action.c(137):     User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:123.0) Gecko/20100101 Firefox/123
+Action.c(137):     .0\r\n
+Action.c(137):     Accept-Encoding: gzip, deflate\r\n
+Action.c(137):     Accept-Language: ru-RU,ru;q=0.8,en-US;q=0.5,en;q=0.3\r\n
+Action.c(137):     Accept: */*\r\n
+Action.c(137):     Connection: Keep-Alive\r\n
+Action.c(137):     Host: 54.157.232.206\r\n
+Action.c(137):     Cookie: userCart=%7B%22userId%22%3A-1%2C%22productsInCart%22%3A%5B%5D%7D; dtCookie=918AE50
+Action.c(137):     B063DD908B568A7A0C724ADD7|1|2||1; _gat=1; _ga_56EMNRF2S2=GS1.1.1708954185.6.0.1708954185.6
+Action.c(137):     0.0.0\r\n
+Action.c(137):     Content-Length: 427\r\n
+Action.c(137):     \r\n
+Action.c(137): t=833992ms: 427-byte request body for "http://54.157.232.206/accountservice/ws/AccountLoginRequest" (RelFrameId=1, Internal ID=12)
+Action.c(137):     <?xml version="1.0" encoding="UTF-8"?><soap:Envelope xmlns:soap="http://schemas.xmlsoap.or
+Action.c(137):     g/soap/envelope/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://
+Action.c(137):     www.w3.org/2001/XMLSchema"><soap:Body><AccountLoginRequest xmlns="com.advantage.online.sto
+Action.c(137):     re.accountservice"><email></email><loginPassword></loginPassword><loginUser>{RandomRowUser
+Action.c(137):     data}</loginUser></AccountLoginRequest></soap:Body></soap:Envelope>
+Action.c(137): t=834161ms: 665-byte response headers for "http://54.157.232.206/accountservice/ws/AccountLoginRequest" (RelFrameId=1, Internal ID=12)
+Action.c(137):     HTTP/1.1 200 \r\n
+Action.c(137):     Server: nginx/1.12.2\r\n
+Action.c(137):     Date: Fri, 01 Mar 2024 19:04:03 GMT\r\n
+Action.c(137):     Content-Type: text/xml;charset=utf-8\r\n
+Action.c(137):     Content-Length: 409\r\n
+Action.c(137):     Connection: keep-alive\r\n
+Action.c(137):     X-Content-Type-Options: nosniff\r\n
+Action.c(137):     X-XSS-Protection: 1; mode=block\r\n
+Action.c(137):     Cache-Control: no-store\r\n
+Action.c(137):     Pragma: no-cache\r\n
+Action.c(137):     Expires: 0\r\n
+Action.c(137):     X-Frame-Options: DENY\r\n
+Action.c(137):     Access-Control-Request-Method: POST, GET, OPTIONS, DELETE\r\n
+Action.c(137):     Access-Control-Allow-Methods: POST, GET, OPTIONS, DELETE\r\n
+Action.c(137):     Access-Control-Max-Age: 3600\r\n
+Action.c(137):     Access-Control-Allow-Headers: Origin, X-Requested-With, Content-Type, Accept, Key, soapact
+Action.c(137):     ion\r\n
+Action.c(137):     Access-Control-Allow-Origin: *\r\n
+Action.c(137):     Accept: text/xml, text/html, image/gif, image/jpeg, *; q=.2, */*; q=.2\r\n
+Action.c(137):     SOAPAction: ""\r\n
+Action.c(137):     \r\n
+Action.c(137): t=834162ms: 409-byte response body for "http://54.157.232.206/accountservice/ws/AccountLoginRequest" (RelFrameId=1, Internal ID=12)
+Action.c(137):     <SOAP-ENV:Envelope xmlns:SOAP-ENV="http://schemas.xmlsoap.org/soap/envelope/"><SOAP-ENV:He
+Action.c(137):     ader/><SOAP-ENV:Body><ns2:AccountLoginResponse xmlns:ns2="com.advantage.online.store.accou
+Action.c(137):     ntservice"><ns2:StatusMessage><ns2:success>false</ns2:success><ns2:userId>-1</ns2:userId><
+Action.c(137):     ns2:reason>Incorrect user name or password.</ns2:reason></ns2:StatusMessage></ns2:AccountL
+Action.c(137):     oginResponse></SOAP-ENV:Body></SOAP-ENV:Envelope>
+Action.c(137): t=834162ms: Request done "http://54.157.232.206/accountservice/ws/AccountLoginRequest"  	[MsgId: MMSG-26000]
+Action.c(137): Notify: Saving Parameter "userId = -1".	[MsgId: MMSG-13798]
+Action.c(137): Notify: Saving Parameter "sessionId = ".	[MsgId: MMSG-13798]
+Action.c(137): Error -35060: No matches were found for the specified query: "/SOAP-ENV:Envelope[1]/SOAP-ENV:Body[1]/ns2:AccountLoginResponse[1]/ns2:StatusMessage[1]/ns2:sessionId[1]/text()[1]"  	[MsgId: MERR-35060]
+Action.c(137): Notify: Saving Parameter "loginPasswordBase64 = ".	[MsgId: MMSG-13798]
+Action.c(137): Error -35060: No matches were found for the specified query: "/SOAP-ENV:Envelope[1]/SOAP-ENV:Body[1]/ns2:AccountLoginResponse[1]/ns2:StatusMessage[1]/ns2:t_authorization[1]/text()[1]"  	[MsgId: MERR-35060]
+Action.c(137): Error -26366: "Text=Login Successful" not found for web_reg_find  	[MsgId: MERR-26366]
+Action.c(137): web_custom_request("AccountLoginRequest") highest severity level was "ERROR", 409 body bytes, 665 header bytes  	[MsgId: MMSG-26388]
+Action.c(137): Notify: Transaction "Entry_AuthenticateData" ended with a "Fail" status (Duration: 0,1772 Wasted Time: 0,0019).	[MsgId: MMSG-16871]
+Action.c(137): Notify: Transaction "Entry_AuthenticateData" has 1 error message(s).	[MsgId: MMSG-16818]
+Action.c(137): Notify: The 1st error message associated with transaction "Entry_AuthenticateData" is "Error -26366: "Text=Login Successful" not found for web_reg_find"	[MsgId: MMSG-16819]
+Action.c(137): Notify: Transaction "UC3_AddProductToShopCart" ended with a "Fail" status (Duration: 11,3383 Think Time: 10,0150 Wasted Time: 0,0022).	[MsgId: MMSG-16870]
+Action.c(137): Notify: Transaction "UC3_AddProductToShopCart" has 1 error message(s).	[MsgId: MMSG-16818]
+Action.c(137): Notify: The 1st error message associated with transaction "UC3_AddProductToShopCart" is "Error -26366: "Text=Login Successful" not found for web_reg_find"	[MsgId: MMSG-16819]
+Ending action Action.	[MsgId: MMSG-15918]
+Action was aborted.	[MsgId: MMSG-10694]
+Ending Vuser...	[MsgId: MMSG-15966]
+Starting action vuser_end.	[MsgId: MMSG-15919]
+Ending action vuser_end.	[MsgId: MMSG-15918]
+Vuser Terminated.	[MsgId: MMSG-15963]
+Action.c(137): t=834165ms: Closed connection [0] to 54.157.232.206:80 after completing 6 request(s)  	[MsgId: MMSG-26000]
+HTML-Mode memory management statistics: Reusable=0, NonReusable=0, CsMemBlockSize=4096, checks disabled  	[MsgId: MMSG-26000]
+Vuser 14 (thread 7284), ended OK."	[MsgId: MMSG-10695]
+Action.c(120): Notify: Transaction "Entry_AuthenticateData" started.	[MsgId: MMSG-16999]
+Action.c(122): web_add_auto_header("Origin") started  	[MsgId: MMSG-26355]
+Action.c(122): Notify: Parameter Substitution: parameter "protocol" =  "http"	[MsgId: MMSG-13992]
+Action.c(122): Notify: Parameter Substitution: parameter "host" =  "54.157.232.206"	[MsgId: MMSG-13992]
+Action.c(122): An unrecognized header ("Origin") is being added  	[MsgId: MMSG-26595]
+Action.c(122): "Origin: http://54.157.232.206" header registered for adding to requests from all following Action functions  	[MsgId: MMSG-26505]
+Action.c(122): web_add_auto_header("Origin") was successful  	[MsgId: MMSG-26392]
+Action.c(123): web_add_auto_header("SOAPAction") started  	[MsgId: MMSG-26355]
+Action.c(123): "SOAPAction: com.advantage.online.store.accountserviceAccountLoginRequest" header registered for adding to requests from all following Action functions  	[MsgId: MMSG-26505]
+Action.c(123): web_add_auto_header("SOAPAction") was successful  	[MsgId: MMSG-26392]
+Action.c(124): web_add_auto_header("X-Requested-With") started  	[MsgId: MMSG-26355]
+Action.c(124): An unrecognized header ("X-Requested-With") is being added  	[MsgId: MMSG-26595]
+Action.c(124): "X-Requested-With: XMLHttpRequest" header registered for adding to requests from all following Action functions  	[MsgId: MMSG-26505]
+Action.c(124): web_add_auto_header("X-Requested-With") was successful  	[MsgId: MMSG-26392]
+Action.c(127): web_reg_save_param_xpath started  	[MsgId: MMSG-26355]
+Action.c(127): Registering web_reg_save_param_xpath was successful  	[MsgId: MMSG-26390]
+Action.c(129): web_reg_save_param_xpath started  	[MsgId: MMSG-26355]
+Action.c(129): Registering web_reg_save_param_xpath was successful  	[MsgId: MMSG-26390]
+Action.c(131): web_reg_save_param_xpath started  	[MsgId: MMSG-26355]
+Action.c(131): Registering web_reg_save_param_xpath was successful  	[MsgId: MMSG-26390]
+Action.c(134): web_reg_find started  	[MsgId: MMSG-26355]
+Action.c(134): Registering web_reg_find was successful  	[MsgId: MMSG-26390]
+Action.c(137): web_custom_request("AccountLoginRequest") started  	[MsgId: MMSG-26355]
+Action.c(137): Notify: Parameter Substitution: parameter "protocol" =  "http"	[MsgId: MMSG-13992]
+Action.c(137): Notify: Parameter Substitution: parameter "host" =  "54.157.232.206"	[MsgId: MMSG-13992]
+Action.c(137): Notify: Parameter Substitution: parameter "protocol" =  "http"	[MsgId: MMSG-13992]
+Action.c(137): Notify: Parameter Substitution: parameter "host" =  "54.157.232.206"	[MsgId: MMSG-13992]
+Action.c(137): Notify: Parameter Substitution: parameter "password" =  ""	[MsgId: MMSG-13992]
+Action.c(137): Notify: Parameter Substitution: parameter "login" =  "{RandomRowUserdata}"	[MsgId: MMSG-13992]
+Action.c(137): t=839812ms: Already connected [0] to 54.157.232.206:80  	[MsgId: MMSG-26000]
+Action.c(137): t=839812ms: 714-byte request headers for "http://54.157.232.206/accountservice/ws/AccountLoginRequest" (RelFrameId=1, Internal ID=18)
+Action.c(137):     POST /accountservice/ws/AccountLoginRequest HTTP/1.1\r\n
+Action.c(137):     Content-Type: text/xml; charset=UTF-8\r\n
+Action.c(137):     Referer: http://54.157.232.206/\r\n
+Action.c(137):     Origin: http://54.157.232.206\r\n
+Action.c(137):     SOAPAction: com.advantage.online.store.accountserviceAccountLoginRequest\r\n
+Action.c(137):     X-Requested-With: XMLHttpRequest\r\n
+Action.c(137):     User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:123.0) Gecko/20100101 Firefox/123
+Action.c(137):     .0\r\n
+Action.c(137):     Accept-Encoding: gzip, deflate\r\n
+Action.c(137):     Accept-Language: ru-RU,ru;q=0.8,en-US;q=0.5,en;q=0.3\r\n
+Action.c(137):     Accept: */*\r\n
+Action.c(137):     Connection: Keep-Alive\r\n
+Action.c(137):     Host: 54.157.232.206\r\n
+Action.c(137):     Cookie: userCart=%7B%22userId%22%3A-1%2C%22productsInCart%22%3A%5B%5D%7D; dtCookie=10F98BC
+Action.c(137):     B578A28CC7C650F43F2627CEB|1|2||1; _gat=1; _ga_56EMNRF2S2=GS1.1.1708954185.6.0.1708954185.6
+Action.c(137):     0.0.0\r\n
+Action.c(137):     Content-Length: 427\r\n
+Action.c(137):     \r\n
+Action.c(137): t=839812ms: 427-byte request body for "http://54.157.232.206/accountservice/ws/AccountLoginRequest" (RelFrameId=1, Internal ID=18)
+Action.c(137):     <?xml version="1.0" encoding="UTF-8"?><soap:Envelope xmlns:soap="http://schemas.xmlsoap.or
+Action.c(137):     g/soap/envelope/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://
+Action.c(137):     www.w3.org/2001/XMLSchema"><soap:Body><AccountLoginRequest xmlns="com.advantage.online.sto
+Action.c(137):     re.accountservice"><email></email><loginPassword></loginPassword><loginUser>{RandomRowUser
+Action.c(137):     data}</loginUser></AccountLoginRequest></soap:Body></soap:Envelope>
+Action.c(137): t=840027ms: 665-byte response headers for "http://54.157.232.206/accountservice/ws/AccountLoginRequest" (RelFrameId=1, Internal ID=18)
+Action.c(137):     HTTP/1.1 200 \r\n
+Action.c(137):     Server: nginx/1.12.2\r\n
+Action.c(137):     Date: Fri, 01 Mar 2024 19:04:09 GMT\r\n
+Action.c(137):     Content-Type: text/xml;charset=utf-8\r\n
+Action.c(137):     Content-Length: 409\r\n
+Action.c(137):     Connection: keep-alive\r\n
+Action.c(137):     X-Content-Type-Options: nosniff\r\n
+Action.c(137):     X-XSS-Protection: 1; mode=block\r\n
+Action.c(137):     Cache-Control: no-store\r\n
+Action.c(137):     Pragma: no-cache\r\n
+Action.c(137):     Expires: 0\r\n
+Action.c(137):     X-Frame-Options: DENY\r\n
+Action.c(137):     Access-Control-Request-Method: POST, GET, OPTIONS, DELETE\r\n
+Action.c(137):     Access-Control-Allow-Methods: POST, GET, OPTIONS, DELETE\r\n
+Action.c(137):     Access-Control-Max-Age: 3600\r\n
+Action.c(137):     Access-Control-Allow-Headers: Origin, X-Requested-With, Content-Type, Accept, Key, soapact
+Action.c(137):     ion\r\n
+Action.c(137):     Access-Control-Allow-Origin: *\r\n
+Action.c(137):     Accept: text/xml, text/html, image/gif, image/jpeg, *; q=.2, */*; q=.2\r\n
+Action.c(137):     SOAPAction: ""\r\n
+Action.c(137):     \r\n
+Action.c(137): t=840028ms: 409-byte response body for "http://54.157.232.206/accountservice/ws/AccountLoginRequest" (RelFrameId=1, Internal ID=18)
+Action.c(137):     <SOAP-ENV:Envelope xmlns:SOAP-ENV="http://schemas.xmlsoap.org/soap/envelope/"><SOAP-ENV:He
+Action.c(137):     ader/><SOAP-ENV:Body><ns2:AccountLoginResponse xmlns:ns2="com.advantage.online.store.accou
+Action.c(137):     ntservice"><ns2:StatusMessage><ns2:success>false</ns2:success><ns2:userId>-1</ns2:userId><
+Action.c(137):     ns2:reason>Incorrect user name or password.</ns2:reason></ns2:StatusMessage></ns2:AccountL
+Action.c(137):     oginResponse></SOAP-ENV:Body></SOAP-ENV:Envelope>
+Action.c(137): t=840029ms: Request done "http://54.157.232.206/accountservice/ws/AccountLoginRequest"  	[MsgId: MMSG-26000]
+Action.c(137): Notify: Saving Parameter "userId = -1".	[MsgId: MMSG-13798]
+Action.c(137): Notify: Saving Parameter "sessionId = ".	[MsgId: MMSG-13798]
+Action.c(137): Error -35060: No matches were found for the specified query: "/SOAP-ENV:Envelope[1]/SOAP-ENV:Body[1]/ns2:AccountLoginResponse[1]/ns2:StatusMessage[1]/ns2:sessionId[1]/text()[1]"  	[MsgId: MERR-35060]
+Action.c(137): Notify: Saving Parameter "loginPasswordBase64 = ".	[MsgId: MMSG-13798]
+Action.c(137): Error -35060: No matches were found for the specified query: "/SOAP-ENV:Envelope[1]/SOAP-ENV:Body[1]/ns2:AccountLoginResponse[1]/ns2:StatusMessage[1]/ns2:t_authorization[1]/text()[1]"  	[MsgId: MERR-35060]
+Action.c(137): Error -26366: "Text=Login Successful" not found for web_reg_find  	[MsgId: MERR-26366]
+Action.c(137): web_custom_request("AccountLoginRequest") highest severity level was "ERROR", 409 body bytes, 665 header bytes  	[MsgId: MMSG-26388]
+Action.c(137): Notify: Transaction "Entry_AuthenticateData" ended with a "Fail" status (Duration: 0,2211 Wasted Time: 0,0020).	[MsgId: MMSG-16871]
+Action.c(137): Notify: Transaction "Entry_AuthenticateData" has 1 error message(s).	[MsgId: MMSG-16818]
+Action.c(137): Notify: The 1st error message associated with transaction "Entry_AuthenticateData" is "Error -26366: "Text=Login Successful" not found for web_reg_find"	[MsgId: MMSG-16819]
+Action.c(137): Notify: Transaction "UC3_AddProductToShopCart" ended with a "Fail" status (Duration: 11,4463 Think Time: 10,0122 Wasted Time: 0,0022).	[MsgId: MMSG-16870]
+Action.c(137): Notify: Transaction "UC3_AddProductToShopCart" has 1 error message(s).	[MsgId: MMSG-16818]
+Action.c(137): Notify: The 1st error message associated with transaction "UC3_AddProductToShopCart" is "Error -26366: "Text=Login Successful" not found for web_reg_find"	[MsgId: MMSG-16819]
+Ending action Action.	[MsgId: MMSG-15918]
+Action was aborted.	[MsgId: MMSG-10694]
+Ending Vuser...	[MsgId: MMSG-15966]
+Starting action vuser_end.	[MsgId: MMSG-15919]
+Ending action vuser_end.	[MsgId: MMSG-15918]
+Vuser Terminated.	[MsgId: MMSG-15963]
+Action.c(137): t=840031ms: Closed connection [0] to 54.157.232.206:80 after completing 6 request(s)  	[MsgId: MMSG-26000]
+HTML-Mode memory management statistics: Reusable=0, NonReusable=0, CsMemBlockSize=4096, checks disabled  	[MsgId: MMSG-26000]
+Vuser 10 (thread 6152), ended OK."	[MsgId: MMSG-10695]
+..\\library\\user_lib.h(207): Notify: Transaction "UC3_AddProductToShopCart" ended with a "Stop" status (Duration: 192,1680 Think Time: 40,0259 Wasted Time: 0,0056).	[MsgId: MMSG-16870]
+Abort was called from an action.	[MsgId: MMSG-10447]
+Ending Vuser...	[MsgId: MMSG-15966]
+Starting action vuser_end.	[MsgId: MMSG-15919]
+Ending action vuser_end.	[MsgId: MMSG-15918]
+Vuser Terminated.	[MsgId: MMSG-15963]
+..\\library\\user_lib.h(207): t=870450ms: Closed connection [0] to 54.157.232.206:80 after completing 14 request(s)  	[MsgId: MMSG-26000]
+..\\library\\user_lib.h(207): t=870450ms: Closed connection [1] to 54.157.232.206:80 after completing 1 request(s)  	[MsgId: MMSG-26000]
+..\\library\\user_lib.h(207): t=870450ms: Closed connection [2] to 54.157.232.206:80 after completing 1 request(s)  	[MsgId: MMSG-26000]
+..\\library\\user_lib.h(207): t=870450ms: Closed connection [3] to 54.157.232.206:80 after completing 1 request(s)  	[MsgId: MMSG-26000]
+HTML-Mode memory management statistics: Reusable=1, NonReusable=0, CsMemBlockSize=4096, checks disabled  	[MsgId: MMSG-26000]
+..\\library\\user_lib.h(207): Notify: Transaction "UC3_AddProductToShopCart" ended with a "Stop" status (Duration: 198,2020 Think Time: 40,0210 Wasted Time: 0,0038).	[MsgId: MMSG-16870]
+Abort was called from an action.	[MsgId: MMSG-10447]
+Ending Vuser...	[MsgId: MMSG-15966]
+Starting action vuser_end.	[MsgId: MMSG-15919]
+Ending action vuser_end.	[MsgId: MMSG-15918]
+Vuser Terminated.	[MsgId: MMSG-15963]
+..\\library\\user_lib.h(207): t=870475ms: Closed connection [0] to 54.157.232.206:80 after completing 14 request(s)  	[MsgId: MMSG-26000]
+..\\library\\user_lib.h(207): t=870475ms: Closed connection [1] to 54.157.232.206:80 after completing 1 request(s)  	[MsgId: MMSG-26000]
+..\\library\\user_lib.h(207): t=870475ms: Closed connection [2] to 54.157.232.206:80 after completing 1 request(s)  	[MsgId: MMSG-26000]
+..\\library\\user_lib.h(207): t=870475ms: Closed connection [3] to 54.157.232.206:80 after completing 1 request(s)  	[MsgId: MMSG-26000]
+HTML-Mode memory management statistics: Reusable=1, NonReusable=0, CsMemBlockSize=4096, checks disabled  	[MsgId: MMSG-26000]
+Vuser 6 (thread 11436), ended OK."	[MsgId: MMSG-10695]
+Vuser 7 (thread 8728), ended OK."	[MsgId: MMSG-10695]
+..\\library\\user_lib.h(207): Notify: Transaction "UC3_AddProductToShopCart" ended with a "Stop" status (Duration: 210,2637 Think Time: 40,0047 Wasted Time: 0,0065).	[MsgId: MMSG-16870]
+Abort was called from an action.	[MsgId: MMSG-10447]
+Ending Vuser...	[MsgId: MMSG-15966]
+Starting action vuser_end.	[MsgId: MMSG-15919]
+Ending action vuser_end.	[MsgId: MMSG-15918]
+Vuser Terminated.	[MsgId: MMSG-15963]
+..\\library\\user_lib.h(207): t=870489ms: Closed connection [0] to 54.157.232.206:80 after completing 14 request(s)  	[MsgId: MMSG-26000]
+..\\library\\user_lib.h(207): t=870489ms: Closed connection [1] to 54.157.232.206:80 after completing 1 request(s)  	[MsgId: MMSG-26000]
+..\\library\\user_lib.h(207): t=870489ms: Closed connection [2] to 54.157.232.206:80 after completing 1 request(s)  	[MsgId: MMSG-26000]
+..\\library\\user_lib.h(207): t=870489ms: Closed connection [3] to 54.157.232.206:80 after completing 1 request(s)  	[MsgId: MMSG-26000]
+HTML-Mode memory management statistics: Reusable=1, NonReusable=0, CsMemBlockSize=4096, checks disabled  	[MsgId: MMSG-26000]
+Vuser 0 (thread 14788), ended OK."	[MsgId: MMSG-10695]
+..\\library\\user_lib.h(207): Notify: Transaction "UC3_AddProductToShopCart" ended with a "Stop" status (Duration: 216,3477 Think Time: 40,0222 Wasted Time: 0,0070).	[MsgId: MMSG-16870]
+Abort was called from an action.	[MsgId: MMSG-10447]
+Ending Vuser...	[MsgId: MMSG-15966]
+Starting action vuser_end.	[MsgId: MMSG-15919]
+Ending action vuser_end.	[MsgId: MMSG-15918]
+Vuser Terminated.	[MsgId: MMSG-15963]
+..\\library\\user_lib.h(207): t=870545ms: Closed connection [0] to 54.157.232.206:80 after completing 14 request(s)  	[MsgId: MMSG-26000]
+..\\library\\user_lib.h(207): t=870545ms: Closed connection [1] to 54.157.232.206:80 after completing 1 request(s)  	[MsgId: MMSG-26000]
+..\\library\\user_lib.h(207): t=870545ms: Closed connection [2] to 54.157.232.206:80 after completing 1 request(s)  	[MsgId: MMSG-26000]
+..\\library\\user_lib.h(207): t=870545ms: Closed connection [3] to 54.157.232.206:80 after completing 1 request(s)  	[MsgId: MMSG-26000]
+..\\library\\user_lib.h(207): Notify: Transaction "UC3_AddProductToShopCart" ended with a "Stop" status (Duration: 162,0583 Think Time: 40,0326 Wasted Time: 0,0038).	[MsgId: MMSG-16870]
+Abort was called from an action.	[MsgId: MMSG-10447]
+Ending Vuser...	[MsgId: MMSG-15966]
+Starting action vuser_end.	[MsgId: MMSG-15919]
+Ending action vuser_end.	[MsgId: MMSG-15918]
+Vuser Terminated.	[MsgId: MMSG-15963]
+..\\library\\user_lib.h(207): t=870546ms: Closed connection [0] to 54.157.232.206:80 after completing 14 request(s)  	[MsgId: MMSG-26000]
+..\\library\\user_lib.h(207): t=870546ms: Closed connection [1] to 54.157.232.206:80 after completing 1 request(s)  	[MsgId: MMSG-26000]
+HTML-Mode memory management statistics: Reusable=1, NonReusable=0, CsMemBlockSize=4096, checks disabled  	[MsgId: MMSG-26000]
+..\\library\\user_lib.h(207): t=870546ms: Closed connection [2] to 54.157.232.206:80 after completing 1 request(s)  	[MsgId: MMSG-26000]
+..\\library\\user_lib.h(207): t=870546ms: Closed connection [3] to 54.157.232.206:80 after completing 1 request(s)  	[MsgId: MMSG-26000]
+HTML-Mode memory management statistics: Reusable=1, NonReusable=0, CsMemBlockSize=4096, checks disabled  	[MsgId: MMSG-26000]
+Vuser 9 (thread 11592), ended OK."	[MsgId: MMSG-10695]
+Vuser 5 (thread 14396), ended OK."	[MsgId: MMSG-10695]
+..\\library\\user_lib.h(207): Notify: Transaction "UC3_AddProductToShopCart" ended with a "Stop" status (Duration: 174,5003 Think Time: 40,0634 Wasted Time: 0,0035).	[MsgId: MMSG-16870]
+Abort was called from an action.	[MsgId: MMSG-10447]
+Ending Vuser...	[MsgId: MMSG-15966]
+Starting action vuser_end.	[MsgId: MMSG-15919]
+Ending action vuser_end.	[MsgId: MMSG-15918]
+Vuser Terminated.	[MsgId: MMSG-15963]
+..\\library\\user_lib.h(207): t=870560ms: Closed connection [0] to 54.157.232.206:80 after completing 14 request(s)  	[MsgId: MMSG-26000]
+..\\library\\user_lib.h(207): t=870560ms: Closed connection [1] to 54.157.232.206:80 after completing 1 request(s)  	[MsgId: MMSG-26000]
+..\\library\\user_lib.h(207): t=870560ms: Closed connection [2] to 54.157.232.206:80 after completing 1 request(s)  	[MsgId: MMSG-26000]
+..\\library\\user_lib.h(207): t=870560ms: Closed connection [3] to 54.157.232.206:80 after completing 1 request(s)  	[MsgId: MMSG-26000]
+HTML-Mode memory management statistics: Reusable=1, NonReusable=0, CsMemBlockSize=4096, checks disabled  	[MsgId: MMSG-26000]
+Vuser 3 (thread 12840), ended OK."	[MsgId: MMSG-10695]
+..\\library\\user_lib.h(229): Notify: Transaction "UC3_AddProductToShopCart" ended with a "Stop" status (Duration: 216,3863 Think Time: 40,0170 Wasted Time: 0,0052).	[MsgId: MMSG-16870]
+Abort was called from an action.	[MsgId: MMSG-10447]
+Ending Vuser...	[MsgId: MMSG-15966]
+Starting action vuser_end.	[MsgId: MMSG-15919]
+Ending action vuser_end.	[MsgId: MMSG-15918]
+Vuser Terminated.	[MsgId: MMSG-15963]
+..\\library\\user_lib.h(229): t=870575ms: Closed connection [0] to 54.157.232.206:80 after completing 14 request(s)  	[MsgId: MMSG-26000]
+..\\library\\user_lib.h(229): t=870575ms: Closed connection [1] to 54.157.232.206:80 after completing 1 request(s)  	[MsgId: MMSG-26000]
+..\\library\\user_lib.h(229): t=870575ms: Closed connection [2] to 54.157.232.206:80 after completing 1 request(s)  	[MsgId: MMSG-26000]
+..\\library\\user_lib.h(229): t=870575ms: Closed connection [3] to 54.157.232.206:80 after completing 1 request(s)  	[MsgId: MMSG-26000]
+HTML-Mode memory management statistics: Reusable=1, NonReusable=0, CsMemBlockSize=4096, checks disabled  	[MsgId: MMSG-26000]
+Vuser 4 (thread 15260), ended OK."	[MsgId: MMSG-10695]
+..\\library\\user_lib.h(207): Notify: Transaction "UC3_AddProductToShopCart" ended with a "Stop" status (Duration: 180,2028 Think Time: 40,0148 Wasted Time: 0,0028).	[MsgId: MMSG-16870]
+Abort was called from an action.	[MsgId: MMSG-10447]
+Ending Vuser...	[MsgId: MMSG-15966]
+Starting action vuser_end.	[MsgId: MMSG-15919]
+Ending action vuser_end.	[MsgId: MMSG-15918]
+Vuser Terminated.	[MsgId: MMSG-15963]
+..\\library\\user_lib.h(207): t=870606ms: Closed connection [0] to 54.157.232.206:80 after completing 14 request(s)  	[MsgId: MMSG-26000]
+..\\library\\user_lib.h(207): t=870606ms: Closed connection [1] to 54.157.232.206:80 after completing 1 request(s)  	[MsgId: MMSG-26000]
+..\\library\\user_lib.h(207): t=870606ms: Closed connection [2] to 54.157.232.206:80 after completing 1 request(s)  	[MsgId: MMSG-26000]
+..\\library\\user_lib.h(207): t=870606ms: Closed connection [3] to 54.157.232.206:80 after completing 1 request(s)  	[MsgId: MMSG-26000]
+HTML-Mode memory management statistics: Reusable=1, NonReusable=0, CsMemBlockSize=4096, checks disabled  	[MsgId: MMSG-26000]
+Vuser 8 (thread 15268), ended OK."	[MsgId: MMSG-10695]
+..\\library\\user_lib.h(207): Notify: Transaction "UC3_AddProductToShopCart" ended with a "Stop" status (Duration: 192,7006 Think Time: 40,0352 Wasted Time: 0,0055).	[MsgId: MMSG-16870]
+Abort was called from an action.	[MsgId: MMSG-10447]
+Ending Vuser...	[MsgId: MMSG-15966]
+Starting action vuser_end.	[MsgId: MMSG-15919]
+Ending action vuser_end.	[MsgId: MMSG-15918]
+Vuser Terminated.	[MsgId: MMSG-15963]
+..\\library\\user_lib.h(207): t=870652ms: Closed connection [0] to 54.157.232.206:80 after completing 14 request(s)  	[MsgId: MMSG-26000]
+..\\library\\user_lib.h(207): t=870652ms: Closed connection [1] to 54.157.232.206:80 after completing 1 request(s)  	[MsgId: MMSG-26000]
+..\\library\\user_lib.h(207): t=870652ms: Closed connection [2] to 54.157.232.206:80 after completing 1 request(s)  	[MsgId: MMSG-26000]
+..\\library\\user_lib.h(207): t=870652ms: Closed connection [3] to 54.157.232.206:80 after completing 1 request(s)  	[MsgId: MMSG-26000]
+HTML-Mode memory management statistics: Reusable=1, NonReusable=0, CsMemBlockSize=4096, checks disabled  	[MsgId: MMSG-26000]
+Vuser 1 (thread 10224), ended OK."	[MsgId: MMSG-10695]
+..\\library\\user_lib.h(207): Notify: Transaction "UC3_AddProductToShopCart" ended with a "Stop" status (Duration: 186,6756 Think Time: 40,0337 Wasted Time: 0,0052).	[MsgId: MMSG-16870]
+Abort was called from an action.	[MsgId: MMSG-10447]
+Ending Vuser...	[MsgId: MMSG-15966]
+Starting action vuser_end.	[MsgId: MMSG-15919]
+Ending action vuser_end.	[MsgId: MMSG-15918]
+Vuser Terminated.	[MsgId: MMSG-15963]
+..\\library\\user_lib.h(207): t=870658ms: Closed connection [0] to 54.157.232.206:80 after completing 14 request(s)  	[MsgId: MMSG-26000]
+..\\library\\user_lib.h(207): t=870658ms: Closed connection [1] to 54.157.232.206:80 after completing 1 request(s)  	[MsgId: MMSG-26000]
+..\\library\\user_lib.h(207): t=870658ms: Closed connection [2] to 54.157.232.206:80 after completing 1 request(s)  	[MsgId: MMSG-26000]
+..\\library\\user_lib.h(207): t=870658ms: Closed connection [3] to 54.157.232.206:80 after completing 1 request(s)  	[MsgId: MMSG-26000]
+HTML-Mode memory management statistics: Reusable=1, NonReusable=0, CsMemBlockSize=4096, checks disabled  	[MsgId: MMSG-26000]
+Vuser 2 (thread 14988), ended OK."	[MsgId: MMSG-10695]

@@ -1,0 +1,9 @@
+-+
+-DCCI
+-D_IDA_XL
+-DWINNT
+-IC:\Users\user\Desktop\Итоговое задание\Скрипты\UC6_ViewProfile
+-IC:\Program Files (x86)\HPE\LoadRunner\include
+-ec:\users\user\desktop\итоговое задание\скрипты\uc6_viewprofile\\logfile.log
+c:\users\user\desktop\итоговое задание\скрипты\uc6_viewprofile\\combined_UC6_ViewProfile.c
+c:\users\user\desktop\итоговое задание\скрипты\uc6_viewprofile\\pre_cci.c

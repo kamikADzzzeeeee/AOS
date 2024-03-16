@@ -1,0 +1,56 @@
+[
+    {
+        "stepId": "STEP1",
+        "stepName": "Url: ALL",
+        "infFile": "t1.inf",
+        "time": 1710531026629
+    },
+    {
+        "stepId": "STEP2",
+        "stepName": "Custom Request: GetAccountConfigurationRequest",
+        "infFile": "t2.inf",
+        "time": 1710531026961
+    },
+    {
+        "stepId": "STEP3",
+        "stepName": "Url: categories",
+        "infFile": "t3.inf",
+        "time": 1710531027346
+    },
+    {
+        "stepId": "STEP4",
+        "stepName": "Url: dealOfTheDay",
+        "infFile": "t4.inf",
+        "time": 1710531027655
+    },
+    {
+        "stepId": "STEP5",
+        "stepName": "Url: popularProducts",
+        "infFile": "t5.inf",
+        "time": 1710531027858
+    },
+    {
+        "stepId": "STEP6",
+        "stepName": "Custom Request: AccountLoginRequest",
+        "infFile": "t9.inf",
+        "time": 1710531031126
+    },
+    {
+        "stepId": "STEP7",
+        "stepName": "Url: getCarts",
+        "infFile": "t11.inf",
+        "time": 1710531031526
+    },
+    {
+        "stepId": "STEP8",
+        "stepName": "Url: cartsPage",
+        "infFile": "t12.inf",
+        "time": 1710531034684
+    },
+    {
+        "stepId": "STEP9",
+        "stepName": "Custom Request: AccountLogoutRequest",
+        "infFile": "t13.inf",
+        "time": 1710531043857
+    }
+]

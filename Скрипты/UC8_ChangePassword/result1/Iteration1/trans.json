@@ -1,0 +1,37 @@
+[
+    {
+        "transactionName": "Goto_HomePage",
+        "rawStartTime": 1710508042334,
+        "rawEndTime": 1710508044551
+    },
+    {
+        "transactionName": "Entry_AuthenticateData",
+        "rawStartTime": 1710508050023,
+        "rawEndTime": 1710508050972
+    },
+    {
+        "transactionName": "Goto_AccountPage",
+        "rawStartTime": 1710508056452,
+        "rawEndTime": 1710508057482
+    },
+    {
+        "transactionName": "Goto_AccountDetailsPage",
+        "rawStartTime": 1710508063122,
+        "rawEndTime": 1710508063908
+    },
+    {
+        "transactionName": "Entry_NewPassword",
+        "rawStartTime": 1710508069313,
+        "rawEndTime": 1710508070889
+    },
+    {
+        "transactionName": "Logout",
+        "rawStartTime": 1710508076789,
+        "rawEndTime": 1710508077419
+    },
+    {
+        "transactionName": "UC8_ChangePassword",
+        "rawStartTime": 1710508041980,
+        "rawEndTime": 1710508077862
+    }
+]

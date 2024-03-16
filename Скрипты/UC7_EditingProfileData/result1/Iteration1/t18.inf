@@ -1,0 +1,13 @@
+[t18]
+SnapshotXmlFile=snapshot_15.xml
+ContentType=application/xml
+StepName=Custom Request: GetAddressesByAccountIdRequest_2
+Total=1
+FileName1=t18.xml
+RequestHeaderFile=t18_RequestHeader.txt
+ResponseHeaderFile=t18_ResponseHeader.txt
+RawStepEndTime=1710507871191
+RawStepName=GetAddressesByAccountIdRequest_2
+RequestBodyFile=t18_RequestBody.txt
+RawStepStartTime=1710507870987
+URL1=http://54.157.232.206/accountservice/ws/GetAddressesByAccountIdRequest

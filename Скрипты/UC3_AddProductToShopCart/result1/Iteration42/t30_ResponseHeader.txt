@@ -1,0 +1,8 @@
+HTTP/1.1 304 
+Server: nginx/1.12.2
+Date: Fri, 15 Mar 2024 20:00:03 GMT
+Connection: keep-alive
+X-OneAgent-JS-Injection: true
+Set-Cookie: dtCookie=631DC5F796DCE698B421788F8075CA5A|1|2||1; Path=/
+ETag: W/"8805-1669816118000"
+

@@ -1,0 +1,11 @@
+GET /catalog/api/v1/DemoAppConfig/parameters/by_tool/ALL HTTP/1.1
+Referer: http://54.157.232.206/
+Upgrade-Insecure-Requests: 1
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:123.0) Gecko/20100101 Firefox/123.0
+Accept-Encoding: gzip, deflate
+Accept-Language: ru-RU,ru;q=0.8,en-US;q=0.5,en;q=0.3
+Accept: */*
+Connection: Keep-Alive
+Host: 54.157.232.206
+Cookie: _ga_TBPYED8WSW=GS1.1.1710338910.42.1.1710339621.0.0.0; _ga=GA1.1.1055678014.1708799449; _ga_56EMNRF2S2=GS1.1.1710338911.38.1.1710338928.43.0.0; _gid=GA1.1.1660421263.1710338911; userCart=%7B%22userId%22%3A-1%2C%22productsInCart%22%3A%5B%5D%7D
+

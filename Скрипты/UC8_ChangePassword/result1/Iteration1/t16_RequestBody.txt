@@ -1,0 +1,6 @@
+"<?xml version="1.0" encoding="UTF-8"?><soap:Envelope xmlns:soap="http://schemas.xmlsoap.org/so"
+"ap/envelope/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.o"
+"rg/2001/XMLSchema"><soap:Body><ChangePasswordRequest xmlns="com.advantage.online.store.account"
+"service"><accountId>518872448</accountId><newPassword>1234oO</newPassword><oldPassword>1234oO<"
+"/oldPassword><base64Token>Basic TmlraXRhMTI5NTg6MTIzNG9P</base64Token></ChangePasswordRequest>"
+"</soap:Body></soap:Envelope>"

@@ -1,0 +1,11 @@
+[t21]
+FileName1=t21_322391106.json
+URL1=http://54.157.232.206/order/api/v1/carts/322391106
+Total=1
+ContentType=application/json
+SnapshotXmlFile=snapshot_21.xml
+RequestHeaderFile=t21_RequestHeader.txt
+RequestBodyFile=NONE
+ResponseHeaderFile=t21_ResponseHeader.txt
+[ProtocolInfo]
+ProtocolId=QTWeb

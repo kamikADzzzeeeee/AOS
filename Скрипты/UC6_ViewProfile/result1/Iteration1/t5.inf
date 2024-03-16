@@ -1,0 +1,13 @@
+[t5]
+SnapshotXmlFile=snapshot_5.xml
+ContentType=application/json
+StepName=Url: popularProducts
+Total=1
+FileName1=t5.json
+RequestHeaderFile=t5_RequestHeader.txt
+ResponseHeaderFile=t5_ResponseHeader.txt
+RawStepEndTime=1710626436270
+RawStepName=popularProducts
+RequestBodyFile=t5_RequestBody.txt
+RawStepStartTime=1710626436106
+URL1=http://54.157.232.206/app/tempFiles/popularProducts.json

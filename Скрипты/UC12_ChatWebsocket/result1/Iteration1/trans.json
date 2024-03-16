@@ -1,0 +1,27 @@
+[
+    {
+        "transactionName": "Goto_HomePage",
+        "rawStartTime": 1710530060558,
+        "rawEndTime": 1710530062566
+    },
+    {
+        "transactionName": "Connect_Chat",
+        "rawStartTime": 1710530068683,
+        "rawEndTime": 1710530069436
+    },
+    {
+        "transactionName": "Entry_DataForChat",
+        "rawStartTime": 1710530075136,
+        "rawEndTime": 1710530100043
+    },
+    {
+        "transactionName": "Close_Chat",
+        "rawStartTime": 1710530105735,
+        "rawEndTime": 1710530106155
+    },
+    {
+        "transactionName": "UC12_ChatWebsocket",
+        "rawStartTime": 1710530060318,
+        "rawEndTime": 1710530106717
+    }
+]

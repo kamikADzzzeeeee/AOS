@@ -1,0 +1,15 @@
+POST /accountservice/ws/AddSafePayMethodRequest HTTP/1.1
+Host: 54.157.232.206
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:123.0) Gecko/20100101 Firefox/123.0
+Accept: application/xml, text/xml, */*; q=0.01
+Accept-Language: ru-RU,ru;q=0.8,en-US;q=0.5,en;q=0.3
+Accept-Encoding: gzip, deflate
+Content-Type: text/xml; charset=UTF-8
+SOAPAction: com.advantage.online.store.accountserviceAddSafePayMethodRequest
+X-Requested-With: XMLHttpRequest
+Content-Length: 525
+Origin: http://54.157.232.206
+Connection: keep-alive
+Referer: http://54.157.232.206/
+Cookie: _ga_TBPYED8WSW=GS1.1.1709130300.8.1.1709131379.0.0.0; _ga=GA1.1.1055678014.1708799449; _ga_56EMNRF2S2=GS1.1.1709130302.7.1.1709131485.27.0.0; _gid=GA1.1.1202834963.1709130302; dtCookie=37981F786730A0817CFB7DC7412003D4|1|2||1
+

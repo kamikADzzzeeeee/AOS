@@ -1,0 +1,14 @@
+Start auto log messages stack - Iteration 39.	[MsgId: MMSG-10545]
+Action.c(296): web_custom_request("ChangePasswordRequest") started  	[MsgId: MMSG-26355]
+Action.c(296): Registered web_reg_find successful for "Text=Successfully" (count=1)  	[MsgId: MMSG-26364]
+Action.c(296): web_custom_request("ChangePasswordRequest") was successful, 399 body bytes, 665 header bytes  	[MsgId: MMSG-26386]
+Action.c(309): web_add_header("SOAPAction") started  	[MsgId: MMSG-26355]
+Action.c(309): web_add_header("SOAPAction") was successful  	[MsgId: MMSG-26392]
+Action.c(311): web_reg_find started  	[MsgId: MMSG-26355]
+Action.c(311): Registering web_reg_find was successful  	[MsgId: MMSG-26390]
+Action.c(313): web_custom_request("AccountUpdateRequest_2") started  	[MsgId: MMSG-26355]
+Action.c(313): Error -26612: HTTP Status-Code=500 (Internal Server Error) for "http://54.157.232.206/accountservice/ws/AccountUpdateRequest"  	[MsgId: MERR-26612]
+Action.c(313): Error -26366: "Text=Account updated successfully" not found for web_reg_find  	[MsgId: MERR-26366]
+End auto log messages stack.	[MsgId: MMSG-10544]
+
+

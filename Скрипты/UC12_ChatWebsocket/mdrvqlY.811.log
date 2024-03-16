@@ -1,0 +1,1799 @@
+Virtual User Script started at: 15.03.2024 6:22:28	[MsgId: MMSG-15967]
+Starting action vuser_init.	[MsgId: MMSG-15919]
+Web Turbo Replay of LoadRunner 12.55.0 for Windows 10; build 911 (июл 24 2017 19:46:00)  	[MsgId: MMSG-26983]
+Run mode: HTML  	[MsgId: MMSG-26993]
+Replay user agent: Mozilla/5.0 (compatible; MSIE 10.0; Windows NT 6.1; Trident/6.0)  	[MsgId: MMSG-26988]
+Run-Time Settings file: "C:\Users\user\AppData\Local\Temp\lr5tmpdiry6q.526\lrcfgSet.556\cfgTZN.615"  	[MsgId: MMSG-27141]
+Vuser directory: "C:\Users\user\Documents\VuGen\Scripts\UC12_ChatWebsocket"  	[MsgId: MMSG-27052]
+Vuser output directory: "C:\Users\user\Documents\VuGen\Scripts\UC12_ChatWebsocket"  	[MsgId: MMSG-27050]
+Operating system's current working directory: "C:\Users\user\Documents\VuGen\Scripts\UC12_ChatWebsocket"  	[MsgId: MMSG-27048]
+UTC (GMT) start date/time   : 2024-03-15 01:22:28  	[MsgId: MMSG-26992]
+LOCAL start date/time       : 2024-03-15 06:22:28  	[MsgId: MMSG-26991]
+Local daylight-Savings-Time : No  	[MsgId: MMSG-26990]
+Some of the Run-Time Settings:  	[MsgId: MMSG-27142]
+    Download non-HTML resources: Yes  	[MsgId: MMSG-27018]
+    Verification checks: No  	[MsgId: MMSG-27017]
+    Convert from/to UTF-8: No  	[MsgId: MMSG-27016]
+    Simulate a new user each iteration: Yes  	[MsgId: MMSG-27009]
+    Non-critical item errors as warnings: Yes  	[MsgId: MMSG-27008]
+    HTTP errors as warnings: No  	[MsgId: MMSG-27007]
+    WinInet replay instead of Sockets: No  	[MsgId: MMSG-27006]
+    HTTP version: 1.1  	[MsgId: MMSG-27005]
+    Keep-Alive HTTP connections: Yes  	[MsgId: MMSG-27004]
+    Max self Meta refresh updates: 2  	[MsgId: MMSG-27003]
+    Obtaining the proxy settings from the default browser: No proxy is used (direct connection to the Internet)  	[MsgId: MMSG-26845]
+    DNS caching: Yes  	[MsgId: MMSG-27035]
+    Simulate browser cache: Yes  	[MsgId: MMSG-27034]
+        Cache URLs requiring content (e.g., HTMLs): Yes  	[MsgId: MMSG-27033]
+            Additional URLs requiring content: text/xml;text/plain  	[MsgId: MMSG-27032]
+        Check for newer versions every visit to the page: No  	[MsgId: MMSG-27031]
+    Page download timeout (sec): 120  	[MsgId: MMSG-27030]
+    Resource Page Timeout is a Warning: No  	[MsgId: MMSG-27029]
+    ContentCheck enabled: Yes  	[MsgId: MMSG-27028]
+    ContentCheck script-level file: "C:\Users\user\AppData\Local\Temp\lr5tmpdiry6q.526\lrcfgSet.556\LrwiAedScript.xml"  	[MsgId: MMSG-27027]
+    Enable Web Page Breakdown: No  	[MsgId: MMSG-27026]
+    Enable connection data points: Yes  	[MsgId: MMSG-27023]
+    Process socket after reschedule: Yes  	[MsgId: MMSG-27022]
+    Snapshot on error: No  	[MsgId: MMSG-27021]
+    Define each step as a transaction: No  	[MsgId: MMSG-27020]
+    Read beyond Content-Length: No  	[MsgId: MMSG-26994]
+    Parse HTML Content-Type: TEXT  	[MsgId: MMSG-26999]
+    Graph hits per second and HTTP status codes: Yes  	[MsgId: MMSG-26998]
+    Graph response bytes per second: Yes  	[MsgId: MMSG-26997]
+    Graph pages per second: No  	[MsgId: MMSG-26996]
+    Web recorder version ID: 8  	[MsgId: MMSG-26995]
+Ending action vuser_init.	[MsgId: MMSG-15918]
+Running Vuser...	[MsgId: MMSG-15964]
+Starting iteration 1.	[MsgId: MMSG-15968]
+Maximum number of concurrent connections per server: 6  	[MsgId: MMSG-26989]
+Starting action Action.	[MsgId: MMSG-15919]
+Action.c(4): Notify: Transaction "UC12_ChatWebsocket" started.	[MsgId: MMSG-16999]
+Action.c(7): Notify: Transaction "Goto_HomePage" started.	[MsgId: MMSG-16999]
+Action.c(9): web_set_sockets_option started  	[MsgId: MMSG-26355]
+Action.c(9): web_set_sockets_option was successful  	[MsgId: MMSG-26392]
+Action.c(10): web_add_cookie started  	[MsgId: MMSG-26355]
+Action.c(10): Notify: Parameter Substitution: parameter "domain" =  "54.157.232.206"	[MsgId: MMSG-13992]
+Action.c(10): web_add_cookie was successful  	[MsgId: MMSG-26392]
+Action.c(11): web_add_cookie started  	[MsgId: MMSG-26355]
+Action.c(11): Notify: Parameter Substitution: parameter "domain" =  "54.157.232.206"	[MsgId: MMSG-13992]
+Action.c(11): web_add_cookie was successful  	[MsgId: MMSG-26392]
+Action.c(12): web_add_cookie started  	[MsgId: MMSG-26355]
+Action.c(12): Notify: Parameter Substitution: parameter "domain" =  "54.157.232.206"	[MsgId: MMSG-13992]
+Action.c(12): web_add_cookie was successful  	[MsgId: MMSG-26392]
+Action.c(13): web_add_cookie started  	[MsgId: MMSG-26355]
+Action.c(13): Notify: Parameter Substitution: parameter "domain" =  "54.157.232.206"	[MsgId: MMSG-13992]
+Action.c(13): web_add_cookie was successful  	[MsgId: MMSG-26392]
+Action.c(14): web_add_cookie started  	[MsgId: MMSG-26355]
+Action.c(14): Notify: Parameter Substitution: parameter "domain" =  "54.157.232.206"	[MsgId: MMSG-13992]
+Action.c(14): web_add_cookie was successful  	[MsgId: MMSG-26392]
+Action.c(15): web_add_cookie started  	[MsgId: MMSG-26355]
+Action.c(15): Notify: Parameter Substitution: parameter "domain" =  "54.157.232.206"	[MsgId: MMSG-13992]
+Action.c(15): web_add_cookie was successful  	[MsgId: MMSG-26392]
+Action.c(16): web_add_header("Upgrade-Insecure-Requests") started  	[MsgId: MMSG-26355]
+Action.c(16): An unrecognized header ("Upgrade-Insecure-Requests") is being added  	[MsgId: MMSG-26595]
+Action.c(16): "Upgrade-Insecure-Requests: 1" header registered for adding to requests from the immediately following Action function  	[MsgId: MMSG-26506]
+Action.c(16): web_add_header("Upgrade-Insecure-Requests") was successful  	[MsgId: MMSG-26392]
+Action.c(18): web_reg_find started  	[MsgId: MMSG-26355]
+Action.c(18): Registering web_reg_find was successful  	[MsgId: MMSG-26390]
+Action.c(19): web_reg_find started  	[MsgId: MMSG-26355]
+Action.c(19): Registering web_reg_find was successful  	[MsgId: MMSG-26390]
+Action.c(21): web_url("ALL") started  	[MsgId: MMSG-26355]
+Action.c(21): Notify: Parameter Substitution: parameter "protocol" =  "http"	[MsgId: MMSG-13992]
+Action.c(21): Notify: Parameter Substitution: parameter "host" =  "54.157.232.206"	[MsgId: MMSG-13992]
+Action.c(21): Notify: Parameter Substitution: parameter "protocol" =  "http"	[MsgId: MMSG-13992]
+Action.c(21): Notify: Parameter Substitution: parameter "host" =  "54.157.232.206"	[MsgId: MMSG-13992]
+Action.c(21): t=172ms: Connecting [0] to host 54.157.232.206:80  	[MsgId: MMSG-26000]
+Action.c(21): t=325ms: Connected socket [0] from 192.168.0.156:19795 to 54.157.232.206:80 in 153 ms  	[MsgId: MMSG-26000]
+Action.c(21): t=325ms: 599-byte request headers for "http://54.157.232.206/catalog/api/v1/DemoAppConfig/parameters/by_tool/ALL" (RelFrameId=1, Internal ID=1)
+Action.c(21):     GET /catalog/api/v1/DemoAppConfig/parameters/by_tool/ALL HTTP/1.1\r\n
+Action.c(21):     Referer: http://54.157.232.206/\r\n
+Action.c(21):     Upgrade-Insecure-Requests: 1\r\n
+Action.c(21):     User-Agent: Mozilla/5.0 (compatible; MSIE 10.0; Windows NT 6.1; Trident/6.0)\r\n
+Action.c(21):     Accept-Encoding: gzip, deflate\r\n
+Action.c(21):     Accept: */*\r\n
+Action.c(21):     Connection: Keep-Alive\r\n
+Action.c(21):     Host: 54.157.232.206\r\n
+Action.c(21):     Cookie: _ga_TBPYED8WSW=GS1.1.1709704703.33.1.1709709359.0.0.0; _ga=GA1.1.1055678014.170879
+Action.c(21):     9449; _ga_56EMNRF2S2=GS1.1.1709704704.31.1.1709708811.56.0.0; _gid=GA1.1.2024659853.170964
+Action.c(21):     0738; userCart=%7B%22userId%22%3A-1%2C%22productsInCart%22%3A%5B%5D%7D; dtCookie=6AB675624
+Action.c(21):     C78926DBC1A1553A90F7FD8||1\r\n
+Action.c(21):     \r\n
+Action.c(21): t=483ms: 434-byte response headers for "http://54.157.232.206/catalog/api/v1/DemoAppConfig/parameters/by_tool/ALL" (RelFrameId=1, Internal ID=1)
+Action.c(21):     HTTP/1.1 200 \r\n
+Action.c(21):     Server: nginx/1.12.2\r\n
+Action.c(21):     Date: Fri, 15 Mar 2024 01:22:27 GMT\r\n
+Action.c(21):     Content-Type: application/json\r\n
+Action.c(21):     Transfer-Encoding: chunked\r\n
+Action.c(21):     Connection: keep-alive\r\n
+Action.c(21):     X-OneAgent-JS-Injection: true\r\n
+Action.c(21):     Set-Cookie: dtCookie=6AB675624C78926DBC1A1553A90F7FD8|1|2||1; Path=/\r\n
+Action.c(21):     Expires: 0\r\n
+Action.c(21):     Cache-Control: no-store\r\n
+Action.c(21):     X-Content-Type-Options: nosniff\r\n
+Action.c(21):     X-XSS-Protection: 1; mode=block\r\n
+Action.c(21):     X-Frame-Options: DENY\r\n
+Action.c(21):     vary: accept-encoding\r\n
+Action.c(21):     Content-Encoding: gzip\r\n
+Action.c(21):     \r\n
+Action.c(21): t=485ms: 6-byte chunked response overhead for "http://54.157.232.206/catalog/api/v1/DemoAppConfig/parameters/by_tool/ALL" (RelFrameId=1, Internal ID=1)
+Action.c(21):     1983\r\n
+Action.c(21): t=485ms: 2480-byte ENCODED response body received for "http://54.157.232.206/catalog/api/v1/DemoAppConfig/parameters/by_tool/ALL" (RelFrameId=1, Internal ID=1)
+Action.c(21): t=486ms: 8127-byte DECODED response body for "http://54.157.232.206/catalog/api/v1/DemoAppConfig/parameters/by_tool/ALL" (RelFrameId=1, Internal ID=1)
+Action.c(21):     {"parameters":[{"parameterName":"Email_in_login","datatype":"enum:[Yes,No]","description":
+Action.c(21):     "Determines whether a mandatory Email field is added to the login screen. Use this paramet
+Action.c(21):     er to demonstrate that in BPT, a single component can be modified without updating other t
+Action.c(21):     ests. Default = No. Yes = Add the Email Address field.","attributeTools":"BPT","locationIn
+Action.c(21):     Advantage":"Login page","locationInAdminTool":"Functional","parameterValue":"No"},{"parame
+Action.c(21):     terName":"AppPulse_user","datatype":"string","description":"UserName:Password for AppPulse
+Action.c(21):      user to trigger the relevant AppPulse features.","attributeTools":"AppPulse","locationInA
+Action.c(21):     dvantage":"Entire site","locationInAdminTool":"Mobile;Functional","parameterValue":"AppPul
+Action.c(21):     se:AppPulse1"},{"parameterName":"ShipEx_repeat_calls","datatype":"string","description":"D
+Action.c(21):     efines the number of times to repeat a call to ShipEx. Use this parameter to find unnecess
+Action.c(21):     ary multiple calls to the same methods, and affects performance. Default = 0 (no repeat ca
+Action.c(21):     lling. ","attributeTools":"NV","locationInAdvantage":"Purchase","locationInAdminTool":"Gen
+Action.c(21):     eral;Performance","parameterValue":"0"},{"parameterName":"Add_product_to_incorrect_categor
+Action.c(21):     y","datatype":"enum:[Yes,No]","description":"Defines whether to move a Headphones item (pr
+Action.c(21):     oduct-id=13) from the Headphones category to the Speakers category. Use this parameter to 
+Action.c(21):     demonstrate an error in GUI or API testing. Default = No (category is not changed). Yes = 
+Action.c(21):     Modify the product category.","attributeTools":"LeanFT;UFT","locationInAdvantage":"Speaker
+Action.c(21):     s page","locationInAdminTool":"Functional","parameterValue":"No"},{"parameterName":"DB_cal
+Action.c(21):     l_delay","datatype":"string","description":"Defines the number of seconds to delay the ret
+Action.c(21):     rieval of countries during user registration. Default = 0 (no delay). Possible values = An
+Action.c(21):     y positive integer.","attributeTools":"LoadRunner;StormRunner","locationInAdvantage":"CREA
+Action.c(21):     TE ACCOUNT page","locationInAdminTool":"Performance;ITOM","parameterValue":"0"},{"paramete
+Action.c(21):     rName":"User_alternate_WSDL","datatype":"enum:[Yes,No]","description":"Determines whether 
+Action.c(21):     to modify the field names on the user registration page. (Preferred payment method > Favor
+Action.c(21):     ite payment; Phone > Mobile phone) Use this parameter to demonstrate API testing. Default 
+Action.c(21):     = No. Yes = Use the second WSDL request to register a new user","attributeTools":"UFT","lo
+Action.c(21):     cationInAdvantage":"CREATE ACCOUNT page","locationInAdminTool":"Functional","parameterValu
+Action.c(21):     e":"No"},{"parameterName":"Sum_added_to_cart","datatype":"string","description":"Defines a
+Action.c(21):      sum to be added to each cart calculation. The sum is updated in to both the Web and Mobil
+Action.c(21):     e UI (no API). A user must be logged in to enable this change. Default = 0 (no sum added)"
+Action.c(21):     ,"attributeTools":"LeanFT;UFT","locationInAdvantage":"Order payment page","locationInAdmin
+Action.c(21):     Tool":"Functional","parameterValue":"0"},{"parameterName":"Generate_memory_leak","datatype
+Action.c(21):     ":"string","description":"Defines the amount of memory leak in megabytes while retrieving 
+Action.c(21):     the order history. The memory leak is visible in both the UI and the API. Default = 0 (no 
+Action.c(21):     leak at all). Positive Integer = Number, multiplied by 1000. For example 1 = 1000 megabyte
+Action.c(21):      memory leak.","attributeTools":"LoadRunner;StormRunner","locationInAdvantage":"Order hist
+Action.c(21):     ory","locationInAdminTool":"Performance;ITOM","parameterValue":"0"},{"parameterName":"Post
+Action.c(21):     gres_Locks","datatype":"enum:[Tip]","description":"To generate a exhaustion of\xC2\xA0Post
+Action.c(21):     gresSQL\xC2\xA0locks, go to CONTACT US type \xE2\x80\x98database\xE2\x80\x99 at the Subjec
+Action.c(21):     t and click SEND.","attributeTools":"Ops B","locationInAdvantage":"Mobile, Entire App","lo
+Action.c(21):     cationInAdminTool":"Performance;ITOM","parameterValue":"Tip"},{"parameterName":"Max_concur
+Action.c(21):     rent_users","datatype":"string","description":"Defines the maximum number of concurrent us
+Action.c(21):     ers allowed. Any additional users are rejected with an error code 500. Default = 0 (no con
+Action.c(21):     current sessions allowed). Possible values = Any positive integer.","attributeTools":"Load
+Action.c(21):     Runner;StormRunner;NV","locationInAdvantage":"Login response","locationInAdminTool":"Perfo
+Action.c(21):     rmance;ITOM","parameterValue":"0"},{"parameterName":"Typos_on_order_payment","datatype":"e
+Action.c(21):     num:[Yes,No]","description":"Determines whether spelling errors appear in the UI. Default 
+Action.c(21):     = No. Yes = The following spelling errors are shown: - SHIPING DETAILS - Ciity - Recipeint
+Action.c(21):      Details (Web only) - ORDERR SUMMARY (Web only)","attributeTools":"Sprinter","locationInAd
+Action.c(21):     vantage":"Web: ORDER PAYMENT page ; Mobile: SHIPPING DETAILS page","locationInAdminTool":"
+Action.c(21):     Functional","parameterValue":"No"},{"parameterName":"Misplace_pictures_on_Android","dataty
+Action.c(21):     pe":"enum:[Yes,No]","description":"Determines whether pictures are placed differently on t
+Action.c(21):     he home page when viewed on an Android  device. Use this parameter to demonstrate how the 
+Action.c(21):     application may function differently on different mobile OSs. Default = No. Yes = Pictures
+Action.c(21):      are placed differently on Android devices.","attributeTools":"LeanFT;MobileCenter;UFT","l
+Action.c(21):     ocationInAdvantage":"Home page","locationInAdminTool":"Mobile;Functional","parameterValue"
+Action.c(21):     :"No"},{"parameterName":"Add_to_cart_time_delay","datatype":"string","description":"Define
+Action.c(21):     s the number of seconds to add as a delay in response time when a logged in user adds an i
+Action.c(21):     tem to cart. Default = 0 (no delay).","attributeTools":"LoadRunner;StormRunner","locationI
+Action.c(21):     nAdvantage":"DefaultShoppingCartRepository","locationInAdminTool":"ITOM;Performance","para
+Action.c(21):     meterValue":"0"},{"parameterName":"SLA_add_delay_time","datatype":"string","description":"
+Action.c(21):     Defines the number of seconds to add as a delay in response time when trying to login. Def
+Action.c(21):     ault = 0 (no delay). If you modify this value, also modify the SLA_add_delay_sessions para
+Action.c(21):     meter.","attributeTools":"LoadRunner;StormRunner","locationInAdvantage":"AccountServiceEnd
+Action.c(21):     point","locationInAdminTool":"Performance","parameterValue":"0"},{"parameterName":"SLA_add
+Action.c(21):     _delay_sessions","datatype":"string","description":"Defines a number of concurrent users s
+Action.c(21):     essions at which a delay is added to login response. Enabled only when SLA_add_delay_time 
+Action.c(21):     is set to a number greater than 0. Default = 20. Valid values = 0-n. The system starts add
+Action.c(21):     ing a delay if the number of sessions is greater than the defined value. It will stop the 
+Action.c(21):     delay if the number of sessions is decreased to less than the defined value. If you modify
+Action.c(21):      this value, also modify the SLA_add_delay_time parameter.","attributeTools":"LoadRunner;S
+Action.c(21):     tormRunner","locationInAdvantage":"ADD TO CART response","locationInAdminTool":"Performanc
+Action.c(21):     e","parameterValue":"0"},{"parameterName":"Show_slow_pages","datatype":"enum:[Yes,No]","de
+Action.c(21):     scription":"Determines whether NV report shows problems and errors: HTTP Codes 4xx and 5xx
+Action.c(21):     , loading unused libraries, timeout, downloading big images, etc. ","attributeTools":"NV;S
+Action.c(21):     tormRunner","locationInAdvantage":"Home Page; Laptops Page","locationInAdminTool":"Perform
+Action.c(21):     ance","parameterValue":"No"},{"parameterName":"Price_diffs_UI_vs_API","datatype":"enum:[Ye
+Action.c(21):     s,No]","description":"Creates a difference in the prices shown in the UI and the prices us
+Action.c(21):     ed in the API. Default = No. Yes = Price is doubled in the UI only, for both desktop and m
+Action.c(21):     obile, across the entire app.","attributeTools":"LeanFT;UFT","locationInAdvantage":"Entire
+Action.c(21):      site","locationInAdminTool":"Functional","parameterValue":"No"},{"parameterName":"Allow_E
+Action.c(21):     rror_in_Login","datatype":"enum:[Yes,No]","description":"Determines whether an invalid pas
+Action.c(21):     swords are allowed. These would trigger an error in a test, indicating a security gap in t
+Action.c(21):     he product. Default = No. Yes = Invalid passwords allowed, such as an empty password, or \xE2
+Action.c(21):     \x80\x981\xE2\x80\x99=\xE2\x80\x991\xE2\x80\x99","attributeTools":"Fortify","locationInAdv
+Action.c(21):     antage":"Login page","locationInAdminTool":"Security","parameterValue":"No"},{"parameterNa
+Action.c(21):     me":"Tips_Implement_DevOps_Process","datatype":"enum:[Tip]","description":"To demonstrate 
+Action.c(21):     the DevOpps process in a lifecycle management product, do the following: \xC2\xA0       1.
+Action.c(21):      In Octane, in your product release, add a user story to change an invalid user name or pa
+Action.c(21):     ssword text.         2. Demonstrate that you can view this new user story in your IDE.    
+Action.c(21):          3. Implement the user story by changing the MESSAGE_USER_LOGIN_FAILED error message i
+Action.c(21):     n the 
+Action.c(21): t=496ms: 5-byte chunked response overhead for "http://54.157.232.206/catalog/api/v1/DemoAppConfig/parameters/by_tool/ALL" (RelFrameId=1, Internal ID=1)
+Action.c(21):     \r\n
+Action.c(21):     a\r\n
+Action.c(21): t=496ms: 7-byte chunked response overhead for "http://54.157.232.206/catalog/api/v1/DemoAppConfig/parameters/by_tool/ALL" (RelFrameId=1, Internal ID=1)
+Action.c(21):     \r\n
+Action.c(21):     0\r\n
+Action.c(21):     \r\n
+Action.c(21): t=496ms: 4061-byte ENCODED response body received for "http://54.157.232.206/catalog/api/v1/DemoAppConfig/parameters/by_tool/ALL" (RelFrameId=1, Internal ID=1)
+Action.c(21): t=497ms: 12288-byte DECODED response body for "http://54.157.232.206/catalog/api/v1/DemoAppConfig/parameters/by_tool/ALL" (RelFrameId=1, Internal ID=1)
+Action.c(21):     following file: \\\\adm-demo-app\\\\accountservice\\\\src\\\\main\\\\java\\\\com\\\\advant
+Action.c(21):     age\\\\accountsoap\\\\model\\\\Account.java.         For example, change it from \\"Invali
+Action.c(21):     d user name or password\\" to \\"Incorrect user name or password, please try again\\".    
+Action.c(21):          4. Demonstrate the DevOps process and that you can now see the new error message on b
+Action.c(21):     oth desktop and mobile.","attributeTools":"","locationInAdvantage":"Change password","loca
+Action.c(21):     tionInAdminTool":"General","parameterValue":"Tip"},{"parameterName":"ShipEx_Free_Number_Of
+Action.c(21):     _Products","datatype":"string","description":"The quantity of products in a single purchas
+Action.c(21):     e that are entitled to free shipping. Default = 1.","attributeTools":"","locationInAdvanta
+Action.c(21):     ge":"Order Payment","locationInAdminTool":"General","parameterValue":"1"},{"parameterName"
+Action.c(21):     :"Tips_Mock_SOAP_ShipEx_Service","datatype":"enum:[Tip]","description":"The shipping cost 
+Action.c(21):     is determined by a table table in the 'shipex-mock-for-db.properties' configuration file, 
+Action.c(21):     according to country.  Shipping costs to countries not defined in the table are determined
+Action.c(21):      based on the value for Other.  Free shipping can be provided when the number of items ord
+Action.c(21):     ered is equal to or less than the value  of the 'ShipEx_Free_Number_Of_Products' configura
+Action.c(21):     tion parameter (default = 1).","attributeTools":"","locationInAdvantage":"Order Payment","
+Action.c(21):     locationInAdminTool":"General","parameterValue":"Tip"},{"parameterName":"Tips_Application_
+Action.c(21):     Development_Environment","datatype":"enum:[Tip]","description":"The Advantage demo site us
+Action.c(21):     es the following software versions and interfaces:  - Java server: Java 8  - Application s
+Action.c(21):     erver: Tomcat 8  - Web UI: Angular 1.47  - Admin Application: Standalone .NET  - Database:
+Action.c(21):      PostgreSQL 9.4  - Schema Management: Liquibase 3.4  - Catalog, Order Services: REST API  
+Action.c(21):     - User Management: WSDL.","attributeTools":"","locationInAdvantage":"","locationInAdminToo
+Action.c(21):     l":"General","parameterValue":"Tip"},{"parameterName":"Tips_Scripting","datatype":"enum:[T
+Action.c(21):     ip]","description":"The demo app IP addresses are not fixed. In any scripts you create for
+Action.c(21):      a demo, make sure to use a parameter for the application IP address.","attributeTools":"L
+Action.c(21):     eanFT;UFT;LoadRunner;StormRunner","locationInAdvantage":"","locationInAdminTool":"Performa
+Action.c(21):     nce;Functional","parameterValue":"Tip"},{"parameterName":"Tips_Fill_User_Location_From_GPS
+Action.c(21):     ","datatype":"enum:[Tip]","description":"To use your GPS location instead of the default v
+Action.c(21):     alues, toggle on the Use my location option on the following pages:  1. CREATE ACCOUNT, fo
+Action.c(21):     r the user account details.  2. ORDER PAYMENT, for the shipping details.","attributeTools"
+Action.c(21):     :"MobileCenter","locationInAdvantage":"Create Account, Order Payment - Shipping details","
+Action.c(21):     locationInAdminTool":"Mobile","parameterValue":"Tip"},{"parameterName":"Tips_Mock_MasterCr
+Action.c(21):     edit_Generate_Error","datatype":"enum:[Tip]","description":"To generate an error using the
+Action.c(21):      MasterCredit card, enter a MasterCredit expiration date earlier than the current day.","a
+Action.c(21):     ttributeTools":"","locationInAdvantage":"Order Payment","locationInAdminTool":"General","p
+Action.c(21):     arameterValue":"Tip"},{"parameterName":"Tips_Mock_SafePay_Generate_Error_409","datatype":"
+Action.c(21):     enum:[Tip]","description":"To generate an error using SafePay, enter identical (case sensi
+Action.c(21):     tive) username and password.","attributeTools":"AppPulse","locationInAdvantage":"Web: Orde
+Action.c(21):     r Payment; Mobile: Payment Method (SafePay)","locationInAdminTool":"Functional;Mobile","pa
+Action.c(21):     rameterValue":"Tip"},{"parameterName":"Tips_WebSocket_example","datatype":"enum:[Tip]","de
+Action.c(21):     scription":"To demonstrate WebSocket features, use the chat widget located on the Home pag
+Action.c(21):     e (http://www.advantageonlineshopping.com/), under Contact Us.","attributeTools":"LoadRunn
+Action.c(21):     er","locationInAdvantage":"Home page - CONTACT US","locationInAdminTool":"Performance","pa
+Action.c(21):     rameterValue":"Tip"},{"parameterName":"Tips_Support_Different_Types_Of_Controls","datatype
+Action.c(21):     ":"enum:[Tip]","description":"Use the following UI elements to demonstrate various functio
+Action.c(21):     nal testing features:  * String: On the CREATE ACCOUNT or ACCOUNT DETAILS page, update the
+Action.c(21):      Personal Details fields.  * Radio button: On the ORDER PAYMENT page, select a payment met
+Action.c(21):     hod.  * Date value: On the ORDER PAYMENT page, select the MasterCredit option and then ent
+Action.c(21):     er an expiration date.  * List box: On the CREATE ACCOUNT page, select a country from the 
+Action.c(21):     Country drop down list.  * Multiple selection: Browse products by category and filter the 
+Action.c(21):     products shown by using the options on the left","attributeTools":"BPT;MobileCenter;LeanFT
+Action.c(21):     ;UFT","locationInAdvantage":"Entire Site","locationInAdminTool":"Functional;Mobile","param
+Action.c(21):     eterValue":"Tip"},{"parameterName":"Tips_System_Configuration","datatype":"enum:[Tip]","de
+Action.c(21):     scription":"The Admin UI menu and pages are read-only in the shared system on the cloud.  
+Action.c(21):     You can make changes in a local instance.  Troubleshooting: If you are unable to make chan
+Action.c(21):     ges in a local instance:  1. Navigate to the DemoApp.properties file.  2. Ensure that the 
+Action.c(21):     Allow user configuration value is set to Yes. This is the default setting.  3. Verify that
+Action.c(21):      you can configure the relevant field from the Admin UI as needed.","attributeTools":"","l
+Action.c(21):     ocationInAdvantage":".NET Admin app","locationInAdminTool":"General","parameterValue":"Tip
+Action.c(21):     "},{"parameterName":"Tips_replace_3rd_party_services_with_SV","datatype":"enum:[Tip]","des
+Action.c(21):     cription":"Replace the ShipEx, MasterCredit, or SafePay 3rd party services with Service Vi
+Action.c(21):     rtualization by updating the relevant URLs in the services.properties configuration file. 
+Action.c(21):      This file is located in properties folder of 5 services: accountservice, MasterCredit, or
+Action.c(21):     der, ROOT, SafePay.  For example: /accountservice/properties/services.properties.  1. Navi
+Action.c(21):     gate to the <service-name>.url.host line, and modify the URL/IP address string to the Serv
+Action.c(21):     ice Virtualization URL and IP address.  2. Navigate to the <service-name>.url.port line an
+Action.c(21):     d modify the port string to the Service Virtualization port.  3. Save the file, and repeat
+Action.c(21):      these steps for each service in the services.properties file, and in the services.propert
+Action.c(21):     ies files for each service.","attributeTools":"SV","locationInAdvantage":"ShipEx;MasterCre
+Action.c(21):     dit;SafePay","locationInAdminTool":"Functional","parameterValue":"Tip"},{"parameterName":"
+Action.c(21):     Tips_How_To_Use_Product_Video","datatype":"enum:[Tip]","description":"ADM performance tool
+Action.c(21):     s support HTML5 video streaming via: native browsers, plugins such as Adobe Flash, or stan
+Action.c(21):     dalone software.  To demonstrate this feature, browse to one of the following products and
+Action.c(21):      view the demo video:  - HP ROAR WIRELESS SPEAKER (Product ID: 22)  - BEATS STUDIO 2 OVER-
+Action.c(21):     EAR MATTE BLACK HEADPHONES (product ID: 15)  - HP ELITEPAD 1000 G2 TABLET (product ID: 16)
+Action.c(21):     ","attributeTools":"LoadRunner","locationInAdvantage":"Selected Products","locationInAdmin
+Action.c(21):     Tool":"Performance","parameterValue":"Tip"},{"parameterName":"Tips_regular_expression","da
+Action.c(21):     tatype":"enum:[Tip]","description":"The button text always starts with Pay to allow for de
+Action.c(21):     monstrating regular expressions in object identification.","attributeTools":"LeanFT;UFT","
+Action.c(21):     locationInAdvantage":"Pay button in cart sum","locationInAdminTool":"Functional","paramete
+Action.c(21):     rValue":"Tip"},{"parameterName":"Tips_correlation_example","datatype":"enum:[Tip]","descri
+Action.c(21):     ption":"To demonstrate correlation, make sure that you include a login step in your flow. 
+Action.c(21):      The correlation is implemented with the session ID.","attributeTools":"LoadRunner","locat
+Action.c(21):     ionInAdvantage":"Web Application Login","locationInAdminTool":"Performance","parameterValu
+Action.c(21):     e":"Tip"},{"parameterName":"Tips_async_example","datatype":"enum:[Tip]","description":"ADM
+Action.c(21):      performance tools support asynchronous communication.  To demonstrate this feature, brows
+Action.c(21):     e to any of the products in the HEADPHONES category, and record the comments (web only).",
+Action.c(21):     "attributeTools":"LoadRunner","locationInAdvantage":"Performance","locationInAdminTool":"P
+Action.c(21):     erformance","parameterValue":"Tip"},{"parameterName":"Tips_Swagger_Interface_For_REST_APIs
+Action.c(21):     ","datatype":"enum:[Tip]","description":"To use Swagger interface for REST APIs change the
+Action.c(21):      URL to http://<your-server>:<port>/<service>/api/docs.  <service> can be on of the follow
+Action.c(21):     ing (case sensitive): catalog, order, MasterCredit or SafePay.  For example: http://www.ad
+Action.c(21):     vantageonlineshopping.com:80/catalog/api/docs.","attributeTools":"","locationInAdvantage":
+Action.c(21):     "catalog,MasterCredit,order,SafePay services","locationInAdminTool":"General","parameterVa
+Action.c(21):     lue":"Tip"},{"parameterName":"Tips_REST_API_Params_In_Request_URL","datatype":"enum:[Tip]"
+Action.c(21):     ,"description":"Send the REST API request and parameters in request URL. Example: http://w
+Action.c(21):     ww.advantageonlineshopping.com/catalog/api/v1/products/1.","attributeTools":"UFT","locatio
+Action.c(21):     nInAdvantage":"catalog,MasterCredit,order,SafePay services","locationInAdminTool":"Functio
+Action.c(21):     nal","parameterValue":"Tip"},{"parameterName":"Tips_REST_API_Params_In_Request_Body","data
+Action.c(21):     type":"enum:[Tip]","description":"Send the REST API parameters in the request body. Exampl
+Action.c(21):     e: http://www.advantageonlineshopping.com/MasterCredit/api/v1/payments/payment, body: { \\
+Action.c(21):     "MCCVVNumber\\": 666, \\"MCCardNumber\\": 6543210987654321, \\"MCCustomerName\\": \\"King 
+Action.c(21):     David\\", \\"MCCustomerPhone\\": \\"+12025551969\\", \\"MCExpirationDate\\": \\"032017\\",
+Action.c(21):      \\"MCRecevingAmount.Value\\": 2011.03, \\"MCRecevingCard.AccountNumber\\": 112987298763, 
+Action.c(21):     \\"MCRecevingCard.Currency\\": \\"USD\\", \\"MCTransactionDate\\": \\"02092016\\", \\"MCTr
+Action.c(21):     ansactionType\\": \\"PAYMENT\\" }.","attributeTools":"UFT","locationInAdvantage":"catalog,
+Action.c(21):     MasterCredit,order,SafePay services","locationInAdminTool":"Functional","parameterValue":"
+Action.c(21):     Tip"},{"parameterName":"Tips_DFE","datatype":"enum:[Tip]","description":"Send login reques
+Action.c(21):     t and response in Base-64 encoded, instead of in plain text, to show DFE in snapshot (disp
+Action.c(21):     lay only).","attributeTools":"LoadRunner","locationInAdvantage":"Web Application Login","l
+Action.c(21):     ocationInAdminTool":"Performance","parameterValue":"Tip"},{"parameterName":"Tips_validatio
+Action.c(21):     n_example","datatype":"enum:[Tip]","description":"To demonstrate validation: Perform a flo
+Action.c(21):     w where you buy the contents of the cart, then go to the My Orders page and look for the o
+Action.c(21):     rder by its order number (shows positive\xC2\xA0validation). Delete the order, then look f
+Action.c(21):     or the order by its number again (shows negative\xC2\xA0validation).","attributeTools":"Lo
+Action.c(21):     adRunner","locationInAdvantage":"My Orders","locationInAdminTool":"Performance","parameter
+Action.c(21):     Value":"Tip"},{"parameterName":"Mobile_crash","datatype":"enum:[Tip]","description":"To ge
+Action.c(21):     nerate a crash, login with AppPulse user and change\xC2\xA0the device orientation from\xC2
+Action.c(21):     \xA0portrait to landscape","attributeTools":"AppPulse","locationInAdvantage":"Mobile: enti
+Action.c(21):     re app","locationInAdminTool":"Mobile;Functional;ITOM","parameterValue":"Tip"},{"parameter
+Action.c(21):     Name":"Slow_launch_of_the_native_app","datatype":"enum:[Tip]","description":"To show a slo
+Action.c(21):     w launch, log in as the AppPulse user and kill the app. From this point on, any launch wil
+Action.c(21):     l be slow until you log in with a different user","attributeTools":"AppPulse","locationInA
+Action.c(21):     dvantage":"Android\xC2\xA0native app: Launch","locationInAdminTool":"Mobile;Performance","
+Action.c(21):     parameterValue":"Tip"},{"parameterName":"Error_500","datatype":"enum:[Tip]","description":
+Action.c(21):     "To generate error 500, login with AppPulse user, add items to\xC2\xA0the the cart, checko
+Action.c(21):     ut and click on pay now","attributeTools":"AppPulse","locationInAdvantage":"Order Payment"
+Action.c(21):     ,"locationInAdminTool":"Mobile;Functional;ITOM","parameterValue":"Tip"},{"parameterName":"
+Action.c(21):     Error_403","datatype":"enum:[Tip]","description":"To generate error 403, click on the 'Sig
+Action.c(21):     n in with Facebook' button.","attributeTools":"AppPulse","locationInAdvantage":"Login page
+Action.c(21):     ","locationInAdminTool":"Mobile;Functional;ITOM","parameterValue":"Tip"},{"parameterName":
+Action.c(21):     "Use_Camera_Capability","datatype":"enum:[Tip]","description":"Add an option to enable the
+Action.c(21):      user to take a picture with the camera . This picture will be added to the current produc
+Action.c(21):     t page. In offline mode, the picture is retained for the current session only. When using 
+Action.c(21):     MC, if \xE2\x80\x9CCamera Sensor\xE2\x80\x9D is enabled, this picture will be replaced wit
+Action.c(21):     h the picture the user previously uploaded to MC.","attributeTools":"MobileCenter","locati
+Action.c(21):     onInAdvantage":"Mobile apps: Product page","locationInAdminTool":"Mobile","parameterValue"
+Action.c(21):     :"Tip"},{"parameterName":"Tips_SQL_injection_vulnerability","datatype":"enum:[Tip]","descr
+Action.c(21):     iption":"A functional test finds the following defect: The user crea
+Action.c(21): t=503ms: 3517-byte DECODED response body for "http://54.157.232.206/catalog/api/v1/DemoAppConfig/parameters/by_tool/ALL" (RelFrameId=1, Internal ID=1)
+Action.c(21):     tes a user with any\xC2\xA0Username, but the\xC2\xA0name that is actually created is dupli
+Action.c(21):     cated, as displayed at\xC2\xA0the top right side of the site.\xC2\xA0\xC2\xA0 The user ope
+Action.c(21):     ns a defect, fixes the code, and commits the change. This triggers a Fortify scan (provide
+Action.c(21):     d that you added the Fortify scan trigger in the code change) that will find an\xC2\xA0SQL
+Action.c(21):      injection\xC2\xA0vulnerability.  To achieve this, you must edit the\xC2\xA0accountservice
+Action.c(21):     \\\\src\\\\main\\\\java\\\\com\\\\advantage\\\\accountsoap\\\\dao\\\\impl\\\\DefaultAccoun
+Action.c(21):     tRepository\xC2\xA0file. In this file, first uncomment the\xC2\xA0code that is located\xC2
+Action.c(21):     \xA0between the\xC2\xA0'SQL injection vulnerability' tags. \xC2\xA0Then, comment out the c
+Action.c(21):     ode that is located between the 'Code without\xC2\xA0SQL injection vulnerability' tags. No
+Action.c(21):     te that there are 2 locations in the code in which you need to make these changes.","attri
+Action.c(21):     buteTools":"Fortify, LeanFT, UFT","locationInAdvantage":"Create Account page","locationInA
+Action.c(21):     dminTool":"Security","parameterValue":"Tip"},{"parameterName":"Enable_Warranty","datatype"
+Action.c(21):     :"enum:[Yes,No]","description":"Determines whether a warranty checkbox is added to each la
+Action.c(21):     ptop product screen. Use this parameter to demonstrate an integration between AOS and COBO
+Action.c(21):     L, during checkout AOS backend invoke a COBOL service to activate a warranty for laptop. D
+Action.c(21):     efault = No. Yes = Add a checkbox to the laptop product page.","attributeTools":"AMC","loc
+Action.c(21):     ationInAdvantage":"Laptops","locationInAdminTool":"General","parameterValue":"No"},{"param
+Action.c(21):     eterName":"Warranty_Service_URL","datatype":"string","description":"The URL of the COBOL w
+Action.c(21):     eb service to be used for the warranty, the default service is located on AZURE. the defau
+Action.c(21):     lt URL is: https://aoswarrantyfunction.azurewebsites.net/api/Function1?code=KEK/GaiTZ0lfJd
+Action.c(21):     RkJGgNdsn8qfenPseDGaS3j3n8noI6AGtSIriLAg== note: mouse over on the text field to view the 
+Action.c(21):     current URL.","attributeTools":"AMC","locationInAdvantage":"Laptops","locationInAdminTool"
+Action.c(21):     :"General","parameterValue":"https://aoswarrantyfunction.azurewebsites.net/api/Function1?c
+Action.c(21):     ode=KEK/GaiTZ0lfJdRkJGgNdsn8qfenPseDGaS3j3n8noI6AGtSIriLAg=="},{"parameterName":"Enable_Vo
+Action.c(21):     ltage_Encryption","datatype":"enum:[Yes,No]","description":"Use this parameter to demonstr
+Action.c(21):     ate an integration between Voltage Data Encryption And AOS. The MasterCredit number is enc
+Action.c(21):     rypted when the flag is set to 'Yes'","attributeTools":"AMC","locationInAdvantage":"Paymen
+Action.c(21):     t page","locationInAdminTool":"General","parameterValue":"No"},{"parameterName":"Voltage_S
+Action.c(21):     ervice_URL","datatype":"string","description":"The URL of the Voltage Data Encryption serv
+Action.c(21):     ice to be used for the encryption, the default service is located on AZURE. the default UR
+Action.c(21):     L is: https://voltage-pp-0000.dataprotection.voltage.com note: mouse over on the text fiel
+Action.c(21):     d to view the current URL.","attributeTools":"ITOM","locationInAdvantage":"Payment page","
+Action.c(21):     locationInAdminTool":"General","parameterValue":"https://voltage-pp-0000.dataprotection.vo
+Action.c(21):     ltage.com"},{"parameterName":"duplicate_countries","datatype":"enum:[Yes,No]","description
+Action.c(21):     ":"Duplicates the countries in adv_account DB, causing error during registration. Note: Re
+Action.c(21):     start required.","attributeTools":"ITOM","locationInAdvantage":"Registration page","locati
+Action.c(21):     onInAdminTool":"General","parameterValue":"No"},{"parameterName":"AOB_Endpoint","datatype"
+Action.c(21):     :"string","description":"Purchases made using AOB user, will create a transaction on AOB s
+Action.c(21):     ystem, on the current endpoint","attributeTools":"","locationInAdvantage":"Purchase Page",
+Action.c(21):     "locationInAdminTool":"General","parameterValue":"http://advantageonlinebanking.com/api/ac
+Action.c(21):     counts/purchase"}]}
+Action.c(21): t=504ms: Request done "http://54.157.232.206/catalog/api/v1/DemoAppConfig/parameters/by_tool/ALL"  	[MsgId: MMSG-26000]
+Action.c(21): Registered web_reg_find successful for "Text="parameters"" (count=1)  	[MsgId: MMSG-26364]
+Action.c(21): Registered web_reg_find successful for "Text="parameterName"" (count=51)  	[MsgId: MMSG-26364]
+Action.c(21): web_url("ALL") was successful, 6541 body bytes, 434 header bytes, 18 chunking overhead bytes  	[MsgId: MMSG-26385]
+Action.c(31): web_add_cookie started  	[MsgId: MMSG-26355]
+Action.c(31): Notify: Parameter Substitution: parameter "domain" =  "54.157.232.206"	[MsgId: MMSG-13992]
+Action.c(31): web_add_cookie was successful  	[MsgId: MMSG-26392]
+Action.c(32): web_add_header("Origin") started  	[MsgId: MMSG-26355]
+Action.c(32): Notify: Parameter Substitution: parameter "protocol" =  "http"	[MsgId: MMSG-13992]
+Action.c(32): Notify: Parameter Substitution: parameter "host" =  "54.157.232.206"	[MsgId: MMSG-13992]
+Action.c(32): An unrecognized header ("Origin") is being added  	[MsgId: MMSG-26595]
+Action.c(32): "Origin: http://54.157.232.206" header registered for adding to requests from the immediately following Action function  	[MsgId: MMSG-26506]
+Action.c(32): web_add_header("Origin") was successful  	[MsgId: MMSG-26392]
+Action.c(33): web_add_header("SOAPAction") started  	[MsgId: MMSG-26355]
+Action.c(33): "SOAPAction: com.advantage.online.store.accountserviceGetAccountConfigurationRequest" header registered for adding to requests from the immediately following Action function  	[MsgId: MMSG-26506]
+Action.c(33): web_add_header("SOAPAction") was successful  	[MsgId: MMSG-26392]
+Action.c(34): web_add_header("X-Requested-With") started  	[MsgId: MMSG-26355]
+Action.c(34): An unrecognized header ("X-Requested-With") is being added  	[MsgId: MMSG-26595]
+Action.c(34): "X-Requested-With: XMLHttpRequest" header registered for adding to requests from the immediately following Action function  	[MsgId: MMSG-26506]
+Action.c(34): web_add_header("X-Requested-With") was successful  	[MsgId: MMSG-26392]
+Action.c(36): web_reg_find started  	[MsgId: MMSG-26355]
+Action.c(36): Registering web_reg_find was successful  	[MsgId: MMSG-26390]
+Action.c(38): web_custom_request("GetAccountConfigurationRequest") started  	[MsgId: MMSG-26355]
+Action.c(38): Notify: Parameter Substitution: parameter "protocol" =  "http"	[MsgId: MMSG-13992]
+Action.c(38): Notify: Parameter Substitution: parameter "host" =  "54.157.232.206"	[MsgId: MMSG-13992]
+Action.c(38): Notify: Parameter Substitution: parameter "protocol" =  "http"	[MsgId: MMSG-13992]
+Action.c(38): Notify: Parameter Substitution: parameter "host" =  "54.157.232.206"	[MsgId: MMSG-13992]
+Action.c(38): t=506ms: Already connected [0] to 54.157.232.206:80  	[MsgId: MMSG-26000]
+Action.c(38): t=506ms: 814-byte request headers for "http://54.157.232.206/accountservice/ws/GetAccountConfigurationRequest" (RelFrameId=1, Internal ID=2)
+Action.c(38):     POST /accountservice/ws/GetAccountConfigurationRequest HTTP/1.1\r\n
+Action.c(38):     Content-Type: text/xml; charset=UTF-8\r\n
+Action.c(38):     Cache-Control: no-cache\r\n
+Action.c(38):     Referer: http://54.157.232.206/\r\n
+Action.c(38):     Origin: http://54.157.232.206\r\n
+Action.c(38):     SOAPAction: com.advantage.online.store.accountserviceGetAccountConfigurationRequest\r\n
+Action.c(38):     X-Requested-With: XMLHttpRequest\r\n
+Action.c(38):     User-Agent: Mozilla/5.0 (compatible; MSIE 10.0; Windows NT 6.1; Trident/6.0)\r\n
+Action.c(38):     Accept-Encoding: gzip, deflate\r\n
+Action.c(38):     Accept: */*\r\n
+Action.c(38):     Connection: Keep-Alive\r\n
+Action.c(38):     Host: 54.157.232.206\r\n
+Action.c(38):     Cookie: _ga_TBPYED8WSW=GS1.1.1709704703.33.1.1709709359.0.0.0; _ga=GA1.1.1055678014.170879
+Action.c(38):     9449; _ga_56EMNRF2S2=GS1.1.1709704704.31.1.1709708811.56.0.0; _gid=GA1.1.2024659853.170964
+Action.c(38):     0738; userCart=%7B%22userId%22%3A-1%2C%22productsInCart%22%3A%5B%5D%7D; dtCookie=6AB675624
+Action.c(38):     C78926DBC1A1553A90F7FD8|1|2||1; _gat=1\r\n
+Action.c(38):     Content-Length: 361\r\n
+Action.c(38):     \r\n
+Action.c(38): t=507ms: 361-byte request body for "http://54.157.232.206/accountservice/ws/GetAccountConfigurationRequest" (RelFrameId=1, Internal ID=2)
+Action.c(38):     <?xml version="1.0" encoding="UTF-8"?><soap:Envelope xmlns:soap="http://schemas.xmlsoap.or
+Action.c(38):     g/soap/envelope/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://
+Action.c(38):     www.w3.org/2001/XMLSchema"><soap:Body><GetAccountConfigurationRequest xmlns="com.advantage
+Action.c(38):     .online.store.accountservice"></GetAccountConfigurationRequest></soap:Body></soap:Envelope
+Action.c(38):     >
+Action.c(38): t=667ms: 665-byte response headers for "http://54.157.232.206/accountservice/ws/GetAccountConfigurationRequest" (RelFrameId=1, Internal ID=2)
+Action.c(38):     HTTP/1.1 200 \r\n
+Action.c(38):     Server: nginx/1.12.2\r\n
+Action.c(38):     Date: Fri, 15 Mar 2024 01:22:27 GMT\r\n
+Action.c(38):     Content-Type: text/xml;charset=utf-8\r\n
+Action.c(38):     Content-Length: 823\r\n
+Action.c(38):     Connection: keep-alive\r\n
+Action.c(38):     X-Content-Type-Options: nosniff\r\n
+Action.c(38):     X-XSS-Protection: 1; mode=block\r\n
+Action.c(38):     Cache-Control: no-store\r\n
+Action.c(38):     Pragma: no-cache\r\n
+Action.c(38):     Expires: 0\r\n
+Action.c(38):     X-Frame-Options: DENY\r\n
+Action.c(38):     Access-Control-Request-Method: POST, GET, OPTIONS, DELETE\r\n
+Action.c(38):     Access-Control-Allow-Methods: POST, GET, OPTIONS, DELETE\r\n
+Action.c(38):     Access-Control-Max-Age: 3600\r\n
+Action.c(38):     Access-Control-Allow-Headers: Origin, X-Requested-With, Content-Type, Accept, Key, soapact
+Action.c(38):     ion\r\n
+Action.c(38):     Access-Control-Allow-Origin: *\r\n
+Action.c(38):     Accept: text/xml, text/html, image/gif, image/jpeg, *; q=.2, */*; q=.2\r\n
+Action.c(38):     SOAPAction: ""\r\n
+Action.c(38):     \r\n
+Action.c(38): t=668ms: 823-byte response body for "http://54.157.232.206/accountservice/ws/GetAccountConfigurationRequest" (RelFrameId=1, Internal ID=2)
+Action.c(38):     <SOAP-ENV:Envelope xmlns:SOAP-ENV="http://schemas.xmlsoap.org/soap/envelope/"><SOAP-ENV:He
+Action.c(38):     ader/><SOAP-ENV:Body><ns2:GetAccountConfigurationResponse xmlns:ns2="com.advantage.online.
+Action.c(38):     store.accountservice"><ns2:numberOfFailedLoginAttemptsBeforeBlocking>3</ns2:numberOfFailed
+Action.c(38):     LoginAttemptsBeforeBlocking><ns2:loginBlockingIntervalInSeconds>300</ns2:loginBlockingInte
+Action.c(38):     rvalInSeconds><ns2:productInStockDefaultValue>10</ns2:productInStockDefaultValue><ns2:user
+Action.c(38):     SecondWsdl>false</ns2:userSecondWsdl><ns2:userLoginTimeout>60</ns2:userLoginTimeout><ns2:a
+Action.c(38):     llowUserConfiguration>true</ns2:allowUserConfiguration><ns2:productionHostIp>http://54.175
+Action.c(38):     .138.128:8081</ns2:productionHostIp><ns2:productionHostName>http://advantageonlineshopping
+Action.c(38):     .com</ns2:productionHostName></ns2:GetAccountConfigurationResponse></SOAP-ENV:Body></SOAP-
+Action.c(38):     ENV:Envelope>
+Action.c(38): t=668ms: Request done "http://54.157.232.206/accountservice/ws/GetAccountConfigurationRequest"  	[MsgId: MMSG-26000]
+Action.c(38): Registered web_reg_find successful for "Text=numberOfFailedLoginAttemptsBeforeBlocking" (count=2)  	[MsgId: MMSG-26364]
+Action.c(38): web_custom_request("GetAccountConfigurationRequest") was successful, 823 body bytes, 665 header bytes  	[MsgId: MMSG-26386]
+Action.c(51): web_add_cookie started  	[MsgId: MMSG-26355]
+Action.c(51): Notify: Parameter Substitution: parameter "domain" =  "54.157.232.206"	[MsgId: MMSG-13992]
+Action.c(51): web_add_cookie was successful  	[MsgId: MMSG-26392]
+Action.c(54): web_reg_find started  	[MsgId: MMSG-26355]
+Action.c(54): Registering web_reg_find was successful  	[MsgId: MMSG-26390]
+Action.c(55): web_reg_find started  	[MsgId: MMSG-26355]
+Action.c(55): Registering web_reg_find was successful  	[MsgId: MMSG-26390]
+Action.c(56): web_reg_find started  	[MsgId: MMSG-26355]
+Action.c(56): Registering web_reg_find was successful  	[MsgId: MMSG-26390]
+Action.c(57): web_reg_find started  	[MsgId: MMSG-26355]
+Action.c(57): Registering web_reg_find was successful  	[MsgId: MMSG-26390]
+Action.c(58): web_reg_find started  	[MsgId: MMSG-26355]
+Action.c(58): Registering web_reg_find was successful  	[MsgId: MMSG-26390]
+Action.c(60): web_url("categories") started  	[MsgId: MMSG-26355]
+Action.c(60): Notify: Parameter Substitution: parameter "protocol" =  "http"	[MsgId: MMSG-13992]
+Action.c(60): Notify: Parameter Substitution: parameter "host" =  "54.157.232.206"	[MsgId: MMSG-13992]
+Action.c(60): Notify: Parameter Substitution: parameter "protocol" =  "http"	[MsgId: MMSG-13992]
+Action.c(60): Notify: Parameter Substitution: parameter "host" =  "54.157.232.206"	[MsgId: MMSG-13992]
+Action.c(60): t=670ms: Already connected [0] to 54.157.232.206:80  	[MsgId: MMSG-26000]
+Action.c(60): t=670ms: 555-byte request headers for "http://54.157.232.206/catalog/api/v1/categories" (RelFrameId=1, Internal ID=3)
+Action.c(60):     GET /catalog/api/v1/categories HTTP/1.1\r\n
+Action.c(60):     Referer: http://54.157.232.206/\r\n
+Action.c(60):     User-Agent: Mozilla/5.0 (compatible; MSIE 10.0; Windows NT 6.1; Trident/6.0)\r\n
+Action.c(60):     Accept-Encoding: gzip, deflate\r\n
+Action.c(60):     Accept: */*\r\n
+Action.c(60):     Connection: Keep-Alive\r\n
+Action.c(60):     Host: 54.157.232.206\r\n
+Action.c(60):     Cookie: _ga_TBPYED8WSW=GS1.1.1709704703.33.1.1709709359.0.0.0; _ga=GA1.1.1055678014.170879
+Action.c(60):     9449; _ga_56EMNRF2S2=GS1.1.1709728780.32.0.1709728780.60.0.0; _gid=GA1.1.2024659853.170964
+Action.c(60):     0738; userCart=%7B%22userId%22%3A-1%2C%22productsInCart%22%3A%5B%5D%7D; dtCookie=6AB675624
+Action.c(60):     C78926DBC1A1553A90F7FD8|1|2||1; _gat=1\r\n
+Action.c(60):     \r\n
+Action.c(60): t=914ms: 434-byte response headers for "http://54.157.232.206/catalog/api/v1/categories" (RelFrameId=1, Internal ID=3)
+Action.c(60):     HTTP/1.1 200 \r\n
+Action.c(60):     Server: nginx/1.12.2\r\n
+Action.c(60):     Date: Fri, 15 Mar 2024 01:22:27 GMT\r\n
+Action.c(60):     Content-Type: application/json\r\n
+Action.c(60):     Transfer-Encoding: chunked\r\n
+Action.c(60):     Connection: keep-alive\r\n
+Action.c(60):     X-OneAgent-JS-Injection: true\r\n
+Action.c(60):     Set-Cookie: dtCookie=6AB675624C78926DBC1A1553A90F7FD8|1|2||1; Path=/\r\n
+Action.c(60):     Expires: 0\r\n
+Action.c(60):     Cache-Control: no-store\r\n
+Action.c(60):     X-Content-Type-Options: nosniff\r\n
+Action.c(60):     X-XSS-Protection: 1; mode=block\r\n
+Action.c(60):     X-Frame-Options: DENY\r\n
+Action.c(60):     vary: accept-encoding\r\n
+Action.c(60):     Content-Encoding: gzip\r\n
+Action.c(60):     \r\n
+Action.c(60): t=914ms: 6-byte chunked response overhead for "http://54.157.232.206/catalog/api/v1/categories" (RelFrameId=1, Internal ID=3)
+Action.c(60):     116d\r\n
+Action.c(60): t=914ms: 1020-byte ENCODED response body received for "http://54.157.232.206/catalog/api/v1/categories" (RelFrameId=1, Internal ID=3)
+Action.c(60): t=914ms: 2919-byte DECODED response body for "http://54.157.232.206/catalog/api/v1/categories" (RelFrameId=1, Internal ID=3)
+Action.c(60):     [{"categoryId":1,"categoryName":"LAPTOPS","managedImageId":"laptops","products":[{"id":6,"
+Action.c(60):     productName":"HP ENVY x360 - 15t Laptop","price":699.99,"description":"We took our remarka
+Action.c(60):     ble 360\xC2\xB0 convertible PC and enhanced it with premium features to give you ultimate 
+Action.c(60):     flexibility and enviable looks.","productStatus":"Active","managedImageId":"1600"},{"id":1
+Action.c(60):     ,"productName":"HP Pavilion 15t Touch Laptop","price":519.99,"description":"Redesigned wit
+Action.c(60):     h you in mind, the HP Pavilion keeps getting better. Our best-selling notebook is now more
+Action.c(60):      powerful so you can watch more, play more, and store more, all in style.","productStatus"
+Action.c(60):     :"Active","managedImageId":"1100"},{"id":3,"productName":"HP Pavilion 15z Touch Laptop","p
+Action.c(60):     rice":449.99,"description":"Redesigned with you in mind, the HP Pavilion keeps getting bet
+Action.c(60):     ter. Our best-selling notebook is now more powerful so you can watch more, play more, and 
+Action.c(60):     store more, all in style.","productStatus":"Active","managedImageId":"1300"},{"id":2,"prod
+Action.c(60):     uctName":"HP Pavilion 15z Laptop","price":549.99,"description":"Redesigned with you in min
+Action.c(60):     d, the HP Pavilion keeps getting better. Our best-selling notebook is now more powerful so
+Action.c(60):      you can watch more, play more, and store more, all in style.","productStatus":"Active","m
+Action.c(60):     anagedImageId":"1200"},{"id":5,"productName":"HP Stream - 11-d020nr Laptop","price":179.99
+Action.c(60):     ,"description":"Work from a happy place with a stylish, affordable, Windows-based PC. Stor
+Action.c(60):     e your content in the cloud for easy access from anywhere you have internet.","productStat
+Action.c(60):     us":"Active","managedImageId":"1245"},{"id":10,"productName":"HP Chromebook 14 G1(ES)","pr
+Action.c(60):     ice":1261.99,"description":"Introducing the next generation HP EliteBook Folio 9480m Ultra
+Action.c(60):     book\xE2\x84\xA2[2]. Timeless, ultra slim profile in an all metal design with optional 4G 
+Action.c(60):     Broadband wWAN, and 4th Generation Intel\xC2\xAE Core\xE2\x84\xA2 Processing Technology.",
+Action.c(60):     "productStatus":"Active","managedImageId":"1250"},{"id":7,"productName":"HP ENVY - 17t Tou
+Action.c(60):     ch Laptop","price":849.99,"description":"We took our remarkable 360\xC2\xB0 convertible PC
+Action.c(60):      and enhanced it with premium features to give you ultimate flexibility and enviable looks
+Action.c(60):     .","productStatus":"Active","managedImageId":"1700"},{"id":4,"productName":"HP Spectre x36
+Action.c(60):     0 - 13-4102dx","price":1399.99,"description":"Stunning, ultra-slim convertible PC with a 3
+Action.c(60):     60\xC2\xB0 hinge","productStatus":"Active","managedImageId":"1400"},{"id":11,"productName"
+Action.c(60):     :"HP Pavilion x360 - 11t Touch Laptop","price":319.99,"description":"There\xE2\x80\x99s no
+Action.c(60):      limit to what this value-packed convertible PC can do. Easily convert from notebook to st
+Action.c(60):     and to tent to tablet mode. It\xE2\x80\x99s an app-loving, friend-connecting, 360\xC2\xB0-
+Action.c(60):     bending machine.","productStatus":"Active","managedImageId":"11100"},{"id":9,"productName"
+Action.c(60):     :"HP Chromebook 14 G1(ENERGY STAR)","price":299.99,"description":"This HP notebook is all 
+Action.c(60):     about getting the perfect combination of design, reliability, and features. Style and prod
+Action.c(60):     uctivity while 
+Action.c(60): t=915ms: 5-byte chunked response overhead for "http://54.157.232.206/catalog/api/v1/categories" (RelFrameId=1, Internal ID=3)
+Action.c(60):     \r\n
+Action.c(60):     a\r\n
+Action.c(60): t=915ms: 7-byte chunked response overhead for "http://54.157.232.206/catalog/api/v1/categories" (RelFrameId=1, Internal ID=3)
+Action.c(60):     \r\n
+Action.c(60):     0\r\n
+Action.c(60):     \r\n
+Action.c(60): t=915ms: 3451-byte ENCODED response body received for "http://54.157.232.206/catalog/api/v1/categories" (RelFrameId=1, Internal ID=3)
+Action.c(60): t=916ms: 10035-byte DECODED response body for "http://54.157.232.206/catalog/api/v1/categories" (RelFrameId=1, Internal ID=3)
+Action.c(60):     keeping your wallet in mind - now that's something to get excited about.","productStatus":
+Action.c(60):     "Active","managedImageId":"1249"},{"id":8,"productName":"HP ZBook 17 G2 Mobile Workstation
+Action.c(60):     ","price":1799.0,"description":"On the go creativity knows no limits on a vivid 17.3 inch 
+Action.c(60):     diagonal HP ZBook 17 G2. Showcase your best work in the office or on the go and take advan
+Action.c(60):     tage of HP\xE2\x80\x99s most powerful processing, graphics, simple scalability, and blazin
+Action.c(60):     g-fast connectivity to perform and collaborate at the speed of creativity.","productStatus
+Action.c(60):     ":"Active","managedImageId":"1800"}]},{"categoryId":2,"categoryName":"HEADPHONES","managed
+Action.c(60):     ImageId":"headphones","products":[{"id":12,"productName":"HP H2310 In-ear Headset","price"
+Action.c(60):     :13.99,"description":"Enjoy an acoustic concert in your ears with HP\xE2\x80\x99s In-Ear H
+Action.c(60):     eadset H2310. Available in trend-setting design in four color options and compatible with 
+Action.c(60):     most smartphones, MP3 players and tablets \xE2\x80\x93 including Android\xE2\x84\xA2 and A
+Action.c(60):     pple\xC2\xAE. Easily switch from jamming to tunes to connecting with friends using the inl
+Action.c(60):     ine microphone. Quality craftsmanship, value priced, and awesome sound.","productStatus":"
+Action.c(60):     Active","managedImageId":"2100"},{"id":15,"productName":"Beats Studio 2 Over-Ear Matte Bla
+Action.c(60):     ck Headphones","price":179.99,"description":"The world\xE2\x80\x99s most famous headphone 
+Action.c(60):     has been completely redesigned and reimagined. The new Beats Studio\xC2\xAE is lighter, se
+Action.c(60):     xier, stronger, and more comfortable, with precision sound, Adaptive Noise Canceling, a 20
+Action.c(60):     -hour rechargeable battery, and RemoteTalk\xE2\x84\xA2. It has all the energy and exciteme
+Action.c(60):     nt you expect from Beats, plus a powerful, reengineered sound.","productStatus":"Active","
+Action.c(60):     managedImageId":"2200"},{"id":13,"productName":"Bose SoundLink Around-ear Wireless Headpho
+Action.c(60):     nes II","price":279.95,"description":"Wireless freedom meets best-in-class sound.","produc
+Action.c(60):     tStatus":"OutOfStock","managedImageId":"2300"},{"id":14,"productName":"Logitech USB Headse
+Action.c(60):     t H390","price":39.99,"description":"Features on this product will exceeded your expectati
+Action.c(60):     ons.","productStatus":"Active","managedImageId":"2400"}]},{"categoryId":3,"categoryName":"
+Action.c(60):     TABLETS","managedImageId":"tablets","products":[{"id":16,"productName":"HP ElitePad 1000 G
+Action.c(60):     2 Tablet","price":1009.0,"description":"More than a tablet\xE2\x80\x94a total business sol
+Action.c(60):     ution. The elegant and sleek HP ElitePad 1000 G2 has the performance and flexibility to tr
+Action.c(60):     ansform the way you work. Redefine productivity and stay light with the confidence of the 
+Action.c(60):     leading manageability, security, and support you expect from HP.","productStatus":"Active"
+Action.c(60):     ,"managedImageId":"3100"},{"id":17,"productName":"HP Elite x2 1011 G1 Tablet","price":1279
+Action.c(60):     .0,"description":"Ultrabook\xE2\x84\xA2[2] Power\\nPower up for ultimate power with Window
+Action.c(60):     s 8.1,[1] 5th Gen Intel\xC2\xAE Core\xE2\x84\xA2 M processors,[4] with optional vPro\xE2\x84
+Action.c(60):     \xA2[5] and long battery life provided by dual tablet and keyboard base batteries.","produ
+Action.c(60):     ctStatus":"Active","managedImageId":"3200"},{"id":18,"productName":"HP Pro Tablet 608 G1",
+Action.c(60):     "price":479.0,"description":"Transform your business with this small stylish business tabl
+Action.c(60):     et equipped with a brilliant, high definition display and the pervasive connectivity to mo
+Action.c(60):     bilize nearly any business process. Choose from an expansive choice of accessories[2] for 
+Action.c(60):     a customized experience.","productStatus":"Active","managedImageId":"3300"}]},{"categoryId
+Action.c(60):     ":4,"categoryName":"SPEAKERS","managedImageId":"speakers","products":[{"id":21,"productNam
+Action.c(60):     e":"HP Roar Plus Wireless Speaker","price":169.99,"description":"Showcase your music anywh
+Action.c(60):     ere with the ease of wireless Bluetooth\xC2\xAE connectivity.","productStatus":"Active","m
+Action.c(60):     anagedImageId":"4300"},{"id":24,"productName":"HP Roar Mini Wireless Speaker","price":44.9
+Action.c(60):     9,"description":"Attention-getting design, color, and sound - the HP Roar Mini Wireless Sp
+Action.c(60):     eaker. Exceptional size-defying audio while streaming music and calls from a distinctively
+Action.c(60):      compact speaker.","productStatus":"Active","managedImageId":"4600"},{"id":23,"productName
+Action.c(60):     ":"Logitech X100 Speaker System - Wireless Speaker(s)","price":49.99,"description":"Pump u
+Action.c(60):     p the volume and enjoy crystal-clear sound from this mobile speaker. This portable speaker
+Action.c(60):      is perfect for life on-the-go. Take it on the road or relax and listen at home because th
+Action.c(60):     is mobile speaker goes everywhere. Simple, intuitive design lets you wirelessly connect an
+Action.c(60):     d stream music from your Bluetooth-enabled device from up to 30' away. Easily manage phone
+Action.c(60):      calls and volume control from your mobile phone. Enjoy five hours of continuous play befo
+Action.c(60):     re you need to recharge. Recharge the built-in, lithium-ion battery with the convenience o
+Action.c(60):     f the included micro-USB cable.","productStatus":"Active","managedImageId":"4500"},{"id":2
+Action.c(60):     2,"productName":"HP Roar Wireless Speaker","price":84.99,"description":"Showcase your musi
+Action.c(60):     c anywhere with the ease of wireless Bluetooth\xC2\xAE connectivity.","productStatus":"Act
+Action.c(60):     ive","managedImageId":"4400"},{"id":19,"productName":"HP S9500 Bluetooth Wireless Speaker"
+Action.c(60):     ,"price":200.0,"description":"Impress \xE2\x80\xA6 everyone! Futuristic design with perfor
+Action.c(60):     ated steel formed into subtle angles. Requiring only minimal space, this speaker is the id
+Action.c(60):     eal complement to any setting.","productStatus":"Active","managedImageId":"4100"},{"id":20
+Action.c(60):     ,"productName":"Bose Soundlink Bluetooth Speaker III","price":269.99,"description":"Meet t
+Action.c(60):     he speaker that brings your music and friends together-with a style that's all your own. T
+Action.c(60):     he SoundLink\xC2\xAE Bluetooth speaker III is our best-performing mobile Bluetooth speaker
+Action.c(60):     . It plays louder and longer than its popular predecessor, with advanced Bose\xC2\xAE tech
+Action.c(60):     nologies that reproduce the fullness, clarity and depth of your music. And a colorful asso
+Action.c(60):     rtment of optional covers let you personalize your speaker.","productStatus":"Active","man
+Action.c(60):     agedImageId":"4200"},{"id":25,"productName":"Bose SoundLink Wireless Speaker","price":129.
+Action.c(60):     0,"description":"If music is your motivation, wait until you hear the SoundLink\xC2\xAE Co
+Action.c(60):     lor Bluetooth speaker. It plays your favorite tunes from your favorite Bluetooth device-ou
+Action.c(60):     t loud in clear, full audio-just about anywhere you want to go. It's small, durable and si
+Action.c(60):     mple to use. And it comes in a spectrum of colors to match almost any style.","productStat
+Action.c(60):     us":"Active","managedImageId":"4700"}]},{"categoryId":5,"categoryName":"MICE","managedImag
+Action.c(60):     eId":"mice","products":[{"id":30,"productName":"HP Z4000 Wireless Mouse","price":9.99,"des
+Action.c(60):     cription":"The sleek and low-profiled design make the Z4000 the must-have companion to eve
+Action.c(60):     ry thin notebook or tablet. Style and comfort within a dynamic ultra-mobile wireless mouse
+Action.c(60):     .","productStatus":"Active","managedImageId":"5505"},{"id":34,"productName":"Microsoft Scu
+Action.c(60):     lpt Touch Mouse","price":49.99,"description":"Looking for a portable mouse that helps you 
+Action.c(60):     get things done? Sculpt Touch Mouse saves time in long documents and works virtually anywh
+Action.c(60):     ere, with no cables or transceivers to connect. And it's designed to fit comfortably in ei
+Action.c(60):     ther hand.\\nThe four-way touch scrolling pad on the Sculpt Touch Mouse lets you breeze up
+Action.c(60):      and down, left and right, and through windows and documents with just the swipe of your f
+Action.c(60):     inger. While you scroll, you'll feel the nice surprise of tactile feedback. Sculpt Touch M
+Action.c(60):     ouse is also a powerful complement to Windows 8, navigating fluidly and intuitively around
+Action.c(60):      the Start Screen.\\n","productStatus":"Active","managedImageId":"5900"},{"id":29,"product
+Action.c(60):     Name":"HP USB 3 Button Optical Mouse","price":9.99,"description":"Smooth and Accurate - Th
+Action.c(60):     e HP USB 3-Button Optical Mouse is the affordable desktop optical mouse solution that comb
+Action.c(60):     ines functionality with style","productStatus":"Active","managedImageId":"5400"},{"id":32,
+Action.c(60):     "productName":"Kensington Orbit 72337 Trackball with Scroll Ring","price":39.99,"descripti
+Action.c(60):     on":"All-day comfort and scrolling come together in the Kensington Orbit Trackball with Sc
+Action.c(60):     roll Ring. The scroll ring allows you to fly through web pages and documents. And all whil
+Action.c(60):     e delivering comfort and space savings no mouse can match.","productStatus":"Active","mana
+Action.c(60):     gedImageId":"5700"},{"id":28,"productName":"HP Z3200 Wireless Mouse","price":29.99,"descri
+Action.c(60):     ption":"The HP Wireless Mouse Z3200 provides powerful Blue LED optical tracking. Its ambid
+Action.c(60):     extrous shape and familiar button controls are easy to use. Compact contoured control.","p
+Action.c(60):     roductStatus":"Active","managedImageId":"5300"},{"id":27,"productName":"HP Z3600 Wireless 
+Action.c(60):     Mouse","price":15.99,"description":"The tiny HP Wireless Mouse Z3600 provides stylish comf
+Action.c(60):     ort and control for your mobile computing needs. With optical tracking, 3 button controls,
+Action.c(60):      and the freedom to connect up to 30ft (10m) away, this compact mouse provides oversized p
+Action.c(60):     erformance.","productStatus":"Active","managedImageId":"5200"},{"id":31,"productName":"Log
+Action.c(60):     itech G502 Proteus Core","price":79.99,"description":"MAKE IT YOURS!\\nProteus Core perfec
+Action.c(60):     tly tuned by you.\\nProteus Core allows you to change the weight, balance, and enables you
+Action.c(60):      to adapt to wherever you choose to play. Customize it to the way you game and make it you
+Action.c(60):     rs!\\n\\nPERSONALLY-TUNED PERFORMANCE\\nAdapts to your environment\\nFine tune the optical
+Action.c(60):      sensor in Proteus Core to your playing surface for better accuracy, precision and respons
+Action.c(60):     iveness. A quick tuning process, and you are battle ready.","productStatus":"Active","mana
+Action.c(60):     gedImageId":"5600"},{"id":26,"productName":"Kensington Orbit 72352 Trackball","price":59.9
+Action.c(60):     9,"description":"The Kensington Orbit Wireless Mobile Trackball offers a precise, compact 
+Action.c(60):     and versatile experience with a centered-ball design. With no wires to tie you down, the 2
+Action.c(60):     .4 GHz wireless with storable nano receiver works wherever you do -- at your home or offic
+Action.c(60):     e. And the unique touch scrolling lets you glide effortlessly through web pages and docume
+Action.c(60):     nts.","productStatus":"Active","managedImageId":"5100"},{"id":33,"productName":"HP Z8000 B
+Action.c(60):     luetooth Mouse","price":50.99,"description":"The exquisite HP Z8000 Bluetooth Mouse is onl
+Action.c(60):     y 18mm (.7in) height, saves power with Bluetooth\xC2\xAE Low Energy connectivity, and prov
+Action.c(60):     ides effortless capacitive touch control. The future is here.","productStatus":"Active","m
+Action.c(60):     anagedImageId":"5800"}]}]
+Action.c(60): t=919ms: Request done "http://54.157.232.206/catalog/api/v1/categories"  	[MsgId: MMSG-26000]
+Action.c(60): Registered web_reg_find successful for "Text="categoryName":"LAPTOPS"" (count=1)  	[MsgId: MMSG-26364]
+Action.c(60): Registered web_reg_find successful for "Text="categoryName":"HEADPHONES"" (count=1)  	[MsgId: MMSG-26364]
+Action.c(60): Registered web_reg_find successful for "Text="categoryName":"TABLETS"" (count=1)  	[MsgId: MMSG-26364]
+Action.c(60): Registered web_reg_find successful for "Text="categoryName":"SPEAKERS"" (count=1)  	[MsgId: MMSG-26364]
+Action.c(60): Registered web_reg_find successful for "Text="categoryName":"MICE"" (count=1)  	[MsgId: MMSG-26364]
+Action.c(60): web_url("categories") was successful, 4471 body bytes, 434 header bytes, 18 chunking overhead bytes  	[MsgId: MMSG-26385]
+Action.c(71): web_reg_find started  	[MsgId: MMSG-26355]
+Action.c(71): Registering web_reg_find was successful  	[MsgId: MMSG-26390]
+Action.c(72): web_reg_find started  	[MsgId: MMSG-26355]
+Action.c(72): Registering web_reg_find was successful  	[MsgId: MMSG-26390]
+Action.c(74): web_url("dealOfTheDay") started  	[MsgId: MMSG-26355]
+Action.c(74): Notify: Parameter Substitution: parameter "protocol" =  "http"	[MsgId: MMSG-13992]
+Action.c(74): Notify: Parameter Substitution: parameter "host" =  "54.157.232.206"	[MsgId: MMSG-13992]
+Action.c(74): Notify: Parameter Substitution: parameter "protocol" =  "http"	[MsgId: MMSG-13992]
+Action.c(74): Notify: Parameter Substitution: parameter "host" =  "54.157.232.206"	[MsgId: MMSG-13992]
+Action.c(74): t=919ms: Already connected [0] to 54.157.232.206:80  	[MsgId: MMSG-26000]
+Action.c(74): t=919ms: 575-byte request headers for "http://54.157.232.206/catalog/api/v1/deals/search?dealOfTheDay=true" (RelFrameId=1, Internal ID=4)
+Action.c(74):     GET /catalog/api/v1/deals/search?dealOfTheDay=true HTTP/1.1\r\n
+Action.c(74):     Referer: http://54.157.232.206/\r\n
+Action.c(74):     User-Agent: Mozilla/5.0 (compatible; MSIE 10.0; Windows NT 6.1; Trident/6.0)\r\n
+Action.c(74):     Accept-Encoding: gzip, deflate\r\n
+Action.c(74):     Accept: */*\r\n
+Action.c(74):     Connection: Keep-Alive\r\n
+Action.c(74):     Host: 54.157.232.206\r\n
+Action.c(74):     Cookie: _ga_TBPYED8WSW=GS1.1.1709704703.33.1.1709709359.0.0.0; _ga=GA1.1.1055678014.170879
+Action.c(74):     9449; _ga_56EMNRF2S2=GS1.1.1709728780.32.0.1709728780.60.0.0; _gid=GA1.1.2024659853.170964
+Action.c(74):     0738; userCart=%7B%22userId%22%3A-1%2C%22productsInCart%22%3A%5B%5D%7D; dtCookie=6AB675624
+Action.c(74):     C78926DBC1A1553A90F7FD8|1|2||1; _gat=1\r\n
+Action.c(74):     \r\n
+Action.c(74): t=1176ms: 434-byte response headers for "http://54.157.232.206/catalog/api/v1/deals/search?dealOfTheDay=true" (RelFrameId=1, Internal ID=4)
+Action.c(74):     HTTP/1.1 200 \r\n
+Action.c(74):     Server: nginx/1.12.2\r\n
+Action.c(74):     Date: Fri, 15 Mar 2024 01:22:28 GMT\r\n
+Action.c(74):     Content-Type: application/json\r\n
+Action.c(74):     Transfer-Encoding: chunked\r\n
+Action.c(74):     Connection: keep-alive\r\n
+Action.c(74):     X-OneAgent-JS-Injection: true\r\n
+Action.c(74):     Set-Cookie: dtCookie=6AB675624C78926DBC1A1553A90F7FD8|1|2||1; Path=/\r\n
+Action.c(74):     Expires: 0\r\n
+Action.c(74):     Cache-Control: no-store\r\n
+Action.c(74):     X-Content-Type-Options: nosniff\r\n
+Action.c(74):     X-XSS-Protection: 1; mode=block\r\n
+Action.c(74):     X-Frame-Options: DENY\r\n
+Action.c(74):     vary: accept-encoding\r\n
+Action.c(74):     Content-Encoding: gzip\r\n
+Action.c(74):     \r\n
+Action.c(74): t=1177ms: 5-byte chunked response overhead for "http://54.157.232.206/catalog/api/v1/deals/search?dealOfTheDay=true" (RelFrameId=1, Internal ID=4)
+Action.c(74):     155\r\n
+Action.c(74): t=1177ms: 2-byte chunked response overhead for "http://54.157.232.206/catalog/api/v1/deals/search?dealOfTheDay=true" (RelFrameId=1, Internal ID=4)
+Action.c(74):     \r\n
+Action.c(74): t=1177ms: 341-byte ENCODED response body received for "http://54.157.232.206/catalog/api/v1/deals/search?dealOfTheDay=true" (RelFrameId=1, Internal ID=4)
+Action.c(74): t=1177ms: 681-byte DECODED response body for "http://54.157.232.206/catalog/api/v1/deals/search?dealOfTheDay=true" (RelFrameId=1, Internal ID=4)
+Action.c(74):     [{"id":1,"dealType":10,"description":"Redesigned with you in mind, the HP Pavilion keeps g
+Action.c(74):     etting better. Our best-selling notebook is now more powerful so you can watch more, play 
+Action.c(74):     more, and store more, all in style.","promotionHeader":"EXPLORE THE NEW DESIGN","promotion
+Action.c(74):     SubHeader":"Supremely thin, yet incredibly durable","staringPrice":"650","discount":0.0,"p
+Action.c(74):     roduct":{"id":3,"productName":"HP Pavilion 15z Touch Laptop","price":449.99,"description":
+Action.c(74):     "Redesigned with you in mind, the HP Pavilion keeps getting better. Our best-selling noteb
+Action.c(74):     ook is now more powerful so you can watch more, play more, and store more, all in style.",
+Action.c(74):     "productStatus":"Active","managedImageId":"1300"}}]
+Action.c(74): t=1177ms: 3-byte chunked response overhead for "http://54.157.232.206/catalog/api/v1/deals/search?dealOfTheDay=true" (RelFrameId=1, Internal ID=4)
+Action.c(74):     a\r\n
+Action.c(74): t=1177ms: 7-byte chunked response overhead for "http://54.157.232.206/catalog/api/v1/deals/search?dealOfTheDay=true" (RelFrameId=1, Internal ID=4)
+Action.c(74):     \r\n
+Action.c(74):     0\r\n
+Action.c(74):     \r\n
+Action.c(74): t=1177ms: 10-byte ENCODED response body received for "http://54.157.232.206/catalog/api/v1/deals/search?dealOfTheDay=true" (RelFrameId=1, Internal ID=4)
+Action.c(74): t=1178ms: Request done "http://54.157.232.206/catalog/api/v1/deals/search?dealOfTheDay=true"  	[MsgId: MMSG-26000]
+Action.c(74): Registered web_reg_find successful for "Text="promotionHeader"" (count=1)  	[MsgId: MMSG-26364]
+Action.c(74): Registered web_reg_find successful for "Text="promotionSubHeader"" (count=1)  	[MsgId: MMSG-26364]
+Action.c(74): web_url("dealOfTheDay") was successful, 351 body bytes, 434 header bytes, 17 chunking overhead bytes  	[MsgId: MMSG-26385]
+Action.c(84): Notify: Transaction "Goto_HomePage" ended with a "Pass" status (Duration: 1,0085 Wasted Time: 0,0003).	[MsgId: MMSG-16871]
+Action.c(87): lr_think_time: 5,00 seconds.	[MsgId: MMSG-15948]
+Virtual User Script started at: 15.03.2024 6:22:30	[MsgId: MMSG-15967]
+Starting action vuser_init.	[MsgId: MMSG-15919]
+Web Turbo Replay of LoadRunner 12.55.0 for Windows 10; build 911 (июл 24 2017 19:46:00)  	[MsgId: MMSG-26983]
+Run mode: HTML  	[MsgId: MMSG-26993]
+Replay user agent: Mozilla/5.0 (compatible; MSIE 10.0; Windows NT 6.1; Trident/6.0)  	[MsgId: MMSG-26988]
+Run-Time Settings file: "C:\Users\user\AppData\Local\Temp\lr5tmpdiry6q.526\lrcfgSet.556\cfgTZN.615"  	[MsgId: MMSG-27141]
+Vuser directory: "C:\Users\user\Documents\VuGen\Scripts\UC12_ChatWebsocket"  	[MsgId: MMSG-27052]
+Vuser output directory: "C:\Users\user\Documents\VuGen\Scripts\UC12_ChatWebsocket"  	[MsgId: MMSG-27050]
+Operating system's current working directory: "C:\Users\user\Documents\VuGen\Scripts\UC12_ChatWebsocket"  	[MsgId: MMSG-27048]
+UTC (GMT) start date/time   : 2024-03-15 01:22:30  	[MsgId: MMSG-26992]
+LOCAL start date/time       : 2024-03-15 06:22:30  	[MsgId: MMSG-26991]
+Local daylight-Savings-Time : No  	[MsgId: MMSG-26990]
+Some of the Run-Time Settings:  	[MsgId: MMSG-27142]
+    Download non-HTML resources: Yes  	[MsgId: MMSG-27018]
+    Verification checks: No  	[MsgId: MMSG-27017]
+    Convert from/to UTF-8: No  	[MsgId: MMSG-27016]
+    Simulate a new user each iteration: Yes  	[MsgId: MMSG-27009]
+    Non-critical item errors as warnings: Yes  	[MsgId: MMSG-27008]
+    HTTP errors as warnings: No  	[MsgId: MMSG-27007]
+    WinInet replay instead of Sockets: No  	[MsgId: MMSG-27006]
+    HTTP version: 1.1  	[MsgId: MMSG-27005]
+    Keep-Alive HTTP connections: Yes  	[MsgId: MMSG-27004]
+    Max self Meta refresh updates: 2  	[MsgId: MMSG-27003]
+    Obtaining the proxy settings from the default browser: No proxy is used (direct connection to the Internet)  	[MsgId: MMSG-26845]
+    DNS caching: Yes  	[MsgId: MMSG-27035]
+    Simulate browser cache: Yes  	[MsgId: MMSG-27034]
+        Cache URLs requiring content (e.g., HTMLs): Yes  	[MsgId: MMSG-27033]
+            Additional URLs requiring content: text/xml;text/plain  	[MsgId: MMSG-27032]
+        Check for newer versions every visit to the page: No  	[MsgId: MMSG-27031]
+    Page download timeout (sec): 120  	[MsgId: MMSG-27030]
+    Resource Page Timeout is a Warning: No  	[MsgId: MMSG-27029]
+    ContentCheck enabled: Yes  	[MsgId: MMSG-27028]
+    ContentCheck script-level file: "C:\Users\user\AppData\Local\Temp\lr5tmpdiry6q.526\lrcfgSet.556\LrwiAedScript.xml"  	[MsgId: MMSG-27027]
+    Enable Web Page Breakdown: No  	[MsgId: MMSG-27026]
+    Enable connection data points: Yes  	[MsgId: MMSG-27023]
+    Process socket after reschedule: Yes  	[MsgId: MMSG-27022]
+    Snapshot on error: No  	[MsgId: MMSG-27021]
+    Define each step as a transaction: No  	[MsgId: MMSG-27020]
+    Read beyond Content-Length: No  	[MsgId: MMSG-26994]
+    Parse HTML Content-Type: TEXT  	[MsgId: MMSG-26999]
+    Graph hits per second and HTTP status codes: Yes  	[MsgId: MMSG-26998]
+    Graph response bytes per second: Yes  	[MsgId: MMSG-26997]
+    Graph pages per second: No  	[MsgId: MMSG-26996]
+    Web recorder version ID: 8  	[MsgId: MMSG-26995]
+Ending action vuser_init.	[MsgId: MMSG-15918]
+Running Vuser...	[MsgId: MMSG-15964]
+Starting iteration 1.	[MsgId: MMSG-15968]
+Maximum number of concurrent connections per server: 6  	[MsgId: MMSG-26989]
+Starting action Action.	[MsgId: MMSG-15919]
+Action.c(4): Notify: Transaction "UC12_ChatWebsocket" started.	[MsgId: MMSG-16999]
+Action.c(7): Notify: Transaction "Goto_HomePage" started.	[MsgId: MMSG-16999]
+Action.c(9): web_set_sockets_option started  	[MsgId: MMSG-26355]
+Action.c(9): web_set_sockets_option was successful  	[MsgId: MMSG-26392]
+Action.c(10): web_add_cookie started  	[MsgId: MMSG-26355]
+Action.c(10): Notify: Parameter Substitution: parameter "domain" =  "54.157.232.206"	[MsgId: MMSG-13992]
+Action.c(10): web_add_cookie was successful  	[MsgId: MMSG-26392]
+Action.c(11): web_add_cookie started  	[MsgId: MMSG-26355]
+Action.c(11): Notify: Parameter Substitution: parameter "domain" =  "54.157.232.206"	[MsgId: MMSG-13992]
+Action.c(11): web_add_cookie was successful  	[MsgId: MMSG-26392]
+Action.c(12): web_add_cookie started  	[MsgId: MMSG-26355]
+Action.c(12): Notify: Parameter Substitution: parameter "domain" =  "54.157.232.206"	[MsgId: MMSG-13992]
+Action.c(12): web_add_cookie was successful  	[MsgId: MMSG-26392]
+Action.c(13): web_add_cookie started  	[MsgId: MMSG-26355]
+Action.c(13): Notify: Parameter Substitution: parameter "domain" =  "54.157.232.206"	[MsgId: MMSG-13992]
+Action.c(13): web_add_cookie was successful  	[MsgId: MMSG-26392]
+Action.c(14): web_add_cookie started  	[MsgId: MMSG-26355]
+Action.c(14): Notify: Parameter Substitution: parameter "domain" =  "54.157.232.206"	[MsgId: MMSG-13992]
+Action.c(14): web_add_cookie was successful  	[MsgId: MMSG-26392]
+Action.c(15): web_add_cookie started  	[MsgId: MMSG-26355]
+Action.c(15): Notify: Parameter Substitution: parameter "domain" =  "54.157.232.206"	[MsgId: MMSG-13992]
+Action.c(15): web_add_cookie was successful  	[MsgId: MMSG-26392]
+Action.c(16): web_add_header("Upgrade-Insecure-Requests") started  	[MsgId: MMSG-26355]
+Action.c(16): An unrecognized header ("Upgrade-Insecure-Requests") is being added  	[MsgId: MMSG-26595]
+Action.c(16): "Upgrade-Insecure-Requests: 1" header registered for adding to requests from the immediately following Action function  	[MsgId: MMSG-26506]
+Action.c(16): web_add_header("Upgrade-Insecure-Requests") was successful  	[MsgId: MMSG-26392]
+Action.c(18): web_reg_find started  	[MsgId: MMSG-26355]
+Action.c(18): Registering web_reg_find was successful  	[MsgId: MMSG-26390]
+Action.c(19): web_reg_find started  	[MsgId: MMSG-26355]
+Action.c(19): Registering web_reg_find was successful  	[MsgId: MMSG-26390]
+Action.c(21): web_url("ALL") started  	[MsgId: MMSG-26355]
+Action.c(21): Notify: Parameter Substitution: parameter "protocol" =  "http"	[MsgId: MMSG-13992]
+Action.c(21): Notify: Parameter Substitution: parameter "host" =  "54.157.232.206"	[MsgId: MMSG-13992]
+Action.c(21): Notify: Parameter Substitution: parameter "protocol" =  "http"	[MsgId: MMSG-13992]
+Action.c(21): Notify: Parameter Substitution: parameter "host" =  "54.157.232.206"	[MsgId: MMSG-13992]
+Action.c(21): t=1911ms: Connecting [0] to host 54.157.232.206:80  	[MsgId: MMSG-26000]
+Action.c(21): t=2059ms: Connected socket [0] from 192.168.0.156:19796 to 54.157.232.206:80 in 148 ms  	[MsgId: MMSG-26000]
+Action.c(21): t=2060ms: 599-byte request headers for "http://54.157.232.206/catalog/api/v1/DemoAppConfig/parameters/by_tool/ALL" (RelFrameId=1, Internal ID=1)
+Action.c(21):     GET /catalog/api/v1/DemoAppConfig/parameters/by_tool/ALL HTTP/1.1\r\n
+Action.c(21):     Referer: http://54.157.232.206/\r\n
+Action.c(21):     Upgrade-Insecure-Requests: 1\r\n
+Action.c(21):     User-Agent: Mozilla/5.0 (compatible; MSIE 10.0; Windows NT 6.1; Trident/6.0)\r\n
+Action.c(21):     Accept-Encoding: gzip, deflate\r\n
+Action.c(21):     Accept: */*\r\n
+Action.c(21):     Connection: Keep-Alive\r\n
+Action.c(21):     Host: 54.157.232.206\r\n
+Action.c(21):     Cookie: _ga_TBPYED8WSW=GS1.1.1709704703.33.1.1709709359.0.0.0; _ga=GA1.1.1055678014.170879
+Action.c(21):     9449; _ga_56EMNRF2S2=GS1.1.1709704704.31.1.1709708811.56.0.0; _gid=GA1.1.2024659853.170964
+Action.c(21):     0738; userCart=%7B%22userId%22%3A-1%2C%22productsInCart%22%3A%5B%5D%7D; dtCookie=6AB675624
+Action.c(21):     C78926DBC1A1553A90F7FD8||1\r\n
+Action.c(21):     \r\n
+Action.c(21): t=2212ms: 434-byte response headers for "http://54.157.232.206/catalog/api/v1/DemoAppConfig/parameters/by_tool/ALL" (RelFrameId=1, Internal ID=1)
+Action.c(21):     HTTP/1.1 200 \r\n
+Action.c(21):     Server: nginx/1.12.2\r\n
+Action.c(21):     Date: Fri, 15 Mar 2024 01:22:29 GMT\r\n
+Action.c(21):     Content-Type: application/json\r\n
+Action.c(21):     Transfer-Encoding: chunked\r\n
+Action.c(21):     Connection: keep-alive\r\n
+Action.c(21):     X-OneAgent-JS-Injection: true\r\n
+Action.c(21):     Set-Cookie: dtCookie=6AB675624C78926DBC1A1553A90F7FD8|1|2||1; Path=/\r\n
+Action.c(21):     Expires: 0\r\n
+Action.c(21):     Cache-Control: no-store\r\n
+Action.c(21):     X-Content-Type-Options: nosniff\r\n
+Action.c(21):     X-XSS-Protection: 1; mode=block\r\n
+Action.c(21):     X-Frame-Options: DENY\r\n
+Action.c(21):     vary: accept-encoding\r\n
+Action.c(21):     Content-Encoding: gzip\r\n
+Action.c(21):     \r\n
+Action.c(21): t=2213ms: 6-byte chunked response overhead for "http://54.157.232.206/catalog/api/v1/DemoAppConfig/parameters/by_tool/ALL" (RelFrameId=1, Internal ID=1)
+Action.c(21):     1983\r\n
+Action.c(21): t=2213ms: 1020-byte ENCODED response body received for "http://54.157.232.206/catalog/api/v1/DemoAppConfig/parameters/by_tool/ALL" (RelFrameId=1, Internal ID=1)
+Action.c(21): t=2213ms: 2582-byte DECODED response body for "http://54.157.232.206/catalog/api/v1/DemoAppConfig/parameters/by_tool/ALL" (RelFrameId=1, Internal ID=1)
+Action.c(21):     {"parameters":[{"parameterName":"Email_in_login","datatype":"enum:[Yes,No]","description":
+Action.c(21):     "Determines whether a mandatory Email field is added to the login screen. Use this paramet
+Action.c(21):     er to demonstrate that in BPT, a single component can be modified without updating other t
+Action.c(21):     ests. Default = No. Yes = Add the Email Address field.","attributeTools":"BPT","locationIn
+Action.c(21):     Advantage":"Login page","locationInAdminTool":"Functional","parameterValue":"No"},{"parame
+Action.c(21):     terName":"AppPulse_user","datatype":"string","description":"UserName:Password for AppPulse
+Action.c(21):      user to trigger the relevant AppPulse features.","attributeTools":"AppPulse","locationInA
+Action.c(21):     dvantage":"Entire site","locationInAdminTool":"Mobile;Functional","parameterValue":"AppPul
+Action.c(21):     se:AppPulse1"},{"parameterName":"ShipEx_repeat_calls","datatype":"string","description":"D
+Action.c(21):     efines the number of times to repeat a call to ShipEx. Use this parameter to find unnecess
+Action.c(21):     ary multiple calls to the same methods, and affects performance. Default = 0 (no repeat ca
+Action.c(21):     lling. ","attributeTools":"NV","locationInAdvantage":"Purchase","locationInAdminTool":"Gen
+Action.c(21):     eral;Performance","parameterValue":"0"},{"parameterName":"Add_product_to_incorrect_categor
+Action.c(21):     y","datatype":"enum:[Yes,No]","description":"Defines whether to move a Headphones item (pr
+Action.c(21):     oduct-id=13) from the Headphones category to the Speakers category. Use this parameter to 
+Action.c(21):     demonstrate an error in GUI or API testing. Default = No (category is not changed). Yes = 
+Action.c(21):     Modify the product category.","attributeTools":"LeanFT;UFT","locationInAdvantage":"Speaker
+Action.c(21):     s page","locationInAdminTool":"Functional","parameterValue":"No"},{"parameterName":"DB_cal
+Action.c(21):     l_delay","datatype":"string","description":"Defines the number of seconds to delay the ret
+Action.c(21):     rieval of countries during user registration. Default = 0 (no delay). Possible values = An
+Action.c(21):     y positive integer.","attributeTools":"LoadRunner;StormRunner","locationInAdvantage":"CREA
+Action.c(21):     TE ACCOUNT page","locationInAdminTool":"Performance;ITOM","parameterValue":"0"},{"paramete
+Action.c(21):     rName":"User_alternate_WSDL","datatype":"enum:[Yes,No]","description":"Determines whether 
+Action.c(21):     to modify the field names on the user registration page. (Preferred payment method > Favor
+Action.c(21):     ite payment; Phone > Mobile phone) Use this parameter to demonstrate API testing. Default 
+Action.c(21):     = No. Yes = Use the second WSDL request to register a new user","attributeTools":"UFT","lo
+Action.c(21):     cationInAdvantage":"CREATE ACCOUNT page","locationInAdminTool":"Functional","parameterValu
+Action.c(21):     e":"No"},{"parameterName":"Sum_added_to_cart","datatype":"string","description":"Defines a
+Action.c(21):      sum to be added to each cart calculation. The sum is updated 
+Action.c(21): t=2214ms: 5-byte chunked response overhead for "http://54.157.232.206/catalog/api/v1/DemoAppConfig/parameters/by_tool/ALL" (RelFrameId=1, Internal ID=1)
+Action.c(21):     \r\n
+Action.c(21):     a\r\n
+Action.c(21): t=2214ms: 7-byte chunked response overhead for "http://54.157.232.206/catalog/api/v1/DemoAppConfig/parameters/by_tool/ALL" (RelFrameId=1, Internal ID=1)
+Action.c(21):     \r\n
+Action.c(21):     0\r\n
+Action.c(21):     \r\n
+Action.c(21): t=2214ms: 5521-byte ENCODED response body received for "http://54.157.232.206/catalog/api/v1/DemoAppConfig/parameters/by_tool/ALL" (RelFrameId=1, Internal ID=1)
+Action.c(21): t=2215ms: 12288-byte DECODED response body for "http://54.157.232.206/catalog/api/v1/DemoAppConfig/parameters/by_tool/ALL" (RelFrameId=1, Internal ID=1)
+Action.c(21):     in to both the Web and Mobile UI (no API). A user must be logged in to enable this change.
+Action.c(21):      Default = 0 (no sum added)","attributeTools":"LeanFT;UFT","locationInAdvantage":"Order pa
+Action.c(21):     yment page","locationInAdminTool":"Functional","parameterValue":"0"},{"parameterName":"Gen
+Action.c(21):     erate_memory_leak","datatype":"string","description":"Defines the amount of memory leak in
+Action.c(21):      megabytes while retrieving the order history. The memory leak is visible in both the UI a
+Action.c(21):     nd the API. Default = 0 (no leak at all). Positive Integer = Number, multiplied by 1000. F
+Action.c(21):     or example 1 = 1000 megabyte memory leak.","attributeTools":"LoadRunner;StormRunner","loca
+Action.c(21):     tionInAdvantage":"Order history","locationInAdminTool":"Performance;ITOM","parameterValue"
+Action.c(21):     :"0"},{"parameterName":"Postgres_Locks","datatype":"enum:[Tip]","description":"To generate
+Action.c(21):      a exhaustion of\xC2\xA0PostgresSQL\xC2\xA0locks, go to CONTACT US type \xE2\x80\x98databa
+Action.c(21):     se\xE2\x80\x99 at the Subject and click SEND.","attributeTools":"Ops B","locationInAdvanta
+Action.c(21):     ge":"Mobile, Entire App","locationInAdminTool":"Performance;ITOM","parameterValue":"Tip"},
+Action.c(21):     {"parameterName":"Max_concurrent_users","datatype":"string","description":"Defines the max
+Action.c(21):     imum number of concurrent users allowed. Any additional users are rejected with an error c
+Action.c(21):     ode 500. Default = 0 (no concurrent sessions allowed). Possible values = Any positive inte
+Action.c(21):     ger.","attributeTools":"LoadRunner;StormRunner;NV","locationInAdvantage":"Login response",
+Action.c(21):     "locationInAdminTool":"Performance;ITOM","parameterValue":"0"},{"parameterName":"Typos_on_
+Action.c(21):     order_payment","datatype":"enum:[Yes,No]","description":"Determines whether spelling error
+Action.c(21):     s appear in the UI. Default = No. Yes = The following spelling errors are shown: - SHIPING
+Action.c(21):      DETAILS - Ciity - Recipeint Details (Web only) - ORDERR SUMMARY (Web only)","attributeToo
+Action.c(21):     ls":"Sprinter","locationInAdvantage":"Web: ORDER PAYMENT page ; Mobile: SHIPPING DETAILS p
+Action.c(21):     age","locationInAdminTool":"Functional","parameterValue":"No"},{"parameterName":"Misplace_
+Action.c(21):     pictures_on_Android","datatype":"enum:[Yes,No]","description":"Determines whether pictures
+Action.c(21):      are placed differently on the home page when viewed on an Android  device. Use this param
+Action.c(21):     eter to demonstrate how the application may function differently on different mobile OSs. 
+Action.c(21):     Default = No. Yes = Pictures are placed differently on Android devices.","attributeTools":
+Action.c(21):     "LeanFT;MobileCenter;UFT","locationInAdvantage":"Home page","locationInAdminTool":"Mobile;
+Action.c(21):     Functional","parameterValue":"No"},{"parameterName":"Add_to_cart_time_delay","datatype":"s
+Action.c(21):     tring","description":"Defines the number of seconds to add as a delay in response time whe
+Action.c(21):     n a logged in user adds an item to cart. Default = 0 (no delay).","attributeTools":"LoadRu
+Action.c(21):     nner;StormRunner","locationInAdvantage":"DefaultShoppingCartRepository","locationInAdminTo
+Action.c(21):     ol":"ITOM;Performance","parameterValue":"0"},{"parameterName":"SLA_add_delay_time","dataty
+Action.c(21):     pe":"string","description":"Defines the number of seconds to add as a delay in response ti
+Action.c(21):     me when trying to login. Default = 0 (no delay). If you modify this value, also modify the
+Action.c(21):      SLA_add_delay_sessions parameter.","attributeTools":"LoadRunner;StormRunner","locationInA
+Action.c(21):     dvantage":"AccountServiceEndpoint","locationInAdminTool":"Performance","parameterValue":"0
+Action.c(21):     "},{"parameterName":"SLA_add_delay_sessions","datatype":"string","description":"Defines a 
+Action.c(21):     number of concurrent users sessions at which a delay is added to login response. Enabled o
+Action.c(21):     nly when SLA_add_delay_time is set to a number greater than 0. Default = 20. Valid values 
+Action.c(21):     = 0-n. The system starts adding a delay if the number of sessions is greater than the defi
+Action.c(21):     ned value. It will stop the delay if the number of sessions is decreased to less than the 
+Action.c(21):     defined value. If you modify this value, also modify the SLA_add_delay_time parameter.","a
+Action.c(21):     ttributeTools":"LoadRunner;StormRunner","locationInAdvantage":"ADD TO CART response","loca
+Action.c(21):     tionInAdminTool":"Performance","parameterValue":"0"},{"parameterName":"Show_slow_pages","d
+Action.c(21):     atatype":"enum:[Yes,No]","description":"Determines whether NV report shows problems and er
+Action.c(21):     rors: HTTP Codes 4xx and 5xx, loading unused libraries, timeout, downloading big images, e
+Action.c(21):     tc. ","attributeTools":"NV;StormRunner","locationInAdvantage":"Home Page; Laptops Page","l
+Action.c(21):     ocationInAdminTool":"Performance","parameterValue":"No"},{"parameterName":"Price_diffs_UI_
+Action.c(21):     vs_API","datatype":"enum:[Yes,No]","description":"Creates a difference in the prices shown
+Action.c(21):      in the UI and the prices used in the API. Default = No. Yes = Price is doubled in the UI 
+Action.c(21):     only, for both desktop and mobile, across the entire app.","attributeTools":"LeanFT;UFT","
+Action.c(21):     locationInAdvantage":"Entire site","locationInAdminTool":"Functional","parameterValue":"No
+Action.c(21):     "},{"parameterName":"Allow_Error_in_Login","datatype":"enum:[Yes,No]","description":"Deter
+Action.c(21):     mines whether an invalid passwords are allowed. These would trigger an error in a test, in
+Action.c(21):     dicating a security gap in the product. Default = No. Yes = Invalid passwords allowed, suc
+Action.c(21):     h as an empty password, or \xE2\x80\x981\xE2\x80\x99=\xE2\x80\x991\xE2\x80\x99","attribute
+Action.c(21):     Tools":"Fortify","locationInAdvantage":"Login page","locationInAdminTool":"Security","para
+Action.c(21):     meterValue":"No"},{"parameterName":"Tips_Implement_DevOps_Process","datatype":"enum:[Tip]"
+Action.c(21):     ,"description":"To demonstrate the DevOpps process in a lifecycle management product, do t
+Action.c(21):     he following: \xC2\xA0       1. In Octane, in your product release, add a user story to ch
+Action.c(21):     ange an invalid user name or password text.         2. Demonstrate that you can view this 
+Action.c(21):     new user story in your IDE.         3. Implement the user story by changing the MESSAGE_US
+Action.c(21):     ER_LOGIN_FAILED error message in the following file: \\\\adm-demo-app\\\\accountservice\\\\
+Action.c(21):     src\\\\main\\\\java\\\\com\\\\advantage\\\\accountsoap\\\\model\\\\Account.java.         F
+Action.c(21):     or example, change it from \\"Invalid user name or password\\" to \\"Incorrect user name o
+Action.c(21):     r password, please try again\\".         4. Demonstrate the DevOps process and that you ca
+Action.c(21):     n now see the new error message on both desktop and mobile.","attributeTools":"","location
+Action.c(21):     InAdvantage":"Change password","locationInAdminTool":"General","parameterValue":"Tip"},{"p
+Action.c(21):     arameterName":"ShipEx_Free_Number_Of_Products","datatype":"string","description":"The quan
+Action.c(21):     tity of products in a single purchase that are entitled to free shipping. Default = 1.","a
+Action.c(21):     ttributeTools":"","locationInAdvantage":"Order Payment","locationInAdminTool":"General","p
+Action.c(21):     arameterValue":"1"},{"parameterName":"Tips_Mock_SOAP_ShipEx_Service","datatype":"enum:[Tip
+Action.c(21):     ]","description":"The shipping cost is determined by a table table in the 'shipex-mock-for
+Action.c(21):     -db.properties' configuration file, according to country.  Shipping costs to countries not
+Action.c(21):      defined in the table are determined based on the value for Other.  Free shipping can be p
+Action.c(21):     rovided when the number of items ordered is equal to or less than the value  of the 'ShipE
+Action.c(21):     x_Free_Number_Of_Products' configuration parameter (default = 1).","attributeTools":"","lo
+Action.c(21):     cationInAdvantage":"Order Payment","locationInAdminTool":"General","parameterValue":"Tip"}
+Action.c(21):     ,{"parameterName":"Tips_Application_Development_Environment","datatype":"enum:[Tip]","desc
+Action.c(21):     ription":"The Advantage demo site uses the following software versions and interfaces:  - 
+Action.c(21):     Java server: Java 8  - Application server: Tomcat 8  - Web UI: Angular 1.47  - Admin Appli
+Action.c(21):     cation: Standalone .NET  - Database: PostgreSQL 9.4  - Schema Management: Liquibase 3.4  -
+Action.c(21):      Catalog, Order Services: REST API  - User Management: WSDL.","attributeTools":"","locatio
+Action.c(21):     nInAdvantage":"","locationInAdminTool":"General","parameterValue":"Tip"},{"parameterName":
+Action.c(21):     "Tips_Scripting","datatype":"enum:[Tip]","description":"The demo app IP addresses are not 
+Action.c(21):     fixed. In any scripts you create for a demo, make sure to use a parameter for the applicat
+Action.c(21):     ion IP address.","attributeTools":"LeanFT;UFT;LoadRunner;StormRunner","locationInAdvantage
+Action.c(21):     ":"","locationInAdminTool":"Performance;Functional","parameterValue":"Tip"},{"parameterNam
+Action.c(21):     e":"Tips_Fill_User_Location_From_GPS","datatype":"enum:[Tip]","description":"To use your G
+Action.c(21):     PS location instead of the default values, toggle on the Use my location option on the fol
+Action.c(21):     lowing pages:  1. CREATE ACCOUNT, for the user account details.  2. ORDER PAYMENT, for the
+Action.c(21):      shipping details.","attributeTools":"MobileCenter","locationInAdvantage":"Create Account,
+Action.c(21):      Order Payment - Shipping details","locationInAdminTool":"Mobile","parameterValue":"Tip"},
+Action.c(21):     {"parameterName":"Tips_Mock_MasterCredit_Generate_Error","datatype":"enum:[Tip]","descript
+Action.c(21):     ion":"To generate an error using the MasterCredit card, enter a MasterCredit expiration da
+Action.c(21):     te earlier than the current day.","attributeTools":"","locationInAdvantage":"Order Payment
+Action.c(21):     ","locationInAdminTool":"General","parameterValue":"Tip"},{"parameterName":"Tips_Mock_Safe
+Action.c(21):     Pay_Generate_Error_409","datatype":"enum:[Tip]","description":"To generate an error using 
+Action.c(21):     SafePay, enter identical (case sensitive) username and password.","attributeTools":"AppPul
+Action.c(21):     se","locationInAdvantage":"Web: Order Payment; Mobile: Payment Method (SafePay)","location
+Action.c(21):     InAdminTool":"Functional;Mobile","parameterValue":"Tip"},{"parameterName":"Tips_WebSocket_
+Action.c(21):     example","datatype":"enum:[Tip]","description":"To demonstrate WebSocket features, use the
+Action.c(21):      chat widget located on the Home page (http://www.advantageonlineshopping.com/), under Con
+Action.c(21):     tact Us.","attributeTools":"LoadRunner","locationInAdvantage":"Home page - CONTACT US","lo
+Action.c(21):     cationInAdminTool":"Performance","parameterValue":"Tip"},{"parameterName":"Tips_Support_Di
+Action.c(21):     fferent_Types_Of_Controls","datatype":"enum:[Tip]","description":"Use the following UI ele
+Action.c(21):     ments to demonstrate various functional testing features:  * String: On the CREATE ACCOUNT
+Action.c(21):      or ACCOUNT DETAILS page, update the Personal Details fields.  * Radio button: On the ORDE
+Action.c(21):     R PAYMENT page, select a payment method.  * Date value: On the ORDER PAYMENT page, select 
+Action.c(21):     the MasterCredit option and then enter an expiration date.  * List box: On the CREATE ACCO
+Action.c(21):     UNT page, select a country from the Country drop down list.  * Multiple selection: Browse 
+Action.c(21):     products by category and filter the products shown by using the options on the left","attr
+Action.c(21):     ibuteTools":"BPT;MobileCenter;LeanFT;UFT","locationInAdvantage":"Entire Site","locationInA
+Action.c(21):     dminTool":"Functional;Mobile","parameterValue":"Tip"},{"parameterName":"Tips_System_Config
+Action.c(21):     uration","datatype":"enum:[Tip]","description":"The Admin UI menu and pages are read-only 
+Action.c(21):     in the shared system on the cloud.  You can make changes in a local instance.  Troubleshoo
+Action.c(21):     ting: If you are unable to make changes in a local instance:  1. Navigate to the DemoApp.p
+Action.c(21):     roperties file.  2. Ensure that the Allow user configuration value is set to Yes. This is 
+Action.c(21):     the default setting.  3. Verify that you can configure the relevant field from the Admin U
+Action.c(21):     I as needed.","attributeTools":"","locationInAdvantage":".NET Admin app","locationInAdminT
+Action.c(21):     ool":"General","parameterValue":"Tip"},{"parameterName":"Tips_replace_3rd_party_services_w
+Action.c(21):     ith_SV","datatype":"enum:[Tip]","description":"Replace the ShipEx, MasterCredit, or SafePa
+Action.c(21):     y 3rd party services with Service Virtualization by updating the relevant URLs in the serv
+Action.c(21):     ices.properties configuration file.  This file is located in properties folder of 5 servic
+Action.c(21):     es: accountservice, MasterCredit, order, ROOT, SafePay.  For example: /accountservice/prop
+Action.c(21):     erties/services.properties.  1. Navigate to the <service-name>.url.host line, and modify t
+Action.c(21):     he URL/IP address string to the Service Virtualization URL and IP address.  2. Navigate to
+Action.c(21):      the <service-name>.url.port line and modify the port string to the Service Virtualization
+Action.c(21):      port.  3. Save the file, and repeat these steps for each service in the services.properti
+Action.c(21):     es file, and in the services.properties files for each service.","attributeTools":"SV","lo
+Action.c(21):     cationInAdvantage":"ShipEx;MasterCredit;SafePay","locationInAdminTool":"Functional","param
+Action.c(21):     eterValue":"Tip"},{"parameterName":"Tips_How_To_Use_Product_Video","datatype":"enum:[Tip]"
+Action.c(21):     ,"description":"ADM performance tools support HTML5 video streaming via: native browsers, 
+Action.c(21):     plugins such as Adobe Flash, or standalone software.  To demonstrate this feature, browse 
+Action.c(21):     to one of the following products and view the demo video:  - HP ROAR WIRELESS SPEAKER (Pro
+Action.c(21):     duct ID: 22)  - BEATS STUDIO 2 OVER-EAR MATTE BLACK HEADPHONES (product ID: 15)  - HP ELIT
+Action.c(21):     EPAD 1000 G2 TABLET (product ID: 16)","attributeTools":"LoadRunner","locationInAdvantage":
+Action.c(21):     "Selected Products","locationInAdminTool":"Performanc
+Action.c(21): t=2219ms: 9062-byte DECODED response body for "http://54.157.232.206/catalog/api/v1/DemoAppConfig/parameters/by_tool/ALL" (RelFrameId=1, Internal ID=1)
+Action.c(21):     e","parameterValue":"Tip"},{"parameterName":"Tips_regular_expression","datatype":"enum:[Ti
+Action.c(21):     p]","description":"The button text always starts with Pay to allow for demonstrating regul
+Action.c(21):     ar expressions in object identification.","attributeTools":"LeanFT;UFT","locationInAdvanta
+Action.c(21):     ge":"Pay button in cart sum","locationInAdminTool":"Functional","parameterValue":"Tip"},{"
+Action.c(21):     parameterName":"Tips_correlation_example","datatype":"enum:[Tip]","description":"To demons
+Action.c(21):     trate correlation, make sure that you include a login step in your flow.  The correlation 
+Action.c(21):     is implemented with the session ID.","attributeTools":"LoadRunner","locationInAdvantage":"
+Action.c(21):     Web Application Login","locationInAdminTool":"Performance","parameterValue":"Tip"},{"param
+Action.c(21):     eterName":"Tips_async_example","datatype":"enum:[Tip]","description":"ADM performance tool
+Action.c(21):     s support asynchronous communication.  To demonstrate this feature, browse to any of the p
+Action.c(21):     roducts in the HEADPHONES category, and record the comments (web only).","attributeTools":
+Action.c(21):     "LoadRunner","locationInAdvantage":"Performance","locationInAdminTool":"Performance","para
+Action.c(21):     meterValue":"Tip"},{"parameterName":"Tips_Swagger_Interface_For_REST_APIs","datatype":"enu
+Action.c(21):     m:[Tip]","description":"To use Swagger interface for REST APIs change the URL to http://<y
+Action.c(21):     our-server>:<port>/<service>/api/docs.  <service> can be on of the following (case sensiti
+Action.c(21):     ve): catalog, order, MasterCredit or SafePay.  For example: http://www.advantageonlineshop
+Action.c(21):     ping.com:80/catalog/api/docs.","attributeTools":"","locationInAdvantage":"catalog,MasterCr
+Action.c(21):     edit,order,SafePay services","locationInAdminTool":"General","parameterValue":"Tip"},{"par
+Action.c(21):     ameterName":"Tips_REST_API_Params_In_Request_URL","datatype":"enum:[Tip]","description":"S
+Action.c(21):     end the REST API request and parameters in request URL. Example: http://www.advantageonlin
+Action.c(21):     eshopping.com/catalog/api/v1/products/1.","attributeTools":"UFT","locationInAdvantage":"ca
+Action.c(21):     talog,MasterCredit,order,SafePay services","locationInAdminTool":"Functional","parameterVa
+Action.c(21):     lue":"Tip"},{"parameterName":"Tips_REST_API_Params_In_Request_Body","datatype":"enum:[Tip]
+Action.c(21):     ","description":"Send the REST API parameters in the request body. Example: http://www.adv
+Action.c(21):     antageonlineshopping.com/MasterCredit/api/v1/payments/payment, body: { \\"MCCVVNumber\\": 
+Action.c(21):     666, \\"MCCardNumber\\": 6543210987654321, \\"MCCustomerName\\": \\"King David\\", \\"MCCu
+Action.c(21):     stomerPhone\\": \\"+12025551969\\", \\"MCExpirationDate\\": \\"032017\\", \\"MCRecevingAmo
+Action.c(21):     unt.Value\\": 2011.03, \\"MCRecevingCard.AccountNumber\\": 112987298763, \\"MCRecevingCard
+Action.c(21):     .Currency\\": \\"USD\\", \\"MCTransactionDate\\": \\"02092016\\", \\"MCTransactionType\\":
+Action.c(21):      \\"PAYMENT\\" }.","attributeTools":"UFT","locationInAdvantage":"catalog,MasterCredit,orde
+Action.c(21):     r,SafePay services","locationInAdminTool":"Functional","parameterValue":"Tip"},{"parameter
+Action.c(21):     Name":"Tips_DFE","datatype":"enum:[Tip]","description":"Send login request and response in
+Action.c(21):      Base-64 encoded, instead of in plain text, to show DFE in snapshot (display only).","attr
+Action.c(21):     ibuteTools":"LoadRunner","locationInAdvantage":"Web Application Login","locationInAdminToo
+Action.c(21):     l":"Performance","parameterValue":"Tip"},{"parameterName":"Tips_validation_example","datat
+Action.c(21):     ype":"enum:[Tip]","description":"To demonstrate validation: Perform a flow where you buy t
+Action.c(21):     he contents of the cart, then go to the My Orders page and look for the order by its order
+Action.c(21):      number (shows positive\xC2\xA0validation). Delete the order, then look for the order by i
+Action.c(21):     ts number again (shows negative\xC2\xA0validation).","attributeTools":"LoadRunner","locati
+Action.c(21):     onInAdvantage":"My Orders","locationInAdminTool":"Performance","parameterValue":"Tip"},{"p
+Action.c(21):     arameterName":"Mobile_crash","datatype":"enum:[Tip]","description":"To generate a crash, l
+Action.c(21):     ogin with AppPulse user and change\xC2\xA0the device orientation from\xC2\xA0portrait to l
+Action.c(21):     andscape","attributeTools":"AppPulse","locationInAdvantage":"Mobile: entire app","location
+Action.c(21):     InAdminTool":"Mobile;Functional;ITOM","parameterValue":"Tip"},{"parameterName":"Slow_launc
+Action.c(21):     h_of_the_native_app","datatype":"enum:[Tip]","description":"To show a slow launch, log in 
+Action.c(21):     as the AppPulse user and kill the app. From this point on, any launch will be slow until y
+Action.c(21):     ou log in with a different user","attributeTools":"AppPulse","locationInAdvantage":"Androi
+Action.c(21):     d\xC2\xA0native app: Launch","locationInAdminTool":"Mobile;Performance","parameterValue":"
+Action.c(21):     Tip"},{"parameterName":"Error_500","datatype":"enum:[Tip]","description":"To generate erro
+Action.c(21):     r 500, login with AppPulse user, add items to\xC2\xA0the the cart, checkout and click on p
+Action.c(21):     ay now","attributeTools":"AppPulse","locationInAdvantage":"Order Payment","locationInAdmin
+Action.c(21):     Tool":"Mobile;Functional;ITOM","parameterValue":"Tip"},{"parameterName":"Error_403","datat
+Action.c(21):     ype":"enum:[Tip]","description":"To generate error 403, click on the 'Sign in with Faceboo
+Action.c(21):     k' button.","attributeTools":"AppPulse","locationInAdvantage":"Login page","locationInAdmi
+Action.c(21):     nTool":"Mobile;Functional;ITOM","parameterValue":"Tip"},{"parameterName":"Use_Camera_Capab
+Action.c(21):     ility","datatype":"enum:[Tip]","description":"Add an option to enable the user to take a p
+Action.c(21):     icture with the camera . This picture will be added to the current product page. In offlin
+Action.c(21):     e mode, the picture is retained for the current session only. When using MC, if \xE2\x80\x9C
+Action.c(21):     Camera Sensor\xE2\x80\x9D is enabled, this picture will be replaced with the picture the u
+Action.c(21):     ser previously uploaded to MC.","attributeTools":"MobileCenter","locationInAdvantage":"Mob
+Action.c(21):     ile apps: Product page","locationInAdminTool":"Mobile","parameterValue":"Tip"},{"parameter
+Action.c(21):     Name":"Tips_SQL_injection_vulnerability","datatype":"enum:[Tip]","description":"A function
+Action.c(21):     al test finds the following defect: The user creates a user with any\xC2\xA0Username, but 
+Action.c(21):     the\xC2\xA0name that is actually created is duplicated, as displayed at\xC2\xA0the top rig
+Action.c(21):     ht side of the site.\xC2\xA0\xC2\xA0 The user opens a defect, fixes the code, and commits 
+Action.c(21):     the change. This triggers a Fortify scan (provided that you added the Fortify scan trigger
+Action.c(21):      in the code change) that will find an\xC2\xA0SQL injection\xC2\xA0vulnerability.  To achi
+Action.c(21):     eve this, you must edit the\xC2\xA0accountservice\\\\src\\\\main\\\\java\\\\com\\\\advanta
+Action.c(21):     ge\\\\accountsoap\\\\dao\\\\impl\\\\DefaultAccountRepository\xC2\xA0file. In this file, fi
+Action.c(21):     rst uncomment the\xC2\xA0code that is located\xC2\xA0between the\xC2\xA0'SQL injection vul
+Action.c(21):     nerability' tags. \xC2\xA0Then, comment out the code that is located between the 'Code wit
+Action.c(21):     hout\xC2\xA0SQL injection vulnerability' tags. Note that there are 2 locations in the code
+Action.c(21):      in which you need to make these changes.","attributeTools":"Fortify, LeanFT, UFT","locati
+Action.c(21):     onInAdvantage":"Create Account page","locationInAdminTool":"Security","parameterValue":"Ti
+Action.c(21):     p"},{"parameterName":"Enable_Warranty","datatype":"enum:[Yes,No]","description":"Determine
+Action.c(21):     s whether a warranty checkbox is added to each laptop product screen. Use this parameter t
+Action.c(21):     o demonstrate an integration between AOS and COBOL, during checkout AOS backend invoke a C
+Action.c(21):     OBOL service to activate a warranty for laptop. Default = No. Yes = Add a checkbox to the 
+Action.c(21):     laptop product page.","attributeTools":"AMC","locationInAdvantage":"Laptops","locationInAd
+Action.c(21):     minTool":"General","parameterValue":"No"},{"parameterName":"Warranty_Service_URL","datatyp
+Action.c(21):     e":"string","description":"The URL of the COBOL web service to be used for the warranty, t
+Action.c(21):     he default service is located on AZURE. the default URL is: https://aoswarrantyfunction.az
+Action.c(21):     urewebsites.net/api/Function1?code=KEK/GaiTZ0lfJdRkJGgNdsn8qfenPseDGaS3j3n8noI6AGtSIriLAg=
+Action.c(21):     = note: mouse over on the text field to view the current URL.","attributeTools":"AMC","loc
+Action.c(21):     ationInAdvantage":"Laptops","locationInAdminTool":"General","parameterValue":"https://aosw
+Action.c(21):     arrantyfunction.azurewebsites.net/api/Function1?code=KEK/GaiTZ0lfJdRkJGgNdsn8qfenPseDGaS3j
+Action.c(21):     3n8noI6AGtSIriLAg=="},{"parameterName":"Enable_Voltage_Encryption","datatype":"enum:[Yes,N
+Action.c(21):     o]","description":"Use this parameter to demonstrate an integration between Voltage Data E
+Action.c(21):     ncryption And AOS. The MasterCredit number is encrypted when the flag is set to 'Yes'","at
+Action.c(21):     tributeTools":"AMC","locationInAdvantage":"Payment page","locationInAdminTool":"General","
+Action.c(21):     parameterValue":"No"},{"parameterName":"Voltage_Service_URL","datatype":"string","descript
+Action.c(21):     ion":"The URL of the Voltage Data Encryption service to be used for the encryption, the de
+Action.c(21):     fault service is located on AZURE. the default URL is: https://voltage-pp-0000.dataprotect
+Action.c(21):     ion.voltage.com note: mouse over on the text field to view the current URL.","attributeToo
+Action.c(21):     ls":"ITOM","locationInAdvantage":"Payment page","locationInAdminTool":"General","parameter
+Action.c(21):     Value":"https://voltage-pp-0000.dataprotection.voltage.com"},{"parameterName":"duplicate_c
+Action.c(21):     ountries","datatype":"enum:[Yes,No]","description":"Duplicates the countries in adv_accoun
+Action.c(21):     t DB, causing error during registration. Note: Restart required.","attributeTools":"ITOM",
+Action.c(21):     "locationInAdvantage":"Registration page","locationInAdminTool":"General","parameterValue"
+Action.c(21):     :"No"},{"parameterName":"AOB_Endpoint","datatype":"string","description":"Purchases made u
+Action.c(21):     sing AOB user, will create a transaction on AOB system, on the current endpoint","attribut
+Action.c(21):     eTools":"","locationInAdvantage":"Purchase Page","locationInAdminTool":"General","paramete
+Action.c(21):     rValue":"http://advantageonlinebanking.com/api/accounts/purchase"}]}
+Action.c(21): t=2222ms: Request done "http://54.157.232.206/catalog/api/v1/DemoAppConfig/parameters/by_tool/ALL"  	[MsgId: MMSG-26000]
+Action.c(21): Registered web_reg_find successful for "Text="parameters"" (count=1)  	[MsgId: MMSG-26364]
+Action.c(21): Registered web_reg_find successful for "Text="parameterName"" (count=51)  	[MsgId: MMSG-26364]
+Action.c(21): web_url("ALL") was successful, 6541 body bytes, 434 header bytes, 18 chunking overhead bytes  	[MsgId: MMSG-26385]
+Action.c(31): web_add_cookie started  	[MsgId: MMSG-26355]
+Action.c(31): Notify: Parameter Substitution: parameter "domain" =  "54.157.232.206"	[MsgId: MMSG-13992]
+Action.c(31): web_add_cookie was successful  	[MsgId: MMSG-26392]
+Action.c(32): web_add_header("Origin") started  	[MsgId: MMSG-26355]
+Action.c(32): Notify: Parameter Substitution: parameter "protocol" =  "http"	[MsgId: MMSG-13992]
+Action.c(32): Notify: Parameter Substitution: parameter "host" =  "54.157.232.206"	[MsgId: MMSG-13992]
+Action.c(32): An unrecognized header ("Origin") is being added  	[MsgId: MMSG-26595]
+Action.c(32): "Origin: http://54.157.232.206" header registered for adding to requests from the immediately following Action function  	[MsgId: MMSG-26506]
+Action.c(32): web_add_header("Origin") was successful  	[MsgId: MMSG-26392]
+Action.c(33): web_add_header("SOAPAction") started  	[MsgId: MMSG-26355]
+Action.c(33): "SOAPAction: com.advantage.online.store.accountserviceGetAccountConfigurationRequest" header registered for adding to requests from the immediately following Action function  	[MsgId: MMSG-26506]
+Action.c(33): web_add_header("SOAPAction") was successful  	[MsgId: MMSG-26392]
+Action.c(34): web_add_header("X-Requested-With") started  	[MsgId: MMSG-26355]
+Action.c(34): An unrecognized header ("X-Requested-With") is being added  	[MsgId: MMSG-26595]
+Action.c(34): "X-Requested-With: XMLHttpRequest" header registered for adding to requests from the immediately following Action function  	[MsgId: MMSG-26506]
+Action.c(34): web_add_header("X-Requested-With") was successful  	[MsgId: MMSG-26392]
+Action.c(36): web_reg_find started  	[MsgId: MMSG-26355]
+Action.c(36): Registering web_reg_find was successful  	[MsgId: MMSG-26390]
+Action.c(38): web_custom_request("GetAccountConfigurationRequest") started  	[MsgId: MMSG-26355]
+Action.c(38): Notify: Parameter Substitution: parameter "protocol" =  "http"	[MsgId: MMSG-13992]
+Action.c(38): Notify: Parameter Substitution: parameter "host" =  "54.157.232.206"	[MsgId: MMSG-13992]
+Action.c(38): Notify: Parameter Substitution: parameter "protocol" =  "http"	[MsgId: MMSG-13992]
+Action.c(38): Notify: Parameter Substitution: parameter "host" =  "54.157.232.206"	[MsgId: MMSG-13992]
+Action.c(38): t=2223ms: Already connected [0] to 54.157.232.206:80  	[MsgId: MMSG-26000]
+Action.c(38): t=2223ms: 814-byte request headers for "http://54.157.232.206/accountservice/ws/GetAccountConfigurationRequest" (RelFrameId=1, Internal ID=2)
+Action.c(38):     POST /accountservice/ws/GetAccountConfigurationRequest HTTP/1.1\r\n
+Action.c(38):     Content-Type: text/xml; charset=UTF-8\r\n
+Action.c(38):     Cache-Control: no-cache\r\n
+Action.c(38):     Referer: http://54.157.232.206/\r\n
+Action.c(38):     Origin: http://54.157.232.206\r\n
+Action.c(38):     SOAPAction: com.advantage.online.store.accountserviceGetAccountConfigurationRequest\r\n
+Action.c(38):     X-Requested-With: XMLHttpRequest\r\n
+Action.c(38):     User-Agent: Mozilla/5.0 (compatible; MSIE 10.0; Windows NT 6.1; Trident/6.0)\r\n
+Action.c(38):     Accept-Encoding: gzip, deflate\r\n
+Action.c(38):     Accept: */*\r\n
+Action.c(38):     Connection: Keep-Alive\r\n
+Action.c(38):     Host: 54.157.232.206\r\n
+Action.c(38):     Cookie: _ga_TBPYED8WSW=GS1.1.1709704703.33.1.1709709359.0.0.0; _ga=GA1.1.1055678014.170879
+Action.c(38):     9449; _ga_56EMNRF2S2=GS1.1.1709704704.31.1.1709708811.56.0.0; _gid=GA1.1.2024659853.170964
+Action.c(38):     0738; userCart=%7B%22userId%22%3A-1%2C%22productsInCart%22%3A%5B%5D%7D; dtCookie=6AB675624
+Action.c(38):     C78926DBC1A1553A90F7FD8|1|2||1; _gat=1\r\n
+Action.c(38):     Content-Length: 361\r\n
+Action.c(38):     \r\n
+Action.c(38): t=2224ms: 361-byte request body for "http://54.157.232.206/accountservice/ws/GetAccountConfigurationRequest" (RelFrameId=1, Internal ID=2)
+Action.c(38):     <?xml version="1.0" encoding="UTF-8"?><soap:Envelope xmlns:soap="http://schemas.xmlsoap.or
+Action.c(38):     g/soap/envelope/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://
+Action.c(38):     www.w3.org/2001/XMLSchema"><soap:Body><GetAccountConfigurationRequest xmlns="com.advantage
+Action.c(38):     .online.store.accountservice"></GetAccountConfigurationRequest></soap:Body></soap:Envelope
+Action.c(38):     >
+Action.c(38): t=2378ms: 665-byte response headers for "http://54.157.232.206/accountservice/ws/GetAccountConfigurationRequest" (RelFrameId=1, Internal ID=2)
+Action.c(38):     HTTP/1.1 200 \r\n
+Action.c(38):     Server: nginx/1.12.2\r\n
+Action.c(38):     Date: Fri, 15 Mar 2024 01:22:29 GMT\r\n
+Action.c(38):     Content-Type: text/xml;charset=utf-8\r\n
+Action.c(38):     Content-Length: 823\r\n
+Action.c(38):     Connection: keep-alive\r\n
+Action.c(38):     X-Content-Type-Options: nosniff\r\n
+Action.c(38):     X-XSS-Protection: 1; mode=block\r\n
+Action.c(38):     Cache-Control: no-store\r\n
+Action.c(38):     Pragma: no-cache\r\n
+Action.c(38):     Expires: 0\r\n
+Action.c(38):     X-Frame-Options: DENY\r\n
+Action.c(38):     Access-Control-Request-Method: POST, GET, OPTIONS, DELETE\r\n
+Action.c(38):     Access-Control-Allow-Methods: POST, GET, OPTIONS, DELETE\r\n
+Action.c(38):     Access-Control-Max-Age: 3600\r\n
+Action.c(38):     Access-Control-Allow-Headers: Origin, X-Requested-With, Content-Type, Accept, Key, soapact
+Action.c(38):     ion\r\n
+Action.c(38):     Access-Control-Allow-Origin: *\r\n
+Action.c(38):     Accept: text/xml, text/html, image/gif, image/jpeg, *; q=.2, */*; q=.2\r\n
+Action.c(38):     SOAPAction: ""\r\n
+Action.c(38):     \r\n
+Action.c(38): t=2379ms: 795-byte response body for "http://54.157.232.206/accountservice/ws/GetAccountConfigurationRequest" (RelFrameId=1, Internal ID=2)
+Action.c(38):     <SOAP-ENV:Envelope xmlns:SOAP-ENV="http://schemas.xmlsoap.org/soap/envelope/"><SOAP-ENV:He
+Action.c(38):     ader/><SOAP-ENV:Body><ns2:GetAccountConfigurationResponse xmlns:ns2="com.advantage.online.
+Action.c(38):     store.accountservice"><ns2:numberOfFailedLoginAttemptsBeforeBlocking>3</ns2:numberOfFailed
+Action.c(38):     LoginAttemptsBeforeBlocking><ns2:loginBlockingIntervalInSeconds>300</ns2:loginBlockingInte
+Action.c(38):     rvalInSeconds><ns2:productInStockDefaultValue>10</ns2:productInStockDefaultValue><ns2:user
+Action.c(38):     SecondWsdl>false</ns2:userSecondWsdl><ns2:userLoginTimeout>60</ns2:userLoginTimeout><ns2:a
+Action.c(38):     llowUserConfiguration>true</ns2:allowUserConfiguration><ns2:productionHostIp>http://54.175
+Action.c(38):     .138.128:8081</ns2:productionHostIp><ns2:productionHostName>http://advantageonlineshopping
+Action.c(38):     .com</ns2:productionHostName></ns2:GetAccountConfigurationResponse></SOAP-E
+Action.c(38): t=2379ms: 28-byte response body for "http://54.157.232.206/accountservice/ws/GetAccountConfigurationRequest" (RelFrameId=1, Internal ID=2)
+Action.c(38):     NV:Body></SOAP-ENV:Envelope>
+Action.c(38): t=2380ms: Request done "http://54.157.232.206/accountservice/ws/GetAccountConfigurationRequest"  	[MsgId: MMSG-26000]
+Action.c(38): Registered web_reg_find successful for "Text=numberOfFailedLoginAttemptsBeforeBlocking" (count=2)  	[MsgId: MMSG-26364]
+Action.c(38): web_custom_request("GetAccountConfigurationRequest") was successful, 823 body bytes, 665 header bytes  	[MsgId: MMSG-26386]
+Action.c(51): web_add_cookie started  	[MsgId: MMSG-26355]
+Action.c(51): Notify: Parameter Substitution: parameter "domain" =  "54.157.232.206"	[MsgId: MMSG-13992]
+Action.c(51): web_add_cookie was successful  	[MsgId: MMSG-26392]
+Action.c(54): web_reg_find started  	[MsgId: MMSG-26355]
+Action.c(54): Registering web_reg_find was successful  	[MsgId: MMSG-26390]
+Action.c(55): web_reg_find started  	[MsgId: MMSG-26355]
+Action.c(55): Registering web_reg_find was successful  	[MsgId: MMSG-26390]
+Action.c(56): web_reg_find started  	[MsgId: MMSG-26355]
+Action.c(56): Registering web_reg_find was successful  	[MsgId: MMSG-26390]
+Action.c(57): web_reg_find started  	[MsgId: MMSG-26355]
+Action.c(57): Registering web_reg_find was successful  	[MsgId: MMSG-26390]
+Action.c(58): web_reg_find started  	[MsgId: MMSG-26355]
+Action.c(58): Registering web_reg_find was successful  	[MsgId: MMSG-26390]
+Action.c(60): web_url("categories") started  	[MsgId: MMSG-26355]
+Action.c(60): Notify: Parameter Substitution: parameter "protocol" =  "http"	[MsgId: MMSG-13992]
+Action.c(60): Notify: Parameter Substitution: parameter "host" =  "54.157.232.206"	[MsgId: MMSG-13992]
+Action.c(60): Notify: Parameter Substitution: parameter "protocol" =  "http"	[MsgId: MMSG-13992]
+Action.c(60): Notify: Parameter Substitution: parameter "host" =  "54.157.232.206"	[MsgId: MMSG-13992]
+Action.c(60): t=2381ms: Already connected [0] to 54.157.232.206:80  	[MsgId: MMSG-26000]
+Action.c(60): t=2381ms: 555-byte request headers for "http://54.157.232.206/catalog/api/v1/categories" (RelFrameId=1, Internal ID=3)
+Action.c(60):     GET /catalog/api/v1/categories HTTP/1.1\r\n
+Action.c(60):     Referer: http://54.157.232.206/\r\n
+Action.c(60):     User-Agent: Mozilla/5.0 (compatible; MSIE 10.0; Windows NT 6.1; Trident/6.0)\r\n
+Action.c(60):     Accept-Encoding: gzip, deflate\r\n
+Action.c(60):     Accept: */*\r\n
+Action.c(60):     Connection: Keep-Alive\r\n
+Action.c(60):     Host: 54.157.232.206\r\n
+Action.c(60):     Cookie: _ga_TBPYED8WSW=GS1.1.1709704703.33.1.1709709359.0.0.0; _ga=GA1.1.1055678014.170879
+Action.c(60):     9449; _ga_56EMNRF2S2=GS1.1.1709728780.32.0.1709728780.60.0.0; _gid=GA1.1.2024659853.170964
+Action.c(60):     0738; userCart=%7B%22userId%22%3A-1%2C%22productsInCart%22%3A%5B%5D%7D; dtCookie=6AB675624
+Action.c(60):     C78926DBC1A1553A90F7FD8|1|2||1; _gat=1\r\n
+Action.c(60):     \r\n
+Action.c(60): t=2623ms: 434-byte response headers for "http://54.157.232.206/catalog/api/v1/categories" (RelFrameId=1, Internal ID=3)
+Action.c(60):     HTTP/1.1 200 \r\n
+Action.c(60):     Server: nginx/1.12.2\r\n
+Action.c(60):     Date: Fri, 15 Mar 2024 01:22:29 GMT\r\n
+Action.c(60):     Content-Type: application/json\r\n
+Action.c(60):     Transfer-Encoding: chunked\r\n
+Action.c(60):     Connection: keep-alive\r\n
+Action.c(60):     X-OneAgent-JS-Injection: true\r\n
+Action.c(60):     Set-Cookie: dtCookie=6AB675624C78926DBC1A1553A90F7FD8|1|2||1; Path=/\r\n
+Action.c(60):     Expires: 0\r\n
+Action.c(60):     Cache-Control: no-store\r\n
+Action.c(60):     X-Content-Type-Options: nosniff\r\n
+Action.c(60):     X-XSS-Protection: 1; mode=block\r\n
+Action.c(60):     X-Frame-Options: DENY\r\n
+Action.c(60):     vary: accept-encoding\r\n
+Action.c(60):     Content-Encoding: gzip\r\n
+Action.c(60):     \r\n
+Action.c(60): t=2624ms: 6-byte chunked response overhead for "http://54.157.232.206/catalog/api/v1/categories" (RelFrameId=1, Internal ID=3)
+Action.c(60):     116f\r\n
+Action.c(60): t=2624ms: 1020-byte ENCODED response body received for "http://54.157.232.206/catalog/api/v1/categories" (RelFrameId=1, Internal ID=3)
+Action.c(60): t=2624ms: 2658-byte DECODED response body for "http://54.157.232.206/catalog/api/v1/categories" (RelFrameId=1, Internal ID=3)
+Action.c(60):     [{"categoryId":1,"categoryName":"LAPTOPS","managedImageId":"laptops","products":[{"id":4,"
+Action.c(60):     productName":"HP Spectre x360 - 13-4102dx","price":1399.99,"description":"Stunning, ultra-
+Action.c(60):     slim convertible PC with a 360\xC2\xB0 hinge","productStatus":"Active","managedImageId":"1
+Action.c(60):     400"},{"id":6,"productName":"HP ENVY x360 - 15t Laptop","price":699.99,"description":"We t
+Action.c(60):     ook our remarkable 360\xC2\xB0 convertible PC and enhanced it with premium features to giv
+Action.c(60):     e you ultimate flexibility and enviable looks.","productStatus":"Active","managedImageId":
+Action.c(60):     "1600"},{"id":10,"productName":"HP Chromebook 14 G1(ES)","price":1261.99,"description":"In
+Action.c(60):     troducing the next generation HP EliteBook Folio 9480m Ultrabook\xE2\x84\xA2[2]. Timeless,
+Action.c(60):      ultra slim profile in an all metal design with optional 4G Broadband wWAN, and 4th Genera
+Action.c(60):     tion Intel\xC2\xAE Core\xE2\x84\xA2 Processing Technology.","productStatus":"Active","mana
+Action.c(60):     gedImageId":"1250"},{"id":2,"productName":"HP Pavilion 15z Laptop","price":549.99,"descrip
+Action.c(60):     tion":"Redesigned with you in mind, the HP Pavilion keeps getting better. Our best-selling
+Action.c(60):      notebook is now more powerful so you can watch more, play more, and store more, all in st
+Action.c(60):     yle.","productStatus":"Active","managedImageId":"1200"},{"id":3,"productName":"HP Pavilion
+Action.c(60):      15z Touch Laptop","price":449.99,"description":"Redesigned with you in mind, the HP Pavil
+Action.c(60):     ion keeps getting better. Our best-selling notebook is now more powerful so you can watch 
+Action.c(60):     more, play more, and store more, all in style.","productStatus":"Active","managedImageId":
+Action.c(60):     "1300"},{"id":8,"productName":"HP ZBook 17 G2 Mobile Workstation","price":1799.0,"descript
+Action.c(60):     ion":"On the go creativity knows no limits on a vivid 17.3 inch diagonal HP ZBook 17 G2. S
+Action.c(60):     howcase your best work in the office or on the go and take advantage of HP\xE2\x80\x99s mo
+Action.c(60):     st powerful processing, graphics, simple scalability, and blazing-fast connectivity to per
+Action.c(60):     form and collaborate at the speed of creativity.","productStatus":"Active","managedImageId
+Action.c(60):     ":"1800"},{"id":9,"productName":"HP Chromebook 14 G1(ENERGY STAR)","price":299.99,"descrip
+Action.c(60):     tion":"This HP notebook is all about getting the perfect combination of design, reliabilit
+Action.c(60):     y, and features. Style and productivity while keeping your wallet in mind - now that's som
+Action.c(60):     ething to get excited about.","productStatus":"Active","managedImageId":"1249"},{"id":1,"p
+Action.c(60):     roductName":"HP Pavilion 15t Touch Laptop","price":519.99,"description":"Redesigned with y
+Action.c(60):     ou in mind, the HP Pavilion keeps getting better. Our best-selling notebook is now more po
+Action.c(60):     werful so you can watch more, play more, and store more, all in style.","productStatus":"A
+Action.c(60):     ctive","managedImageId":"1100"},{"id":5,"productName":"HP Stream - 11-d020nr Laptop","pric
+Action.c(60):     e":
+Action.c(60): t=2625ms: 5-byte chunked response overhead for "http://54.157.232.206/catalog/api/v1/categories" (RelFrameId=1, Internal ID=3)
+Action.c(60):     \r\n
+Action.c(60):     a\r\n
+Action.c(60): t=2625ms: 7-byte chunked response overhead for "http://54.157.232.206/catalog/api/v1/categories" (RelFrameId=1, Internal ID=3)
+Action.c(60):     \r\n
+Action.c(60):     0\r\n
+Action.c(60):     \r\n
+Action.c(60): t=2625ms: 3453-byte ENCODED response body received for "http://54.157.232.206/catalog/api/v1/categories" (RelFrameId=1, Internal ID=3)
+Action.c(60): t=2625ms: 10296-byte DECODED response body for "http://54.157.232.206/catalog/api/v1/categories" (RelFrameId=1, Internal ID=3)
+Action.c(60):     179.99,"description":"Work from a happy place with a stylish, affordable, Windows-based PC
+Action.c(60):     . Store your content in the cloud for easy access from anywhere you have internet.","produ
+Action.c(60):     ctStatus":"Active","managedImageId":"1245"},{"id":7,"productName":"HP ENVY - 17t Touch Lap
+Action.c(60):     top","price":849.99,"description":"We took our remarkable 360\xC2\xB0 convertible PC and e
+Action.c(60):     nhanced it with premium features to give you ultimate flexibility and enviable looks.","pr
+Action.c(60):     oductStatus":"Active","managedImageId":"1700"},{"id":11,"productName":"HP Pavilion x360 - 
+Action.c(60):     11t Touch Laptop","price":319.99,"description":"There\xE2\x80\x99s no limit to what this v
+Action.c(60):     alue-packed convertible PC can do. Easily convert from notebook to stand to tent to tablet
+Action.c(60):      mode. It\xE2\x80\x99s an app-loving, friend-connecting, 360\xC2\xB0-bending machine.","pr
+Action.c(60):     oductStatus":"Active","managedImageId":"11100"}]},{"categoryId":2,"categoryName":"HEADPHON
+Action.c(60):     ES","managedImageId":"headphones","products":[{"id":12,"productName":"HP H2310 In-ear Head
+Action.c(60):     set","price":13.99,"description":"Enjoy an acoustic concert in your ears with HP\xE2\x80\x99
+Action.c(60):     s In-Ear Headset H2310. Available in trend-setting design in four color options and compat
+Action.c(60):     ible with most smartphones, MP3 players and tablets \xE2\x80\x93 including Android\xE2\x84
+Action.c(60):     \xA2 and Apple\xC2\xAE. Easily switch from jamming to tunes to connecting with friends usi
+Action.c(60):     ng the inline microphone. Quality craftsmanship, value priced, and awesome sound.","produc
+Action.c(60):     tStatus":"Active","managedImageId":"2100"},{"id":13,"productName":"Bose SoundLink Around-e
+Action.c(60):     ar Wireless Headphones II","price":279.95,"description":"Wireless freedom meets best-in-cl
+Action.c(60):     ass sound.","productStatus":"OutOfStock","managedImageId":"2300"},{"id":14,"productName":"
+Action.c(60):     Logitech USB Headset H390","price":39.99,"description":"Features on this product will exce
+Action.c(60):     eded your expectations.","productStatus":"Active","managedImageId":"2400"},{"id":15,"produ
+Action.c(60):     ctName":"Beats Studio 2 Over-Ear Matte Black Headphones","price":179.99,"description":"The
+Action.c(60):      world\xE2\x80\x99s most famous headphone has been completely redesigned and reimagined. T
+Action.c(60):     he new Beats Studio\xC2\xAE is lighter, sexier, stronger, and more comfortable, with preci
+Action.c(60):     sion sound, Adaptive Noise Canceling, a 20-hour rechargeable battery, and RemoteTalk\xE2\x84
+Action.c(60):     \xA2. It has all the energy and excitement you expect from Beats, plus a powerful, reengin
+Action.c(60):     eered sound.","productStatus":"Active","managedImageId":"2200"}]},{"categoryId":3,"categor
+Action.c(60):     yName":"TABLETS","managedImageId":"tablets","products":[{"id":16,"productName":"HP ElitePa
+Action.c(60):     d 1000 G2 Tablet","price":1009.0,"description":"More than a tablet\xE2\x80\x94a total busi
+Action.c(60):     ness solution. The elegant and sleek HP ElitePad 1000 G2 has the performance and flexibili
+Action.c(60):     ty to transform the way you work. Redefine productivity and stay light with the confidence
+Action.c(60):      of the leading manageability, security, and support you expect from HP.","productStatus":
+Action.c(60):     "Active","managedImageId":"3100"},{"id":18,"productName":"HP Pro Tablet 608 G1","price":47
+Action.c(60):     9.0,"description":"Transform your business with this small stylish business tablet equippe
+Action.c(60):     d with a brilliant, high definition display and the pervasive connectivity to mobilize nea
+Action.c(60):     rly any business process. Choose from an expansive choice of accessories[2] for a customiz
+Action.c(60):     ed experience.","productStatus":"Active","managedImageId":"3300"},{"id":17,"productName":"
+Action.c(60):     HP Elite x2 1011 G1 Tablet","price":1279.0,"description":"Ultrabook\xE2\x84\xA2[2] Power\\
+Action.c(60):     nPower up for ultimate power with Windows 8.1,[1] 5th Gen Intel\xC2\xAE Core\xE2\x84\xA2 M
+Action.c(60):      processors,[4] with optional vPro\xE2\x84\xA2[5] and long battery life provided by dual t
+Action.c(60):     ablet and keyboard base batteries.","productStatus":"Active","managedImageId":"3200"}]},{"
+Action.c(60):     categoryId":4,"categoryName":"SPEAKERS","managedImageId":"speakers","products":[{"id":20,"
+Action.c(60):     productName":"Bose Soundlink Bluetooth Speaker III","price":269.99,"description":"Meet the
+Action.c(60):      speaker that brings your music and friends together-with a style that's all your own. The
+Action.c(60):      SoundLink\xC2\xAE Bluetooth speaker III is our best-performing mobile Bluetooth speaker. 
+Action.c(60):     It plays louder and longer than its popular predecessor, with advanced Bose\xC2\xAE techno
+Action.c(60):     logies that reproduce the fullness, clarity and depth of your music. And a colorful assort
+Action.c(60):     ment of optional covers let you personalize your speaker.","productStatus":"Active","manag
+Action.c(60):     edImageId":"4200"},{"id":21,"productName":"HP Roar Plus Wireless Speaker","price":169.99,"
+Action.c(60):     description":"Showcase your music anywhere with the ease of wireless Bluetooth\xC2\xAE con
+Action.c(60):     nectivity.","productStatus":"Active","managedImageId":"4300"},{"id":19,"productName":"HP S
+Action.c(60):     9500 Bluetooth Wireless Speaker","price":200.0,"description":"Impress \xE2\x80\xA6 everyon
+Action.c(60):     e! Futuristic design with perforated steel formed into subtle angles. Requiring only minim
+Action.c(60):     al space, this speaker is the ideal complement to any setting.","productStatus":"Active","
+Action.c(60):     managedImageId":"4100"},{"id":22,"productName":"HP Roar Wireless Speaker","price":84.99,"d
+Action.c(60):     escription":"Showcase your music anywhere with the ease of wireless Bluetooth\xC2\xAE conn
+Action.c(60):     ectivity.","productStatus":"Active","managedImageId":"4400"},{"id":25,"productName":"Bose 
+Action.c(60):     SoundLink Wireless Speaker","price":129.0,"description":"If music is your motivation, wait
+Action.c(60):      until you hear the SoundLink\xC2\xAE Color Bluetooth speaker. It plays your favorite tune
+Action.c(60):     s from your favorite Bluetooth device-out loud in clear, full audio-just about anywhere yo
+Action.c(60):     u want to go. It's small, durable and simple to use. And it comes in a spectrum of colors 
+Action.c(60):     to match almost any style.","productStatus":"Active","managedImageId":"4700"},{"id":23,"pr
+Action.c(60):     oductName":"Logitech X100 Speaker System - Wireless Speaker(s)","price":49.99,"description
+Action.c(60):     ":"Pump up the volume and enjoy crystal-clear sound from this mobile speaker. This portabl
+Action.c(60):     e speaker is perfect for life on-the-go. Take it on the road or relax and listen at home b
+Action.c(60):     ecause this mobile speaker goes everywhere. Simple, intuitive design lets you wirelessly c
+Action.c(60):     onnect and stream music from your Bluetooth-enabled device from up to 30' away. Easily man
+Action.c(60):     age phone calls and volume control from your mobile phone. Enjoy five hours of continuous 
+Action.c(60):     play before you need to recharge. Recharge the built-in, lithium-ion battery with the conv
+Action.c(60):     enience of the included micro-USB cable.","productStatus":"Active","managedImageId":"4500"
+Action.c(60):     },{"id":24,"productName":"HP Roar Mini Wireless Speaker","price":44.99,"description":"Atte
+Action.c(60):     ntion-getting design, color, and sound - the HP Roar Mini Wireless Speaker. Exceptional si
+Action.c(60):     ze-defying audio while streaming music and calls from a distinctively compact speaker.","p
+Action.c(60):     roductStatus":"Active","managedImageId":"4600"}]},{"categoryId":5,"categoryName":"MICE","m
+Action.c(60):     anagedImageId":"mice","products":[{"id":29,"productName":"HP USB 3 Button Optical Mouse","
+Action.c(60):     price":9.99,"description":"Smooth and Accurate - The HP USB 3-Button Optical Mouse is the 
+Action.c(60):     affordable desktop optical mouse solution that combines functionality with style","product
+Action.c(60):     Status":"Active","managedImageId":"5400"},{"id":26,"productName":"Kensington Orbit 72352 T
+Action.c(60):     rackball","price":59.99,"description":"The Kensington Orbit Wireless Mobile Trackball offe
+Action.c(60):     rs a precise, compact and versatile experience with a centered-ball design. With no wires 
+Action.c(60):     to tie you down, the 2.4 GHz wireless with storable nano receiver works wherever you do --
+Action.c(60):      at your home or office. And the unique touch scrolling lets you glide effortlessly throug
+Action.c(60):     h web pages and documents.","productStatus":"Active","managedImageId":"5100"},{"id":27,"pr
+Action.c(60):     oductName":"HP Z3600 Wireless Mouse","price":15.99,"description":"The tiny HP Wireless Mou
+Action.c(60):     se Z3600 provides stylish comfort and control for your mobile computing needs. With optica
+Action.c(60):     l tracking, 3 button controls, and the freedom to connect up to 30ft (10m) away, this comp
+Action.c(60):     act mouse provides oversized performance.","productStatus":"Active","managedImageId":"5200
+Action.c(60):     "},{"id":28,"productName":"HP Z3200 Wireless Mouse","price":29.99,"description":"The HP Wi
+Action.c(60):     reless Mouse Z3200 provides powerful Blue LED optical tracking. Its ambidextrous shape and
+Action.c(60):      familiar button controls are easy to use. Compact contoured control.","productStatus":"Ac
+Action.c(60):     tive","managedImageId":"5300"},{"id":31,"productName":"Logitech G502 Proteus Core","price"
+Action.c(60):     :79.99,"description":"MAKE IT YOURS!\\nProteus Core perfectly tuned by you.\\nProteus Core
+Action.c(60):      allows you to change the weight, balance, and enables you to adapt to wherever you choose
+Action.c(60):      to play. Customize it to the way you game and make it yours!\\n\\nPERSONALLY-TUNED PERFOR
+Action.c(60):     MANCE\\nAdapts to your environment\\nFine tune the optical sensor in Proteus Core to your 
+Action.c(60):     playing surface for better accuracy, precision and responsiveness. A quick tuning process,
+Action.c(60):      and you are battle ready.","productStatus":"Active","managedImageId":"5600"},{"id":33,"pr
+Action.c(60):     oductName":"HP Z8000 Bluetooth Mouse","price":50.99,"description":"The exquisite HP Z8000 
+Action.c(60):     Bluetooth Mouse is only 18mm (.7in) height, saves power with Bluetooth\xC2\xAE Low Energy 
+Action.c(60):     connectivity, and provides effortless capacitive touch control. The future is here.","prod
+Action.c(60):     uctStatus":"Active","managedImageId":"5800"},{"id":34,"productName":"Microsoft Sculpt Touc
+Action.c(60):     h Mouse","price":49.99,"description":"Looking for a portable mouse that helps you get thin
+Action.c(60):     gs done? Sculpt Touch Mouse saves time in long documents and works virtually anywhere, wit
+Action.c(60):     h no cables or transceivers to connect. And it's designed to fit comfortably in either han
+Action.c(60):     d.\\nThe four-way touch scrolling pad on the Sculpt Touch Mouse lets you breeze up and dow
+Action.c(60):     n, left and right, and through windows and documents with just the swipe of your finger. W
+Action.c(60):     hile you scroll, you'll feel the nice surprise of tactile feedback. Sculpt Touch Mouse is 
+Action.c(60):     also a powerful complement to Windows 8, navigating fluidly and intuitively around the Sta
+Action.c(60):     rt Screen.\\n","productStatus":"Active","managedImageId":"5900"},{"id":30,"productName":"H
+Action.c(60):     P Z4000 Wireless Mouse","price":9.99,"description":"The sleek and low-profiled design make
+Action.c(60):      the Z4000 the must-have companion to every thin notebook or tablet. Style and comfort wit
+Action.c(60):     hin a dynamic ultra-mobile wireless mouse.","productStatus":"Active","managedImageId":"550
+Action.c(60):     5"},{"id":32,"productName":"Kensington Orbit 72337 Trackball with Scroll Ring","price":39.
+Action.c(60):     99,"description":"All-day comfort and scrolling come together in the Kensington Orbit Trac
+Action.c(60):     kball with Scroll Ring. The scroll ring allows you to fly through web pages and documents.
+Action.c(60):      And all while delivering comfort and space savings no mouse can match.","productStatus":"
+Action.c(60):     Active","managedImageId":"5700"}]}]
+Action.c(60): t=2630ms: Request done "http://54.157.232.206/catalog/api/v1/categories"  	[MsgId: MMSG-26000]
+Action.c(60): Registered web_reg_find successful for "Text="categoryName":"LAPTOPS"" (count=1)  	[MsgId: MMSG-26364]
+Action.c(60): Registered web_reg_find successful for "Text="categoryName":"HEADPHONES"" (count=1)  	[MsgId: MMSG-26364]
+Action.c(60): Registered web_reg_find successful for "Text="categoryName":"TABLETS"" (count=1)  	[MsgId: MMSG-26364]
+Action.c(60): Registered web_reg_find successful for "Text="categoryName":"SPEAKERS"" (count=1)  	[MsgId: MMSG-26364]
+Action.c(60): Registered web_reg_find successful for "Text="categoryName":"MICE"" (count=1)  	[MsgId: MMSG-26364]
+Action.c(60): web_url("categories") was successful, 4473 body bytes, 434 header bytes, 18 chunking overhead bytes  	[MsgId: MMSG-26385]
+Action.c(71): web_reg_find started  	[MsgId: MMSG-26355]
+Action.c(71): Registering web_reg_find was successful  	[MsgId: MMSG-26390]
+Action.c(72): web_reg_find started  	[MsgId: MMSG-26355]
+Action.c(72): Registering web_reg_find was successful  	[MsgId: MMSG-26390]
+Action.c(74): web_url("dealOfTheDay") started  	[MsgId: MMSG-26355]
+Action.c(74): Notify: Parameter Substitution: parameter "protocol" =  "http"	[MsgId: MMSG-13992]
+Action.c(74): Notify: Parameter Substitution: parameter "host" =  "54.157.232.206"	[MsgId: MMSG-13992]
+Action.c(74): Notify: Parameter Substitution: parameter "protocol" =  "http"	[MsgId: MMSG-13992]
+Action.c(74): Notify: Parameter Substitution: parameter "host" =  "54.157.232.206"	[MsgId: MMSG-13992]
+Action.c(74): t=2632ms: Already connected [0] to 54.157.232.206:80  	[MsgId: MMSG-26000]
+Action.c(74): t=2632ms: 575-byte request headers for "http://54.157.232.206/catalog/api/v1/deals/search?dealOfTheDay=true" (RelFrameId=1, Internal ID=4)
+Action.c(74):     GET /catalog/api/v1/deals/search?dealOfTheDay=true HTTP/1.1\r\n
+Action.c(74):     Referer: http://54.157.232.206/\r\n
+Action.c(74):     User-Agent: Mozilla/5.0 (compatible; MSIE 10.0; Windows NT 6.1; Trident/6.0)\r\n
+Action.c(74):     Accept-Encoding: gzip, deflate\r\n
+Action.c(74):     Accept: */*\r\n
+Action.c(74):     Connection: Keep-Alive\r\n
+Action.c(74):     Host: 54.157.232.206\r\n
+Action.c(74):     Cookie: _ga_TBPYED8WSW=GS1.1.1709704703.33.1.1709709359.0.0.0; _ga=GA1.1.1055678014.170879
+Action.c(74):     9449; _ga_56EMNRF2S2=GS1.1.1709728780.32.0.1709728780.60.0.0; _gid=GA1.1.2024659853.170964
+Action.c(74):     0738; userCart=%7B%22userId%22%3A-1%2C%22productsInCart%22%3A%5B%5D%7D; dtCookie=6AB675624
+Action.c(74):     C78926DBC1A1553A90F7FD8|1|2||1; _gat=1\r\n
+Action.c(74):     \r\n
+Action.c(74): t=2884ms: 434-byte response headers for "http://54.157.232.206/catalog/api/v1/deals/search?dealOfTheDay=true" (RelFrameId=1, Internal ID=4)
+Action.c(74):     HTTP/1.1 200 \r\n
+Action.c(74):     Server: nginx/1.12.2\r\n
+Action.c(74):     Date: Fri, 15 Mar 2024 01:22:29 GMT\r\n
+Action.c(74):     Content-Type: application/json\r\n
+Action.c(74):     Transfer-Encoding: chunked\r\n
+Action.c(74):     Connection: keep-alive\r\n
+Action.c(74):     X-OneAgent-JS-Injection: true\r\n
+Action.c(74):     Set-Cookie: dtCookie=6AB675624C78926DBC1A1553A90F7FD8|1|2||1; Path=/\r\n
+Action.c(74):     Expires: 0\r\n
+Action.c(74):     Cache-Control: no-store\r\n
+Action.c(74):     X-Content-Type-Options: nosniff\r\n
+Action.c(74):     X-XSS-Protection: 1; mode=block\r\n
+Action.c(74):     X-Frame-Options: DENY\r\n
+Action.c(74):     vary: accept-encoding\r\n
+Action.c(74):     Content-Encoding: gzip\r\n
+Action.c(74):     \r\n
+Action.c(74): t=2885ms: 5-byte chunked response overhead for "http://54.157.232.206/catalog/api/v1/deals/search?dealOfTheDay=true" (RelFrameId=1, Internal ID=4)
+Action.c(74):     155\r\n
+Action.c(74): t=2885ms: 2-byte chunked response overhead for "http://54.157.232.206/catalog/api/v1/deals/search?dealOfTheDay=true" (RelFrameId=1, Internal ID=4)
+Action.c(74):     \r\n
+Action.c(74): t=2885ms: 341-byte ENCODED response body received for "http://54.157.232.206/catalog/api/v1/deals/search?dealOfTheDay=true" (RelFrameId=1, Internal ID=4)
+Action.c(74): t=2885ms: 681-byte DECODED response body for "http://54.157.232.206/catalog/api/v1/deals/search?dealOfTheDay=true" (RelFrameId=1, Internal ID=4)
+Action.c(74):     [{"id":1,"dealType":10,"description":"Redesigned with you in mind, the HP Pavilion keeps g
+Action.c(74):     etting better. Our best-selling notebook is now more powerful so you can watch more, play 
+Action.c(74):     more, and store more, all in style.","promotionHeader":"EXPLORE THE NEW DESIGN","promotion
+Action.c(74):     SubHeader":"Supremely thin, yet incredibly durable","staringPrice":"650","discount":0.0,"p
+Action.c(74):     roduct":{"id":3,"productName":"HP Pavilion 15z Touch Laptop","price":449.99,"description":
+Action.c(74):     "Redesigned with you in mind, the HP Pavilion keeps getting better. Our best-selling noteb
+Action.c(74):     ook is now more powerful so you can watch more, play more, and store more, all in style.",
+Action.c(74):     "productStatus":"Active","managedImageId":"1300"}}]
+Action.c(74): t=2885ms: 3-byte chunked response overhead for "http://54.157.232.206/catalog/api/v1/deals/search?dealOfTheDay=true" (RelFrameId=1, Internal ID=4)
+Action.c(74):     a\r\n
+Action.c(74): t=2885ms: 7-byte chunked response overhead for "http://54.157.232.206/catalog/api/v1/deals/search?dealOfTheDay=true" (RelFrameId=1, Internal ID=4)
+Action.c(74):     \r\n
+Action.c(74):     0\r\n
+Action.c(74):     \r\n
+Action.c(74): t=2885ms: 10-byte ENCODED response body received for "http://54.157.232.206/catalog/api/v1/deals/search?dealOfTheDay=true" (RelFrameId=1, Internal ID=4)
+Action.c(74): t=2886ms: Request done "http://54.157.232.206/catalog/api/v1/deals/search?dealOfTheDay=true"  	[MsgId: MMSG-26000]
+Action.c(74): Registered web_reg_find successful for "Text="promotionHeader"" (count=1)  	[MsgId: MMSG-26364]
+Action.c(74): Registered web_reg_find successful for "Text="promotionSubHeader"" (count=1)  	[MsgId: MMSG-26364]
+Action.c(74): web_url("dealOfTheDay") was successful, 351 body bytes, 434 header bytes, 17 chunking overhead bytes  	[MsgId: MMSG-26385]
+Action.c(84): Notify: Transaction "Goto_HomePage" ended with a "Pass" status (Duration: 0,9775 Wasted Time: 0,0002).	[MsgId: MMSG-16871]
+Action.c(87): lr_think_time: 5,00 seconds.	[MsgId: MMSG-15948]
+Action.c(90): Notify: Transaction "Connect_Chat" started.	[MsgId: MMSG-16999]
+Action.c(92): web_add_header("Upgrade-Insecure-Requests") started  	[MsgId: MMSG-26355]
+Action.c(92): An unrecognized header ("Upgrade-Insecure-Requests") is being added  	[MsgId: MMSG-26595]
+Action.c(92): "Upgrade-Insecure-Requests: 1" header registered for adding to requests from the immediately following Action function  	[MsgId: MMSG-26506]
+Action.c(92): web_add_header("Upgrade-Insecure-Requests") was successful  	[MsgId: MMSG-26392]
+Action.c(94): web_set_max_html_param_len started  	[MsgId: MMSG-26355]
+Action.c(94): web_set_max_html_param_len was successful  	[MsgId: MMSG-26392]
+Action.c(95): web_reg_save_param started  	[MsgId: MMSG-26355]
+Action.c(95): Registering web_reg_save_param was successful  	[MsgId: MMSG-26390]
+Action.c(97): web_websocket_connect started  	[MsgId: MMSG-26355]
+Action.c(97): Notify: Parameter Substitution: parameter "uniqNumber" =  "2700001"	[MsgId: MMSG-13992]
+Action.c(97): Notify: Parameter Substitution: parameter "host" =  "54.157.232.206"	[MsgId: MMSG-13992]
+Action.c(97): Notify: Parameter Substitution: parameter "protocol" =  "http"	[MsgId: MMSG-13992]
+Action.c(97): Notify: Parameter Substitution: parameter "host" =  "54.157.232.206"	[MsgId: MMSG-13992]
+Action.c(97): Start connection: uri=ws://54.157.232.206/catalog/websocketserverendpoint, connection handle=100312840  	[MsgId: MMSG-26000]
+Action.c(97): t=6215ms: Connecting [1] to host 54.157.232.206:80  	[MsgId: MMSG-26000]
+Action.c(97): t=6367ms: Connected socket [1] from 192.168.0.156:19802 to 54.157.232.206:80 in 152 ms  	[MsgId: MMSG-26000]
+Action.c(97): t=6367ms: 702-byte request headers for "ws://54.157.232.206/catalog/websocketserverendpoint" (RelFrameId=1, Internal ID=5)
+Action.c(97):     GET /catalog/websocketserverendpoint HTTP/1.1\r\n
+Action.c(97):     Connection: Upgrade\r\n
+Action.c(97):     Sec-WebSocket-Key: kgX8/6rTnZQ4dLGuAlIwtw==\r\n
+Action.c(97):     Sec-WebSocket-Version: 13\r\n
+Action.c(97):     Upgrade: websocket\r\n
+Action.c(97):     Origin: http://54.157.232.206\r\n
+Action.c(97):     Upgrade-Insecure-Requests: 1\r\n
+Action.c(97):     User-Agent: Mozilla/5.0 (compatible; MSIE 10.0; Windows NT 6.1; Trident/6.0)\r\n
+Action.c(97):     Accept-Encoding: gzip, deflate\r\n
+Action.c(97):     Accept: */*\r\n
+Action.c(97):     Connection: Keep-Alive\r\n
+Action.c(97):     Host: 54.157.232.206\r\n
+Action.c(97):     Cookie: _ga_TBPYED8WSW=GS1.1.1709704703.33.1.1709709359.0.0.0; _ga=GA1.1.1055678014.170879
+Action.c(97):     9449; _ga_56EMNRF2S2=GS1.1.1709728780.32.0.1709728780.60.0.0; _gid=GA1.1.2024659853.170964
+Action.c(97):     0738; userCart=%7B%22userId%22%3A-1%2C%22productsInCart%22%3A%5B%5D%7D; dtCookie=6AB675624
+Action.c(97):     C78926DBC1A1553A90F7FD8|1|2||1; _gat=1\r\n
+Action.c(97):     \r\n
+Action.c(97): t=6522ms: 425-byte response headers for "ws://54.157.232.206/catalog/websocketserverendpoint" (RelFrameId=1, Internal ID=5)
+Action.c(97):     HTTP/1.1 101 \r\n
+Action.c(97):     Server: nginx/1.12.2\r\n
+Action.c(97):     Date: Fri, 15 Mar 2024 01:22:33 GMT\r\n
+Action.c(97):     Connection: upgrade\r\n
+Action.c(97):     X-OneAgent-JS-Injection: true\r\n
+Action.c(97):     Set-Cookie: dtCookie=6AB675624C78926DBC1A1553A90F7FD8|1|2||1; Path=/\r\n
+Action.c(97):     Upgrade: websocket\r\n
+Action.c(97):     Sec-WebSocket-Accept: x5nsPhhtsbFrVOXUHZLRKBJTWaA=\r\n
+Action.c(97):     Cache-Control: max-age=0\r\n
+Action.c(97):     Expires: Fri, 15 Mar 2024 01:22:33 GMT\r\n
+Action.c(97):     X-Content-Type-Options: nosniff\r\n
+Action.c(97):     X-XSS-Protection: 1; mode=block\r\n
+Action.c(97):     X-Frame-Options: DENY\r\n
+Action.c(97):     \r\n
+Action.c(97): Notify: Saving Parameter "allpage = HTTP/1.1 101 \r\nServer: nginx/1.12.2\r\nDate: Fri, 15 Mar 2024 01:22:33 GMT\r\nConnection: upgrade\r\nX-OneAgent-JS-Injection: true\r\nSet-Cookie: dtCookie=6AB675624C78926DBC1A1553A90F7FD8|1|2||1; Path=/\r\nUpgrade: websocket\r\nSec-WebSocket-Accept: x5nsPhhtsbFrVOXUHZLRKBJTWaA=\r\nCache-Control: max-age=0\r\nExpires: Fri, 15 Mar 2024 01:22:33 GMT\r\nX-Content-Type-Options: nosniff\r\nX-XSS-Protection: 1; mode=block\r\nX-Frame-Options: DENY".	[MsgId: MMSG-13798]
+Action.c(97): Connection Opened: uri=ws://54.157.232.206/catalog/websocketserverendpoint, connection handle=100312840  	[MsgId: MMSG-26000]
+Action.c(97): Retaining websocket connection of URI="ws://54.157.232.206/catalog/websocketserverendpoint" (RelFrameId=1, Internal ID=5)  	[MsgId: MMSG-27636]
+Action.c(97): web_websocket_connect was successful, 0 body bytes, 425 header bytes  	[MsgId: MMSG-26386]
+Action.c(106): Notify: Parameter Substitution: parameter "allpage" =  "HTTP/1.1 101 \r\nServer: nginx/1.12.2\r\nDate: Fri, 15 Mar 2024 01:22:33 GMT\r\nConnection: upgrade\r\nX-OneAgent-JS-Injection: true\r\nSet-Cookie: dtCookie=6AB675624C78926DBC1A1553A90F7FD8|1|2||1; Path=/\r\nUpgrade: websocket\r\nSec-WebSocket-Accept: x5nsPhhtsbFrVOXUHZLRKBJTWaA=\r\nCache-Control: max-age=0\r\nExpires: Fri, 15 Mar 2024 01:22:33 GMT\r\nX-Content-Type-Options: nosniff\r\nX-XSS-Protection: 1; mode=block\r\nX-Frame-Options: DENY"	[MsgId: MMSG-13992]
+Action.c(111): Notify: Transaction "Connect_Chat" ended with a "Pass" status (Duration: 0,3662 Wasted Time: 0,3060).	[MsgId: MMSG-16871]
+Action.c(115): lr_think_time: 5,00 seconds.	[MsgId: MMSG-15948]
+Action.c(115): Calling Vuser script function "OnOpenCB0", specified via the "OnOpenCB" argument of "web_websocket_connect" in Action.c(97)  	[MsgId: MMSG-26419]
+WebSocketCB.c(6): WebSocket ID = 2700001 connected	[MsgId: MMSG-17999]
+WebSocketCB.c(7): Received Regular Expression [Sec-WebSocket-Accept: (.+)\r\n], ordinal [1], case-sensitive [true], parameter [Accept], size of buffer to scan: [425].	[MsgId: MMSG-17950]
+WebSocketCB.c(7): Notify: Saving Parameter "Accept = x5nsPhhtsbFrVOXUHZLRKBJTWaA=".	[MsgId: MMSG-13798]
+WebSocketCB.c(12): Notify: Parameter Substitution: parameter "Accept" =  "x5nsPhhtsbFrVOXUHZLRKBJTWaA="	[MsgId: MMSG-13992]
+WebSocketCB.c(12): Sec-WebSocket-Accept = [x5nsPhhtsbFrVOXUHZLRKBJTWaA=]	[MsgId: MMSG-17999]
+Action.c(115): Returned (rc=0) from Vuser script function "OnOpenCB0", specified via the "OnOpenCB" argument of web_websocket_connect in Action.c(97)  	[MsgId: MMSG-26418]
+Action.c(90): Notify: Transaction "Connect_Chat" started.	[MsgId: MMSG-16999]
+Action.c(92): web_add_header("Upgrade-Insecure-Requests") started  	[MsgId: MMSG-26355]
+Action.c(92): An unrecognized header ("Upgrade-Insecure-Requests") is being added  	[MsgId: MMSG-26595]
+Action.c(92): "Upgrade-Insecure-Requests: 1" header registered for adding to requests from the immediately following Action function  	[MsgId: MMSG-26506]
+Action.c(92): web_add_header("Upgrade-Insecure-Requests") was successful  	[MsgId: MMSG-26392]
+Action.c(94): web_set_max_html_param_len started  	[MsgId: MMSG-26355]
+Action.c(94): web_set_max_html_param_len was successful  	[MsgId: MMSG-26392]
+Action.c(95): web_reg_save_param started  	[MsgId: MMSG-26355]
+Action.c(95): Registering web_reg_save_param was successful  	[MsgId: MMSG-26390]
+Action.c(97): web_websocket_connect started  	[MsgId: MMSG-26355]
+Action.c(97): Notify: Parameter Substitution: parameter "uniqNumber" =  "2800001"	[MsgId: MMSG-13992]
+Action.c(97): Notify: Parameter Substitution: parameter "host" =  "54.157.232.206"	[MsgId: MMSG-13992]
+Action.c(97): Notify: Parameter Substitution: parameter "protocol" =  "http"	[MsgId: MMSG-13992]
+Action.c(97): Notify: Parameter Substitution: parameter "host" =  "54.157.232.206"	[MsgId: MMSG-13992]
+Action.c(97): Start connection: uri=ws://54.157.232.206/catalog/websocketserverendpoint, connection handle=100400688  	[MsgId: MMSG-26000]
+Action.c(97): t=7888ms: Connecting [1] to host 54.157.232.206:80  	[MsgId: MMSG-26000]
+Action.c(97): t=8043ms: Connected socket [1] from 192.168.0.156:19803 to 54.157.232.206:80 in 155 ms  	[MsgId: MMSG-26000]
+Action.c(97): t=8043ms: 702-byte request headers for "ws://54.157.232.206/catalog/websocketserverendpoint" (RelFrameId=1, Internal ID=5)
+Action.c(97):     GET /catalog/websocketserverendpoint HTTP/1.1\r\n
+Action.c(97):     Connection: Upgrade\r\n
+Action.c(97):     Sec-WebSocket-Key: Tfp6cHkbRrp9X8wIKGOguw==\r\n
+Action.c(97):     Sec-WebSocket-Version: 13\r\n
+Action.c(97):     Upgrade: websocket\r\n
+Action.c(97):     Origin: http://54.157.232.206\r\n
+Action.c(97):     Upgrade-Insecure-Requests: 1\r\n
+Action.c(97):     User-Agent: Mozilla/5.0 (compatible; MSIE 10.0; Windows NT 6.1; Trident/6.0)\r\n
+Action.c(97):     Accept-Encoding: gzip, deflate\r\n
+Action.c(97):     Accept: */*\r\n
+Action.c(97):     Connection: Keep-Alive\r\n
+Action.c(97):     Host: 54.157.232.206\r\n
+Action.c(97):     Cookie: _ga_TBPYED8WSW=GS1.1.1709704703.33.1.1709709359.0.0.0; _ga=GA1.1.1055678014.170879
+Action.c(97):     9449; _ga_56EMNRF2S2=GS1.1.1709728780.32.0.1709728780.60.0.0; _gid=GA1.1.2024659853.170964
+Action.c(97):     0738; userCart=%7B%22userId%22%3A-1%2C%22productsInCart%22%3A%5B%5D%7D; dtCookie=6AB675624
+Action.c(97):     C78926DBC1A1553A90F7FD8|1|2||1; _gat=1\r\n
+Action.c(97):     \r\n
+Action.c(97): t=8190ms: 425-byte response headers for "ws://54.157.232.206/catalog/websocketserverendpoint" (RelFrameId=1, Internal ID=5)
+Action.c(97):     HTTP/1.1 101 \r\n
+Action.c(97):     Server: nginx/1.12.2\r\n
+Action.c(97):     Date: Fri, 15 Mar 2024 01:22:35 GMT\r\n
+Action.c(97):     Connection: upgrade\r\n
+Action.c(97):     X-OneAgent-JS-Injection: true\r\n
+Action.c(97):     Set-Cookie: dtCookie=6AB675624C78926DBC1A1553A90F7FD8|1|2||1; Path=/\r\n
+Action.c(97):     Upgrade: websocket\r\n
+Action.c(97):     Sec-WebSocket-Accept: OMdlE+d5jxpLljFYPUPj15yRkHQ=\r\n
+Action.c(97):     Cache-Control: max-age=0\r\n
+Action.c(97):     Expires: Fri, 15 Mar 2024 01:22:35 GMT\r\n
+Action.c(97):     X-Content-Type-Options: nosniff\r\n
+Action.c(97):     X-XSS-Protection: 1; mode=block\r\n
+Action.c(97):     X-Frame-Options: DENY\r\n
+Action.c(97):     \r\n
+Action.c(97): Notify: Saving Parameter "allpage = HTTP/1.1 101 \r\nServer: nginx/1.12.2\r\nDate: Fri, 15 Mar 2024 01:22:35 GMT\r\nConnection: upgrade\r\nX-OneAgent-JS-Injection: true\r\nSet-Cookie: dtCookie=6AB675624C78926DBC1A1553A90F7FD8|1|2||1; Path=/\r\nUpgrade: websocket\r\nSec-WebSocket-Accept: OMdlE+d5jxpLljFYPUPj15yRkHQ=\r\nCache-Control: max-age=0\r\nExpires: Fri, 15 Mar 2024 01:22:35 GMT\r\nX-Content-Type-Options: nosniff\r\nX-XSS-Protection: 1; mode=block\r\nX-Frame-Options: DENY".	[MsgId: MMSG-13798]
+Action.c(97): Connection Opened: uri=ws://54.157.232.206/catalog/websocketserverendpoint, connection handle=100400688  	[MsgId: MMSG-26000]
+Action.c(97): Retaining websocket connection of URI="ws://54.157.232.206/catalog/websocketserverendpoint" (RelFrameId=1, Internal ID=5)  	[MsgId: MMSG-27636]
+Action.c(97): web_websocket_connect was successful, 0 body bytes, 425 header bytes  	[MsgId: MMSG-26386]
+Action.c(106): Notify: Parameter Substitution: parameter "allpage" =  "HTTP/1.1 101 \r\nServer: nginx/1.12.2\r\nDate: Fri, 15 Mar 2024 01:22:35 GMT\r\nConnection: upgrade\r\nX-OneAgent-JS-Injection: true\r\nSet-Cookie: dtCookie=6AB675624C78926DBC1A1553A90F7FD8|1|2||1; Path=/\r\nUpgrade: websocket\r\nSec-WebSocket-Accept: OMdlE+d5jxpLljFYPUPj15yRkHQ=\r\nCache-Control: max-age=0\r\nExpires: Fri, 15 Mar 2024 01:22:35 GMT\r\nX-Content-Type-Options: nosniff\r\nX-XSS-Protection: 1; mode=block\r\nX-Frame-Options: DENY"	[MsgId: MMSG-13992]
+Action.c(111): Notify: Transaction "Connect_Chat" ended with a "Pass" status (Duration: 0,3264 Wasted Time: 0,2900).	[MsgId: MMSG-16871]
+Action.c(115): lr_think_time: 5,00 seconds.	[MsgId: MMSG-15948]
+Action.c(115): Calling Vuser script function "OnOpenCB0", specified via the "OnOpenCB" argument of "web_websocket_connect" in Action.c(97)  	[MsgId: MMSG-26419]
+WebSocketCB.c(6): WebSocket ID = 2800001 connected	[MsgId: MMSG-17999]
+WebSocketCB.c(7): Received Regular Expression [Sec-WebSocket-Accept: (.+)\r\n], ordinal [1], case-sensitive [true], parameter [Accept], size of buffer to scan: [425].	[MsgId: MMSG-17950]
+WebSocketCB.c(7): Notify: Saving Parameter "Accept = OMdlE+d5jxpLljFYPUPj15yRkHQ=".	[MsgId: MMSG-13798]
+WebSocketCB.c(12): Notify: Parameter Substitution: parameter "Accept" =  "OMdlE+d5jxpLljFYPUPj15yRkHQ="	[MsgId: MMSG-13992]
+WebSocketCB.c(12): Sec-WebSocket-Accept = [OMdlE+d5jxpLljFYPUPj15yRkHQ=]	[MsgId: MMSG-17999]
+Action.c(115): Returned (rc=0) from Vuser script function "OnOpenCB0", specified via the "OnOpenCB" argument of web_websocket_connect in Action.c(97)  	[MsgId: MMSG-26418]
+Action.c(119): Notify: Transaction "Entry_DataForChat" started.	[MsgId: MMSG-16999]
+Action.c(121): web_websocket_send started  	[MsgId: MMSG-26355]
+Action.c(121): Retaining websocket connection of URI="ws://54.157.232.206/catalog/websocketserverendpoint" (RelFrameId=1, Internal ID=5)  	[MsgId: MMSG-27636]
+Action.c(121): Notify: Parameter Substitution: parameter "uniqNumber" =  "2700001"	[MsgId: MMSG-13992]
+Action.c(121): SendMessage: message=Hello, len = 5 isBinary = 0  	[MsgId: MMSG-26000]
+Action.c(97): t=11556ms: 11-byte request body for "ws://54.157.232.206/catalog/websocketserverendpoint" (RelFrameId=1, Internal ID=5)   [issued at Action.c(121)]
+Action.c(121):     \x81\x85\x12\x04\xDBBZa\xB7.}
+Action.c(121): Retaining websocket connection of URI="ws://54.157.232.206/catalog/websocketserverendpoint" (RelFrameId=1, Internal ID=5)  	[MsgId: MMSG-27636]
+Action.c(121): web_websocket_send was successful  	[MsgId: MMSG-26392]
+Action.c(122): lr_think_time: 3,00 seconds.	[MsgId: MMSG-15948]
+Action.c(97): t=12130ms: 34-byte response body for "ws://54.157.232.206/catalog/websocketserverendpoint" (RelFrameId=1, Internal ID=5)   [issued at Action.c(122)]
+Action.c(122):     \x81 Sofia: Hello, what's your name? 
+Action.c(122): Get Message from server: uri=ws://54.157.232.206/catalog/websocketserverendpoint, connection handle=100312840, message=Sofia: Hello, what's your name? , length=32  	[MsgId: MMSG-26000]
+Action.c(122): Calling Vuser script function "OnMessageCB0", specified via the "OnMessageCB" argument of "web_websocket_connect" in Action.c(97)  	[MsgId: MMSG-26419]
+WebSocketCB.c(27): Notify: Saving Parameter "ReciveFromServer = Sofia: Hello, what's your name? ".	[MsgId: MMSG-13798]
+WebSocketCB.c(28): WebSocket ID = 2700001. [32] bytes text message received.	[MsgId: MMSG-17999]
+Action.c(122): Returned (rc=0) from Vuser script function "OnMessageCB0", specified via the "OnMessageCB" argument of web_websocket_connect in Action.c(97)  	[MsgId: MMSG-26418]
+Action.c(119): Notify: Transaction "Entry_DataForChat" started.	[MsgId: MMSG-16999]
+Action.c(121): web_websocket_send started  	[MsgId: MMSG-26355]
+Action.c(121): Retaining websocket connection of URI="ws://54.157.232.206/catalog/websocketserverendpoint" (RelFrameId=1, Internal ID=5)  	[MsgId: MMSG-27636]
+Action.c(121): Notify: Parameter Substitution: parameter "uniqNumber" =  "2800001"	[MsgId: MMSG-13992]
+Action.c(121): SendMessage: message=Hello, len = 5 isBinary = 0  	[MsgId: MMSG-26000]
+Action.c(97): t=13229ms: 11-byte request body for "ws://54.157.232.206/catalog/websocketserverendpoint" (RelFrameId=1, Internal ID=5)   [issued at Action.c(121)]
+Action.c(121):     \x81\x85\x94\xA8\xF6\x0B\xDC\xCD\x9Ag\xFB
+Action.c(121): Retaining websocket connection of URI="ws://54.157.232.206/catalog/websocketserverendpoint" (RelFrameId=1, Internal ID=5)  	[MsgId: MMSG-27636]
+Action.c(121): web_websocket_send was successful  	[MsgId: MMSG-26392]
+Action.c(122): lr_think_time: 3,00 seconds.	[MsgId: MMSG-15948]
+Action.c(97): t=13807ms: 36-byte response body for "ws://54.157.232.206/catalog/websocketserverendpoint" (RelFrameId=1, Internal ID=5)   [issued at Action.c(122)]
+Action.c(122):     \x81"Mercury: Hello, what's your name? 
+Action.c(122): Get Message from server: uri=ws://54.157.232.206/catalog/websocketserverendpoint, connection handle=100400688, message=Mercury: Hello, what's your name? , length=34  	[MsgId: MMSG-26000]
+Action.c(122): Calling Vuser script function "OnMessageCB0", specified via the "OnMessageCB" argument of "web_websocket_connect" in Action.c(97)  	[MsgId: MMSG-26419]
+WebSocketCB.c(27): Notify: Saving Parameter "ReciveFromServer = Mercury: Hello, what's your name? ".	[MsgId: MMSG-13798]
+WebSocketCB.c(28): WebSocket ID = 2800001. [34] bytes text message received.	[MsgId: MMSG-17999]
+Action.c(122): Returned (rc=0) from Vuser script function "OnMessageCB0", specified via the "OnMessageCB" argument of web_websocket_connect in Action.c(97)  	[MsgId: MMSG-26418]
+Action.c(123): Notify: Parameter Substitution: parameter "ReciveFromServer" =  "Sofia: Hello, what's your name? "	[MsgId: MMSG-13992]
+Action.c(129): web_websocket_send started  	[MsgId: MMSG-26355]
+Action.c(129): Retaining websocket connection of URI="ws://54.157.232.206/catalog/websocketserverendpoint" (RelFrameId=1, Internal ID=5)  	[MsgId: MMSG-27636]
+Action.c(129): Notify: Parameter Substitution: parameter "uniqNumber" =  "2700001"	[MsgId: MMSG-13992]
+Action.c(129): Notify: Parameter Substitution: parameter "userName" =  "Anastasia"	[MsgId: MMSG-13992]
+Action.c(129): SendMessage: message=Anastasia, len = 9 isBinary = 0  	[MsgId: MMSG-26000]
+Action.c(97): t=14572ms: 15-byte request body for "ws://54.157.232.206/catalog/websocketserverendpoint" (RelFrameId=1, Internal ID=5)   [issued at Action.c(129)]
+Action.c(129):     \x81\x89\x82^\x9F\xAC\xC30\xFE\xDF\xF6?\xEC\xC5\xE3
+Action.c(129): Retaining websocket connection of URI="ws://54.157.232.206/catalog/websocketserverendpoint" (RelFrameId=1, Internal ID=5)  	[MsgId: MMSG-27636]
+Action.c(129): web_websocket_send was successful  	[MsgId: MMSG-26392]
+Action.c(130): lr_think_time: 3,00 seconds.	[MsgId: MMSG-15948]
+Action.c(97): t=15166ms: 59-byte response body for "ws://54.157.232.206/catalog/websocketserverendpoint" (RelFrameId=1, Internal ID=5)   [issued at Action.c(130)]
+Action.c(130):     \x819Sofia: Interesting! Anastasia, Is that really your name? 
+Action.c(130): Get Message from server: uri=ws://54.157.232.206/catalog/websocketserverendpoint, connection handle=100312840, message=Sofia: Interesting! Anastasia, Is that really your name? , length=57  	[MsgId: MMSG-26000]
+Action.c(130): Calling Vuser script function "OnMessageCB0", specified via the "OnMessageCB" argument of "web_websocket_connect" in Action.c(97)  	[MsgId: MMSG-26419]
+WebSocketCB.c(27): Notify: Saving Parameter "ReciveFromServer = Sofia: Interesting! Anastasia, Is that really your name? ".	[MsgId: MMSG-13798]
+WebSocketCB.c(28): WebSocket ID = 2700001. [57] bytes text message received.	[MsgId: MMSG-17999]
+Action.c(130): Returned (rc=0) from Vuser script function "OnMessageCB0", specified via the "OnMessageCB" argument of web_websocket_connect in Action.c(97)  	[MsgId: MMSG-26418]
+Action.c(123): Notify: Parameter Substitution: parameter "ReciveFromServer" =  "Mercury: Hello, what's your name? "	[MsgId: MMSG-13992]
+Action.c(129): web_websocket_send started  	[MsgId: MMSG-26355]
+Action.c(129): Retaining websocket connection of URI="ws://54.157.232.206/catalog/websocketserverendpoint" (RelFrameId=1, Internal ID=5)  	[MsgId: MMSG-27636]
+Action.c(129): Notify: Parameter Substitution: parameter "uniqNumber" =  "2800001"	[MsgId: MMSG-13992]
+Action.c(129): Notify: Parameter Substitution: parameter "userName" =  "Gregory"	[MsgId: MMSG-13992]
+Action.c(129): SendMessage: message=Gregory, len = 7 isBinary = 0  	[MsgId: MMSG-26000]
+Action.c(97): t=16239ms: 13-byte request body for "ws://54.157.232.206/catalog/websocketserverendpoint" (RelFrameId=1, Internal ID=5)   [issued at Action.c(129)]
+Action.c(129):     \x81\x87\x8F\x9C\x8CD\xC8\xEE\xE9#\xE0\xEE\xF5
+Action.c(129): Retaining websocket connection of URI="ws://54.157.232.206/catalog/websocketserverendpoint" (RelFrameId=1, Internal ID=5)  	[MsgId: MMSG-27636]
+Action.c(129): web_websocket_send was successful  	[MsgId: MMSG-26392]
+Action.c(130): lr_think_time: 3,00 seconds.	[MsgId: MMSG-15948]
+Action.c(97): t=16384ms: 49-byte response body for "ws://54.157.232.206/catalog/websocketserverendpoint" (RelFrameId=1, Internal ID=5)   [issued at Action.c(130)]
+Action.c(130):     \x81/Mercury: Excuse me, do you understand English? 
+Action.c(130): Get Message from server: uri=ws://54.157.232.206/catalog/websocketserverendpoint, connection handle=100400688, message=Mercury: Excuse me, do you understand English? , length=47  	[MsgId: MMSG-26000]
+Action.c(130): Calling Vuser script function "OnMessageCB0", specified via the "OnMessageCB" argument of "web_websocket_connect" in Action.c(97)  	[MsgId: MMSG-26419]
+WebSocketCB.c(27): Notify: Saving Parameter "ReciveFromServer = Mercury: Excuse me, do you understand English? ".	[MsgId: MMSG-13798]
+WebSocketCB.c(28): WebSocket ID = 2800001. [47] bytes text message received.	[MsgId: MMSG-17999]
+Action.c(130): Returned (rc=0) from Vuser script function "OnMessageCB0", specified via the "OnMessageCB" argument of web_websocket_connect in Action.c(97)  	[MsgId: MMSG-26418]
+Action.c(131): Notify: Parameter Substitution: parameter "ReciveFromServer" =  "Sofia: Interesting! Anastasia, Is that really your name? "	[MsgId: MMSG-13992]
+Action.c(137): web_websocket_send started  	[MsgId: MMSG-26355]
+Action.c(137): Retaining websocket connection of URI="ws://54.157.232.206/catalog/websocketserverendpoint" (RelFrameId=1, Internal ID=5)  	[MsgId: MMSG-27636]
+Action.c(137): Notify: Parameter Substitution: parameter "uniqNumber" =  "2700001"	[MsgId: MMSG-13992]
+Action.c(137): SendMessage: message=Yes, len = 3 isBinary = 0  	[MsgId: MMSG-26000]
+Action.c(97): t=17580ms: 9-byte request body for "ws://54.157.232.206/catalog/websocketserverendpoint" (RelFrameId=1, Internal ID=5)   [issued at Action.c(137)]
+Action.c(137):     \x81\x83\x06f\x1D\xB5_\x03n
+Action.c(137): Retaining websocket connection of URI="ws://54.157.232.206/catalog/websocketserverendpoint" (RelFrameId=1, Internal ID=5)  	[MsgId: MMSG-27636]
+Action.c(137): web_websocket_send was successful  	[MsgId: MMSG-26392]
+Action.c(138): lr_think_time: 3,00 seconds.	[MsgId: MMSG-15948]
+Action.c(97): t=17733ms: 32-byte response body for "ws://54.157.232.206/catalog/websocketserverendpoint" (RelFrameId=1, Internal ID=5)   [issued at Action.c(138)]
+Action.c(138):     \x81\x1EZoe: Hello, what's your name? 
+Action.c(138): Get Message from server: uri=ws://54.157.232.206/catalog/websocketserverendpoint, connection handle=100312840, message=Zoe: Hello, what's your name? , length=30  	[MsgId: MMSG-26000]
+Action.c(138): Calling Vuser script function "OnMessageCB0", specified via the "OnMessageCB" argument of "web_websocket_connect" in Action.c(97)  	[MsgId: MMSG-26419]
+WebSocketCB.c(27): Notify: Saving Parameter "ReciveFromServer = Zoe: Hello, what's your name? ".	[MsgId: MMSG-13798]
+WebSocketCB.c(28): WebSocket ID = 2700001. [30] bytes text message received.	[MsgId: MMSG-17999]
+Action.c(138): Returned (rc=0) from Vuser script function "OnMessageCB0", specified via the "OnMessageCB" argument of web_websocket_connect in Action.c(97)  	[MsgId: MMSG-26418]
+Action.c(131): Notify: Parameter Substitution: parameter "ReciveFromServer" =  "Mercury: Excuse me, do you understand English? "	[MsgId: MMSG-13992]
+Action.c(132): Error: Подстрока не найдена в ответе от сервера	[MsgId: MERR-17999]
+Action.c(133): Notify: Transaction "Entry_DataForChat" ended with a "Stop" status (Duration: 6,0221 Think Time: 6,0184).	[MsgId: MMSG-16872]
+Action.c(133): Notify: Transaction "UC12_ChatWebsocket" ended with a "Stop" status (Duration: 17,3429 Think Time: 16,0346 Wasted Time: 0,2912).	[MsgId: MMSG-16870]
+Abort was called from an action.	[MsgId: MMSG-10447]
+Ending Vuser...	[MsgId: MMSG-15966]
+Starting action vuser_end.	[MsgId: MMSG-15919]
+Ending action vuser_end.	[MsgId: MMSG-15918]
+Vuser Terminated.	[MsgId: MMSG-15963]
+Action.c(133): Connection Closed: uri=ws://54.157.232.206/catalog/websocketserverendpoint, connection handle=100400688  	[MsgId: MMSG-26000]
+Action.c(133): Calling Vuser script function "OnCloseCB0", specified via the "OnCloseCB" argument of "web_websocket_connect" in Action.c(97)  	[MsgId: MMSG-26419]
+WebSocket ID = 2800001 closed. CloseCode= 1006, CloseReason=	[MsgId: MMSG-17999]
+Action.c(133): Returned (rc=0) from Vuser script function "OnCloseCB0", specified via the "OnCloseCB" argument of web_websocket_connect in Action.c(97)  	[MsgId: MMSG-26418]
+Action.c(133): t=19255ms: Closed connection [0] to 54.157.232.206:80 after completing 4 request(s)  	[MsgId: MMSG-26000]
+Action.c(133): t=19255ms: Closed connection [1] to 54.157.232.206:80 after completing 0 request(s)  	[MsgId: MMSG-26000]
+HTML-Mode memory management statistics: Reusable=0, NonReusable=0, CsMemBlockSize=4096, checks disabled  	[MsgId: MMSG-26000]
+Vuser 1 (thread 3844), ended OK."	[MsgId: MMSG-10695]
+Action.c(139): Notify: Parameter Substitution: parameter "ReciveFromServer" =  "Zoe: Hello, what's your name? "	[MsgId: MMSG-13992]
+Action.c(140): Error: Подстрока не найдена в ответе от сервера	[MsgId: MERR-17999]
+Action.c(141): Notify: Transaction "Entry_DataForChat" ended with a "Stop" status (Duration: 9,0408 Think Time: 9,0382).	[MsgId: MMSG-16872]
+Action.c(141): Notify: Transaction "UC12_ChatWebsocket" ended with a "Stop" status (Duration: 20,4267 Think Time: 19,0488 Wasted Time: 0,3073).	[MsgId: MMSG-16870]
+Abort was called from an action.	[MsgId: MMSG-10447]
+Ending Vuser...	[MsgId: MMSG-15966]
+Starting action vuser_end.	[MsgId: MMSG-15919]
+Ending action vuser_end.	[MsgId: MMSG-15918]
+Vuser Terminated.	[MsgId: MMSG-15963]
+Action.c(141): Connection Closed: uri=ws://54.157.232.206/catalog/websocketserverendpoint, connection handle=100312840  	[MsgId: MMSG-26000]
+Action.c(141): Calling Vuser script function "OnCloseCB0", specified via the "OnCloseCB" argument of "web_websocket_connect" in Action.c(97)  	[MsgId: MMSG-26419]
+WebSocket ID = 2700001 closed. CloseCode= 1006, CloseReason=	[MsgId: MMSG-17999]
+Action.c(141): Returned (rc=0) from Vuser script function "OnCloseCB0", specified via the "OnCloseCB" argument of web_websocket_connect in Action.c(97)  	[MsgId: MMSG-26418]
+Action.c(141): t=20597ms: Closed connection [0] to 54.157.232.206:80 after completing 4 request(s)  	[MsgId: MMSG-26000]
+Action.c(141): t=20597ms: Closed connection [1] to 54.157.232.206:80 after completing 0 request(s)  	[MsgId: MMSG-26000]
+HTML-Mode memory management statistics: Reusable=0, NonReusable=0, CsMemBlockSize=4096, checks disabled  	[MsgId: MMSG-26000]
+Vuser 0 (thread 10500), ended OK."	[MsgId: MMSG-10695]

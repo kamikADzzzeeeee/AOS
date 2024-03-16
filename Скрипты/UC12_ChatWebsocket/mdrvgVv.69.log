@@ -1,0 +1,78 @@
+Start auto log messages stack - Iteration 3.	[MsgId: MMSG-10545]
+Action.c(122): Calling Vuser script function "OnCloseCB0", specified via the "OnCloseCB" argument of "web_websocket_connect" in Action.c(97)  	[MsgId: MMSG-26419]
+WebSocketCB.c(47): WebSocket ID = 672292 closed. CloseCode= 1002, CloseReason=An unrecoverable IOException occurred so the connection was closed	[MsgId: MMSG-17999]
+Action.c(122): Returned (rc=0) from Vuser script function "OnCloseCB0", specified via the "OnCloseCB" argument of web_websocket_connect in Action.c(97)  	[MsgId: MMSG-26418]
+Action.c(122): t=222276ms: Request done "ws://54.157.232.206/catalog/websocketserverendpoint"  	[MsgId: MMSG-26000]
+Action.c(123): Notify: Parameter Substitution: parameter "ReciveFromServer" =  "Efi: Thank you for contacting Advantage support Valeria, have a wonderful evening"	[MsgId: MMSG-13992]
+Action.c(124): Error: ѕодстрока не найдена в ответе от сервера	[MsgId: MERR-17999]
+End auto log messages stack.	[MsgId: MMSG-10544]
+
+
+Start auto log messages stack - Iteration 3.	[MsgId: MMSG-10545]
+Action.c(129): web_websocket_send started  	[MsgId: MMSG-26355]
+Action.c(129): Notify: Parameter Substitution: parameter "uniqNumber" =  "672292"	[MsgId: MMSG-13992]
+Action.c(129): Notify: Parameter Substitution: parameter "userName" =  "Ivan"	[MsgId: MMSG-13992]
+Action.c(129): Warning -35046: The WebSocket whose ID is "672292" is not connected  	[MsgId: MWAR-35046]
+Action.c(129): web_websocket_send highest severity level was "warning"  	[MsgId: MMSG-26391]
+Action.c(130): lr_think_time: 3,00 seconds.	[MsgId: MMSG-15948]
+Action.c(131): Notify: Parameter Substitution: parameter "ReciveFromServer" =  "Efi: Thank you for contacting Advantage support Valeria, have a wonderful evening"	[MsgId: MMSG-13992]
+Action.c(132): Error: ѕодстрока не найдена в ответе от сервера	[MsgId: MERR-17999]
+End auto log messages stack.	[MsgId: MMSG-10544]
+
+
+Start auto log messages stack - Iteration 3.	[MsgId: MMSG-10545]
+Action.c(137): web_websocket_send started  	[MsgId: MMSG-26355]
+Action.c(137): Notify: Parameter Substitution: parameter "uniqNumber" =  "672292"	[MsgId: MMSG-13992]
+Action.c(137): Warning -35046: The WebSocket whose ID is "672292" is not connected  	[MsgId: MWAR-35046]
+Action.c(137): web_websocket_send highest severity level was "warning"  	[MsgId: MMSG-26391]
+Action.c(138): lr_think_time: 3,00 seconds.	[MsgId: MMSG-15948]
+Action.c(139): Notify: Parameter Substitution: parameter "ReciveFromServer" =  "Efi: Thank you for contacting Advantage support Valeria, have a wonderful evening"	[MsgId: MMSG-13992]
+Action.c(140): Error: ѕодстрока не найдена в ответе от сервера	[MsgId: MERR-17999]
+End auto log messages stack.	[MsgId: MMSG-10544]
+
+
+Start auto log messages stack - Iteration 3.	[MsgId: MMSG-10545]
+Action.c(145): web_websocket_send started  	[MsgId: MMSG-26355]
+Action.c(145): Notify: Parameter Substitution: parameter "uniqNumber" =  "672292"	[MsgId: MMSG-13992]
+Action.c(145): Warning -35046: The WebSocket whose ID is "672292" is not connected  	[MsgId: MWAR-35046]
+Action.c(145): web_websocket_send highest severity level was "warning"  	[MsgId: MMSG-26391]
+Action.c(146): lr_think_time: 3,00 seconds.	[MsgId: MMSG-15948]
+Action.c(147): Notify: Parameter Substitution: parameter "ReciveFromServer" =  "Efi: Thank you for contacting Advantage support Valeria, have a wonderful evening"	[MsgId: MMSG-13992]
+Action.c(148): Error: ѕодстрока не найдена в ответе от сервера	[MsgId: MERR-17999]
+End auto log messages stack.	[MsgId: MMSG-10544]
+
+
+Start auto log messages stack - Iteration 3.	[MsgId: MMSG-10545]
+Action.c(153): web_websocket_send started  	[MsgId: MMSG-26355]
+Action.c(153): Notify: Parameter Substitution: parameter "uniqNumber" =  "672292"	[MsgId: MMSG-13992]
+Action.c(153): Notify: Parameter Substitution: parameter "randomCategory" =  "Headphones"	[MsgId: MMSG-13992]
+Action.c(153): Warning -35046: The WebSocket whose ID is "672292" is not connected  	[MsgId: MWAR-35046]
+Action.c(153): web_websocket_send highest severity level was "warning"  	[MsgId: MMSG-26391]
+Action.c(154): lr_think_time: 3,00 seconds.	[MsgId: MMSG-15948]
+Action.c(155): Notify: Parameter Substitution: parameter "ReciveFromServer" =  "Efi: Thank you for contacting Advantage support Valeria, have a wonderful evening"	[MsgId: MMSG-13992]
+Action.c(156): Error: ѕодстрока не найдена в ответе от сервера	[MsgId: MERR-17999]
+End auto log messages stack.	[MsgId: MMSG-10544]
+
+
+Start auto log messages stack - Iteration 3.	[MsgId: MMSG-10545]
+Action.c(161): web_websocket_send started  	[MsgId: MMSG-26355]
+Action.c(161): Notify: Parameter Substitution: parameter "uniqNumber" =  "672292"	[MsgId: MMSG-13992]
+Action.c(161): Warning -35046: The WebSocket whose ID is "672292" is not connected  	[MsgId: MWAR-35046]
+Action.c(161): web_websocket_send highest severity level was "warning"  	[MsgId: MMSG-26391]
+Action.c(162): lr_think_time: 3,00 seconds.	[MsgId: MMSG-15948]
+Action.c(163): Notify: Parameter Substitution: parameter "ReciveFromServer" =  "Efi: Thank you for contacting Advantage support Valeria, have a wonderful evening"	[MsgId: MMSG-13992]
+Action.c(164): Error: ѕодстрока не найдена в ответе от сервера	[MsgId: MERR-17999]
+End auto log messages stack.	[MsgId: MMSG-10544]
+
+
+Start auto log messages stack - Iteration 3.	[MsgId: MMSG-10545]
+Action.c(169): web_websocket_send started  	[MsgId: MMSG-26355]
+Action.c(169): Notify: Parameter Substitution: parameter "uniqNumber" =  "672292"	[MsgId: MMSG-13992]
+Action.c(169): Warning -35046: The WebSocket whose ID is "672292" is not connected  	[MsgId: MWAR-35046]
+Action.c(169): web_websocket_send highest severity level was "warning"  	[MsgId: MMSG-26391]
+Action.c(170): lr_think_time: 3,00 seconds.	[MsgId: MMSG-15948]
+Action.c(171): Notify: Parameter Substitution: parameter "ReciveFromServer" =  "Efi: Thank you for contacting Advantage support Valeria, have a wonderful evening"	[MsgId: MMSG-13992]
+Action.c(172): Error: ѕодстрока не найдена в ответе от сервера	[MsgId: MERR-17999]
+End auto log messages stack.	[MsgId: MMSG-10544]
+
+

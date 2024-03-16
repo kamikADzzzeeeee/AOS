@@ -1,0 +1,159 @@
+Virtual User Script started at: 16.03.2024 0:28:12
+Starting action vuser_init.
+Web Turbo Replay of LoadRunner 12.55.0 for Windows 10; build 911 (июл 24 2017 19:46:00)  	[MsgId: MMSG-26983]
+Run mode: HTML  	[MsgId: MMSG-26993]
+Replay user agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:123.0) Gecko/20100101 Firefox/123.0  	[MsgId: MMSG-26988]
+Run-Time Settings file: "C:\Users\user\Documents\VuGen\Scripts\UC4_DeleteProductFromShopCart\\default.cfg"  	[MsgId: MMSG-27141]
+Ending action vuser_init.
+Running Vuser...
+Starting iteration 1.
+Maximum number of concurrent connections per server: 6  	[MsgId: MMSG-26989]
+Starting action Action.
+Action.c(9): Notify: Transaction "UC4_DeleteProductFromShopCart" started.
+Action.c(13): Notify: Transaction "Goto_HomePage" started.
+Action.c(15): web_set_sockets_option started  	[MsgId: MMSG-26355]
+Action.c(15): web_set_sockets_option was successful  	[MsgId: MMSG-26392]
+Action.c(16): web_set_user started  	[MsgId: MMSG-26355]
+Action.c(16): web_set_user was successful  	[MsgId: MMSG-26392]
+Action.c(17): web_add_cookie started  	[MsgId: MMSG-26355]
+Action.c(17): web_add_cookie was successful  	[MsgId: MMSG-26392]
+Action.c(19): web_reg_find started  	[MsgId: MMSG-26355]
+Action.c(19): Registering web_reg_find was successful  	[MsgId: MMSG-26390]
+Action.c(20): web_reg_find started  	[MsgId: MMSG-26355]
+Action.c(20): Registering web_reg_find was successful  	[MsgId: MMSG-26390]
+Action.c(22): web_url("ALL") started  	[MsgId: MMSG-26355]
+Action.c(22): Registered web_reg_find successful for "Text="parameters"" (count=1)  	[MsgId: MMSG-26364]
+Action.c(22): Registered web_reg_find successful for "Text="parameterName"" (count=51)  	[MsgId: MMSG-26364]
+Action.c(22): web_url("ALL") was successful, 6541 body bytes, 430 header bytes, 18 chunking overhead bytes  	[MsgId: MMSG-26385]
+Action.c(31): >> Все настройки системы получены
+Action.c(33): web_add_cookie started  	[MsgId: MMSG-26355]
+Action.c(33): web_add_cookie was successful  	[MsgId: MMSG-26392]
+Action.c(34): web_add_header("Origin") started  	[MsgId: MMSG-26355]
+Action.c(34): web_add_header("Origin") was successful  	[MsgId: MMSG-26392]
+Action.c(35): web_add_header("SOAPAction") started  	[MsgId: MMSG-26355]
+Action.c(35): web_add_header("SOAPAction") was successful  	[MsgId: MMSG-26392]
+Action.c(36): web_add_header("X-Requested-With") started  	[MsgId: MMSG-26355]
+Action.c(36): web_add_header("X-Requested-With") was successful  	[MsgId: MMSG-26392]
+Action.c(38): web_reg_find started  	[MsgId: MMSG-26355]
+Action.c(38): Registering web_reg_find was successful  	[MsgId: MMSG-26390]
+Action.c(40): web_custom_request("GetAccountConfigurationRequest") started  	[MsgId: MMSG-26355]
+Action.c(40): Registered web_reg_find successful for "Text=numberOfFailedLoginAttemptsBeforeBlocking" (count=2)  	[MsgId: MMSG-26364]
+Action.c(40): web_custom_request("GetAccountConfigurationRequest") was successful, 823 body bytes, 665 header bytes  	[MsgId: MMSG-26386]
+Action.c(52): >> Установленная конфигурация системы получена
+Action.c(54): web_add_cookie started  	[MsgId: MMSG-26355]
+Action.c(54): web_add_cookie was successful  	[MsgId: MMSG-26392]
+Action.c(57): web_reg_find started  	[MsgId: MMSG-26355]
+Action.c(57): Registering web_reg_find was successful  	[MsgId: MMSG-26390]
+Action.c(58): web_reg_find started  	[MsgId: MMSG-26355]
+Action.c(58): Registering web_reg_find was successful  	[MsgId: MMSG-26390]
+Action.c(59): web_reg_find started  	[MsgId: MMSG-26355]
+Action.c(59): Registering web_reg_find was successful  	[MsgId: MMSG-26390]
+Action.c(60): web_reg_find started  	[MsgId: MMSG-26355]
+Action.c(60): Registering web_reg_find was successful  	[MsgId: MMSG-26390]
+Action.c(61): web_reg_find started  	[MsgId: MMSG-26355]
+Action.c(61): Registering web_reg_find was successful  	[MsgId: MMSG-26390]
+Action.c(63): web_url("categories") started  	[MsgId: MMSG-26355]
+Action.c(63): Registered web_reg_find successful for "Text="categoryName":"LAPTOPS"" (count=1)  	[MsgId: MMSG-26364]
+Action.c(63): Registered web_reg_find successful for "Text="categoryName":"HEADPHONES"" (count=1)  	[MsgId: MMSG-26364]
+Action.c(63): Registered web_reg_find successful for "Text="categoryName":"TABLETS"" (count=1)  	[MsgId: MMSG-26364]
+Action.c(63): Registered web_reg_find successful for "Text="categoryName":"SPEAKERS"" (count=1)  	[MsgId: MMSG-26364]
+Action.c(63): Registered web_reg_find successful for "Text="categoryName":"MICE"" (count=1)  	[MsgId: MMSG-26364]
+Action.c(63): web_url("categories") was successful, 4463 body bytes, 434 header bytes, 18 chunking overhead bytes  	[MsgId: MMSG-26385]
+Action.c(72): >> Все категории товаров получены из каталога
+Action.c(75): web_reg_find started  	[MsgId: MMSG-26355]
+Action.c(75): Registering web_reg_find was successful  	[MsgId: MMSG-26390]
+Action.c(76): web_reg_find started  	[MsgId: MMSG-26355]
+Action.c(76): Registering web_reg_find was successful  	[MsgId: MMSG-26390]
+Action.c(78): web_url("dealOfTheDay") started  	[MsgId: MMSG-26355]
+Action.c(78): Registered web_reg_find successful for "Text="promotionHeader"" (count=1)  	[MsgId: MMSG-26364]
+Action.c(78): Registered web_reg_find successful for "Text="promotionSubHeader"" (count=1)  	[MsgId: MMSG-26364]
+Action.c(78): web_url("dealOfTheDay") was successful, 351 body bytes, 434 header bytes, 17 chunking overhead bytes  	[MsgId: MMSG-26385]
+Action.c(87): >> Получен товар по спец. предложению на главной странице
+Action.c(90): web_reg_find started  	[MsgId: MMSG-26355]
+Action.c(90): Registering web_reg_find was successful  	[MsgId: MMSG-26390]
+Action.c(91): web_reg_find started  	[MsgId: MMSG-26355]
+Action.c(91): Registering web_reg_find was successful  	[MsgId: MMSG-26390]
+Action.c(93): web_url("popularProducts") started  	[MsgId: MMSG-26355]
+Action.c(93): Registered web_reg_find successful for "Text="productName"" (count=3)  	[MsgId: MMSG-26364]
+Action.c(93): Registered web_reg_find successful for "Text="description"" (count=3)  	[MsgId: MMSG-26364]
+Action.c(93): web_url("popularProducts") was successful, 500 body bytes, 472 header bytes, 12 chunking overhead bytes  	[MsgId: MMSG-26385]
+Action.c(102): >> Получены популярные товары на главной странице
+Action.c(104): Notify: Transaction "Goto_HomePage" ended with a "Pass" status (Duration: 2.0626 Wasted Time: 0.1488).
+Action.c(107): lr_think_time: 5.00 seconds.
+Action.c(110): Notify: Transaction "Entry_AuthenticateData" started.
+Action.c(112): web_add_auto_header("Origin") started  	[MsgId: MMSG-26355]
+Action.c(112): web_add_auto_header("Origin") was successful  	[MsgId: MMSG-26392]
+Action.c(113): web_add_auto_header("SOAPAction") started  	[MsgId: MMSG-26355]
+Action.c(113): web_add_auto_header("SOAPAction") was successful  	[MsgId: MMSG-26392]
+Action.c(114): web_add_auto_header("X-Requested-With") started  	[MsgId: MMSG-26355]
+Action.c(114): web_add_auto_header("X-Requested-With") was successful  	[MsgId: MMSG-26392]
+Action.c(117): web_reg_save_param_xpath started  	[MsgId: MMSG-26355]
+Action.c(117): Registering web_reg_save_param_xpath was successful  	[MsgId: MMSG-26390]
+Action.c(119): web_reg_save_param_xpath started  	[MsgId: MMSG-26355]
+Action.c(119): Registering web_reg_save_param_xpath was successful  	[MsgId: MMSG-26390]
+Action.c(121): web_reg_save_param_xpath started  	[MsgId: MMSG-26355]
+Action.c(121): Registering web_reg_save_param_xpath was successful  	[MsgId: MMSG-26390]
+Action.c(124): web_reg_find started  	[MsgId: MMSG-26355]
+Action.c(124): Registering web_reg_find was successful  	[MsgId: MMSG-26390]
+Action.c(126): web_custom_request("AccountLoginRequest") started  	[MsgId: MMSG-26355]
+Action.c(126): Registered web_reg_find successful for "Text=Login Successful" (count=1)  	[MsgId: MMSG-26364]
+Action.c(126): web_custom_request("AccountLoginRequest") was successful, 796 body bytes, 665 header bytes  	[MsgId: MMSG-26386]
+Action.c(138): >> Вход в систему успешно выполнен
+Action.c(140): web_set_sockets_option started  	[MsgId: MMSG-26355]
+Action.c(140): web_set_sockets_option was successful  	[MsgId: MMSG-26392]
+Action.c(141): web_add_cookie started  	[MsgId: MMSG-26355]
+Action.c(141): web_add_cookie was successful  	[MsgId: MMSG-26392]
+Action.c(142): web_remove_auto_header("Origin") started  	[MsgId: MMSG-26355]
+Action.c(142): Previous automatically added web header for "Origin" removed  	[MsgId: MMSG-26587]
+Action.c(142): web_remove/revert_auto_header("Origin") was successful  	[MsgId: MMSG-26392]
+Action.c(143): web_remove_auto_header("SOAPAction") started  	[MsgId: MMSG-26355]
+Action.c(143): Previous automatically added web header for "SOAPAction" removed  	[MsgId: MMSG-26587]
+Action.c(143): web_remove/revert_auto_header("SOAPAction") was successful  	[MsgId: MMSG-26392]
+Action.c(144): web_remove_auto_header("X-Requested-With") started  	[MsgId: MMSG-26355]
+Action.c(144): Previous automatically added web header for "X-Requested-With" removed  	[MsgId: MMSG-26587]
+Action.c(144): web_remove/revert_auto_header("X-Requested-With") was successful  	[MsgId: MMSG-26392]
+Action.c(147): web_reg_find started  	[MsgId: MMSG-26355]
+Action.c(147): Registering web_reg_find was successful  	[MsgId: MMSG-26390]
+Action.c(149): web_url("cartsBefore") started  	[MsgId: MMSG-26355]
+Action.c(149): Registered web_reg_find successful for "Text="userId":302586711" (count=1)  	[MsgId: MMSG-26364]
+Action.c(149): web_url("cartsBefore") was successful, 111 body bytes, 514 header bytes, 16 chunking overhead bytes  	[MsgId: MMSG-26385]
+Action.c(158): >> Товары из корзины пользователя получены
+Action.c(160): Notify: Transaction "Entry_AuthenticateData" ended with a "Pass" status (Duration: 1.1990 Wasted Time: 0.0218).
+Action.c(164): lr_think_time: 5.00 seconds.
+Action.c(168): Notify: Transaction "Goto_ShopCartPage" started.
+Action.c(171): web_reg_find started  	[MsgId: MMSG-26355]
+Action.c(171): Registering web_reg_find was successful  	[MsgId: MMSG-26390]
+Action.c(173): web_set_max_html_param_len started  	[MsgId: MMSG-26355]
+Action.c(173): web_set_max_html_param_len was successful  	[MsgId: MMSG-26392]
+Action.c(174): web_reg_save_param started  	[MsgId: MMSG-26355]
+Action.c(174): Registering web_reg_save_param was successful  	[MsgId: MMSG-26390]
+Action.c(176): web_url("shopCart") started  	[MsgId: MMSG-26355]
+Action.c(176): Registered web_reg_find successful for "Text="userId":302586711" (count=1)  	[MsgId: MMSG-26364]
+Action.c(176): web_url("shopCart") was successful, 111 body bytes, 434 header bytes, 16 chunking overhead bytes  	[MsgId: MMSG-26385]
+..\\library\\user_lib.h(158): lr_eval_json succeed
+..\\library\\user_lib.h(160): Warning: lr_json_find failed, no match
+Action.c(193): Notify: Transaction "Goto_ShopCartPage" ended with a "Pass" status (Duration: 0,7101 Wasted Time: 0,0213).
+Action.c(197): lr_think_time: 5,00 seconds.
+Action.c(200): Notify: Transaction "Delete_ProductFromShopCart" started.
+Action.c(224): Notify: Transaction "Delete_ProductFromShopCart" ended with a "Pass" status (Duration: 0,3016).
+Action.c(227): lr_think_time: 5,00 seconds.
+Action.c(230): Notify: Transaction "Logout" started.
+Action.c(232): web_add_cookie started  	[MsgId: MMSG-26355]
+Action.c(232): web_add_cookie was successful  	[MsgId: MMSG-26392]
+Action.c(233): web_add_header("SOAPAction") started  	[MsgId: MMSG-26355]
+Action.c(233): web_add_header("SOAPAction") was successful  	[MsgId: MMSG-26392]
+Action.c(234): web_add_header("X-Requested-With") started  	[MsgId: MMSG-26355]
+Action.c(234): web_add_header("X-Requested-With") was successful  	[MsgId: MMSG-26392]
+Action.c(237): web_reg_find started  	[MsgId: MMSG-26355]
+Action.c(237): Registering web_reg_find was successful  	[MsgId: MMSG-26390]
+Action.c(239): web_custom_request("AccountLogoutRequest") started  	[MsgId: MMSG-26355]
+Action.c(239): Registered web_reg_find successful for "Text=Logout Successful" (count=1)  	[MsgId: MMSG-26364]
+Action.c(239): web_custom_request("AccountLogoutRequest") was successful, 402 body bytes, 665 header bytes  	[MsgId: MMSG-26386]
+Action.c(251): Notify: Transaction "Logout" ended with a "Pass" status (Duration: 0.7091 Wasted Time: 0.0054).
+Action.c(255): Notify: Transaction "UC4_DeleteProductFromShopCart" ended with a "Pass" status (Duration: 28.3915 Think Time: 20.0369 Wasted Time: 0.1973).
+Ending action Action.
+Ending iteration 1.
+Ending Vuser...
+Starting action vuser_end.
+Ending action vuser_end.
+Vuser Terminated.

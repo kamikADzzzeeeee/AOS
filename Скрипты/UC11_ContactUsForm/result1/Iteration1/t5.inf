@@ -1,0 +1,13 @@
+[t5]
+SnapshotXmlFile=snapshot_5.xml
+ContentType=application/json
+StepName=Custom Request: email
+Total=1
+FileName1=t5.json
+RequestHeaderFile=t5_RequestHeader.txt
+ResponseHeaderFile=t5_ResponseHeader.txt
+RawStepEndTime=1710508574251
+RawStepName=email
+RequestBodyFile=t5_RequestBody.txt
+RawStepStartTime=1710508574092
+URL1=http://54.157.232.206/catalog/api/v1/support/contact_us/email

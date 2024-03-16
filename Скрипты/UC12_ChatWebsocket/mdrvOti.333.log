@@ -1,0 +1,134 @@
+Start auto log messages stack - Iteration 22.	[MsgId: MMSG-10545]
+WebSocketCB.c(12): Sec-WebSocket-Accept = [CwzRdYoAwat+PuaKG+wZ63+7Y0k=]	[MsgId: MMSG-17999]
+Action.c(119): Notify: Transaction "Entry_DataForChat" started.	[MsgId: MMSG-16999]
+Action.c(121): web_websocket_send started  	[MsgId: MMSG-26355]
+Action.c(121): Retaining websocket connection of URI="ws://54.157.232.206/catalog/websocketserverendpoint" (RelFrameId=1, Internal ID=110)  	[MsgId: MMSG-27636]
+Action.c(121): Retaining websocket connection of URI="ws://54.157.232.206/catalog/websocketserverendpoint" (RelFrameId=1, Internal ID=110)  	[MsgId: MMSG-27636]
+Action.c(121): web_websocket_send was successful  	[MsgId: MMSG-26392]
+Action.c(122): lr_think_time: 1,00 seconds.	[MsgId: MMSG-15948]
+WebSocketCB.c(47): WebSocket ID = 747509 closed. CloseCode= 1002, CloseReason=An unrecoverable IOException occurred so the connection was closed	[MsgId: MMSG-17999]
+Action.c(124): Error: ѕодстрока не найдена в ответе от сервера	[MsgId: MERR-17999]
+End auto log messages stack.	[MsgId: MMSG-10544]
+
+
+Start auto log messages stack - Iteration 22.	[MsgId: MMSG-10545]
+Action.c(129): web_websocket_send started  	[MsgId: MMSG-26355]
+Action.c(129): Warning -35046: The WebSocket whose ID is "747509" is not connected  	[MsgId: MWAR-35046]
+Action.c(129): web_websocket_send highest severity level was "warning"  	[MsgId: MMSG-26391]
+Action.c(130): lr_think_time: 1,00 seconds.	[MsgId: MMSG-15948]
+Action.c(132): Error: ѕодстрока не найдена в ответе от сервера	[MsgId: MERR-17999]
+End auto log messages stack.	[MsgId: MMSG-10544]
+
+
+Start auto log messages stack - Iteration 22.	[MsgId: MMSG-10545]
+Action.c(137): web_websocket_send started  	[MsgId: MMSG-26355]
+Action.c(137): Warning -35046: The WebSocket whose ID is "747509" is not connected  	[MsgId: MWAR-35046]
+Action.c(137): web_websocket_send highest severity level was "warning"  	[MsgId: MMSG-26391]
+Action.c(138): lr_think_time: 1,00 seconds.	[MsgId: MMSG-15948]
+Action.c(140): Error: ѕодстрока не найдена в ответе от сервера	[MsgId: MERR-17999]
+End auto log messages stack.	[MsgId: MMSG-10544]
+
+
+Start auto log messages stack - Iteration 22.	[MsgId: MMSG-10545]
+Action.c(145): web_websocket_send started  	[MsgId: MMSG-26355]
+Action.c(145): Warning -35046: The WebSocket whose ID is "747509" is not connected  	[MsgId: MWAR-35046]
+Action.c(145): web_websocket_send highest severity level was "warning"  	[MsgId: MMSG-26391]
+Action.c(146): lr_think_time: 1,00 seconds.	[MsgId: MMSG-15948]
+Action.c(148): Error: ѕодстрока не найдена в ответе от сервера	[MsgId: MERR-17999]
+End auto log messages stack.	[MsgId: MMSG-10544]
+
+
+Start auto log messages stack - Iteration 22.	[MsgId: MMSG-10545]
+Action.c(153): web_websocket_send started  	[MsgId: MMSG-26355]
+Action.c(153): Warning -35046: The WebSocket whose ID is "747509" is not connected  	[MsgId: MWAR-35046]
+Action.c(153): web_websocket_send highest severity level was "warning"  	[MsgId: MMSG-26391]
+Action.c(154): lr_think_time: 1,00 seconds.	[MsgId: MMSG-15948]
+Action.c(156): Error: ѕодстрока не найдена в ответе от сервера	[MsgId: MERR-17999]
+End auto log messages stack.	[MsgId: MMSG-10544]
+
+
+Start auto log messages stack - Iteration 22.	[MsgId: MMSG-10545]
+Action.c(161): web_websocket_send started  	[MsgId: MMSG-26355]
+Action.c(161): Warning -35046: The WebSocket whose ID is "747509" is not connected  	[MsgId: MWAR-35046]
+Action.c(161): web_websocket_send highest severity level was "warning"  	[MsgId: MMSG-26391]
+Action.c(162): lr_think_time: 1,00 seconds.	[MsgId: MMSG-15948]
+Action.c(164): Error: ѕодстрока не найдена в ответе от сервера	[MsgId: MERR-17999]
+End auto log messages stack.	[MsgId: MMSG-10544]
+
+
+Start auto log messages stack - Iteration 22.	[MsgId: MMSG-10545]
+Action.c(169): web_websocket_send started  	[MsgId: MMSG-26355]
+Action.c(169): Warning -35046: The WebSocket whose ID is "747509" is not connected  	[MsgId: MWAR-35046]
+Action.c(169): web_websocket_send highest severity level was "warning"  	[MsgId: MMSG-26391]
+Action.c(170): lr_think_time: 1,00 seconds.	[MsgId: MMSG-15948]
+Action.c(172): Error: ѕодстрока не найдена в ответе от сервера	[MsgId: MERR-17999]
+End auto log messages stack.	[MsgId: MMSG-10544]
+
+
+Start auto log messages stack - Iteration 30.	[MsgId: MMSG-10545]
+WebSocketCB.c(12): Sec-WebSocket-Accept = [Pu76gMERUcb+XmE2orCKofW1peM=]	[MsgId: MMSG-17999]
+Action.c(119): Notify: Transaction "Entry_DataForChat" started.	[MsgId: MMSG-16999]
+Action.c(121): web_websocket_send started  	[MsgId: MMSG-26355]
+Action.c(121): Retaining websocket connection of URI="ws://54.157.232.206/catalog/websocketserverendpoint" (RelFrameId=1, Internal ID=150)  	[MsgId: MMSG-27636]
+Action.c(121): Retaining websocket connection of URI="ws://54.157.232.206/catalog/websocketserverendpoint" (RelFrameId=1, Internal ID=150)  	[MsgId: MMSG-27636]
+Action.c(121): web_websocket_send was successful  	[MsgId: MMSG-26392]
+Action.c(122): lr_think_time: 1,00 seconds.	[MsgId: MMSG-15948]
+WebSocketCB.c(47): WebSocket ID = 412872 closed. CloseCode= 1002, CloseReason=An unrecoverable IOException occurred so the connection was closed	[MsgId: MMSG-17999]
+Action.c(124): Error: ѕодстрока не найдена в ответе от сервера	[MsgId: MERR-17999]
+End auto log messages stack.	[MsgId: MMSG-10544]
+
+
+Start auto log messages stack - Iteration 30.	[MsgId: MMSG-10545]
+Action.c(129): web_websocket_send started  	[MsgId: MMSG-26355]
+Action.c(129): Warning -35046: The WebSocket whose ID is "412872" is not connected  	[MsgId: MWAR-35046]
+Action.c(129): web_websocket_send highest severity level was "warning"  	[MsgId: MMSG-26391]
+Action.c(130): lr_think_time: 1,00 seconds.	[MsgId: MMSG-15948]
+Action.c(132): Error: ѕодстрока не найдена в ответе от сервера	[MsgId: MERR-17999]
+End auto log messages stack.	[MsgId: MMSG-10544]
+
+
+Start auto log messages stack - Iteration 30.	[MsgId: MMSG-10545]
+Action.c(137): web_websocket_send started  	[MsgId: MMSG-26355]
+Action.c(137): Warning -35046: The WebSocket whose ID is "412872" is not connected  	[MsgId: MWAR-35046]
+Action.c(137): web_websocket_send highest severity level was "warning"  	[MsgId: MMSG-26391]
+Action.c(138): lr_think_time: 1,00 seconds.	[MsgId: MMSG-15948]
+Action.c(140): Error: ѕодстрока не найдена в ответе от сервера	[MsgId: MERR-17999]
+End auto log messages stack.	[MsgId: MMSG-10544]
+
+
+Start auto log messages stack - Iteration 30.	[MsgId: MMSG-10545]
+Action.c(145): web_websocket_send started  	[MsgId: MMSG-26355]
+Action.c(145): Warning -35046: The WebSocket whose ID is "412872" is not connected  	[MsgId: MWAR-35046]
+Action.c(145): web_websocket_send highest severity level was "warning"  	[MsgId: MMSG-26391]
+Action.c(146): lr_think_time: 1,00 seconds.	[MsgId: MMSG-15948]
+Action.c(148): Error: ѕодстрока не найдена в ответе от сервера	[MsgId: MERR-17999]
+End auto log messages stack.	[MsgId: MMSG-10544]
+
+
+Start auto log messages stack - Iteration 30.	[MsgId: MMSG-10545]
+Action.c(153): web_websocket_send started  	[MsgId: MMSG-26355]
+Action.c(153): Warning -35046: The WebSocket whose ID is "412872" is not connected  	[MsgId: MWAR-35046]
+Action.c(153): web_websocket_send highest severity level was "warning"  	[MsgId: MMSG-26391]
+Action.c(154): lr_think_time: 1,00 seconds.	[MsgId: MMSG-15948]
+Action.c(156): Error: ѕодстрока не найдена в ответе от сервера	[MsgId: MERR-17999]
+End auto log messages stack.	[MsgId: MMSG-10544]
+
+
+Start auto log messages stack - Iteration 30.	[MsgId: MMSG-10545]
+Action.c(161): web_websocket_send started  	[MsgId: MMSG-26355]
+Action.c(161): Warning -35046: The WebSocket whose ID is "412872" is not connected  	[MsgId: MWAR-35046]
+Action.c(161): web_websocket_send highest severity level was "warning"  	[MsgId: MMSG-26391]
+Action.c(162): lr_think_time: 1,00 seconds.	[MsgId: MMSG-15948]
+Action.c(164): Error: ѕодстрока не найдена в ответе от сервера	[MsgId: MERR-17999]
+End auto log messages stack.	[MsgId: MMSG-10544]
+
+
+Start auto log messages stack - Iteration 30.	[MsgId: MMSG-10545]
+Action.c(169): web_websocket_send started  	[MsgId: MMSG-26355]
+Action.c(169): Warning -35046: The WebSocket whose ID is "412872" is not connected  	[MsgId: MWAR-35046]
+Action.c(169): web_websocket_send highest severity level was "warning"  	[MsgId: MMSG-26391]
+Action.c(170): lr_think_time: 1,00 seconds.	[MsgId: MMSG-15948]
+Action.c(172): Error: ѕодстрока не найдена в ответе от сервера	[MsgId: MERR-17999]
+End auto log messages stack.	[MsgId: MMSG-10544]
+
+

@@ -1,0 +1,14 @@
+Start auto log messages stack - Iteration 178.	[MsgId: MMSG-10545]
+Action.c(261): web_add_auto_header("Origin") started  	[MsgId: MMSG-26355]
+Action.c(261): web_add_auto_header("Origin") was successful  	[MsgId: MMSG-26392]
+Action.c(264): web_set_max_html_param_len started  	[MsgId: MMSG-26355]
+Action.c(264): web_set_max_html_param_len was successful  	[MsgId: MMSG-26392]
+Action.c(265): web_reg_save_param started  	[MsgId: MMSG-26355]
+Action.c(265): Registering web_reg_save_param was successful  	[MsgId: MMSG-26390]
+Action.c(267): web_reg_find started  	[MsgId: MMSG-26355]
+Action.c(267): Registering web_reg_find was successful  	[MsgId: MMSG-26390]
+Action.c(269): web_custom_request("shippingcost") started  	[MsgId: MMSG-26355]
+Action.c(269): Error -26366: "Text="code":"Ok"" not found for web_reg_find  	[MsgId: MERR-26366]
+End auto log messages stack.	[MsgId: MMSG-10544]
+
+

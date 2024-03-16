@@ -1,0 +1,11 @@
+GET /order/api/v1/carts/700309255 HTTP/1.1
+Host: 54.157.232.206
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:123.0) Gecko/20100101 Firefox/123.0
+Accept: application/json, text/plain, */*
+Accept-Language: ru-RU,ru;q=0.8,en-US;q=0.5,en;q=0.3
+Accept-Encoding: gzip, deflate
+Authorization: Basic ZGVuaXM6MTIzNG9P
+Connection: keep-alive
+Referer: http://54.157.232.206/
+Cookie: _ga_TBPYED8WSW=GS1.1.1708799448.1.0.1708799448.0.0.0; dtCookie=4E450BE0DA67704EE0B03BBB72CB8D1F|1|2||1; _ga=GA1.1.1055678014.1708799449; userCart=%7B%22userId%22%3A-1%2C%22productsInCart%22%3A%5B%5D%7D; _gid=GA1.1.567698320.1708799450; _gat=1; _ga_56EMNRF2S2=GS1.1.1708799449.1.1.1708799496.13.0.0; userCookieZGVuaXMMTIzNGP=%7B%22name%22%3A%22denis%22%2C%22userPassword%22%3A%221234oO%22%2C%22email%22%3A%22%22%2C%22response%22%3A%7B%22success%22%3Atrue%2C%22userId%22%3A700309255%2C%22reason%22%3A%22Login%20Successful%22%2C%22token%22%3A%22eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJ3d3cuYWR2YW50YWdlb25saW5lc2hvcHBpbmcuY29tIiwidXNlcklkIjo3MDAzMDkyNTUsInN1YiI6ImRlbmlzIiwicm9sZSI6IlVTRVIifQ.9_4PE2fOaj5YUx0YENtgKJvbZDlRmZLKQOe7bvdWwJY%22%2C%22sessionId%22%3A%2218ddc6310d8%407E8218121F24%5Ei%25700309255%22%2C%22t_authorization%22%3A%22ZGVuaXM6MTIzNG9P%22%2C%22accountType%22%3A20%7D%7D; lastLogin=userCookieZGVuaXMMTIzNGP
+

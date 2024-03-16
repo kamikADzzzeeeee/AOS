@@ -1,0 +1,4 @@
+"{\"seaddress\":{\"addressLine1\":\"Krasnoyarsk_region,Pervomayskaya,15\",\"addressLine2\":\"\""
+",\"city\":\"Yoshkarlola\",\"country\":\"us\",\"postalCode\":294823986,\"state\":\"20/27/23\"},"
+"\"secustomerName\":\"Artyom Popov\",\"secustomerPhone\":\"82839749000\",\"senumberOfProducts\""
+":7,\"setransactionType\":\"SHIPPING_COST\",\"sessionId\":\"16B2ACE98484680DDF73BB74F5D8A04A\"}"

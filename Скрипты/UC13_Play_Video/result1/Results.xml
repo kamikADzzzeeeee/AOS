@@ -1,0 +1,680 @@
+﻿<?xml version="1.0"?>
+<!DOCTYPE Report
+[
+<!ELEMENT Report (General ,(Doc|BPT)) >
+<!ATTLIST Report ver CDATA #REQUIRED tmZone CDATA #REQUIRED>
+
+<!ELEMENT General ( DocLocation ) >
+<!ATTLIST General productName CDATA #REQUIRED productVer CDATA #REQUIRED os CDATA #REQUIRED host CDATA #REQUIRED qcserver CDATA #IMPLIED qcproject CDATA #IMPLIED SolManSolutionId CDATA #IMPLIED SolManProjectId CDATA #IMPLIED SolManTestPlanId CDATA #IMPLIED SolManTestPackageId CDATA #IMPLIED SolManUserInfoData CDATA #IMPLIED  >
+
+<!ELEMENT BPT (DName,Res,DVer?,TSet?,TInst?,NodeArgs,AdditionalInfo*,Doc*) >
+<!ATTLIST BPT rID ID #REQUIRED >
+
+<!ELEMENT Doc (DName,ConfName?,Res,DVer?,TSet?,TInst?,RunType?,DT?,AdditionalInfo*,Step*,DIter*,Step*,Action*,Doc*,Summary?,TestMaintenanceSummary*,NodeArgs?) >
+<!ATTLIST Doc rID ID #REQUIRED type (Test|BC|BPTWrapperTest|Flow|Group|Action) "Test" productName CDATA #REQUIRED BCIter CDATA #IMPLIED >
+
+<!ELEMENT RunType ( #PCDATA )>
+<!ATTLIST RunType fmStep (False|True) "False" batch (False|True) "False" upDesc (False|True) "False" upChk (False|True) "False" upAS (False|True) "False">
+
+<!ELEMENT DName ( #PCDATA ) >
+
+<!ELEMENT ConfName ( #PCDATA ) >
+
+<!ELEMENT Res ( #PCDATA ) >
+
+<!ELEMENT AdditionalInfo (AdditionalDataName,AdditionalDataValue ) >
+
+<!ELEMENT AdditionalDataName ( #PCDATA ) >
+
+<!ELEMENT AdditionalDataValue ( #PCDATA ) >
+
+<!ELEMENT DVer ( #PCDATA ) >
+
+<!ELEMENT TSet ( #PCDATA ) >
+
+<!ELEMENT TInst ( #PCDATA ) >
+
+<!ELEMENT DIter (Step*,Action+,Summary?,NodeArgs)>
+<!ATTLIST DIter rID ID #REQUIRED iterID CDATA #REQUIRED>
+
+<!ELEMENT DocLocation ( #PCDATA )>
+
+<!ELEMENT Action (AName,AIter*,(Step|HtmlStep|Action)*, Summary,ActionMaintenanceSummary*, NodeArgs ) >
+<!ATTLIST Action rID ID #REQUIRED>
+
+<!ELEMENT AIter ((Step|HtmlStep|Action)*,DataMapping?, Summary?,NodeArgs) >
+<!ATTLIST AIter rID ID #REQUIRED iterID CDATA #REQUIRED isCountable (False|True) "False" >
+
+<!ELEMENT AName ( #PCDATA ) >
+
+<!ELEMENT TestMaintenanceSummary (ActionMaintenanceSummary*) >
+<!ATTLIST TestMaintenanceSummary ObjectsAdded CDATA #REQUIRED ObjectsUpdated CDATA #REQUIRED StepsUpdated CDATA #REQUIRED StepsComments CDATA #REQUIRED><!ELEMENT ActionMaintenanceSummary (ObjectChange* ) >
+<!ATTLIST ActionMaintenanceSummary Action CDATA #REQUIRED Objects CDATA #REQUIRED Updated CDATA #REQUIRED LinesTotal CDATA #REQUIRED Added CDATA #REQUIRED LinesUpdated CDATA #REQUIRED>
+
+<!ELEMENT ObjectChange  (Hierarchy, PropertyChangeList* ) >
+<!ATTLIST ObjectChange Operation CDATA #IMPLIED OriginalRepository CDATA #IMPLIED>
+
+<!ELEMENT PropertyChangeList (PropertyDef*) >
+
+<!ELEMENT PropertyDef (OriginalValue, NewValue) >
+<!ATTLIST PropertyDef PropName CDATA #REQUIRED OriginRegularExpression (True|False) "False" NewRegularExpression (True|False) "False" AddedProperty (True|False) "False" >
+
+<!ELEMENT OriginalValue ( #PCDATA )>
+
+<!ELEMENT NewValue ( #PCDATA )>
+
+<!ELEMENT Hierarchy  (ObjectName, Hierarchy*) >
+<!ATTLIST Hierarchy MicClass CDATA #REQUIRED>
+
+<!ELEMENT ObjectName  ( #PCDATA ) >
+
+<!ELEMENT Step (Obj,Details,Time,TimeTick* ,(Step|HtmlStep|Doc)*, DataMapping?, NodeArgs) >
+<!ATTLIST Step rID ID #REQUIRED retval CDATA #IMPLIED>
+
+<!ELEMENT HtmlStep (HTML,TimeTick*,(Step|HtmlStep|Doc)*,NodeArgs) >
+<!ATTLIST HtmlStep rID ID #REQUIRED >
+
+<!ELEMENT Obj ( #PCDATA ) >
+<!ATTLIST Obj plainTxt (False|True) "True">
+
+<!ELEMENT Details ( #PCDATA ) >
+<!ATTLIST Details plainTxt (False|True) "True">
+
+<!ELEMENT Time ( #PCDATA ) >
+
+<!ELEMENT HTML ( #PCDATA ) >
+
+<!ELEMENT Disp ( #PCDATA ) >
+
+<!ELEMENT TimeTick ( #PCDATA ) >
+
+<!ELEMENT DataMapping ( DataMappedItem* )>
+<!ELEMENT DataMappedItem EMPTY >
+<!ATTLIST DataMappedItem dsName CDATA #REQUIRED >
+<!ATTLIST DataMappedItem rowId CDATA #REQUIRED >
+
+<!ELEMENT NodeArgs (Disp,TopPane?,BtmPane?,ExtendedInfo? )>
+<!ATTLIST NodeArgs eType CDATA #REQUIRED icon CDATA #REQUIRED nRep CDATA #REQUIRED UserNote CDATA #IMPLIED filter (False|True) "True">
+<!ATTLIST NodeArgs status (Passed|Failed|Done|Warning|Information) "Done">
+<!ATTLIST NodeArgs iconSel CDATA #IMPLIED nType CDATA #IMPLIED MovieMarker CDATA "">
+<!ATTLIST NodeArgs Source CDATA #IMPLIED SourceLine CDATA #IMPLIED StepFlowItemKey CDATA #IMPLIED >
+
+<!ELEMENT TopPane (Path)>
+
+<!ELEMENT BtmPane ( (Path|WR)?,ASHilite?)>
+<!ATTLIST BtmPane vType CDATA "HTML">
+
+<!ELEMENT Path ( #PCDATA ) >
+
+<!ELEMENT ASHilite ( #PCDATA ) >
+
+<!ELEMENT WR ( #PCDATA ) >
+
+<!ELEMENT ExtendedInfo ( StepData ) >
+
+<!ATTLIST ExtendedInfo StepType CDATA #REQUIRED>
+<!ELEMENT DT (NodeArgs) >
+<!ATTLIST DT rID ID #REQUIRED>
+
+<!ELEMENT Summary (Param*)>
+<!ATTLIST Summary sTime CDATA #IMPLIED eTime CDATA #IMPLIED passed CDATA #IMPLIED failed CDATA #IMPLIED warnings CDATA #IMPLIED retval CDATA #IMPLIED stopped (False|True) "False" >
+
+<!ELEMENT Param (ParamName,ParamVal)+ >
+<!ATTLIST Param paramInOut (In|Out) "In">
+
+<!ELEMENT ParamName ( #PCDATA ) >
+
+<!ELEMENT ParamVal ( #PCDATA ) >
+
+]
+>
+<Report ver="2.0" tmZone="RTZ 4 (зима)">
+<General productName="Vugen" productVer="12" os="" host="WIN-VSEGDS4NDUS"><DocLocation><![CDATA[C:\Users\user\Documents\VuGen\Scripts\UC13_Play_Video]]></DocLocation></General>
+<Doc rID="T1"   productName= "Vugen"  >
+<DName><![CDATA[UC13_Play_Video]]></DName>
+<Res><![CDATA[result1]]></Res>
+<Action rID="T2">
+<AName><![CDATA[vuser_init]]></AName>
+<Summary sTime="15.03.2024 - 18:21:54" eTime="15.03.2024 - 18:21:54" passed="0" failed="0" warnings="0" ></Summary>
+<NodeArgs eType="StartAction" icon="2" nRep="5" >
+<Disp><![CDATA[vuser_init Summary]]></Disp>
+</NodeArgs>
+</Action>
+<DIter rID="T3" iterID="1" >
+<Action rID="T4">
+<AName><![CDATA[Action]]></AName>
+<Step rID="T5">
+<Obj plainTxt="False" ><![CDATA[Service: Set Sockets Option]]></Obj>
+<Details plainTxt="False" ><![CDATA[<CENTER>Set socket option <STRONG><FONT COLOR=#00AF00>SSL_VERSION</FONT></STRONG> with value <STRONG><FONT COLOR=#00AF00>2&3</FONT></STRONG></CENTER>]]></Details>
+<Time><![CDATA[15.03.2024 - 18:21:56]]></Time>
+<TimeTick>1710508916</TimeTick>
+<NodeArgs eType="General" icon="4" nRep="9" >
+<Disp><![CDATA[Service: Set Sockets Option]]></Disp>
+</NodeArgs>
+</Step>
+<Step rID="T6">
+<Obj plainTxt="False" ><![CDATA[Service: Add Cookie]]></Obj>
+<Details plainTxt="False" ><![CDATA[<CENTER>Add the following cookie: <STRONG><FONT COLOR=#00AF00>_ga_TBPYED8WSW=GS1.1.1710384628.49.1.1710384932.0.0.0; DOMAIN=54.157.232.206</FONT></STRONG></CENTER>]]></Details>
+<Time><![CDATA[15.03.2024 - 18:21:56]]></Time>
+<TimeTick>1710508916</TimeTick>
+<NodeArgs eType="General" icon="5" nRep="10" >
+<Disp><![CDATA[Service: Add Cookie]]></Disp>
+</NodeArgs>
+</Step>
+<Step rID="T7">
+<Obj plainTxt="False" ><![CDATA[Service: Add Cookie]]></Obj>
+<Details plainTxt="False" ><![CDATA[<CENTER>Add the following cookie: <STRONG><FONT COLOR=#00AF00>_ga=GA1.1.1055678014.1708799449; DOMAIN=54.157.232.206</FONT></STRONG></CENTER>]]></Details>
+<Time><![CDATA[15.03.2024 - 18:21:56]]></Time>
+<TimeTick>1710508916</TimeTick>
+<NodeArgs eType="General" icon="5" nRep="11" >
+<Disp><![CDATA[Service: Add Cookie]]></Disp>
+</NodeArgs>
+</Step>
+<Step rID="T8">
+<Obj plainTxt="False" ><![CDATA[Service: Add Cookie]]></Obj>
+<Details plainTxt="False" ><![CDATA[<CENTER>Add the following cookie: <STRONG><FONT COLOR=#00AF00>_ga_56EMNRF2S2=GS1.1.1710384628.44.1.1710384666.22.0.0; DOMAIN=54.157.232.206</FONT></STRONG></CENTER>]]></Details>
+<Time><![CDATA[15.03.2024 - 18:21:56]]></Time>
+<TimeTick>1710508916</TimeTick>
+<NodeArgs eType="General" icon="5" nRep="12" >
+<Disp><![CDATA[Service: Add Cookie]]></Disp>
+</NodeArgs>
+</Step>
+<Step rID="T9">
+<Obj plainTxt="False" ><![CDATA[Service: Add Cookie]]></Obj>
+<Details plainTxt="False" ><![CDATA[<CENTER>Add the following cookie: <STRONG><FONT COLOR=#00AF00>_gid=GA1.1.1660421263.1710338911; DOMAIN=54.157.232.206</FONT></STRONG></CENTER>]]></Details>
+<Time><![CDATA[15.03.2024 - 18:21:56]]></Time>
+<TimeTick>1710508916</TimeTick>
+<NodeArgs eType="General" icon="5" nRep="13" >
+<Disp><![CDATA[Service: Add Cookie]]></Disp>
+</NodeArgs>
+</Step>
+<Step rID="T10">
+<Obj plainTxt="False" ><![CDATA[Service: Add Cookie]]></Obj>
+<Details plainTxt="False" ><![CDATA[<CENTER>Add the following cookie: <STRONG><FONT COLOR=#00AF00>userCart=%7B%22userId%22%3A-1%2C%22productsInCart%22%3A%5B%5D%7D; DOMAIN=54.157.232.206</FONT></STRONG></CENTER>]]></Details>
+<Time><![CDATA[15.03.2024 - 18:21:56]]></Time>
+<TimeTick>1710508916</TimeTick>
+<NodeArgs eType="General" icon="5" nRep="14" >
+<Disp><![CDATA[Service: Add Cookie]]></Disp>
+</NodeArgs>
+</Step>
+<Step rID="T11">
+<Obj plainTxt="False" ><![CDATA[Service: Add Cookie]]></Obj>
+<Details plainTxt="False" ><![CDATA[<CENTER>Add the following cookie: <STRONG><FONT COLOR=#00AF00>_ga_TBPYED8WSW=GS1.1.1710384628.49.1.1710384944.0.0.0; DOMAIN=54.157.232.206</FONT></STRONG></CENTER>]]></Details>
+<Time><![CDATA[15.03.2024 - 18:21:56]]></Time>
+<TimeTick>1710508916</TimeTick>
+<NodeArgs eType="General" icon="5" nRep="15" >
+<Disp><![CDATA[Service: Add Cookie]]></Disp>
+</NodeArgs>
+</Step>
+<Step rID="T12">
+<Obj plainTxt="False" ><![CDATA[Service: Add Cookie]]></Obj>
+<Details plainTxt="False" ><![CDATA[<CENTER>Add the following cookie: <STRONG><FONT COLOR=#00AF00>dtCookie=6E15C7D49950E33A126B6888D2115A81||1; DOMAIN=54.157.232.206</FONT></STRONG></CENTER>]]></Details>
+<Time><![CDATA[15.03.2024 - 18:21:56]]></Time>
+<TimeTick>1710508916</TimeTick>
+<NodeArgs eType="General" icon="5" nRep="16" >
+<Disp><![CDATA[Service: Add Cookie]]></Disp>
+</NodeArgs>
+</Step>
+<Step rID="T13">
+<Obj plainTxt="False" ><![CDATA[Service: Add Header]]></Obj>
+<Details plainTxt="False" ><![CDATA[<CENTER>Add the following header to the next HTTP request :<BR><STRONG><FONT COLOR=#00AF00>Upgrade-Insecure-Requests: 1</FONT></STRONG></CENTER>]]></Details>
+<Time><![CDATA[15.03.2024 - 18:21:56]]></Time>
+<TimeTick>1710508916</TimeTick>
+<NodeArgs eType="General" icon="6" nRep="17" >
+<Disp><![CDATA[Service: Add Header]]></Disp>
+</NodeArgs>
+</Step>
+<Step rID="T14">
+<Obj plainTxt="False" ><![CDATA[Service: Reg Find]]></Obj>
+<Details plainTxt="False" ><![CDATA[<CENTER><STRONG><FONT COLOR=#00AF00>Text="parameters"</FONT></STRONG></CENTER>]]></Details>
+<Time><![CDATA[15.03.2024 - 18:21:56]]></Time>
+<TimeTick>1710508916</TimeTick>
+<NodeArgs eType="General" icon="7" nRep="18" >
+<Disp><![CDATA[Service: Reg Find]]></Disp>
+</NodeArgs>
+</Step>
+<Step rID="T15">
+<Obj plainTxt="False" ><![CDATA[Service: Reg Find]]></Obj>
+<Details plainTxt="False" ><![CDATA[<CENTER><STRONG><FONT COLOR=#00AF00>Text="parameterName"</FONT></STRONG></CENTER>]]></Details>
+<Time><![CDATA[15.03.2024 - 18:21:56]]></Time>
+<TimeTick>1710508916</TimeTick>
+<NodeArgs eType="General" icon="7" nRep="19" >
+<Disp><![CDATA[Service: Reg Find]]></Disp>
+</NodeArgs>
+</Step>
+<Step rID="T16">
+<Obj plainTxt="False" ><![CDATA[Url: ALL]]></Obj>
+<Details plainTxt="False" ><![CDATA[<CENTER><STRONG><FONT COLOR=#009A63>Step completed successfully</FONT></STRONG></CENTER>]]></Details>
+<Time><![CDATA[15.03.2024 - 18:21:57]]></Time>
+<TimeTick>1710508917</TimeTick>
+<NodeArgs eType="General" icon="8" nRep="20" status="Passed" >
+<Disp><![CDATA[Url: ALL]]></Disp>
+<BtmPane vType="HTMLSNSH" >
+<Path><![CDATA[\Iteration1\t1.inf]]></Path>
+</BtmPane>
+</NodeArgs>
+</Step>
+<Step rID="T17">
+<Obj plainTxt="False" ><![CDATA[Service: Add Cookie]]></Obj>
+<Details plainTxt="False" ><![CDATA[<CENTER>Add the following cookie: <STRONG><FONT COLOR=#00AF00>_ga_TBPYED8WSW=GS1.1.1710384628.49.1.1710384945.0.0.0; DOMAIN=54.157.232.206</FONT></STRONG></CENTER>]]></Details>
+<Time><![CDATA[15.03.2024 - 18:21:57]]></Time>
+<TimeTick>1710508917</TimeTick>
+<NodeArgs eType="General" icon="5" nRep="21" >
+<Disp><![CDATA[Service: Add Cookie]]></Disp>
+</NodeArgs>
+</Step>
+<Step rID="T18">
+<Obj plainTxt="False" ><![CDATA[Service: Add Cookie]]></Obj>
+<Details plainTxt="False" ><![CDATA[<CENTER>Add the following cookie: <STRONG><FONT COLOR=#00AF00>_gat=1; DOMAIN=54.157.232.206</FONT></STRONG></CENTER>]]></Details>
+<Time><![CDATA[15.03.2024 - 18:21:57]]></Time>
+<TimeTick>1710508917</TimeTick>
+<NodeArgs eType="General" icon="5" nRep="22" >
+<Disp><![CDATA[Service: Add Cookie]]></Disp>
+</NodeArgs>
+</Step>
+<Step rID="T19">
+<Obj plainTxt="False" ><![CDATA[Service: Add Header]]></Obj>
+<Details plainTxt="False" ><![CDATA[<CENTER>Add the following header to the next HTTP request :<BR><STRONG><FONT COLOR=#00AF00>Origin: http://54.157.232.206</FONT></STRONG></CENTER>]]></Details>
+<Time><![CDATA[15.03.2024 - 18:21:57]]></Time>
+<TimeTick>1710508917</TimeTick>
+<NodeArgs eType="General" icon="6" nRep="23" >
+<Disp><![CDATA[Service: Add Header]]></Disp>
+</NodeArgs>
+</Step>
+<Step rID="T20">
+<Obj plainTxt="False" ><![CDATA[Service: Add Header]]></Obj>
+<Details plainTxt="False" ><![CDATA[<CENTER>Add the following header to the next HTTP request :<BR><STRONG><FONT COLOR=#00AF00>SOAPAction: com.advantage.online.store.accountserviceGetAccountConfigurationRequest</FONT></STRONG></CENTER>]]></Details>
+<Time><![CDATA[15.03.2024 - 18:21:57]]></Time>
+<TimeTick>1710508917</TimeTick>
+<NodeArgs eType="General" icon="6" nRep="24" >
+<Disp><![CDATA[Service: Add Header]]></Disp>
+</NodeArgs>
+</Step>
+<Step rID="T21">
+<Obj plainTxt="False" ><![CDATA[Service: Add Header]]></Obj>
+<Details plainTxt="False" ><![CDATA[<CENTER>Add the following header to the next HTTP request :<BR><STRONG><FONT COLOR=#00AF00>X-Requested-With: XMLHttpRequest</FONT></STRONG></CENTER>]]></Details>
+<Time><![CDATA[15.03.2024 - 18:21:57]]></Time>
+<TimeTick>1710508917</TimeTick>
+<NodeArgs eType="General" icon="6" nRep="25" >
+<Disp><![CDATA[Service: Add Header]]></Disp>
+</NodeArgs>
+</Step>
+<Step rID="T22">
+<Obj plainTxt="False" ><![CDATA[Service: Reg Find]]></Obj>
+<Details plainTxt="False" ><![CDATA[<CENTER><STRONG><FONT COLOR=#00AF00>Text=numberOfFailedLoginAttemptsBeforeBlocking</FONT></STRONG></CENTER>]]></Details>
+<Time><![CDATA[15.03.2024 - 18:21:57]]></Time>
+<TimeTick>1710508917</TimeTick>
+<NodeArgs eType="General" icon="7" nRep="26" >
+<Disp><![CDATA[Service: Reg Find]]></Disp>
+</NodeArgs>
+</Step>
+<Step rID="T23">
+<Obj plainTxt="False" ><![CDATA[Custom Request: GetAccountConfigurationRequest]]></Obj>
+<Details plainTxt="False" ><![CDATA[<CENTER><STRONG><FONT COLOR=#009A63>Step completed successfully</FONT></STRONG></CENTER>]]></Details>
+<Time><![CDATA[15.03.2024 - 18:21:57]]></Time>
+<TimeTick>1710508917</TimeTick>
+<NodeArgs eType="General" icon="9" nRep="27" status="Passed" >
+<Disp><![CDATA[Custom Request: GetAccountConfigurationRequest]]></Disp>
+<BtmPane vType="HTMLSNSH" >
+<Path><![CDATA[\Iteration1\t2.inf]]></Path>
+</BtmPane>
+</NodeArgs>
+</Step>
+<Step rID="T24">
+<Obj plainTxt="False" ><![CDATA[Service: Add Cookie]]></Obj>
+<Details plainTxt="False" ><![CDATA[<CENTER>Add the following cookie: <STRONG><FONT COLOR=#00AF00>_ga_56EMNRF2S2=GS1.1.1710384628.44.1.1710384946.60.0.0; DOMAIN=54.157.232.206</FONT></STRONG></CENTER>]]></Details>
+<Time><![CDATA[15.03.2024 - 18:21:57]]></Time>
+<TimeTick>1710508917</TimeTick>
+<NodeArgs eType="General" icon="5" nRep="28" >
+<Disp><![CDATA[Service: Add Cookie]]></Disp>
+</NodeArgs>
+</Step>
+<Step rID="T25">
+<Obj plainTxt="False" ><![CDATA[Service: Reg Find]]></Obj>
+<Details plainTxt="False" ><![CDATA[<CENTER><STRONG><FONT COLOR=#00AF00>Text="categoryName":"LAPTOPS"</FONT></STRONG></CENTER>]]></Details>
+<Time><![CDATA[15.03.2024 - 18:21:57]]></Time>
+<TimeTick>1710508917</TimeTick>
+<NodeArgs eType="General" icon="7" nRep="29" >
+<Disp><![CDATA[Service: Reg Find]]></Disp>
+</NodeArgs>
+</Step>
+<Step rID="T26">
+<Obj plainTxt="False" ><![CDATA[Service: Reg Find]]></Obj>
+<Details plainTxt="False" ><![CDATA[<CENTER><STRONG><FONT COLOR=#00AF00>Text="categoryName":"HEADPHONES"</FONT></STRONG></CENTER>]]></Details>
+<Time><![CDATA[15.03.2024 - 18:21:57]]></Time>
+<TimeTick>1710508917</TimeTick>
+<NodeArgs eType="General" icon="7" nRep="30" >
+<Disp><![CDATA[Service: Reg Find]]></Disp>
+</NodeArgs>
+</Step>
+<Step rID="T27">
+<Obj plainTxt="False" ><![CDATA[Service: Reg Find]]></Obj>
+<Details plainTxt="False" ><![CDATA[<CENTER><STRONG><FONT COLOR=#00AF00>Text="categoryName":"TABLETS"</FONT></STRONG></CENTER>]]></Details>
+<Time><![CDATA[15.03.2024 - 18:21:57]]></Time>
+<TimeTick>1710508917</TimeTick>
+<NodeArgs eType="General" icon="7" nRep="31" >
+<Disp><![CDATA[Service: Reg Find]]></Disp>
+</NodeArgs>
+</Step>
+<Step rID="T28">
+<Obj plainTxt="False" ><![CDATA[Service: Reg Find]]></Obj>
+<Details plainTxt="False" ><![CDATA[<CENTER><STRONG><FONT COLOR=#00AF00>Text="categoryName":"SPEAKERS"</FONT></STRONG></CENTER>]]></Details>
+<Time><![CDATA[15.03.2024 - 18:21:57]]></Time>
+<TimeTick>1710508917</TimeTick>
+<NodeArgs eType="General" icon="7" nRep="32" >
+<Disp><![CDATA[Service: Reg Find]]></Disp>
+</NodeArgs>
+</Step>
+<Step rID="T29">
+<Obj plainTxt="False" ><![CDATA[Service: Reg Find]]></Obj>
+<Details plainTxt="False" ><![CDATA[<CENTER><STRONG><FONT COLOR=#00AF00>Text="categoryName":"MICE"</FONT></STRONG></CENTER>]]></Details>
+<Time><![CDATA[15.03.2024 - 18:21:57]]></Time>
+<TimeTick>1710508917</TimeTick>
+<NodeArgs eType="General" icon="7" nRep="33" >
+<Disp><![CDATA[Service: Reg Find]]></Disp>
+</NodeArgs>
+</Step>
+<Step rID="T30">
+<Obj plainTxt="False" ><![CDATA[Url: categories]]></Obj>
+<Details plainTxt="False" ><![CDATA[<CENTER><STRONG><FONT COLOR=#009A63>Step completed successfully</FONT></STRONG></CENTER>]]></Details>
+<Time><![CDATA[15.03.2024 - 18:21:57]]></Time>
+<TimeTick>1710508917</TimeTick>
+<NodeArgs eType="General" icon="8" nRep="34" status="Passed" >
+<Disp><![CDATA[Url: categories]]></Disp>
+<BtmPane vType="HTMLSNSH" >
+<Path><![CDATA[\Iteration1\t3.inf]]></Path>
+</BtmPane>
+</NodeArgs>
+</Step>
+<Step rID="T31">
+<Obj plainTxt="False" ><![CDATA[Service: Reg Find]]></Obj>
+<Details plainTxt="False" ><![CDATA[<CENTER><STRONG><FONT COLOR=#00AF00>Text="promotionHeader"</FONT></STRONG></CENTER>]]></Details>
+<Time><![CDATA[15.03.2024 - 18:21:57]]></Time>
+<TimeTick>1710508917</TimeTick>
+<NodeArgs eType="General" icon="7" nRep="35" >
+<Disp><![CDATA[Service: Reg Find]]></Disp>
+</NodeArgs>
+</Step>
+<Step rID="T32">
+<Obj plainTxt="False" ><![CDATA[Service: Reg Find]]></Obj>
+<Details plainTxt="False" ><![CDATA[<CENTER><STRONG><FONT COLOR=#00AF00>Text="promotionSubHeader"</FONT></STRONG></CENTER>]]></Details>
+<Time><![CDATA[15.03.2024 - 18:21:57]]></Time>
+<TimeTick>1710508917</TimeTick>
+<NodeArgs eType="General" icon="7" nRep="36" >
+<Disp><![CDATA[Service: Reg Find]]></Disp>
+</NodeArgs>
+</Step>
+<Step rID="T33">
+<Obj plainTxt="False" ><![CDATA[Url: dealOfTheDay]]></Obj>
+<Details plainTxt="False" ><![CDATA[<CENTER><STRONG><FONT COLOR=#009A63>Step completed successfully</FONT></STRONG></CENTER>]]></Details>
+<Time><![CDATA[15.03.2024 - 18:21:58]]></Time>
+<TimeTick>1710508918</TimeTick>
+<NodeArgs eType="General" icon="8" nRep="37" status="Passed" >
+<Disp><![CDATA[Url: dealOfTheDay]]></Disp>
+<BtmPane vType="HTMLSNSH" >
+<Path><![CDATA[\Iteration1\t4.inf]]></Path>
+</BtmPane>
+</NodeArgs>
+</Step>
+<Step rID="T34">
+<Obj plainTxt="False" ><![CDATA[Service: Reg Find]]></Obj>
+<Details plainTxt="False" ><![CDATA[<CENTER><STRONG><FONT COLOR=#00AF00>Text="categoryName":"HEADPHONES"</FONT></STRONG></CENTER>]]></Details>
+<Time><![CDATA[15.03.2024 - 18:22:01]]></Time>
+<TimeTick>1710508921</TimeTick>
+<NodeArgs eType="General" icon="7" nRep="38" >
+<Disp><![CDATA[Service: Reg Find]]></Disp>
+</NodeArgs>
+</Step>
+<Step rID="T35">
+<Obj plainTxt="False" ><![CDATA[Url: products]]></Obj>
+<Details plainTxt="False" ><![CDATA[<CENTER><STRONG><FONT COLOR=#009A63>Step completed successfully</FONT></STRONG></CENTER>]]></Details>
+<Time><![CDATA[15.03.2024 - 18:22:01]]></Time>
+<TimeTick>1710508921</TimeTick>
+<NodeArgs eType="General" icon="8" nRep="39" status="Passed" >
+<Disp><![CDATA[Url: products]]></Disp>
+<BtmPane vType="HTMLSNSH" >
+<Path><![CDATA[\Iteration1\t5.inf]]></Path>
+</BtmPane>
+</NodeArgs>
+</Step>
+<Step rID="T36">
+<Obj plainTxt="False" ><![CDATA[Service: Reg Find]]></Obj>
+<Details plainTxt="False" ><![CDATA[<CENTER><STRONG><FONT COLOR=#00AF00>Text="categoryName":"LAPTOPS"</FONT></STRONG></CENTER>]]></Details>
+<Time><![CDATA[15.03.2024 - 18:22:01]]></Time>
+<TimeTick>1710508921</TimeTick>
+<NodeArgs eType="General" icon="7" nRep="40" >
+<Disp><![CDATA[Service: Reg Find]]></Disp>
+</NodeArgs>
+</Step>
+<Step rID="T37">
+<Obj plainTxt="False" ><![CDATA[Service: Reg Find]]></Obj>
+<Details plainTxt="False" ><![CDATA[<CENTER><STRONG><FONT COLOR=#00AF00>Text="categoryName":"HEADPHONES"</FONT></STRONG></CENTER>]]></Details>
+<Time><![CDATA[15.03.2024 - 18:22:01]]></Time>
+<TimeTick>1710508921</TimeTick>
+<NodeArgs eType="General" icon="7" nRep="41" >
+<Disp><![CDATA[Service: Reg Find]]></Disp>
+</NodeArgs>
+</Step>
+<Step rID="T38">
+<Obj plainTxt="False" ><![CDATA[Service: Reg Find]]></Obj>
+<Details plainTxt="False" ><![CDATA[<CENTER><STRONG><FONT COLOR=#00AF00>Text="categoryName":"TABLETS"</FONT></STRONG></CENTER>]]></Details>
+<Time><![CDATA[15.03.2024 - 18:22:01]]></Time>
+<TimeTick>1710508921</TimeTick>
+<NodeArgs eType="General" icon="7" nRep="42" >
+<Disp><![CDATA[Service: Reg Find]]></Disp>
+</NodeArgs>
+</Step>
+<Step rID="T39">
+<Obj plainTxt="False" ><![CDATA[Service: Reg Find]]></Obj>
+<Details plainTxt="False" ><![CDATA[<CENTER><STRONG><FONT COLOR=#00AF00>Text="categoryName":"SPEAKERS"</FONT></STRONG></CENTER>]]></Details>
+<Time><![CDATA[15.03.2024 - 18:22:01]]></Time>
+<TimeTick>1710508921</TimeTick>
+<NodeArgs eType="General" icon="7" nRep="43" >
+<Disp><![CDATA[Service: Reg Find]]></Disp>
+</NodeArgs>
+</Step>
+<Step rID="T40">
+<Obj plainTxt="False" ><![CDATA[Service: Reg Find]]></Obj>
+<Details plainTxt="False" ><![CDATA[<CENTER><STRONG><FONT COLOR=#00AF00>Text="categoryName":"MICE"</FONT></STRONG></CENTER>]]></Details>
+<Time><![CDATA[15.03.2024 - 18:22:01]]></Time>
+<TimeTick>1710508921</TimeTick>
+<NodeArgs eType="General" icon="7" nRep="44" >
+<Disp><![CDATA[Service: Reg Find]]></Disp>
+</NodeArgs>
+</Step>
+<Step rID="T41">
+<Obj plainTxt="False" ><![CDATA[Url: attributes]]></Obj>
+<Details plainTxt="False" ><![CDATA[<CENTER><STRONG><FONT COLOR=#009A63>Step completed successfully</FONT></STRONG></CENTER>]]></Details>
+<Time><![CDATA[15.03.2024 - 18:22:01]]></Time>
+<TimeTick>1710508921</TimeTick>
+<NodeArgs eType="General" icon="8" nRep="45" status="Passed" >
+<Disp><![CDATA[Url: attributes]]></Disp>
+<BtmPane vType="HTMLSNSH" >
+<Path><![CDATA[\Iteration1\t6.inf]]></Path>
+</BtmPane>
+</NodeArgs>
+</Step>
+<Step rID="T42">
+<Obj plainTxt="False" ><![CDATA[Service: Add Cookie]]></Obj>
+<Details plainTxt="False" ><![CDATA[<CENTER>Add the following cookie: <STRONG><FONT COLOR=#00AF00>_ga_56EMNRF2S2=GS1.1.1710384628.44.1.1710385004.2.0.0; DOMAIN=54.157.232.206</FONT></STRONG></CENTER>]]></Details>
+<Time><![CDATA[15.03.2024 - 18:22:04]]></Time>
+<TimeTick>1710508924</TimeTick>
+<NodeArgs eType="General" icon="5" nRep="46" >
+<Disp><![CDATA[Service: Add Cookie]]></Disp>
+</NodeArgs>
+</Step>
+<Step rID="T43">
+<Obj plainTxt="False" ><![CDATA[Service: Reg Find]]></Obj>
+<Details plainTxt="False" ><![CDATA[<CENTER><STRONG><FONT COLOR=#00AF00>Text="productId":15</FONT></STRONG></CENTER>]]></Details>
+<Time><![CDATA[15.03.2024 - 18:22:04]]></Time>
+<TimeTick>1710508924</TimeTick>
+<NodeArgs eType="General" icon="7" nRep="47" >
+<Disp><![CDATA[Service: Reg Find]]></Disp>
+</NodeArgs>
+</Step>
+<Step rID="T44">
+<Obj plainTxt="False" ><![CDATA[Service: Reg Find]]></Obj>
+<Details plainTxt="False" ><![CDATA[<CENTER><STRONG><FONT COLOR=#00AF00>Text="categoryId":2</FONT></STRONG></CENTER>]]></Details>
+<Time><![CDATA[15.03.2024 - 18:22:04]]></Time>
+<TimeTick>1710508924</TimeTick>
+<NodeArgs eType="General" icon="7" nRep="48" >
+<Disp><![CDATA[Service: Reg Find]]></Disp>
+</NodeArgs>
+</Step>
+<Step rID="T45">
+<Obj plainTxt="False" ><![CDATA[Url: getProductOnId]]></Obj>
+<Details plainTxt="False" ><![CDATA[<CENTER><STRONG><FONT COLOR=#009A63>Step completed successfully</FONT></STRONG></CENTER>]]></Details>
+<Time><![CDATA[15.03.2024 - 18:22:04]]></Time>
+<TimeTick>1710508924</TimeTick>
+<NodeArgs eType="General" icon="8" nRep="49" status="Passed" >
+<Disp><![CDATA[Url: getProductOnId]]></Disp>
+<BtmPane vType="HTMLSNSH" >
+<Path><![CDATA[\Iteration1\t7.inf]]></Path>
+</BtmPane>
+</NodeArgs>
+</Step>
+<Step rID="T46">
+<Obj plainTxt="False" ><![CDATA[Service: Reg Find]]></Obj>
+<Details plainTxt="False" ><![CDATA[<CENTER><STRONG><FONT COLOR=#00AF00>Text="categoryName":"LAPTOPS"</FONT></STRONG></CENTER>]]></Details>
+<Time><![CDATA[15.03.2024 - 18:22:04]]></Time>
+<TimeTick>1710508924</TimeTick>
+<NodeArgs eType="General" icon="7" nRep="50" >
+<Disp><![CDATA[Service: Reg Find]]></Disp>
+</NodeArgs>
+</Step>
+<Step rID="T47">
+<Obj plainTxt="False" ><![CDATA[Service: Reg Find]]></Obj>
+<Details plainTxt="False" ><![CDATA[<CENTER><STRONG><FONT COLOR=#00AF00>Text="categoryName":"HEADPHONES"</FONT></STRONG></CENTER>]]></Details>
+<Time><![CDATA[15.03.2024 - 18:22:04]]></Time>
+<TimeTick>1710508924</TimeTick>
+<NodeArgs eType="General" icon="7" nRep="51" >
+<Disp><![CDATA[Service: Reg Find]]></Disp>
+</NodeArgs>
+</Step>
+<Step rID="T48">
+<Obj plainTxt="False" ><![CDATA[Service: Reg Find]]></Obj>
+<Details plainTxt="False" ><![CDATA[<CENTER><STRONG><FONT COLOR=#00AF00>Text="categoryName":"TABLETS"</FONT></STRONG></CENTER>]]></Details>
+<Time><![CDATA[15.03.2024 - 18:22:04]]></Time>
+<TimeTick>1710508924</TimeTick>
+<NodeArgs eType="General" icon="7" nRep="52" >
+<Disp><![CDATA[Service: Reg Find]]></Disp>
+</NodeArgs>
+</Step>
+<Step rID="T49">
+<Obj plainTxt="False" ><![CDATA[Service: Reg Find]]></Obj>
+<Details plainTxt="False" ><![CDATA[<CENTER><STRONG><FONT COLOR=#00AF00>Text="categoryName":"SPEAKERS"</FONT></STRONG></CENTER>]]></Details>
+<Time><![CDATA[15.03.2024 - 18:22:04]]></Time>
+<TimeTick>1710508924</TimeTick>
+<NodeArgs eType="General" icon="7" nRep="53" >
+<Disp><![CDATA[Service: Reg Find]]></Disp>
+</NodeArgs>
+</Step>
+<Step rID="T50">
+<Obj plainTxt="False" ><![CDATA[Service: Reg Find]]></Obj>
+<Details plainTxt="False" ><![CDATA[<CENTER><STRONG><FONT COLOR=#00AF00>Text="categoryName":"MICE"</FONT></STRONG></CENTER>]]></Details>
+<Time><![CDATA[15.03.2024 - 18:22:04]]></Time>
+<TimeTick>1710508924</TimeTick>
+<NodeArgs eType="General" icon="7" nRep="54" >
+<Disp><![CDATA[Service: Reg Find]]></Disp>
+</NodeArgs>
+</Step>
+<Step rID="T51">
+<Obj plainTxt="False" ><![CDATA[Url: all_data]]></Obj>
+<Details plainTxt="False" ><![CDATA[<CENTER><STRONG><FONT COLOR=#009A63>Step completed successfully</FONT></STRONG></CENTER>]]></Details>
+<Time><![CDATA[15.03.2024 - 18:22:05]]></Time>
+<TimeTick>1710508925</TimeTick>
+<NodeArgs eType="General" icon="8" nRep="55" status="Passed" >
+<Disp><![CDATA[Url: all_data]]></Disp>
+<BtmPane vType="HTMLSNSH" >
+<Path><![CDATA[\Iteration1\t8.inf]]></Path>
+</BtmPane>
+</NodeArgs>
+</Step>
+<Step rID="T52">
+<Obj plainTxt="False" ><![CDATA[Service: Reg Find]]></Obj>
+<Details plainTxt="False" ><![CDATA[<CENTER><STRONG><FONT COLOR=#00AF00>Text="categoryName":"HEADPHONES"</FONT></STRONG></CENTER>]]></Details>
+<Time><![CDATA[15.03.2024 - 18:22:05]]></Time>
+<TimeTick>1710508925</TimeTick>
+<NodeArgs eType="General" icon="7" nRep="56" >
+<Disp><![CDATA[Service: Reg Find]]></Disp>
+</NodeArgs>
+</Step>
+<Step rID="T53">
+<Obj plainTxt="False" ><![CDATA[Url: products]]></Obj>
+<Details plainTxt="False" ><![CDATA[<CENTER><STRONG><FONT COLOR=#009A63>Step completed successfully</FONT></STRONG></CENTER>]]></Details>
+<Time><![CDATA[15.03.2024 - 18:22:05]]></Time>
+<TimeTick>1710508925</TimeTick>
+<NodeArgs eType="General" icon="8" nRep="57" status="Passed" >
+<Disp><![CDATA[Url: products]]></Disp>
+<BtmPane vType="HTMLSNSH" >
+<Path><![CDATA[\Iteration1\t9.inf]]></Path>
+</BtmPane>
+</NodeArgs>
+</Step>
+<Step rID="T54">
+<Obj plainTxt="False" ><![CDATA[Service: Stream Open]]></Obj>
+<Details plainTxt="False" ><![CDATA[ Stream ID=1, URL="http://54.157.232.206/css/videos/13543361_299823923688824_1410005144_n.mp4" opened]]></Details>
+<Time><![CDATA[15.03.2024 - 18:22:09]]></Time>
+<TimeTick>1710508929</TimeTick>
+<NodeArgs eType="General" icon="4" nRep="58" >
+<Disp><![CDATA[Service: Stream Open]]></Disp>
+</NodeArgs>
+</Step>
+<Step rID="T55">
+<Obj plainTxt="False" ><![CDATA[Service: Stream Play]]></Obj>
+<Details plainTxt="False" ><![CDATA[ Stream ID=1 started palying]]></Details>
+<Time><![CDATA[15.03.2024 - 18:22:24]]></Time>
+<TimeTick>1710508944</TimeTick>
+<NodeArgs eType="General" icon="4" nRep="59" >
+<Disp><![CDATA[Service: Stream Play]]></Disp>
+</NodeArgs>
+</Step>
+<Step rID="T56">
+<Obj plainTxt="False" ><![CDATA[Service: Stream Pause]]></Obj>
+<Details plainTxt="False" ><![CDATA[ Stream ID=1 paused]]></Details>
+<Time><![CDATA[15.03.2024 - 18:22:29]]></Time>
+<TimeTick>1710508949</TimeTick>
+<NodeArgs eType="General" icon="4" nRep="60" >
+<Disp><![CDATA[Service: Stream Pause]]></Disp>
+</NodeArgs>
+</Step>
+<Step rID="T57">
+<Obj plainTxt="False" ><![CDATA[Service: Stream Stop]]></Obj>
+<Details plainTxt="False" ><![CDATA[ Stream ID=1 stoped]]></Details>
+<Time><![CDATA[15.03.2024 - 18:22:30]]></Time>
+<TimeTick>1710508950</TimeTick>
+<NodeArgs eType="General" icon="4" nRep="61" >
+<Disp><![CDATA[Service: Stream Stop]]></Disp>
+</NodeArgs>
+</Step>
+<Step rID="T58">
+<Obj plainTxt="False" ><![CDATA[Service: Stream Close]]></Obj>
+<Details plainTxt="False" ><![CDATA[ Stream ID=1 closed]]></Details>
+<Time><![CDATA[15.03.2024 - 18:22:31]]></Time>
+<TimeTick>1710508951</TimeTick>
+<NodeArgs eType="General" icon="4" nRep="62" >
+<Disp><![CDATA[Service: Stream Close]]></Disp>
+</NodeArgs>
+</Step>
+<Summary sTime="15.03.2024 - 18:21:55" eTime="15.03.2024 - 18:22:35" passed="9" failed="0" warnings="0" ></Summary>
+<NodeArgs eType="StartAction" icon="2" nRep="8" status="Passed" >
+<Disp><![CDATA[Action Summary]]></Disp>
+</NodeArgs>
+</Action>
+<NodeArgs eType="StartIteration" icon="3" nRep="7" status="Passed" >
+<Disp><![CDATA[UC13_Play_Video Iteration 1 (Row 1)]]></Disp>
+</NodeArgs>
+</DIter>
+<Action rID="T59">
+<AName><![CDATA[vuser_end]]></AName>
+<Summary sTime="15.03.2024 - 18:22:37" eTime="15.03.2024 - 18:22:39" passed="0" failed="0" warnings="0" ></Summary>
+<NodeArgs eType="StartAction" icon="2" nRep="65" >
+<Disp><![CDATA[vuser_end Summary]]></Disp>
+</NodeArgs>
+</Action>
+<Summary sTime="15.03.2024 - 18:21:52" eTime="15.03.2024 - 18:22:44" passed="9" failed="0" warnings="0" ></Summary>
+<NodeArgs eType="StartTest" icon="1" nRep="4" status="Passed" >
+<Disp><![CDATA[Test UC13_Play_Video Summary]]></Disp>
+</NodeArgs>
+</Doc>
+</Report>

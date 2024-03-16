@@ -1,0 +1,9 @@
+-+
+-DCCI
+-D_IDA_XL
+-DWINNT
+-IC:\Users\user\Documents\VuGen\Scripts\UC7_EditingProfileData
+-IC:\Program Files (x86)\HPE\LoadRunner\include
+-ec:\users\user\documents\vugen\scripts\uc7_editingprofiledata\\logfile.log
+c:\users\user\documents\vugen\scripts\uc7_editingprofiledata\\combined_UC7_EditingProfileData.c
+c:\users\user\documents\vugen\scripts\uc7_editingprofiledata\\pre_cci.c

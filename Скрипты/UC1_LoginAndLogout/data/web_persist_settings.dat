@@ -1,0 +1,17 @@
+[StartRecordingGMT]
+StartRecordingGMT_1=2024/02/24 18:21:01
+StartRecordingIsDst_1=0
+StartRecordingGMT_2=2024/02/24 18:30:16
+StartRecordingIsDst_2=0
+[User-Agent]
+User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:123.0) Gecko/20100101 Firefox/123.0
+[Security]
+UsingPersistForAuthentication=1
+UserName_1_1=denis
+Password_1_1=1234oO
+Realm_1_1=54.157.232.206:80
+EventId_1_1=1043
+UserName_2_1=denis
+Password_2_1=1234oO
+Realm_2_1=54.157.232.206:80
+EventId_2_1=2026

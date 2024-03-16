@@ -1,0 +1,147 @@
+Start auto log messages stack - Iteration 1.	[MsgId: MMSG-10545]
+Action.c(138): Get Message from server: uri=ws://54.157.232.206/catalog/websocketserverendpoint, connection handle=87174360, message=Zoe: Interesting! Yes, Is that really your name? , length=49  	[MsgId: MMSG-26000]
+Action.c(138): Calling Vuser script function "OnMessageCB0", specified via the "OnMessageCB" argument of "web_websocket_connect" in Action.c(97)  	[MsgId: MMSG-26419]
+WebSocketCB.c(27): Notify: Saving Parameter "ReciveFromServer = Zoe: Interesting! Yes, Is that really your name? ".	[MsgId: MMSG-13798]
+WebSocketCB.c(28): WebSocket ID = 669084. [49] bytes text message received.	[MsgId: MMSG-17999]
+Action.c(138): Returned (rc=0) from Vuser script function "OnMessageCB0", specified via the "OnMessageCB" argument of web_websocket_connect in Action.c(97)  	[MsgId: MMSG-26418]
+Action.c(139): Notify: Parameter Substitution: parameter "ReciveFromServer" =  "Zoe: Interesting! Yes, Is that really your name? "	[MsgId: MMSG-13992]
+Action.c(140): Error: ѕодстрока не найдена в ответе от сервера	[MsgId: MERR-17999]
+End auto log messages stack.	[MsgId: MMSG-10544]
+
+
+Start auto log messages stack - Iteration 1.	[MsgId: MMSG-10545]
+Action.c(130): Get Message from server: uri=ws://54.157.232.206/catalog/websocketserverendpoint, connection handle=87271040, message=David: Excuse me, do you understand English? , length=45  	[MsgId: MMSG-26000]
+Action.c(130): Calling Vuser script function "OnMessageCB0", specified via the "OnMessageCB" argument of "web_websocket_connect" in Action.c(97)  	[MsgId: MMSG-26419]
+WebSocketCB.c(27): Notify: Saving Parameter "ReciveFromServer = David: Excuse me, do you understand English? ".	[MsgId: MMSG-13798]
+WebSocketCB.c(28): WebSocket ID = 186803. [45] bytes text message received.	[MsgId: MMSG-17999]
+Action.c(130): Returned (rc=0) from Vuser script function "OnMessageCB0", specified via the "OnMessageCB" argument of web_websocket_connect in Action.c(97)  	[MsgId: MMSG-26418]
+Action.c(131): Notify: Parameter Substitution: parameter "ReciveFromServer" =  "David: Excuse me, do you understand English? "	[MsgId: MMSG-13992]
+Action.c(132): Error: ѕодстрока не найдена в ответе от сервера	[MsgId: MERR-17999]
+End auto log messages stack.	[MsgId: MMSG-10544]
+
+
+Start auto log messages stack - Iteration 1.	[MsgId: MMSG-10545]
+Action.c(146):     \x81 Sofia: Hello, what's your name? 
+Action.c(146): Get Message from server: uri=ws://54.157.232.206/catalog/websocketserverendpoint, connection handle=87174360, message=Sofia: Hello, what's your name? , length=32  	[MsgId: MMSG-26000]
+Action.c(146): Calling Vuser script function "OnMessageCB0", specified via the "OnMessageCB" argument of "web_websocket_connect" in Action.c(97)  	[MsgId: MMSG-26419]
+WebSocketCB.c(27): Notify: Saving Parameter "ReciveFromServer = Sofia: Hello, what's your name? ".	[MsgId: MMSG-13798]
+WebSocketCB.c(28): WebSocket ID = 669084. [32] bytes text message received.	[MsgId: MMSG-17999]
+Action.c(146): Returned (rc=0) from Vuser script function "OnMessageCB0", specified via the "OnMessageCB" argument of web_websocket_connect in Action.c(97)  	[MsgId: MMSG-26418]
+Action.c(147): Notify: Parameter Substitution: parameter "ReciveFromServer" =  "Sofia: Hello, what's your name? "	[MsgId: MMSG-13992]
+Action.c(148): Error: ѕодстрока не найдена в ответе от сервера	[MsgId: MERR-17999]
+End auto log messages stack.	[MsgId: MMSG-10544]
+
+
+Start auto log messages stack - Iteration 1.	[MsgId: MMSG-10545]
+Action.c(138): Get Message from server: uri=ws://54.157.232.206/catalog/websocketserverendpoint, connection handle=87271040, message=David: Interesting! Yes, Is that really your name? , length=51  	[MsgId: MMSG-26000]
+Action.c(138): Calling Vuser script function "OnMessageCB0", specified via the "OnMessageCB" argument of "web_websocket_connect" in Action.c(97)  	[MsgId: MMSG-26419]
+WebSocketCB.c(27): Notify: Saving Parameter "ReciveFromServer = David: Interesting! Yes, Is that really your name? ".	[MsgId: MMSG-13798]
+WebSocketCB.c(28): WebSocket ID = 186803. [51] bytes text message received.	[MsgId: MMSG-17999]
+Action.c(138): Returned (rc=0) from Vuser script function "OnMessageCB0", specified via the "OnMessageCB" argument of web_websocket_connect in Action.c(97)  	[MsgId: MMSG-26418]
+Action.c(139): Notify: Parameter Substitution: parameter "ReciveFromServer" =  "David: Interesting! Yes, Is that really your name? "	[MsgId: MMSG-13992]
+Action.c(140): Error: ѕодстрока не найдена в ответе от сервера	[MsgId: MERR-17999]
+End auto log messages stack.	[MsgId: MMSG-10544]
+
+
+Start auto log messages stack - Iteration 1.	[MsgId: MMSG-10545]
+Action.c(154): Get Message from server: uri=ws://54.157.232.206/catalog/websocketserverendpoint, connection handle=87174360, message=Sofia: Excuse me, do you understand English? , length=45  	[MsgId: MMSG-26000]
+Action.c(154): Calling Vuser script function "OnMessageCB0", specified via the "OnMessageCB" argument of "web_websocket_connect" in Action.c(97)  	[MsgId: MMSG-26419]
+WebSocketCB.c(27): Notify: Saving Parameter "ReciveFromServer = Sofia: Excuse me, do you understand English? ".	[MsgId: MMSG-13798]
+WebSocketCB.c(28): WebSocket ID = 669084. [45] bytes text message received.	[MsgId: MMSG-17999]
+Action.c(154): Returned (rc=0) from Vuser script function "OnMessageCB0", specified via the "OnMessageCB" argument of web_websocket_connect in Action.c(97)  	[MsgId: MMSG-26418]
+Action.c(155): Notify: Parameter Substitution: parameter "ReciveFromServer" =  "Sofia: Excuse me, do you understand English? "	[MsgId: MMSG-13992]
+Action.c(156): Error: ѕодстрока не найдена в ответе от сервера	[MsgId: MERR-17999]
+End auto log messages stack.	[MsgId: MMSG-10544]
+
+
+Start auto log messages stack - Iteration 1.	[MsgId: MMSG-10545]
+Action.c(146):     \x81\x1FMiki: Hello, what's your name? 
+Action.c(146): Get Message from server: uri=ws://54.157.232.206/catalog/websocketserverendpoint, connection handle=87271040, message=Miki: Hello, what's your name? , length=31  	[MsgId: MMSG-26000]
+Action.c(146): Calling Vuser script function "OnMessageCB0", specified via the "OnMessageCB" argument of "web_websocket_connect" in Action.c(97)  	[MsgId: MMSG-26419]
+WebSocketCB.c(27): Notify: Saving Parameter "ReciveFromServer = Miki: Hello, what's your name? ".	[MsgId: MMSG-13798]
+WebSocketCB.c(28): WebSocket ID = 186803. [31] bytes text message received.	[MsgId: MMSG-17999]
+Action.c(146): Returned (rc=0) from Vuser script function "OnMessageCB0", specified via the "OnMessageCB" argument of web_websocket_connect in Action.c(97)  	[MsgId: MMSG-26418]
+Action.c(147): Notify: Parameter Substitution: parameter "ReciveFromServer" =  "Miki: Hello, what's your name? "	[MsgId: MMSG-13992]
+Action.c(148): Error: ѕодстрока не найдена в ответе от сервера	[MsgId: MERR-17999]
+End auto log messages stack.	[MsgId: MMSG-10544]
+
+
+Start auto log messages stack - Iteration 1.	[MsgId: MMSG-10545]
+Action.c(162): Get Message from server: uri=ws://54.157.232.206/catalog/websocketserverendpoint, connection handle=87174360, message=Sofia: Interesting! Yes, Is that really your name? , length=51  	[MsgId: MMSG-26000]
+Action.c(162): Calling Vuser script function "OnMessageCB0", specified via the "OnMessageCB" argument of "web_websocket_connect" in Action.c(97)  	[MsgId: MMSG-26419]
+WebSocketCB.c(27): Notify: Saving Parameter "ReciveFromServer = Sofia: Interesting! Yes, Is that really your name? ".	[MsgId: MMSG-13798]
+WebSocketCB.c(28): WebSocket ID = 669084. [51] bytes text message received.	[MsgId: MMSG-17999]
+Action.c(162): Returned (rc=0) from Vuser script function "OnMessageCB0", specified via the "OnMessageCB" argument of web_websocket_connect in Action.c(97)  	[MsgId: MMSG-26418]
+Action.c(163): Notify: Parameter Substitution: parameter "ReciveFromServer" =  "Sofia: Interesting! Yes, Is that really your name? "	[MsgId: MMSG-13992]
+Action.c(164): Error: ѕодстрока не найдена в ответе от сервера	[MsgId: MERR-17999]
+End auto log messages stack.	[MsgId: MMSG-10544]
+
+
+Start auto log messages stack - Iteration 1.	[MsgId: MMSG-10545]
+Action.c(154): Get Message from server: uri=ws://54.157.232.206/catalog/websocketserverendpoint, connection handle=87271040, message=Miki: Excuse me, do you understand English? , length=44  	[MsgId: MMSG-26000]
+Action.c(154): Calling Vuser script function "OnMessageCB0", specified via the "OnMessageCB" argument of "web_websocket_connect" in Action.c(97)  	[MsgId: MMSG-26419]
+WebSocketCB.c(27): Notify: Saving Parameter "ReciveFromServer = Miki: Excuse me, do you understand English? ".	[MsgId: MMSG-13798]
+WebSocketCB.c(28): WebSocket ID = 186803. [44] bytes text message received.	[MsgId: MMSG-17999]
+Action.c(154): Returned (rc=0) from Vuser script function "OnMessageCB0", specified via the "OnMessageCB" argument of web_websocket_connect in Action.c(97)  	[MsgId: MMSG-26418]
+Action.c(155): Notify: Parameter Substitution: parameter "ReciveFromServer" =  "Miki: Excuse me, do you understand English? "	[MsgId: MMSG-13992]
+Action.c(156): Error: ѕодстрока не найдена в ответе от сервера	[MsgId: MERR-17999]
+End auto log messages stack.	[MsgId: MMSG-10544]
+
+
+Start auto log messages stack - Iteration 1.	[MsgId: MMSG-10545]
+Action.c(170):     \x81\x1FHalo: Hello, what's your name? 
+Action.c(170): Get Message from server: uri=ws://54.157.232.206/catalog/websocketserverendpoint, connection handle=87174360, message=Halo: Hello, what's your name? , length=31  	[MsgId: MMSG-26000]
+Action.c(170): Calling Vuser script function "OnMessageCB0", specified via the "OnMessageCB" argument of "web_websocket_connect" in Action.c(97)  	[MsgId: MMSG-26419]
+WebSocketCB.c(27): Notify: Saving Parameter "ReciveFromServer = Halo: Hello, what's your name? ".	[MsgId: MMSG-13798]
+WebSocketCB.c(28): WebSocket ID = 669084. [31] bytes text message received.	[MsgId: MMSG-17999]
+Action.c(170): Returned (rc=0) from Vuser script function "OnMessageCB0", specified via the "OnMessageCB" argument of web_websocket_connect in Action.c(97)  	[MsgId: MMSG-26418]
+Action.c(171): Notify: Parameter Substitution: parameter "ReciveFromServer" =  "Halo: Hello, what's your name? "	[MsgId: MMSG-13992]
+Action.c(172): Error: ѕодстрока не найдена в ответе от сервера	[MsgId: MERR-17999]
+End auto log messages stack.	[MsgId: MMSG-10544]
+
+
+Start auto log messages stack - Iteration 1.	[MsgId: MMSG-10545]
+Action.c(162): Get Message from server: uri=ws://54.157.232.206/catalog/websocketserverendpoint, connection handle=87271040, message=Miki: Interesting! Yes, Is that really your name? , length=50  	[MsgId: MMSG-26000]
+Action.c(162): Calling Vuser script function "OnMessageCB0", specified via the "OnMessageCB" argument of "web_websocket_connect" in Action.c(97)  	[MsgId: MMSG-26419]
+WebSocketCB.c(27): Notify: Saving Parameter "ReciveFromServer = Miki: Interesting! Yes, Is that really your name? ".	[MsgId: MMSG-13798]
+WebSocketCB.c(28): WebSocket ID = 186803. [50] bytes text message received.	[MsgId: MMSG-17999]
+Action.c(162): Returned (rc=0) from Vuser script function "OnMessageCB0", specified via the "OnMessageCB" argument of web_websocket_connect in Action.c(97)  	[MsgId: MMSG-26418]
+Action.c(163): Notify: Parameter Substitution: parameter "ReciveFromServer" =  "Miki: Interesting! Yes, Is that really your name? "	[MsgId: MMSG-13992]
+Action.c(164): Error: ѕодстрока не найдена в ответе от сервера	[MsgId: MERR-17999]
+End auto log messages stack.	[MsgId: MMSG-10544]
+
+
+Start auto log messages stack - Iteration 1.	[MsgId: MMSG-10545]
+Action.c(178): Get Message from server: uri=ws://54.157.232.206/catalog/websocketserverendpoint, connection handle=87174360, message=Halo: Excuse me, do you understand English? , length=44  	[MsgId: MMSG-26000]
+Action.c(178): Calling Vuser script function "OnMessageCB0", specified via the "OnMessageCB" argument of "web_websocket_connect" in Action.c(97)  	[MsgId: MMSG-26419]
+WebSocketCB.c(27): Notify: Saving Parameter "ReciveFromServer = Halo: Excuse me, do you understand English? ".	[MsgId: MMSG-13798]
+WebSocketCB.c(28): WebSocket ID = 669084. [44] bytes text message received.	[MsgId: MMSG-17999]
+Action.c(178): Returned (rc=0) from Vuser script function "OnMessageCB0", specified via the "OnMessageCB" argument of web_websocket_connect in Action.c(97)  	[MsgId: MMSG-26418]
+Action.c(179): Notify: Parameter Substitution: parameter "ReciveFromServer" =  "Halo: Excuse me, do you understand English? "	[MsgId: MMSG-13992]
+Action.c(180): Error: ѕодстрока не найдена в ответе от сервера	[MsgId: MERR-17999]
+End auto log messages stack.	[MsgId: MMSG-10544]
+
+
+Start auto log messages stack - Iteration 1.	[MsgId: MMSG-10545]
+Action.c(170):     \x81!Daniel: Hello, what's your name? 
+Action.c(170): Get Message from server: uri=ws://54.157.232.206/catalog/websocketserverendpoint, connection handle=87271040, message=Daniel: Hello, what's your name? , length=33  	[MsgId: MMSG-26000]
+Action.c(170): Calling Vuser script function "OnMessageCB0", specified via the "OnMessageCB" argument of "web_websocket_connect" in Action.c(97)  	[MsgId: MMSG-26419]
+WebSocketCB.c(27): Notify: Saving Parameter "ReciveFromServer = Daniel: Hello, what's your name? ".	[MsgId: MMSG-13798]
+WebSocketCB.c(28): WebSocket ID = 186803. [33] bytes text message received.	[MsgId: MMSG-17999]
+Action.c(170): Returned (rc=0) from Vuser script function "OnMessageCB0", specified via the "OnMessageCB" argument of web_websocket_connect in Action.c(97)  	[MsgId: MMSG-26418]
+Action.c(171): Notify: Parameter Substitution: parameter "ReciveFromServer" =  "Daniel: Hello, what's your name? "	[MsgId: MMSG-13992]
+Action.c(172): Error: ѕодстрока не найдена в ответе от сервера	[MsgId: MERR-17999]
+End auto log messages stack.	[MsgId: MMSG-10544]
+
+
+Start auto log messages stack - Iteration 1.	[MsgId: MMSG-10545]
+Action.c(178): Get Message from server: uri=ws://54.157.232.206/catalog/websocketserverendpoint, connection handle=87271040, message=Daniel: Interesting! 843332523, Is that really your name? , length=58  	[MsgId: MMSG-26000]
+Action.c(178): Calling Vuser script function "OnMessageCB0", specified via the "OnMessageCB" argument of "web_websocket_connect" in Action.c(97)  	[MsgId: MMSG-26419]
+WebSocketCB.c(27): Notify: Saving Parameter "ReciveFromServer = Daniel: Interesting! 843332523, Is that really your name? ".	[MsgId: MMSG-13798]
+WebSocketCB.c(28): WebSocket ID = 186803. [58] bytes text message received.	[MsgId: MMSG-17999]
+Action.c(178): Returned (rc=0) from Vuser script function "OnMessageCB0", specified via the "OnMessageCB" argument of web_websocket_connect in Action.c(97)  	[MsgId: MMSG-26418]
+Action.c(179): Notify: Parameter Substitution: parameter "ReciveFromServer" =  "Daniel: Interesting! 843332523, Is that really your name? "	[MsgId: MMSG-13992]
+Action.c(180): Error: ѕодстрока не найдена в ответе от сервера	[MsgId: MERR-17999]
+End auto log messages stack.	[MsgId: MMSG-10544]
+
+

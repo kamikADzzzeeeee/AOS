@@ -1,0 +1,13 @@
+[t16]
+SnapshotXmlFile=snapshot_13.xml
+ContentType=application/xml
+StepName=Custom Request: AccountUpdateRequest
+Total=1
+FileName1=t16.xml
+RequestHeaderFile=t16_RequestHeader.txt
+ResponseHeaderFile=t16_ResponseHeader.txt
+RawStepEndTime=1710507870656
+RawStepName=AccountUpdateRequest
+RequestBodyFile=t16_RequestBody.txt
+RawStepStartTime=1710507870434
+URL1=http://54.157.232.206/accountservice/ws/AccountUpdateRequest

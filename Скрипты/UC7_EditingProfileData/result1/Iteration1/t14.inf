@@ -1,0 +1,13 @@
+[t14]
+SnapshotXmlFile=snapshot_11.xml
+ContentType=application/xml
+StepName=Custom Request: GetAccountByIdNewRequest_2
+Total=1
+FileName1=t14.xml
+RequestHeaderFile=t14_RequestHeader.txt
+ResponseHeaderFile=t14_ResponseHeader.txt
+RawStepEndTime=1710507867326
+RawStepName=GetAccountByIdNewRequest_2
+RequestBodyFile=t14_RequestBody.txt
+RawStepStartTime=1710507867122
+URL1=http://54.157.232.206/accountservice/ws/GetAccountByIdNewRequest

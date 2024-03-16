@@ -1,0 +1,20 @@
+[t24]
+FileName2=t16_93_review_Left_disabled.png
+RawStepEndTime=1710532449958
+FileName4=t16_95_reviewUser.png
+RequestBodyFile=t24_RequestBody.txt
+RawStepName=cartsAfter
+ContentType=application/json
+URL1=http://54.157.232.206/order/api/v1/carts/845544982/product/3/color/545195?quantity=2
+URL2=http://54.157.232.206/css/images/review_Left_disabled.png
+URL3=http://54.157.232.206/css/images/review_right.png
+ResponseHeaderFile=t24_ResponseHeader.txt
+URL4=http://54.157.232.206/css/images/reviewUser.png
+SnapshotXmlFile=snapshot_21.xml
+RequestHeaderFile=t24_RequestHeader.txt
+SaveSnapshotResources=1
+RawStepStartTime=1710532448954
+Total=4
+StepName=Submit Data: cartsAfter
+FileName1=t24.json
+FileName3=t16_94_review_right.png

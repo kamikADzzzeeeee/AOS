@@ -1,0 +1,20 @@
+[t27]
+FileName2=t16_124_review_Left_disabled.png
+RawStepEndTime=1710532801610
+FileName4=t16_123_reviewUser.png
+RequestBodyFile=t27_RequestBody.txt
+RawStepName=getProductOnId
+ContentType=application/json
+URL1=http://54.157.232.206/catalog/api/v1/products/6
+URL2=http://54.157.232.206/css/images/review_Left_disabled.png
+URL3=http://54.157.232.206/css/images/review_right.png
+ResponseHeaderFile=t27_ResponseHeader.txt
+URL4=http://54.157.232.206/css/images/reviewUser.png
+SnapshotXmlFile=snapshot_24.xml
+RequestHeaderFile=t27_RequestHeader.txt
+SaveSnapshotResources=1
+RawStepStartTime=1710532801033
+Total=4
+StepName=Url: getProductOnId
+FileName1=t27.json
+FileName3=t16_125_review_right.png

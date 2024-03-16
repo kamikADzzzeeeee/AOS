@@ -1,0 +1,16 @@
+[t1]
+SnapshotXmlFile=snapshot_1.xml
+ContentType=application/json
+StepName=Url: ALL
+Total=2
+FileName1=t1.json
+FileName2=t1_0_Roboto-Medium-webfont.UNK
+RequestHeaderFile=t1_RequestHeader.txt
+SaveSnapshotResources=1
+ResponseHeaderFile=t1_ResponseHeader.txt
+RawStepEndTime=1710508917141
+RawStepName=ALL
+RequestBodyFile=t1_RequestBody.txt
+RawStepStartTime=1710508916221
+URL1=http://54.157.232.206/catalog/api/v1/DemoAppConfig/parameters/by_tool/ALL
+URL2=http://54.157.232.206/css/fonts/roboto_medium_macroman/Roboto-Medium-webfont.woff

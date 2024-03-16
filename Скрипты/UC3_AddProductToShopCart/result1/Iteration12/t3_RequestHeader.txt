@@ -1,0 +1,11 @@
+GET /catalog/api/v1/categories HTTP/1.1
+Referer: http://54.157.232.206/
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:123.0) Gecko/20100101 Firefox/123.0
+Accept-Encoding: gzip, deflate
+Accept-Language: ru-RU,ru;q=0.8,en-US;q=0.5,en;q=0.3
+Accept: */*
+Connection: Keep-Alive
+Host: 54.157.232.206
+Authorization: Basic TWljaGFlbDUxNzE2OjEyMzRvTw==
+Cookie: userCart=%7B%22userId%22%3A-1%2C%22productsInCart%22%3A%5B%5D%7D; dtCookie=7BB0CDAF517C8DD65D5BEC2DDB86B4C9||1; _gat=1; _ga_56EMNRF2S2=GS1.1.1708954185.6.0.1708954185.60.0.0
+

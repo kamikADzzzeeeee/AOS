@@ -1,0 +1,67 @@
+[
+    {
+        "transactionName": "Goto_HomePage",
+        "rawStartTime": 1710532202411,
+        "rawEndTime": 1710532205093
+    },
+    {
+        "transactionName": "Entry_AuthenticateData",
+        "rawStartTime": 1710532205675,
+        "rawEndTime": 1710532207214
+    },
+    {
+        "transactionName": "Goto_CategoryPage",
+        "rawStartTime": 1710532207892,
+        "rawEndTime": 1710532209270
+    },
+    {
+        "transactionName": "Goto_ProductPage",
+        "rawStartTime": 1710532209884,
+        "rawEndTime": 1710532212743
+    },
+    {
+        "transactionName": "Add_ProductToShopCart",
+        "rawStartTime": 1710532213480,
+        "rawEndTime": 1710532214534
+    },
+    {
+        "transactionName": "Goto_CategoryPage",
+        "rawStartTime": 1710532215165,
+        "rawEndTime": 1710532216678
+    },
+    {
+        "transactionName": "Goto_ProductPage",
+        "rawStartTime": 1710532217340,
+        "rawEndTime": 1710532219840
+    },
+    {
+        "transactionName": "Add_ProductToShopCart",
+        "rawStartTime": 1710532220593,
+        "rawEndTime": 1710532221887
+    },
+    {
+        "transactionName": "Goto_CategoryPage",
+        "rawStartTime": 1710532222815,
+        "rawEndTime": 1710532224127
+    },
+    {
+        "transactionName": "Goto_ProductPage",
+        "rawStartTime": 1710532224661,
+        "rawEndTime": 1710532227106
+    },
+    {
+        "transactionName": "Add_ProductToShopCart",
+        "rawStartTime": 1710532227660,
+        "rawEndTime": 1710532228964
+    },
+    {
+        "transactionName": "Logout",
+        "rawStartTime": 1710532229719,
+        "rawEndTime": 1710532230538
+    },
+    {
+        "transactionName": "UC3_AddProductToShopCart",
+        "rawStartTime": 1710532201904,
+        "rawEndTime": 1710532231544
+    }
+]

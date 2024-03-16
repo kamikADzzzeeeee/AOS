@@ -1,0 +1,14 @@
+HTTP/1.1 101 
+Server: nginx/1.12.2
+Date: Fri, 15 Mar 2024 19:14:29 GMT
+Connection: upgrade
+X-OneAgent-JS-Injection: true
+Set-Cookie: dtCookie=6AB675624C78926DBC1A1553A90F7FD8|1|2||1; Path=/
+Upgrade: websocket
+Sec-WebSocket-Accept: SigDSY2J/zonUnl2xQ+kI+GNDRA=
+Cache-Control: max-age=0
+Expires: Fri, 15 Mar 2024 19:14:29 GMT
+X-Content-Type-Options: nosniff
+X-XSS-Protection: 1; mode=block
+X-Frame-Options: DENY
+

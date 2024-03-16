@@ -1,0 +1,13 @@
+[t12]
+SnapshotXmlFile=snapshot_8.xml
+ContentType=application/json
+StepName=Url: cartsPage
+Total=1
+FileName1=t12.json
+RequestHeaderFile=t12_RequestHeader.txt
+ResponseHeaderFile=t12_ResponseHeader.txt
+RawStepEndTime=1710531034678
+RawStepName=cartsPage
+RequestBodyFile=t12_RequestBody.txt
+RawStepStartTime=1710531034359
+URL1=http://54.157.232.206/order/api/v1/carts/431262710

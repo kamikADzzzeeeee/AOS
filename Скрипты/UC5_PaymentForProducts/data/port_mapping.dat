@@ -1,0 +1,44 @@
+Registry settings:
+	*:443
+		default	0¯w÷«'âþÿÿÿìÑ¯
+		Active	false
+		UseProxy	true
+		UserPrompt	false
+		SSL_Active	false
+		SSL_AutoSslDetect	true
+		Svr_SSL_Version	12
+		Svr_SSL_Ciphers	AES128-GCM-SHA256
+		SSL_AutoGenCert	true
+		Svr_SSL_Certificate	true
+		Svr_SSL_Key	true
+		Svr_SSL_Password	true
+		Svr_SSL_Client_WinINet_Cert_Index	0
+		Clnt_SSL_Version	12
+		Clnt_SSL_Ciphers	AES128-GCM-SHA256
+		Clnt_SSL_Certificate	AES128-GCM-SHA256
+		Clnt_SSL_Key	AES128-GCM-SHA256
+		Clnt_SSL_Password	AES128-GCM-SHA256
+		Forward_Active	false
+		Forward_Port	0
+	*:80
+		default	0¯w÷«'âþÿÿÿìÑ¯
+		Active	false
+		UseProxy	true
+		UserPrompt	false
+		SSL_Active	false
+		SSL_AutoSslDetect	true
+		Svr_SSL_Version	12
+		Svr_SSL_Ciphers	AES128-SHA256
+		SSL_AutoGenCert	true
+		Svr_SSL_Certificate	true
+		Svr_SSL_Key	true
+		Svr_SSL_Password	true
+		Svr_SSL_Client_WinINet_Cert_Index	0
+		Clnt_SSL_Version	12
+		Clnt_SSL_Ciphers	AES128-SHA256
+		Clnt_SSL_Certificate	AES128-SHA256
+		Clnt_SSL_Key	AES128-SHA256
+		Clnt_SSL_Password	AES128-SHA256
+		Forward_Active	false
+		Forward_Port	0
+
